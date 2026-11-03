@@ -1,0 +1,40 @@
+{
+  "observation": {
+    "method": "sampled_frames",
+    "range": [
+      0,
+      6.08
+    ],
+    "sampling": "4 fps plus full-resolution frames at0.85 and4.5s",
+    "limits": "No continuous motion playback, audible-content review or frame-by-frame product certification claimed."
+  },
+  "checks": {
+    "decode": "pass",
+    "format": {
+      "width": 1080,
+      "height": 1920,
+      "duration": 6.082993,
+      "audio_track": true
+    },
+    "actual_depth_input": "pass: REQUEST contains registered source-derived depth with motion-binding integrity validation; does not prove motion execution",
+    "person_scene_replacement": "observed in sampled frames: approved curly-haired adult woman/orange cardigan and red-booth neon diner throughout",
+    "product_presence": "pass in observed frames: purple STAYCOOL Watermelon closeup at opening/use; pink/red/purple capped bottles at wide reveal",
+    "spray_contact": "observed: cap removal then bottle outside lips, index atop actuator; exact number/trajectory/timing of mist not_reviewed",
+    "product_identity": "visible main shape, color/flavor and label compatible with product use image004; fine print and every intermediate angle not_reviewed",
+    "variant_showcase": "three colors observed in wide shot; table includes an additional capped purple bottle as in approved visual preview, in addition to operated bottle; prose had described two companion bottles, discrepancy recorded",
+    "shot_timing": "same shot order observed; timing drift vs exact source: mammoth/medium scenes last longer and final closeup shorter. Source cut timing not precisely reproduced.",
+    "mammoth_ice": "observed in sampled frames; full eruption trajectory and amount of ice not_reviewed",
+    "ending": "eyes-closed relaxed expression observed, endpoint retained",
+    "sound": "not_reviewed; AAC stereo track exists; no claim of audio content QA"
+  },
+  "status": "测试中",
+  "verdict": "证据不足以标记已验证",
+  "limits": [
+    "Only sampled frames and file decoding inspected",
+    "No continuous movement or audio-content QA",
+    "Source cut timing drift",
+    "Fine product print/geometry not fully verified",
+    "Table includes capped purple bottle as in approved preview, in addition to hand-held purple bottle; prose described two companion bottles"
+  ],
+  "rights_and_publication": "Reference source rights and platform originality/functional-effect implications unresolved; no publishing or conversion-performance claim"
+}

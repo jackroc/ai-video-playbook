@@ -1,0 +1,63 @@
+{
+  "model": "doubao-seedance-2-0-260128",
+  "duration_requested_seconds": 6,
+  "ratio": "9:16",
+  "resolution_requested": "1080p",
+  "generate_audio": true,
+  "seed": "not reported",
+  "actual_media": {
+    "duration_seconds": 6.082993,
+    "width": 1080,
+    "height": 1920,
+    "fps": 24,
+    "video_codec": "h264",
+    "audio_codec": "aac",
+    "audio_channels": 2
+  },
+  "attempts": 1,
+  "repair_generations_used": 0,
+  "final_video": {
+    "url": "https://github.com/jackroc/ai-video-playbook/releases/download/stay-cool-diner-2026-11-03-v1/stay-cool-diner-6s.mp4",
+    "sha256": "dcfdd92d1b082a16a5db29ea72da76f1e09057c434f830ae183bb31022110301",
+    "bytes": 6374567
+  },
+  "reference": {
+    "url": "https://www.tiktok.com/@mentosph/video/7677498635528998162",
+    "source_duration_seconds": 6.015986,
+    "source_sha256": "5a39eb4a5ce66bf3269483769a8ca0701913917a943cdf73c08703b37e4d2b6f",
+    "rights": "commercial adaptation permission unknown; source RGB and derived depth not redistributed"
+  },
+  "depth": {
+    "provider_model": "wavespeed-ai/depth-anything/video",
+    "duration_seconds": 6,
+    "sha256": "a0751c16e83b26d3be969c3571776e53b174d2839753bd2de4a6def5259713e9",
+    "role": "reference_video",
+    "interval_seconds": [
+      0,
+      6
+    ],
+    "real_inference": true,
+    "observation": "sampled_frames; no continuous playback claimed"
+  },
+  "inputs": [
+    {
+      "role": "product",
+      "description": "Original product three-flavor image002",
+      "sha256": "9565f10e095f7032997bc2e8feb49c267c6a5412d02072ec6f4a307fc1bde1a8"
+    },
+    {
+      "role": "product",
+      "description": "Product use/pump diagram image004",
+      "sha256": "09f9695b20c7bb9600259126ebaaf6c1689153450333b4f62cb1370dc3e031db"
+    },
+    {
+      "role": "storyboard/person/scene",
+      "url": "https://github.com/jackroc/ai-video-playbook/releases/download/stay-cool-diner-2026-11-03-v1/storyboard-v1.png",
+      "sha256": "c205c1ada75c750935325d76f592f1d648230b2340780b1833c2cfdda628c844",
+      "enrollment": "Active plus same generation route readiness preflight; provider pixels not reviewed"
+    }
+  ],
+  "validation": "Local request/depth/image binding passed; successful task and source-matched download; output decoded. Not a complete product/motion/audio certification.",
+  "generation_cost": "not verified",
+  "commerce_effect": "not tested"
+}
