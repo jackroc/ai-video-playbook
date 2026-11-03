@@ -17,6 +17,7 @@
 | 修复人物、商品、动作和口型问题 | [常见失败与修复](docs/troubleshooting.md) |
 | 记录新方案、测试结果或参考视频 | [模板目录](templates/README.md) |
 | 收藏群内分享的公开 X、TikTok 案例 | [自动收录目录](references/community/README.md) · [飞书接入说明](docs/feishu-collection.md) |
+| 浏览带原作者提示词和互动数据的创意视频 | [参考视频精选](references/README.md) |
 
 ## 首批方案
 
