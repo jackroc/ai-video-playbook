@@ -9,6 +9,8 @@
 | DEM-001 | [包内寻宝](playbooks/creative-demo/DEM-001-bag-search.md) | 创意商品演示 / 夸张反应 | 包内收纳袋 | 约 24 秒 | 待验证 | 未测 |
 | REF-001 | [保留机制，重写人货场](playbooks/reference-remix/REF-001-core-remix.md) | 参考拆解 / 改编流程 | 能与核心动作匹配的商品 | 约 24–30 秒 | 待验证 | 未测 |
 
+| REF-002 | [STAY COOL：餐厅里的猛犸象](playbooks/reference-remix/REF-002-stay-cool-diner.md) | 真实深度参考 / 荒诞喜剧 | STAY COOL 三味喷雾 | 约6秒 | 测试中（已有成片） | 未测 |
+
 ## 按目标选择
 
 - 想表现日常使用感：从 UGC-001 开始，先测动作、商品一致性和口播自然度。
