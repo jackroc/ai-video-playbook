@@ -40,7 +40,7 @@ def load_env():
         for line in path.read_text().splitlines():
             if line and not line.startswith("#") and "=" in line:
                 key, value = line.split("=", 1)
-                if key in {"FEISHU_WEBHOOK_URL", "FEISHU_CHAT_ID", "LARK_CLI_PATH"}:
+                if key in {"FEISHU_WEBHOOK_URL", "FEISHU_CHAT_ID", "LARK_CLI_PATH", "FEISHU_RECEIVE_MODE", "FEISHU_POLL_FROM"}:
                     os.environ.setdefault(key, value.strip())
 
 
@@ -311,6 +311,75 @@ def enqueue(event, target, db):
     return count
 
 
+def history_event(message, target):
+    return {"chat_id": message.get("chat_id") or target, "sender_type": (message.get("sender") or {}).get("sender_type"),
+            "message_type": message.get("msg_type"), "message_id": message.get("message_id"),
+            "content": "" if message.get("deleted") else message.get("content") or ""}
+
+
+def poll_group(target, cli):
+    db = database()
+    db.execute("CREATE TABLE IF NOT EXISTS receiver_state (chat_id TEXT PRIMARY KEY, first_at INTEGER, through_at INTEGER)")
+    row = db.execute("SELECT first_at,through_at FROM receiver_state WHERE chat_id=?", (target,)).fetchone()
+    if row:
+        first, through = row
+    else:
+        first = through = int(os.environ.get("FEISHU_POLL_FROM") or time.time())
+        db.execute("INSERT INTO receiver_state VALUES (?,?,?)", (target, first, through))
+        db.commit()
+
+    def iso(value):
+        return datetime.fromtimestamp(value, timezone.utc).isoformat(timespec="seconds")
+
+    ready = False
+    span = 900
+    try:
+        while not STOP.is_set():
+            end = min(int(time.time()) - 2, through + span)
+            if end <= through:
+                STOP.wait(5)
+                continue
+            try:
+                result = subprocess.run([cli, "im", "+chat-messages-list", "--as", "user", "--chat-id", target,
+                                         "--start", iso(max(first, through - 30)), "--end", iso(end),
+                                         "--order", "asc", "--page-size", "50", "--page-all", "--page-limit", "10",
+                                         "--no-reactions", "--format", "json"], capture_output=True, text=True, timeout=60)
+                if result.returncode:
+                    raise RuntimeError(f"lark-cli exit {result.returncode}")
+                page = json.loads(result.stdout)
+                if page.get("ok") is not True:
+                    raise RuntimeError("unsuccessful group history response")
+                if page.get("data", {}).get("has_more") or page.get("meta", {}).get("pagination", {}).get("complete") is False:
+                    span = max(10, span // 2)
+                    raise RuntimeError("incomplete page; cursor held")
+                seen = queued = 0
+                for message in page.get("data", {}).get("messages") or []:
+                    event = history_event(message, target)
+                    if event["chat_id"] == target and event["sender_type"] == "user" and event["message_type"] in {"text", "post"}:
+                        seen += len(links_in(event["content"]))
+                    queued += enqueue(event, target, db)
+                db.execute("UPDATE receiver_state SET through_at=? WHERE chat_id=?", (end, target))
+                db.commit()
+                through = end
+                span = 900
+                if not ready:
+                    ready = True
+                    (RUNTIME / "receiver-ready").write_text(datetime.now(timezone.utc).isoformat())
+                    LOG.info("Group polling ready using existing user authorization; recognized %d link(s), queued %d", seen, queued)
+                elif queued:
+                    LOG.info("Queued %d public link(s) from the approved group", queued)
+            except Exception as exc:
+                ready = False
+                (RUNTIME / "receiver-ready").unlink(missing_ok=True)
+                LOG.error("Group polling unavailable (%s); cursor retained", type(exc).__name__)
+                STOP.wait(25)
+                continue
+            STOP.wait(20 if end >= int(time.time()) - 5 else 1)
+    finally:
+        db.close()
+        (RUNTIME / "receiver-ready").unlink(missing_ok=True)
+
+
 def receive(target, cli):
     jq = 'select(.chat_id=="' + target + '" and .sender_type=="user")'
     while not STOP.is_set():
@@ -401,6 +470,9 @@ def run():
     cli = os.environ.get("LARK_CLI_PATH") or shutil.which("lark-cli")
     if not cli:
         raise SystemExit("lark-cli not found")
+    mode = os.environ.get("FEISHU_RECEIVE_MODE", "bot-events")
+    if mode not in {"bot-events", "user-poll"}:
+        raise SystemExit("FEISHU_RECEIVE_MODE must be bot-events or user-poll")
     os.umask(0o077)
     RUNTIME.mkdir(exist_ok=True)
     lock = (RUNTIME / "collector.lock").open("w")
@@ -413,7 +485,7 @@ def run():
         signal.signal(sig, lambda *_: STOP.set())
     (RUNTIME / "collector.pid").write_text(str(os.getpid()))
     (RUNTIME / "receiver-ready").unlink(missing_ok=True)
-    thread = threading.Thread(target=receive, args=(target, cli), daemon=True)
+    thread = threading.Thread(target=poll_group if mode == "user-poll" else receive, args=(target, cli), daemon=True)
     thread.start()
     LOG.info("Collector started for one configured group; public links only")
     try:

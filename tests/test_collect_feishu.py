@@ -28,6 +28,16 @@ class CollectorTests(unittest.TestCase):
             self.assertEqual(collector.enqueue(dict(event, message_id="om_2", content="https://twitter.com/a/status/123"), "oc_target", db), 0)
             self.assertEqual(db.execute("SELECT url FROM jobs").fetchone(), ("https://x.com/a/status/123",))
 
+    def test_history_replays_only_eligible_group_links(self):
+        m = {"message_id": "om_1", "sender": {"sender_type": "user"}, "msg_type": "text",
+             "content": "https://x.com/a/status/123", "chat_id": "oc_target"}
+        with sqlite3.connect(":memory:") as db:
+            db.execute("CREATE TABLE jobs (url TEXT PRIMARY KEY, message_id TEXT)")
+            self.assertEqual(collector.enqueue(collector.history_event(dict(m, deleted=True), "oc_target"), "oc_target", db), 0)
+            self.assertEqual(collector.enqueue(collector.history_event(dict(m, chat_id="oc_other"), "oc_target"), "oc_target", db), 0)
+            self.assertEqual(collector.enqueue(collector.history_event(m, "oc_target"), "oc_target", db), 1)
+            self.assertEqual(collector.enqueue(collector.history_event(m, "oc_target"), "oc_target", db), 0)
+
     def test_uses_public_body_to_extract_prompt_and_classify(self):
         payload = json.dumps({"author_name": "Example Creator", "html": "<blockquote><p>Funny UGC<br>Prompt: a small scene</p></blockquote><script>not a prompt</script>"})
         url = "https://x.com/a/status/123"
