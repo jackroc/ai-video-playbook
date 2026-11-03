@@ -1,5 +1,7 @@
 # 群分享自动收录
 
-从飞书收录群进入的公开 X 和 TikTok 案例会列在这里。分类由规则初分，外部案例均未自行复现。详情见[接入说明](../../docs/feishu-collection.md)。
+仅保存指定收录群分享链接对应的公开资料。规则分类待复核；缺失信息标记待补。详见[接入说明](../../docs/feishu-collection.md)。
 
-暂无自动收录案例。
+| 案例 | 初步分类 | 状态 |
+| --- | --- | --- |
+| [What if your product became the MONSTER everyone wanted? 🎃👹](inbox/x-2114206878293246053.md) | inbox | 外部案例，未复现 |
