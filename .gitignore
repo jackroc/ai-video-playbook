@@ -10,3 +10,6 @@
 *.7z
 tmp/
 raw-assets/
+.local/
+__pycache__/
+*.pyc
