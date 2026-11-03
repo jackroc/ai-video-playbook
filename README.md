@@ -2,20 +2,74 @@
 
 收集、测试和复用效果好的 AI 视频生成方案，重点关注 **UGC 带货、搞笑创意和创意商品演示**。
 
-## 精选视频与提示词
+按商品浏览 [100 条带货创意参考](references/2026-11-03-commerce-video-reference-100.md) · [首批 10 条 X 精选](references/2026-11-03-x-creative-video-prompts.md)
 
-点击画面查看完整成片。STAY COOL 显示 6 秒动图，其余案例使用来源封面。提示词摘要展示每条片的关键动作，完整文字见各案例链接。
+## 作品与提示词
 
-| 视频预览 | 提示词与素材 |
-| --- | --- |
-| <a href="https://github.com/jackroc/ai-video-playbook/releases/download/stay-cool-diner-2026-11-03-v1/stay-cool-diner-6s.mp4"><img src="assets/previews/stay-cool-diner.gif" width="180" alt="STAY COOL 餐厅猛犸象 6 秒动图"></a> | **STAY COOL · 餐厅里的猛犸象**<br>喷雾带货 · Seedance 2.0 · 6 秒竖屏<br><br>**提示词摘要** 在夜间复古餐厅中，顾客先拔下紫色喷雾瓶盖，按压一次后转头。猛犸象破开冰壳，广角交代左象右人，最后落在顾客的淡定反应上。两张商品图锁包装与喷头，深度视频给动作节奏。<br><br>[完整成片](https://github.com/jackroc/ai-video-playbook/releases/download/stay-cool-diner-2026-11-03-v1/stay-cool-diner-6s.mp4) · [实际提交的完整提示词](experiments/assets/2026-11-03-REF-002/prompt.txt) · [分镜与实验](playbooks/reference-remix/REF-002-stay-cool-diner.md) |
-| <a href="https://viralance.com/examples/ugc-blender-demo"><img src="https://viralance.com/images/posters/ugc-blender-demo.jpg" width="180" alt="便携搅拌杯制作果昔视频封面"></a> | **便携搅拌杯 · 果昔演示**<br>小家电 UGC · Seedance 2.0 · 5 秒竖屏<br><br>**提示词摘要** 明亮厨房、自然光和手持视角。人物用便携搅拌杯制作彩色果昔，再举起成品，给镜头一个自然的惊喜反应。<br><br>[完整成片与原提示词 · Viralance](https://viralance.com/examples/ugc-blender-demo#prompt-heading) |
-| <a href="https://viralance.com/examples/perfume"><img src="https://viralance.com/images/posters/showcase_1_poster.jpg" width="180" alt="香水瓶在湿黑大理石上旋转的视频封面"></a> | **香水 · 湿黑大理石上的玻璃瓶**<br>美妆香氛 · Veo 3.1 Fast · 8 秒竖屏<br><br>**提示词摘要** 让香水瓶在湿黑石面上缓慢转动，镜头轻推。用金色轮廓光照亮瓶沿和水滴，浅景深突出商品。<br><br>[完整成片与原提示词 · Viralance](https://viralance.com/examples/perfume#prompt-heading) |
-| <a href="https://x.com/Lianaalane/status/2080563926014779842"><img src="https://pbs.twimg.com/amplify_video_thumb/2080563773837135872/img/CMk2kwfVF_zbUJMO.jpg" width="180" alt="浅蓝皮包与金色五金广告封面"></a> | **浅蓝皮包 · 锁扣与五金微距**<br>配饰特写 · GPT Image 2 + Seedance 2.0 · 10 秒<br><br>**提示词摘要** 在干净米色背景上，用柔光与慢运镜依次拍标识、磁扣开合、可调肩带和皮纹。<br><br>[原作者成片 · @Lianaalane](https://x.com/Lianaalane/status/2080563926014779842) · [完整提示词与流程](https://behindthegen.com/w/luxury-handbag-product-ad-with-gpt-image-2-and-seedance-20) |
+### STAY COOL · 餐厅里的猛犸象
 
-按商品继续浏览 [100 条带货创意参考](references/2026-11-03-commerce-video-reference-100.md) · [首批 10 条 X 精选](references/2026-11-03-x-creative-video-prompts.md)。
+**喷雾带货 · Seedance 2.0 · 6 秒竖屏**
 
-> 首批 4 套原创示例仍为「待验证」；新增 REF-002 实际生成案例为「测试中」，已有成片但尚未完整验收。已验证方案数仍为 0，带货效果均未测。创意设想、画面生成质量和实际带货效果分别记录。
+https://github.com/user-attachments/assets/ff538205-6d83-49db-84bd-b5febd76423e
+
+**实际提示词节选**
+
+```text
+Create the approved SIX-SECOND 9:16 photoreal absurd STAYCOOL commercial,
+matching the complete source shot order and tempo shown in the actual depth
+reference. The storyboard image fixes the approved fictional adult woman,
+wardrobe and night diner. The TWO original product photographs are authoritative
+for real bottle design and white pump structure.
+```
+
+[完整提示词](experiments/assets/2026-11-03-REF-002/prompt.txt) · [分镜与素材](playbooks/reference-remix/REF-002-stay-cool-diner.md) · [动图预览](assets/previews/stay-cool-diner.gif) · [原始视频](https://github.com/jackroc/ai-video-playbook/releases/download/stay-cool-diner-2026-11-03-v1/stay-cool-diner-6s.mp4)
+
+### 便携搅拌杯 · 果昔演示
+
+**小家电 UGC · Seedance 2.0 · 5 秒竖屏**
+
+<a href="https://viralance.com/examples/ugc-blender-demo"><img src="https://viralance.com/images/posters/ugc-blender-demo.jpg" width="220" alt="便携搅拌杯制作果昔，点击观看作品"></a>
+
+**提示词 · 中文改写**
+
+```text
+生成一段 5 秒的 9:16 手持 UGC 视频。在有自然窗光的明亮厨房里，
+一位年轻女性用便携搅拌杯制作彩色果昔。制作完成后，她把果昔举向镜头，
+露出自然的惊喜表情。镜头保持生活化的手持视角。
+```
+
+[观看作品 · Viralance](https://viralance.com/examples/ugc-blender-demo) · [提示词原文](https://viralance.com/examples/ugc-blender-demo#prompt-heading)
+
+### 香水 · 湿黑大理石上的玻璃瓶
+
+**美妆香氛 · Veo 3.1 Fast · 8 秒竖屏**
+
+<a href="https://viralance.com/examples/perfume"><img src="https://viralance.com/images/posters/showcase_1_poster.jpg" width="220" alt="湿黑大理石上的玻璃香水瓶，点击观看作品"></a>
+
+**提示词 · 中文改写**
+
+```text
+生成一段 8 秒的 9:16 香水广告。玻璃香水瓶在湿润的黑色大理石上缓慢旋转，
+镜头缓慢推近。用金色轮廓光勾出瓶沿与水滴，让瓶身在浅景深中保持清晰。
+```
+
+[观看作品 · Viralance](https://viralance.com/examples/perfume) · [提示词原文](https://viralance.com/examples/perfume#prompt-heading)
+
+### 浅蓝皮包 · 锁扣与五金微距
+
+**配饰特写 · GPT Image 2 + Seedance 2.0 · 10 秒竖屏**
+
+<a href="https://x.com/Lianaalane/status/2080563926014779842"><img src="https://pbs.twimg.com/amplify_video_thumb/2080563773837135872/img/CMk2kwfVF_zbUJMO.jpg" width="220" alt="浅蓝皮包与金色五金，点击观看作者作品"></a>
+
+**提示词 · 中文改写**
+
+```text
+拍一条浅蓝色皮包的竖屏商品短片。以米色背景和柔和棚光衬托金色五金，
+用缓慢的微距运镜依次展示标志、磁扣开合、可调肩带和皮革纹理。
+保持浅景深，让每个细节在对应镜头里清楚可见。
+```
+
+[观看原作者作品 · @Lianaalane](https://x.com/Lianaalane/status/2080563926014779842) · [提示词原文与流程](https://behindthegen.com/w/luxury-handbag-product-ad-with-gpt-image-2-and-seedance-20)
 
 ## 从这里开始
 
