@@ -1,0 +1,33 @@
+name: 收录新方案或创意
+description: 提交 UGC、搞笑创意、商品演示或提示词方案
+title: "[方案] "
+body:
+  - type: textarea
+    id: concept
+    attributes:
+      label: 创意与适用商品
+      description: 写清问题、商品作用、结果或反转，以及适用条件。
+    validations:
+      required: true
+  - type: dropdown
+    id: status
+    attributes:
+      label: 当前验证状态
+      options:
+        - 待验证
+        - 测试中
+        - 已有成片，待审核证据
+    validations:
+      required: true
+  - type: textarea
+    id: workflow
+    attributes:
+      label: 完整提示词、素材和生成步骤
+      description: 模型与版本、素材用途、参数、逐镜提示词和后期步骤；未知项注明待补。
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 参考来源、成片、实验与失败记录
+      description: 未测试写待验证；有数据请提供口径、时间窗和来源。仅提交可公开分享的内容。

@@ -1,0 +1,12 @@
+.DS_Store
+.env
+.env.*
+!.env.example
+*.mp4
+*.mov
+*.webm
+*.mkv
+*.zip
+*.7z
+tmp/
+raw-assets/

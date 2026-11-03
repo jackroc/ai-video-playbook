@@ -1,0 +1,29 @@
+name: 提交生成实验与复盘
+description: 记录真实输出、失败原因和可复现条件
+title: "[实验] 方案ID / 轮次 / 主要变量"
+body:
+  - type: input
+    id: playbook
+    attributes:
+      label: 方案 ID 或链接
+    validations:
+      required: true
+  - type: textarea
+    id: setup
+    attributes:
+      label: 实际输入与设置
+      description: 测试日期、平台、模型版本、素材、完整提示词、参数和后期步骤。
+    validations:
+      required: true
+  - type: textarea
+    id: results
+    attributes:
+      label: 全部尝试、成片链接与验收结果
+      description: 列出尝试数、通过数、失败时间码、评分、成本与修复。未产生的数据写未测。
+    validations:
+      required: true
+  - type: textarea
+    id: next
+    attributes:
+      label: 本轮结论与下一步
+      description: 分开描述画面质量、复现情况和带货效果；公开数据需脱敏。
