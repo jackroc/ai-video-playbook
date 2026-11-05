@@ -70,7 +70,9 @@ class CollectorTests(unittest.TestCase):
             subprocess.run(["git", "init", "--initial-branch=main", str(seed)], check=True, capture_output=True)
             collector.git(seed, "config", "user.name", "Collector Test")
             collector.git(seed, "config", "user.email", "collector@example.test")
-            collector.git(seed, "commit", "--allow-empty", "-m", "initial")
+            (seed / "README.md").write_text("# Reference library\n\n## 全部作品预览\n\n## 从这里开始\n")
+            collector.git(seed, "add", "README.md")
+            collector.git(seed, "commit", "-m", "initial")
             collector.git(seed, "push", str(bare), "main")
             data = {"url": "https://x.com/a/status/123", "platform": "X", "author": "Creator",
                     "text": "UGC\nPrompt: example", "access": "已读取公开嵌入信息"}
@@ -82,6 +84,12 @@ class CollectorTests(unittest.TestCase):
             self.assertTrue(result.endswith("references/community/ugc/x-123.md"))
             self.assertIn("ugc/x-123.md", collector.git(bare, "show", "main:references/community/README.md"))
             self.assertIn("Prompt: example", collector.git(bare, "show", "main:references/community/ugc/x-123.md"))
+            catalog = json.loads(collector.git(bare, "show", "main:data/references.json"))
+            self.assertEqual(len(catalog), 1)
+            self.assertEqual(catalog[0]["observation"]["method"], "metadata_only")
+            self.assertEqual(catalog[0]["prompt"]["text"], "example")
+            self.assertIn("community-x-123", collector.git(bare, "show", "main:README.md"))
+            self.assertIn("待分类", collector.git(bare, "show", "main:references/INDEX.md"))
 
 
 if __name__ == "__main__":

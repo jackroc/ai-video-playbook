@@ -1,8 +1,8 @@
-# AI Video Playbook · AI 视频创作方案库
+# AI Video Playbook · 商品创意视频参考库
 
-收集、测试和复用效果好的 AI 视频生成方案，重点关注 **UGC 带货、搞笑创意和创意商品演示**。
+为商品创意选片积累原片、观看依据、动作与跨品类联想。面向 TikTok 商品，也收录其他平台和品牌广告的创意参考。
 
-按商品浏览 [全部作品预览](#全部作品预览) · [100 条带货创意参考](references/2026-11-03-commerce-video-reference-100.md) · [首批 10 条 X 精选](references/2026-11-03-x-creative-video-prompts.md)
+[全部作品预览](#全部作品预览) · [创意机制索引](references/INDEX.md) · [新增 100 条](references/2026-11-05-creative-commerce-100.md) · [收录与检索](docs/reference-library.md)
 
 ## 原创成片
 
@@ -22,28 +22,22 @@ wardrobe and night diner. The TWO original product photographs are authoritative
 for real bottle design and white pump structure.
 ```
 
-[完整提示词](experiments/assets/2026-11-03-REF-002/prompt.txt) · [分镜与素材](playbooks/reference-remix/REF-002-stay-cool-diner.md) · [动图预览](assets/previews/stay-cool-diner.gif) · [原始视频](https://github.com/jackroc/ai-video-playbook/releases/download/stay-cool-diner-2026-11-03-v1/stay-cool-diner-6s.mp4)
+[完整提示词](experiments/assets/2026-11-03-REF-002/prompt.txt) · [分镜与素材](playbooks/reference-remix/REF-002-stay-cool-diner.md) · [实验记录](experiments/2026-11-03-REF-002-01.md) · [原始视频](https://github.com/jackroc/ai-video-playbook/releases/download/stay-cool-diner-2026-11-03-v1/stay-cool-diner-6s.mp4)
 
 ## 全部作品预览
 
-按商品类别找作品。点封面可到来源页观看，卡片下方附提示词、分镜或制作流程。提示词要点是中文整理，原文见来源链接。
+收录 214 个案例。按商品浏览，或从[创意机制索引](references/INDEX.md)跨品类找动作与看点。
 
-部分 Prompset 案例的封面待补，卡片末尾可打开作品和提示词地址。
+卡片区分来源说明、抽帧和观看记录。提示词要点为中文整理，公开原文见来源；具体商品能否替换，需要在使用时核对。
 
 [美妆与香氛](#美妆与香氛) · [食品与饮料](#食品与饮料) · [服装与鞋履](#服装与鞋履) · [珠宝与配饰](#珠宝与配饰) · [数码与小家电](#数码与小家电) · [家居与空间](#家居与空间) · [汽车与出行](#汽车与出行) · [运动与健康](#运动与健康) · [通用商品与品牌](#通用商品与品牌)
+
+[结构化数据](data/references.json) · [数据字段与收录方法](docs/reference-library.md)
 
 ### 美妆与香氛
 
 <table>
 <tr>
-  <td width="50%" valign="top">
-    <h4>香水 · 湿黑大理石上的玻璃瓶</h4>
-    <p><strong>美妆香氛 · Veo 3.1 Fast · 8 秒竖屏</strong></p>
-    <p><a href="https://viralance.com/examples/perfume"><img src="https://viralance.com/images/posters/showcase_1_poster.jpg" width="220" alt="香水 · 湿黑大理石上的玻璃瓶的作品封面"></a></p>
-    <p><strong>提示词 · 中文改写</strong></p>
-    <blockquote>生成一段 8 秒的 9:16 香水广告。玻璃香水瓶在湿润的黑色大理石上缓慢旋转，镜头缓慢推近。用金色轮廓光勾出瓶沿与水滴，让瓶身在浅景深中保持清晰。</blockquote>
-    <p><a href="https://viralance.com/examples/perfume">观看作品 · Viralance</a> · <a href="https://viralance.com/examples/perfume#prompt-heading">提示词原文</a> · <a href="https://viralance.com/videos/showcase_1.mp4">直接播放</a></p>
-  </td>
   <td width="50%" valign="top">
     <h4>睫毛膏刷头微距揭晓</h4>
     <p><strong>零件揭晓 · Wan 3.0 · 10 秒 · 4:3</strong></p>
@@ -51,9 +45,8 @@ for real bottle design and white pump structure.
     <p><strong>提示词要点</strong></p>
     <blockquote>从包装外观过渡到抽出的刷头，重点锁定刷毛轮廓与连接位置。</blockquote>
     <p><a href="https://prompset.com/prompts/video/wan-3-0/commercial/luxury-vertical-mascara-ad-with-macro-brush-reveal">原片与视频提示词</a></p>
+    <p><sub>legacy-006 · 来源说明 · 深度待评估</sub></p>
   </td>
-</tr>
-<tr>
   <td width="50%" valign="top">
     <h4>蓝铜色美发工具开箱</h4>
     <p><strong>开箱与配件 · Seedance 2.5</strong></p>
@@ -61,7 +54,10 @@ for real bottle design and white pump structure.
     <p><strong>提示词要点</strong></p>
     <blockquote>让皮盒先开盖，再逐个展示主机与配件，末帧整理成一套。</blockquote>
     <p><a href="https://x.com/AvelyrahnAI/status/2093932080497594740">原片与视频提示词</a></p>
+    <p><sub>legacy-008 · 来源说明 · 深度待评估</sub></p>
   </td>
+</tr>
+<tr>
   <td width="50%" valign="top">
     <h4>粉底局部上妆</h4>
     <p><strong>UGC 质地演示 · Seedance 2.0 · 5 秒竖屏</strong></p>
@@ -69,9 +65,8 @@ for real bottle design and white pump structure.
     <p><strong>提示词要点</strong></p>
     <blockquote>保留同侧脸与相同光线，把涂抹和最终质感放进一个连续动作。</blockquote>
     <p><a href="https://viralance.com/examples/ugc-foundation-review">原片与视频提示词</a> · <a href="https://viralance.com/videos/ugc-foundation-review.mp4">直接播放</a></p>
+    <p><sub>legacy-009 · 来源说明 · 深度待评估</sub></p>
   </td>
-</tr>
-<tr>
   <td width="50%" valign="top">
     <h4>卧室里的香水喷洒试闻</h4>
     <p><strong>UGC 使用 · Seedance 2.0 · 5 秒竖屏</strong></p>
@@ -79,7 +74,10 @@ for real bottle design and white pump structure.
     <p><strong>提示词要点</strong></p>
     <blockquote>让喷头、雾化和试闻连成一段，保持玻璃瓶握法一致。</blockquote>
     <p><a href="https://viralance.com/examples/ugc-perfume-review">原片与视频提示词</a> · <a href="https://viralance.com/videos/ugc-perfume-review.mp4">直接播放</a></p>
+    <p><sub>legacy-010 · 来源说明 · 深度待评估</sub></p>
   </td>
+</tr>
+<tr>
   <td width="50%" valign="top">
     <h4>护发精华与发丝展示</h4>
     <p><strong>UGC 质感 · Seedance 2.0 · 5 秒竖屏</strong></p>
@@ -87,9 +85,8 @@ for real bottle design and white pump structure.
     <p><strong>提示词要点</strong></p>
     <blockquote>让手指穿过发梢表现发丝状态，末尾露出瓶身。</blockquote>
     <p><a href="https://viralance.com/examples/ugc-hair-serum">原片与视频提示词</a> · <a href="https://viralance.com/videos/ugc-hair-serum.mp4">直接播放</a></p>
+    <p><sub>legacy-011 · 来源说明 · 深度待评估</sub></p>
   </td>
-</tr>
-<tr>
   <td width="50%" valign="top">
     <h4>卧室自然光展示精华液</h4>
     <p><strong>UGC 种草 · Seedance 2.0 · 8 秒竖屏</strong></p>
@@ -97,7 +94,10 @@ for real bottle design and white pump structure.
     <p><strong>提示词要点</strong></p>
     <blockquote>用前置镜头的轻晃交代自拍视频语气，标签正对镜头。</blockquote>
     <p><a href="https://viralance.com/examples/ugc-skincare">原片与视频提示词</a> · <a href="https://viralance.com/videos/showcase_25.mp4">直接播放</a></p>
+    <p><sub>legacy-012 · 来源说明 · 深度待评估</sub></p>
   </td>
+</tr>
+<tr>
   <td width="50%" valign="top">
     <h4>浴室日常面霜涂抹</h4>
     <p><strong>UGC 使用 · Seedance 2.0 · 8 秒竖屏</strong></p>
@@ -105,6 +105,16 @@ for real bottle design and white pump structure.
     <p><strong>提示词要点</strong></p>
     <blockquote>用自然光近景记录一次涂抹，固定手与皮肤的接触点。</blockquote>
     <p><a href="https://viralance.com/examples/ugc-skincare-routine">原片与视频提示词</a> · <a href="https://viralance.com/videos/showcase_50.mp4">直接播放</a></p>
+    <p><sub>legacy-013 · 来源说明 · 深度待评估</sub></p>
+  </td>
+  <td width="50%" valign="top">
+    <h4>香水 · 湿黑大理石上的玻璃瓶</h4>
+    <p><strong>美妆香氛 · Veo 3.1 Fast · 8 秒竖屏</strong></p>
+    <p><a href="https://viralance.com/examples/perfume"><img src="https://viralance.com/images/posters/showcase_1_poster.jpg" width="220" alt="香水 · 湿黑大理石上的玻璃瓶的作品封面"></a></p>
+    <p><strong>提示词 · 中文改写</strong></p>
+    <blockquote>生成一段 8 秒的 9:16 香水广告。玻璃香水瓶在湿润的黑色大理石上缓慢旋转，镜头缓慢推近。用金色轮廓光勾出瓶沿与水滴，让瓶身在浅景深中保持清晰。</blockquote>
+    <p><a href="https://viralance.com/examples/perfume">观看作品 · Viralance</a> · <a href="https://viralance.com/examples/perfume#prompt-heading">提示词原文</a> · <a href="https://viralance.com/videos/showcase_1.mp4">直接播放</a></p>
+    <p><sub>legacy-014 · 来源说明 · 深度待评估</sub></p>
   </td>
 </tr>
 <tr>
@@ -115,6 +125,7 @@ for real bottle design and white pump structure.
     <p><strong>提示词要点</strong></p>
     <blockquote>丝绸提供柔软背景，旋转只沿单轴，保留管身与膏体比例。</blockquote>
     <p><a href="https://viralance.com/examples/lipstick">原片与视频提示词</a> · <a href="https://viralance.com/videos/showcase_11.mp4">直接播放</a></p>
+    <p><sub>legacy-015 · 来源说明 · 深度待评估</sub></p>
   </td>
   <td width="50%" valign="top">
     <h4>眼影刷扫过眼睑</h4>
@@ -123,6 +134,7 @@ for real bottle design and white pump structure.
     <p><strong>提示词要点</strong></p>
     <blockquote>把刷尖接触点和色粉落下位置写清，动作保持一笔。</blockquote>
     <p><a href="https://viralance.com/examples/makeup">原片与视频提示词</a> · <a href="https://viralance.com/videos/showcase_33.mp4">直接播放</a></p>
+    <p><sub>legacy-016 · 来源说明 · 深度待评估</sub></p>
   </td>
 </tr>
 <tr>
@@ -133,6 +145,7 @@ for real bottle design and white pump structure.
     <p><strong>提示词要点</strong></p>
     <blockquote>交替拍瓶身与人物，固定黑底、琥珀色调和灯光方向。</blockquote>
     <p><a href="https://x.com/CaliraVal/status/2086686230029402183">原片</a> · <a href="https://behindthegen.com/w/15-second-perfume-ad-in-five-timed-scenes-with-seedance-20">视频提示词</a></p>
+    <p><sub>legacy-017 · 来源说明 · 深度待评估</sub></p>
   </td>
   <td width="50%" valign="top">
     <h4>七镜唇釉 UGC</h4>
@@ -141,6 +154,7 @@ for real bottle design and white pump structure.
     <p><strong>提示词要点</strong></p>
     <blockquote>用参考人物锁住脸、衣服和配饰，再让手持商品与使用动作穿插。</blockquote>
     <p><a href="https://x.com/AIwithSynthia/status/2080265839773933905">原片</a> · <a href="https://behindthegen.com/w/lip-gloss-ugc-ad-in-7-shots-with-gpt-image-2-and-seedance">视频提示词</a></p>
+    <p><sub>legacy-018 · 来源说明 · 深度待评估</sub></p>
   </td>
 </tr>
 <tr>
@@ -151,6 +165,7 @@ for real bottle design and white pump structure.
     <p><strong>提示词要点</strong></p>
     <blockquote>手从前景把瓶子放到固定台面，蒸汽和自然光补情境。</blockquote>
     <p><a href="https://swayclip.com/examples/veo-skincare-ugc">原片与视频提示词</a></p>
+    <p><sub>legacy-019 · 来源说明 · 深度待评估</sub></p>
   </td>
   <td width="50%" valign="top">
     <h4>地中海香水广告 4K / 1080p 对照</h4>
@@ -159,60 +174,167 @@ for real bottle design and white pump structure.
     <p><strong>提示词要点</strong></p>
     <blockquote>15 秒、16:9。开场用海岸航拍建立光线和氛围，接人物在泳池边行走，再切瓶身环绕特写与取用动作。提示词按秒分镜，为对应镜头分别指定运镜和旁白。作者另外分享了分镜图和人物及商品参考。</blockquote>
     <p><a href="https://x.com/AIwithJessica/status/2074338150575677602">原片</a> · <a href="https://x.com/AIwithJessica/status/2074338743226609862">作者提示词</a> · <a href="references/2026-11-03-x-creative-video-prompts.md#02-地中海香水广告-4k--1080p-对照">完整拆解</a></p>
+    <p><sub>legacy-x02 · 来源说明 · 深度待评估</sub></p>
+  </td>
+</tr>
+<tr>
+  <td width="50%" valign="top">
+    <h4>e.l.f. · 发型好到不戴宇航头盔</h4>
+    <p><strong>美妆与香氛 · 异常用途 · 品牌创意参考 · 约32 秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=YRZCRfnNzo8"><img src="https://i.ytimg.com/vi/YRZCRfnNzo8/hqdefault.jpg" width="220" alt="e.l.f. · 发型好到不戴宇航头盔的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>宇航员整理完卷发后拒绝戴头盔，把爱美选择放进严肃的太空任务。</blockquote>
+    <p><a href="https://www.youtube.com/watch?v=YRZCRfnNzo8">观看作品 · e.l.f. Cosmetics</a> · <a href="https://dailycommercials.com/elf-hair-astronaut-ad-review/">剧情与制作来源</a></p>
+    <p><sub>web-20261105-007 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+  <td width="50%" valign="top">
+    <h4>e.l.f. · 化妆棒成了姐妹会的魔法</h4>
+    <p><strong>美妆与香氛 · 异常用途 · 品牌创意参考</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=Rk41x8pYgGo"><img src="https://i.ytimg.com/vi/Rk41x8pYgGo/hqdefault.jpg" width="220" alt="e.l.f. · 化妆棒成了姐妹会的魔法的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>姐妹把美妆发现当成魔法突破，随后的超能力联想越滚越离谱，再回到商品。</blockquote>
+    <p><a href="https://www.youtube.com/watch?v=Rk41x8pYgGo">观看作品 · e.l.f. Cosmetics</a> · <a href="https://dailycommercials.com/elf-magical-sisters-ad-review/">剧情与制作来源</a></p>
+    <p><sub>web-20261105-023 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+</tr>
+<tr>
+  <td width="50%" valign="top">
+    <h4>Old Spice · 海盗因太香被赶下船</h4>
+    <p><strong>美妆与香氛 · 角色错位 · 品牌创意参考 · 约97 秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=9lYHGsXLVD0"><img src="https://i.ytimg.com/vi/9lYHGsXLVD0/hqdefault.jpg" width="220" alt="Old Spice · 海盗因太香被赶下船的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>海盗船员因主人公气味太好怀疑其身份，把他赶下船后又迎来骑海马的反转。</blockquote>
+    <p><a href="https://www.youtube.com/watch?v=9lYHGsXLVD0">观看作品 · Old Spice Europe</a> · <a href="https://dailycommercials.com/old-spices-unbelievably-long-lasting-campaign-sets-sail-with-pirate-themed-humor/">剧情与制作来源</a></p>
+    <p><sub>web-20261105-060 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+  <td width="50%" valign="top">
+    <h4>e.l.f. × Tinder · 镜中分身预演约会灾难</h4>
+    <p><strong>美妆与香氛 · 角色复制 · 品牌创意参考 · 约89 秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=2MWAexV3MUU"><img src="https://i.ytimg.com/vi/2MWAexV3MUU/hqdefault.jpg" width="220" alt="e.l.f. × Tinder · 镜中分身预演约会灾难的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>镜中分身不断设想糟糕约会，主角用上妆准备重新找回出门的信心。</blockquote>
+    <p><a href="https://www.youtube.com/watch?v=2MWAexV3MUU">观看作品 · e.l.f. Cosmetics</a> · <a href="https://dailycommercials.com/tinder-x-e-l-f-cosmetics-ad-dating-disasters-and-lip-oil/">剧情与制作来源</a></p>
+    <p><sub>web-20261105-069 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+</tr>
+<tr>
+  <td width="50%" valign="top">
+    <h4>Hellmann’s · 蛋黄酱拍成高级香水</h4>
+    <p><strong>美妆与香氛 · 类型错位 · 品牌创意参考 · 约41 秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=TPRTAcFIFQ8"><img src="https://i.ytimg.com/vi/TPRTAcFIFQ8/hqdefault.jpg" width="220" alt="Hellmann’s · 蛋黄酱拍成高级香水的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>调味酱与香水联名被用高端香氛大片的严肃语气介绍，制造品类错位。</blockquote>
+    <p><a href="https://www.youtube.com/watch?v=TPRTAcFIFQ8">观看作品 · Hellmann&#x27;s</a> · <a href="https://dailycommercials.com/would-you-wear-mayo-hellmanns-thinks-you-should/">剧情与制作来源</a></p>
+    <p><sub>web-20261105-071 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+  <td width="50%" valign="top">
+    <h4>e.l.f. × H&amp;M · 喷香动作连成舞步</h4>
+    <p><strong>美妆与香氛 · 节奏同步 · 品牌创意参考 · 约60 秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=wd1XfPtRVGc"><img src="https://i.ytimg.com/vi/wd1XfPtRVGc/hqdefault.jpg" width="220" alt="e.l.f. × H&amp;M · 喷香动作连成舞步的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>喷洒、走动、散香和摆姿势被编成音乐录像式动作序列，香水款式随之展示。</blockquote>
+    <p><a href="https://www.youtube.com/watch?v=wd1XfPtRVGc">观看作品 · H&amp;M</a> · <a href="https://dailycommercials.com/e-l-f-x-hm-make-it-make-scents-campaign-high-energy-fragrance-collab/">剧情与制作来源</a></p>
+    <p><sub>web-20261105-080 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+</tr>
+<tr>
+  <td width="50%" valign="top">
+    <h4>Boots · 圣诞夫人经营美妆工坊</h4>
+    <p><strong>美妆与香氛 · 角色错位 · 品牌创意参考 · 约60 秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=ncTd0Wfk6QE"><img src="https://i.ytimg.com/vi/ncTd0Wfk6QE/hqdefault.jpg" width="220" alt="Boots · 圣诞夫人经营美妆工坊的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>圣诞夫人被拍成美妆帝国的负责人，北极工坊变成忙碌而华丽的美容工作间。</blockquote>
+    <p><a href="https://www.youtube.com/watch?v=ncTd0Wfk6QE">观看作品 · Boots UK</a> · <a href="https://dailycommercials.com/boots-christmas-advert-2024/">剧情与制作来源</a></p>
+    <p><sub>web-20261105-088 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+  <td width="50%" valign="top">
+    <h4>Armani · 把香味拆成可见的柑橘与露珠</h4>
+    <p><strong>美妆与香氛 · 感官隐喻 · 品牌创意参考 · 约20 秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=GuFMb9EAvEM"><img src="https://i.ytimg.com/vi/GuFMb9EAvEM/hqdefault.jpg" width="220" alt="Armani · 把香味拆成可见的柑橘与露珠的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>香水瓶与花果、露珠近景交替，柑橘切面被拉开以表现气味层次。</blockquote>
+    <p><a href="https://www.youtube.com/watch?v=GuFMb9EAvEM">观看作品 · Armani beauty</a> · <a href="https://dailycommercials.com/can-you-smell-this-ad/">剧情与制作来源</a></p>
+    <p><sub>web-20261105-090 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+</tr>
+<tr>
+  <td width="50%" valign="top">
+    <h4>Old Spice · 浴室讲着讲着就骑上马</h4>
+    <p><strong>美妆与香氛 · 场景变换 · 品牌创意参考 · 约31 秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=CaT_oieImqw"><img src="https://i.ytimg.com/vi/CaT_oieImqw/hqdefault.jpg" width="220" alt="Old Spice · 浴室讲着讲着就骑上马的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>人物对镜头持续讲话，场景与手中物件接连变化，最后落在骑马的意外画面。</blockquote>
+    <p><a href="https://www.youtube.com/watch?v=CaT_oieImqw">观看作品 · Old Spice</a> · <a href="https://www.commarts.com/project/15087/old-spice">剧情与制作来源</a></p>
+    <p><sub>web-20261105-095 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+  <td width="50%" valign="top">
+    <h4>Dollar Shave Club · 仓库导览一路发生怪事</h4>
+    <p><strong>美妆与香氛 · 冷面反应 · 品牌创意参考 · 约94 秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=ZUG9qYTJMsI"><img src="https://i.ytimg.com/vi/ZUG9qYTJMsI/hqdefault.jpg" width="220" alt="Dollar Shave Club · 仓库导览一路发生怪事的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>负责人带观众穿过仓库介绍剃须刀，周围依次出现无厘头人物与道具，他始终平静讲解。</blockquote>
+    <p><a href="https://www.youtube.com/watch?v=ZUG9qYTJMsI">观看作品 · Dollar Shave Club</a> · <a href="https://lamag.com/business/on-the-cutting-edge-with-venice-start-up-dollar-shave-club/">剧情与制作来源</a></p>
+    <p><sub>web-20261105-096 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
   </td>
 </tr>
 <tr>
   <td width="50%" valign="top">
     <h4>海滩场景串联人物与美妆商品</h4>
     <p><strong>情境种草 · Seedance 2.5 · 30 秒竖屏</strong></p>
-    <p><em>视频预览待补</em></p>
+    <p><em>作品封面待补</em></p>
     <p><strong>提示词要点</strong></p>
     <blockquote>先建立海滩光线和人物，再留出可辨认的单独商品镜头。</blockquote>
     <p><a href="https://prompset.com/prompts/video/seedance-2-5/commercial/luxury-beach-beauty-commercial-with-product">原片与视频提示词</a></p>
+    <p><sub>legacy-001 · 来源说明 · 深度待评估</sub></p>
   </td>
   <td width="50%" valign="top">
     <h4>化妆台前的上妆动作</h4>
     <p><strong>使用演示 · Kling 3.0 · 5 秒 · 4:3</strong></p>
-    <p><em>视频预览待补</em></p>
+    <p><em>作品封面待补</em></p>
     <p><strong>提示词要点</strong></p>
     <blockquote>让同一把工具只做一次清晰接触，保留手指、脸和镜中人物的一致性。</blockquote>
     <p><a href="https://prompset.com/prompts/video/kling-3-0/commercial/blonde-woman-applying-makeup-luxury-vanity">原片与视频提示词</a></p>
+    <p><sub>legacy-002 · 来源说明 · 深度待评估</sub></p>
   </td>
 </tr>
 <tr>
   <td width="50%" valign="top">
     <h4>暗棚环绕睫毛膏</h4>
     <p><strong>环绕特写 · Seedance 2.5 · 20 秒横屏</strong></p>
-    <p><em>视频预览待补</em></p>
+    <p><em>作品封面待补</em></p>
     <p><strong>提示词要点</strong></p>
     <blockquote>让镜头围着同一支管身运动，侧光把刷头、管体和背景分开。</blockquote>
     <p><a href="https://prompset.com/prompts/video/seedance-2-5/commercial/luxury-mascara-ad-with-orbiting-camera-in-dark-studio">原片与视频提示词</a></p>
+    <p><sub>legacy-003 · 来源说明 · 深度待评估</sub></p>
   </td>
   <td width="50%" valign="top">
     <h4>木炭、水花与香雾中的香水</h4>
     <p><strong>材质反差 · Kling 3.0 · 10 秒 · 2:3</strong></p>
-    <p><em>视频预览待补</em></p>
+    <p><em>作品封面待补</em></p>
     <p><strong>提示词要点</strong></p>
     <blockquote>用吸光的黑色材料衬玻璃高光，把飞溅和雾安排在瓶身两侧。</blockquote>
     <p><a href="https://prompset.com/prompts/video/kling-3-0/commercial/luxury-perfume-ad-with-charcoal-water-splash-and-mist">原片与视频提示词</a></p>
+    <p><sub>legacy-004 · 来源说明 · 深度待评估</sub></p>
   </td>
 </tr>
 <tr>
   <td width="50%" valign="top">
     <h4>豪华列车上的面霜失窃疑案</h4>
     <p><strong>悬疑喜剧 · Seedance 2.5 · 30 秒横屏</strong></p>
-    <p><em>视频预览待补</em></p>
+    <p><em>作品封面待补</em></p>
     <p><strong>提示词要点</strong></p>
     <blockquote>先用失踪物建立疑问，保留线索物的固定外观，揭晓时给面霜清楚的近景。</blockquote>
     <p><a href="https://prompset.com/prompts/video/seedance-2-5/commercial/luxury-train-comedy-cream-theft-mystery">原片与视频提示词</a></p>
+    <p><sub>legacy-005 · 来源说明 · 深度待评估</sub></p>
   </td>
   <td width="50%" valign="top">
     <h4>金色粉盒与模特五镜广告</h4>
     <p><strong>人物与商品交替 · Seedance 2.5 · 15 秒竖屏</strong></p>
-    <p><em>视频预览待补</em></p>
+    <p><em>作品封面待补</em></p>
     <p><strong>提示词要点</strong></p>
     <blockquote>人物镜头负责使用情境，粉盒近景负责色泽和外观，结尾重回主体。</blockquote>
     <p><a href="https://prompset.com/prompts/video/seedance-2-5/commercial/luxury-gold-compact-beauty-ad-with-model-five-shots">原片与视频提示词</a></p>
+    <p><sub>legacy-007 · 来源说明 · 深度待评估</sub></p>
   </td>
 </tr>
 </table>
@@ -228,6 +350,7 @@ for real bottle design and white pump structure.
     <p><strong>提示词要点</strong></p>
     <blockquote>把罐身固定在构图中心，让薯片在外圈运动，包装保留完整正面。</blockquote>
     <p><a href="https://prompset.com/prompts/video/grok-imagine-1-5/commercial/pringles-can-hero-shot-with-floating-golden-chips">原片与视频提示词</a></p>
+    <p><sub>legacy-020 · 来源说明 · 深度待评估</sub></p>
   </td>
   <td width="50%" valign="top">
     <h4>海滩上的水变成可乐</h4>
@@ -236,6 +359,7 @@ for real bottle design and white pump structure.
     <p><strong>提示词要点</strong></p>
     <blockquote>保持容器和机位一致，让液体颜色变化承担揭晓。</blockquote>
     <p><a href="https://prompset.com/prompts/video/gemini-omni-flash/commercial/woman-transforms-water-into-coca-cola-on-beach">原片与视频提示词</a></p>
+    <p><sub>legacy-026 · 来源说明 · 深度待评估</sub></p>
   </td>
 </tr>
 <tr>
@@ -246,6 +370,7 @@ for real bottle design and white pump structure.
     <p><strong>提示词要点</strong></p>
     <blockquote>用备料、蒸制、出锅和菜品呈现组织段落，主菜保持同一规格。</blockquote>
     <p><a href="https://prompset.com/prompts/video/gemini-omni-flash/commercial/steamed-river-fish-commercial-4-segment-vertical-ad">原片与视频提示词</a></p>
+    <p><sub>legacy-028 · 来源说明 · 深度待评估</sub></p>
   </td>
   <td width="50%" valign="top">
     <h4>便利店滑行抢到冰汽水</h4>
@@ -254,6 +379,7 @@ for real bottle design and white pump structure.
     <p><strong>提示词要点</strong></p>
     <blockquote>把普通取饮料写成慢动作滑行，最后用罐身冷凝把注意力拉回产品。</blockquote>
     <p><a href="https://x.com/CaliraVal/status/2068553291898958262">原片与视频提示词</a></p>
+    <p><sub>legacy-031 · 来源说明 · 深度待评估</sub></p>
   </td>
 </tr>
 <tr>
@@ -264,6 +390,7 @@ for real bottle design and white pump structure.
     <p><strong>提示词要点</strong></p>
     <blockquote>用赛前静物与赛后喘息对照，把罐子留在前景，让疲劳反应承担叙事。</blockquote>
     <p><a href="https://x.com/yourPlugAI/status/2064788732285517886">原片</a> · <a href="https://x.com/yourPlugAI/status/2064795516840403224">视频提示词</a></p>
+    <p><sub>legacy-032 · 来源说明 · 深度待评估</sub></p>
   </td>
   <td width="50%" valign="top">
     <h4>能量饮料第一口反应</h4>
@@ -272,6 +399,7 @@ for real bottle design and white pump structure.
     <p><strong>提示词要点</strong></p>
     <blockquote>从罐身转向第一口和点头动作，表情给短停顿。</blockquote>
     <p><a href="https://viralance.com/examples/ugc-energy-drink">原片与视频提示词</a> · <a href="https://viralance.com/videos/ugc-energy-drink.mp4">直接播放</a></p>
+    <p><sub>legacy-033 · 来源说明 · 深度待评估</sub></p>
   </td>
 </tr>
 <tr>
@@ -282,6 +410,7 @@ for real bottle design and white pump structure.
     <p><strong>提示词要点</strong></p>
     <blockquote>给入口前的产品近景和咬断时的清晰动作，保留自然停顿。</blockquote>
     <p><a href="https://viralance.com/examples/ugc-food">原片与视频提示词</a> · <a href="https://viralance.com/videos/showcase_49.mp4">直接播放</a></p>
+    <p><sub>legacy-034 · 来源说明 · 深度待评估</sub></p>
   </td>
   <td width="50%" valign="top">
     <h4>热巧克力流过甜点</h4>
@@ -290,6 +419,7 @@ for real bottle design and white pump structure.
     <p><strong>提示词要点</strong></p>
     <blockquote>交代液体落点、覆盖方向和最终停留形状，固定甜点底座。</blockquote>
     <p><a href="https://viralance.com/examples/chocolate">原片与视频提示词</a> · <a href="https://viralance.com/videos/showcase_3.mp4">直接播放</a></p>
+    <p><sub>legacy-035 · 来源说明 · 深度待评估</sub></p>
   </td>
 </tr>
 <tr>
@@ -300,6 +430,7 @@ for real bottle design and white pump structure.
     <p><strong>提示词要点</strong></p>
     <blockquote>用暖晨光与缓慢流下的蜂蜜表现口感，明确落点和盘缘留白。</blockquote>
     <p><a href="https://viralance.com/examples/seedance25-honey-pancakes">原片与视频提示词</a> · <a href="https://viralance.com/videos/showcase_29.mp4">直接播放</a></p>
+    <p><sub>legacy-036 · 来源说明 · 深度待评估</sub></p>
   </td>
   <td width="50%" valign="top">
     <h4>黏土 Nutella 咖啡馆搭建</h4>
@@ -308,6 +439,7 @@ for real bottle design and white pump structure.
     <p><strong>提示词要点</strong></p>
     <blockquote>小店逐层组装，最后让角色坐下吃早餐，商品成为世界的视觉中心。</blockquote>
     <p><a href="https://x.com/MayaAiCreator/status/2091397686104588650">原片</a> · <a href="https://behindthegen.com/w/stop-motion-claymation-nutella-cafe-from-a-5-scene-seedance-20-prompt">视频提示词</a></p>
+    <p><sub>legacy-037 · 来源说明 · 深度待评估</sub></p>
   </td>
 </tr>
 <tr>
@@ -318,6 +450,7 @@ for real bottle design and white pump structure.
     <p><strong>提示词要点</strong></p>
     <blockquote>先给香料和木烟，再展示刀落位置与最终切面的纹理。</blockquote>
     <p><a href="https://x.com/Fujimoto_hina/status/2114222481452019908">原片</a> · <a href="https://behindthegen.com/w/texas-brisket-food-film-from-one-veo-31-json-prompt">视频提示词</a></p>
+    <p><sub>legacy-038 · 来源说明 · 深度待评估</sub></p>
   </td>
   <td width="50%" valign="top">
     <h4>六段微缩鸡肉拉面</h4>
@@ -326,6 +459,7 @@ for real bottle design and white pump structure.
     <p><strong>提示词要点</strong></p>
     <blockquote>用小比例厨具完成六段动作，景深和暖色厨房保持连贯。</blockquote>
     <p><a href="https://x.com/Fujimoto_hina/status/2116404223470661929">原片</a> · <a href="https://behindthegen.com/w/six-scene-miniature-chicken-ramen-cooking-video-in-veo-31">视频提示词</a></p>
+    <p><sub>legacy-039 · 来源说明 · 深度待评估</sub></p>
   </td>
 </tr>
 <tr>
@@ -336,6 +470,7 @@ for real bottle design and white pump structure.
     <p><strong>提示词要点</strong></p>
     <blockquote>层压、卷制、烘焙、掰开按次序展示，最后用层次证明工艺。</blockquote>
     <p><a href="https://x.com/Fujimoto_hina/status/2112921424575005081">原片</a> · <a href="https://behindthegen.com/w/french-butter-croissant-food-film-in-veo-31-from-one-json-prompt">视频提示词</a></p>
+    <p><sub>legacy-040 · 来源说明 · 深度待评估</sub></p>
   </td>
   <td width="50%" valign="top">
     <h4>披萨从入炉到拉丝</h4>
@@ -344,6 +479,7 @@ for real bottle design and white pump structure.
     <p><strong>提示词要点</strong></p>
     <blockquote>让面团、木火与出炉动作接续，终点放在一段清楚的拉丝。</blockquote>
     <p><a href="https://x.com/drzubi01/status/2112406349594464566">原片</a> · <a href="https://behindthegen.com/w/10-second-neapolitan-pizza-commercial-from-one-veo-31-json-prompt">视频提示词</a></p>
+    <p><sub>legacy-041 · 来源说明 · 深度待评估</sub></p>
   </td>
 </tr>
 <tr>
@@ -354,6 +490,27 @@ for real bottle design and white pump structure.
     <p><strong>提示词要点</strong></p>
     <blockquote>写出糖浆落点、边缘流路与盘中最终积液位置，水果数量保持一致。</blockquote>
     <p><a href="https://fal.ai/learn/devs/seedance-2-5-prompting-guide#:~:text=Describe%20where%20fluid%20motion%20ends">原片与视频提示词</a> · <a href="https://v3b.fal.media/files/b/0aa55ff4/oRgq8W30Y5MKV_04nBuqQ_video.mp4">直接播放</a></p>
+    <p><sub>legacy-042 · 来源说明 · 深度待评估</sub></p>
+  </td>
+  <td width="50%" valign="top">
+    <h4>Mentos · 办公室猛犸象</h4>
+    <p><strong>食品广告 · 荒诞反转 · 6 秒竖屏</strong></p>
+    <p><a href="https://www.tiktok.com/@mentosph/video/7677498635528998162"><img src="assets/previews/mentos.jpg" width="220" alt="Mentos · 办公室猛犸象的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>用商品动作带出突兀的巨物揭晓，再回到人物的淡定反应。</blockquote>
+    <p><a href="https://www.tiktok.com/@mentosph/video/7677498635528998162">原片</a> · <a href="references/REF-002-mentos-mammoth.md">镜头拆解</a></p>
+    <p><sub>legacy-ref · 抽帧观察 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+</tr>
+<tr>
+  <td width="50%" valign="top">
+    <h4>狗狗调酒师</h4>
+    <p><strong>情节带货 · Seedance 2.5 · 9 秒横屏</strong></p>
+    <p><a href="https://x.com/MeenakshiYACS/status/2116879873730109558"><img src="https://pbs.twimg.com/amplify_video_thumb/2116879731513761792/img/kzwiQ9kqgf1KiEif.jpg" width="220" alt="狗狗调酒师的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>把摇壶动作交给一只表情严肃的狗，靠角色与专业动作的反差制造笑点。</blockquote>
+    <p><a href="https://x.com/MeenakshiYACS/status/2116879873730109558">原片</a> · <a href="references/community/inbox/x-2116879873730109558.md">收录记录</a></p>
+    <p><sub>legacy-x-2116879873730109558 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
   </td>
   <td width="50%" valign="top">
     <h4>煮面到第一口</h4>
@@ -362,96 +519,587 @@ for real bottle design and white pump structure.
     <p><strong>提示词要点</strong></p>
     <blockquote>从拿起包装开始，依次拍入锅、调味、拌面、筷子挑面和试吃。用蒸汽和酱汁的质感把制作过程转成食欲，结尾让包装和成品同框。作者还在回复里给出手绘分镜的提示词。</blockquote>
     <p><a href="https://x.com/ShamiWeb3/status/2054000894174450159">原片与作者提示词</a> · <a href="references/2026-11-03-x-creative-video-prompts.md#04-煮面到第一口">完整拆解</a></p>
+    <p><sub>legacy-x04 · 来源说明 · 深度待评估</sub></p>
   </td>
 </tr>
 <tr>
   <td width="50%" valign="top">
-    <h4>Mentos · 办公室猛犸象</h4>
-    <p><strong>食品广告 · 荒诞反转 · 6 秒竖屏</strong></p>
-    <p><a href="https://www.tiktok.com/@mentosph/video/7677498635528998162"><img src="assets/previews/mentos.jpg" width="220" alt="Mentos · 办公室猛犸象的作品封面"></a></p>
-    <p><strong>镜头拆解</strong></p>
-    <blockquote>用商品动作带出突兀的巨物揭晓，再回到人物的淡定反应。</blockquote>
-    <p><a href="https://www.tiktok.com/@mentosph/video/7677498635528998162">原片</a> · <a href="references/REF-002-mentos-mammoth.md">镜头拆解</a></p>
+    <h4>Sainsbury’s · 给巨人送一餐</h4>
+    <p><strong>食品与饮料 · 巨物反差 · 品牌创意参考</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=C9mEsqI8ULc"><img src="https://i.ytimg.com/vi/C9mEsqI8ULc/hqdefault.jpg" width="220" alt="Sainsbury’s · 给巨人送一餐的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>送餐员把食物送进巨人国，途中用食材应对巨型角色的阻挡。</blockquote>
+    <p><a href="https://www.youtube.com/watch?v=C9mEsqI8ULc">观看作品 · Sainsbury&#x27;s</a> · <a href="https://dailycommercials.com/sainsburys-bfg-big-delivery-christmas-ad-review/">剧情与制作来源</a></p>
+    <p><sub>web-20261105-002 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
   </td>
   <td width="50%" valign="top">
-    <h4>狗狗调酒师</h4>
-    <p><strong>情节带货 · Seedance 2.5 · 9 秒横屏</strong></p>
-    <p><a href="https://x.com/MeenakshiYACS/status/2116879873730109558"><img src="https://pbs.twimg.com/amplify_video_thumb/2116879731513761792/img/kzwiQ9kqgf1KiEif.jpg" width="220" alt="狗狗调酒师的作品封面"></a></p>
-    <p><strong>创意拆解 · 提示词待补</strong></p>
-    <blockquote>把摇壶动作交给一只表情严肃的狗，靠角色与专业动作的反差制造笑点。</blockquote>
-    <p><a href="https://x.com/MeenakshiYACS/status/2116879873730109558">原片</a> · <a href="references/community/inbox/x-2116879873730109558.md">收录记录</a></p>
+    <h4>Wonderful Pistachios · 为吃零食把墙拽走</h4>
+    <p><strong>食品与饮料 · 欲望升级 · 品牌创意参考</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=RbVFRzHpD1E"><img src="https://i.ytimg.com/vi/RbVFRzHpD1E/hqdefault.jpg" width="220" alt="Wonderful Pistachios · 为吃零食把墙拽走的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>人物用弹力带把自己固定在墙上以免吃零食，想尝一口时连墙一起扯掉。</blockquote>
+    <p><a href="https://www.youtube.com/watch?v=RbVFRzHpD1E">观看作品 · Wonderful Pistachios</a> · <a href="https://dailycommercials.com/wonderful-pistachios-resistance-snacking-ad-review/">剧情与制作来源</a></p>
+    <p><sub>web-20261105-009 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+</tr>
+<tr>
+  <td width="50%" valign="top">
+    <h4>Pringles · 薯片罐的终极用途</h4>
+    <p><strong>食品与饮料 · 异常用途 · 品牌创意参考</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=0Hhys3lVZpI"><img src="https://i.ytimg.com/vi/0Hhys3lVZpI/hqdefault.jpg" width="220" alt="Pringles · 薯片罐的终极用途的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>葬礼主持人把薯片罐当成极不寻常的容器介绍，用庄严场景制造反差。</blockquote>
+    <p><a href="https://www.youtube.com/watch?v=0Hhys3lVZpI">观看作品 · Pringles U.S.</a> · <a href="https://dailycommercials.com/pringles-once-you-drop-ad-review/">剧情与制作来源</a></p>
+    <p><sub>web-20261105-010 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+  <td width="50%" valign="top">
+    <h4>Chipotle · 外卖袋走上奢侈品秀场</h4>
+    <p><strong>食品与饮料 · 巨物反差 · 品牌创意参考</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=DLaNMt6xjTw"><img src="https://i.ytimg.com/vi/DLaNMt6xjTw/hqdefault.jpg" width="220" alt="Chipotle · 外卖袋走上奢侈品秀场的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>巨型外卖袋被当成高定手袋背着穿城，时尚片语气与普通包装形成反差。</blockquote>
+    <p><a href="https://www.youtube.com/watch?v=DLaNMt6xjTw">观看作品 · Chipotle Mexican Grill</a> · <a href="https://dailycommercials.com/chipotle-big-ass-bag-ad-review/">剧情与制作来源</a></p>
+    <p><sub>web-20261105-013 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+</tr>
+<tr>
+  <td width="50%" valign="top">
+    <h4>Sprite · 篮球高手的失败脱口秀</h4>
+    <p><strong>食品与饮料 · 角色错位 · 品牌创意参考</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=81dQggAAVCU"><img src="https://i.ytimg.com/vi/81dQggAAVCU/hqdefault.jpg" width="220" alt="Sprite · 篮球高手的失败脱口秀的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>球星带着饮料登台讲刻意不好笑的笑话，靠沉默与淡定制造观看回报。</blockquote>
+    <p><a href="https://www.youtube.com/watch?v=81dQggAAVCU">观看作品 · Sprite</a> · <a href="https://dailycommercials.com/sprite-jokes-aside-nikola-jokic-ad-review/">剧情与制作来源</a></p>
+    <p><sub>web-20261105-015 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+  <td width="50%" valign="top">
+    <h4>Oat Cult · 恐怖仪式最后落到燕麦</h4>
+    <p><strong>食品与饮料 · 类型错位 · 品牌创意参考 · 约110 秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=dI7s0dn4qB4"><img src="https://i.ytimg.com/vi/dI7s0dn4qB4/hqdefault.jpg" width="220" alt="Oat Cult · 恐怖仪式最后落到燕麦的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>黑白民俗恐怖片式村民仪式把早餐品牌放到完全意外的叙事语境。</blockquote>
+    <p><a href="https://www.youtube.com/watch?v=dI7s0dn4qB4">观看作品 · Oat Cult</a> · <a href="https://dailycommercials.com/oat-cult-tiramisu-commercial/">剧情与制作来源</a></p>
+    <p><sub>web-20261105-016 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+</tr>
+<tr>
+  <td width="50%" valign="top">
+    <h4>Twix · 僵尸圣诞老人递巧克力</h4>
+    <p><strong>食品与饮料 · 角色错位 · 品牌创意参考</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=_m4_YH_rpPg"><img src="https://i.ytimg.com/vi/_m4_YH_rpPg/hqdefault.jpg" width="220" alt="Twix · 僵尸圣诞老人递巧克力的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>僵尸版圣诞老人现身客厅，女孩淡定追问究竟该开心还是害怕，双重节日对应双重零食。</blockquote>
+    <p><a href="https://www.youtube.com/watch?v=_m4_YH_rpPg">观看作品 · TWIX</a> · <a href="https://dailycommercials.com/twix-hallowmas-zombie-claus-ad-review/">剧情与制作来源</a></p>
+    <p><sub>web-20261105-019 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+  <td width="50%" valign="top">
+    <h4>M&amp;M’s · 浪漫告白原来想做拌零食</h4>
+    <p><strong>食品与饮料 · 情节反转 · 品牌创意参考</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=MeweRDuq0so"><img src="https://i.ytimg.com/vi/MeweRDuq0so/hqdefault.jpg" width="220" alt="M&amp;M’s · 浪漫告白原来想做拌零食的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>肥皂剧式求爱把糖果角色抱走，字幕逐渐透露对方想把它加入零食混合物。</blockquote>
+    <p><a href="https://www.youtube.com/watch?v=MeweRDuq0so">观看作品 · M&amp;M&#x27;S</a> · <a href="https://dailycommercials.com/mms-screentime-telenovela-ad-review/">剧情与制作来源</a></p>
+    <p><sub>web-20261105-022 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+</tr>
+<tr>
+  <td width="50%" valign="top">
+    <h4>Stiller’s Soda · 猫装演员误入汽水采访</h4>
+    <p><strong>食品与饮料 · 角色错位 · 品牌创意参考</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=XrTuYsldHdk"><img src="https://i.ytimg.com/vi/XrTuYsldHdk/hqdefault.jpg" width="220" alt="Stiller’s Soda · 猫装演员误入汽水采访的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>演员误以为要演音乐剧，穿完整猫装坐进真实餐馆接受汽水采访，周围人若无其事。</blockquote>
+    <p><a href="https://www.youtube.com/watch?v=XrTuYsldHdk">观看作品 · Stiller&#x27;s Soda</a> · <a href="https://dailycommercials.com/stillers-soda-katzs-deli-ad-review/">剧情与制作来源</a></p>
+    <p><sub>web-20261105-025 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+  <td width="50%" valign="top">
+    <h4>Dunkin’ · 南瓜味是被遗忘的组合成员</h4>
+    <p><strong>食品与饮料 · 角色错位 · 品牌创意参考</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=MukMhlAcs0g"><img src="https://i.ytimg.com/vi/MukMhlAcs0g/hqdefault.jpg" width="220" alt="Dunkin’ · 南瓜味是被遗忘的组合成员的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>假纪录访谈声称组合曾有一位南瓜味成员，再用夸张造型和歌曲段落解释季节饮品。</blockquote>
+    <p><a href="https://www.youtube.com/watch?v=MukMhlAcs0g">观看作品 · Dunkin&#x27;</a> · <a href="https://dailycommercials.com/dunkin-pumpkin-spice-rachel-dratch-ad-review/">剧情与制作来源</a></p>
+    <p><sub>web-20261105-029 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+</tr>
+<tr>
+  <td width="50%" valign="top">
+    <h4>TRIP · 喝一口从混乱进入奇想空间</h4>
+    <p><strong>食品与饮料 · 场景变换 · 品牌创意参考</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=6m36En9bIMs"><img src="https://i.ytimg.com/vi/6m36En9bIMs/hqdefault.jpg" width="220" alt="TRIP · 喝一口从混乱进入奇想空间的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>派对与过载日常在喝饮料后切为云层、粉色房间和海边等不同安静空间。</blockquote>
+    <p><a href="https://www.youtube.com/watch?v=6m36En9bIMs">观看作品 · trip.drinks</a> · <a href="https://dailycommercials.com/trip-calm-in-the-chaos-ad-review/">剧情与制作来源</a></p>
+    <p><sub>web-20261105-031 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+  <td width="50%" valign="top">
+    <h4>Hellmann’s · 三明治时间变成音乐演出</h4>
+    <p><strong>食品与饮料 · 节奏同步 · 品牌创意参考 · 约68 秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=GaejIbCmqEk"><img src="https://i.ytimg.com/vi/GaejIbCmqEk/hqdefault.jpg" width="220" alt="Hellmann’s · 三明治时间变成音乐演出的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>围绕三明治与蛋黄酱的日常进食被包装为歌曲表演，让普通食物成为舞台主题。</blockquote>
+    <p><a href="https://www.youtube.com/watch?v=GaejIbCmqEk">观看作品 · Hellmann&#x27;s</a> · <a href="https://dailycommercials.com/hellmanns-sweet-sandwich-time-super-bowl-2026-ad-review-mayo-gets-musical/">剧情与制作来源</a></p>
+    <p><sub>web-20261105-032 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+</tr>
+<tr>
+  <td width="50%" valign="top">
+    <h4>Waitrose · 节日甜点失踪案</h4>
+    <p><strong>食品与饮料 · 悬疑揭晓 · 品牌创意参考 · 约91 秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=Xgwu6UIORvY"><img src="https://i.ytimg.com/vi/Xgwu6UIORvY/hqdefault.jpg" width="220" alt="Waitrose · 节日甜点失踪案的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>餐桌中心的甜点消失，家人和猫都成了嫌疑对象，用侦探片结构延迟食物揭晓。</blockquote>
+    <p><a href="https://www.youtube.com/watch?v=Xgwu6UIORvY">观看作品 · Retro Ad Rewind</a> · <a href="https://dailycommercials.com/waitrose-christmas-advert-2024-sweet-suspicion/">剧情与制作来源</a></p>
+    <p><sub>web-20261105-034 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+  <td width="50%" valign="top">
+    <h4>McDonald’s · 偷一根薯条的小动作合集</h4>
+    <p><strong>食品与饮料 · 工序演绎 · 品牌创意参考 · 约30 秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=-CEJ6j_mENw"><img src="https://i.ytimg.com/vi/-CEJ6j_mENw/hqdefault.jpg" width="220" alt="McDonald’s · 偷一根薯条的小动作合集的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>围绕偷拿朋友薯条、蘸食等可辨认小动作，把普通吃法串成轻喜剧节奏。</blockquote>
+    <p><a href="https://www.youtube.com/watch?v=-CEJ6j_mENw">观看作品 · jennymak80</a> · <a href="https://dailycommercials.com/mcdonalds-surprize-fries/">剧情与制作来源</a></p>
+    <p><sub>web-20261105-036 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+</tr>
+<tr>
+  <td width="50%" valign="top">
+    <h4>McDonald’s · 一个抬眉动作传遍办公室</h4>
+    <p><strong>食品与饮料 · 群体反应 · 品牌创意参考 · 约66 秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=Zt336MYMY2c"><img src="https://i.ytimg.com/vi/Zt336MYMY2c/hqdefault.jpg" width="220" alt="McDonald’s · 一个抬眉动作传遍办公室的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>办公室人物用抬眉发出默契邀请，动作逐人传递，最终形成共同出发。</blockquote>
+    <p><a href="https://www.youtube.com/watch?v=Zt336MYMY2c">观看作品 · Budding</a> · <a href="https://dailycommercials.com/mcdonalds-ads-2023/">剧情与制作来源</a></p>
+    <p><sub>web-20261105-037 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+  <td width="50%" valign="top">
+    <h4>Bud Light · 一桶啤酒引发婚礼追逐</h4>
+    <p><strong>食品与饮料 · 欲望升级 · 品牌创意参考 · 约61 秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=OxRa8ENkyyg"><img src="https://i.ytimg.com/vi/OxRa8ENkyyg/hqdefault.jpg" width="220" alt="Bud Light · 一桶啤酒引发婚礼追逐的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>婚礼中的啤酒桶成为追逐中心，庆典人物为同一个物件进入滑稽行动。</blockquote>
+    <p><a href="https://www.youtube.com/watch?v=OxRa8ENkyyg">观看作品 · ZHENG WEN</a> · <a href="https://dailycommercials.com/bud-light-super-bowl-2026-ad-ft-post-malone-shane-gillis-and-peyton-manning/">剧情与制作来源</a></p>
+    <p><sub>web-20261105-042 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+</tr>
+<tr>
+  <td width="50%" valign="top">
+    <h4>NERDS · 第一口糖果引出游行世界</h4>
+    <p><strong>食品与饮料 · 场景变换 · 品牌创意参考 · 约31 秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=nwcZ2dxPUo0"><img src="https://i.ytimg.com/vi/nwcZ2dxPUo0/hqdefault.jpg" width="220" alt="NERDS · 第一口糖果引出游行世界的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>吃下一口糖果后，平常街景展开为音乐游行，颗粒和软糖的组合变成视听体验。</blockquote>
+    <p><a href="https://www.youtube.com/watch?v=nwcZ2dxPUo0">观看作品 · NERDS Candy</a> · <a href="https://dailycommercials.com/nerds-super-bowl-commercial-2025/">剧情与制作来源</a></p>
+    <p><sub>web-20261105-046 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+  <td width="50%" valign="top">
+    <h4>Stella Artois · 久别兄弟在啤酒桌前相认</h4>
+    <p><strong>食品与饮料 · 角色错位 · 品牌创意参考 · 约61 秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=R9Jhm6sGg34"><img src="https://i.ytimg.com/vi/R9Jhm6sGg34/hqdefault.jpg" width="220" alt="Stella Artois · 久别兄弟在啤酒桌前相认的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>名人遇到意想不到的兄弟，以对照与共饮把家庭相认拍成轻喜剧。</blockquote>
+    <p><a href="https://www.youtube.com/watch?v=R9Jhm6sGg34">观看作品 · QuirkyFilms</a> · <a href="https://dailycommercials.com/stella-artois-super-bowl-2025-ad-david-beckham-and-matt-damon/">剧情与制作来源</a></p>
+    <p><sub>web-20261105-047 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+</tr>
+<tr>
+  <td width="50%" valign="top">
+    <h4>Dunkin’ · 摇制咖啡成为全员动作梗</h4>
+    <p><strong>食品与饮料 · 节奏同步 · 品牌创意参考 · 约31 秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=QB-LyTGqB4w"><img src="https://i.ytimg.com/vi/QB-LyTGqB4w/hqdefault.jpg" width="220" alt="Dunkin’ · 摇制咖啡成为全员动作梗的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>手摇咖啡的制作动作被扩成角色表演，让饮品名字与动作节奏相互呼应。</blockquote>
+    <p><a href="https://www.youtube.com/watch?v=QB-LyTGqB4w">观看作品 · Dunkin&#x27;</a> · <a href="https://dailycommercials.com/dunkin-and-sabrina-carpenter-shake-things-up-with-shake-that-ess/">剧情与制作来源</a></p>
+    <p><sub>web-20261105-049 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+  <td width="50%" valign="top">
+    <h4>Pepsi · 汽水车追上披萨外卖</h4>
+    <p><strong>食品与饮料 · 追逐升级 · 品牌创意参考 · 约77 秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=Ck3DljNaiz4"><img src="https://i.ytimg.com/vi/Ck3DljNaiz4/hqdefault.jpg" width="220" alt="Pepsi · 汽水车追上披萨外卖的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>蓝色汽水车追着披萨配送车辆，到了顾客门口同步把两种商品送达。</blockquote>
+    <p><a href="https://www.youtube.com/watch?v=Ck3DljNaiz4">观看作品 · Marcelo Nogueira</a> · <a href="https://dailycommercials.com/pepsi-chase-cars-hilarious-ad/">剧情与制作来源</a></p>
+    <p><sub>web-20261105-053 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+</tr>
+<tr>
+  <td width="50%" valign="top">
+    <h4>KitKat · 把办公室压力堆到人身上</h4>
+    <p><strong>食品与饮料 · 处境可视化 · 品牌创意参考 · 约40 秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=S-oFKR7eVM8"><img src="https://i.ytimg.com/vi/S-oFKR7eVM8/hqdefault.jpg" width="220" alt="KitKat · 把办公室压力堆到人身上的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>办公用品与工作负担被夸张堆到职员身边，休息动作成为从压迫中退出的转折。</blockquote>
+    <p><a href="https://www.youtube.com/watch?v=S-oFKR7eVM8">观看作品 · KITKAT</a> · <a href="https://dailycommercials.com/kitkats-latest-ad-shows-how-to-truly-break-better/">剧情与制作来源</a></p>
+    <p><sub>web-20261105-054 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+  <td width="50%" valign="top">
+    <h4>Ritz · 咸味小岛的落选派对客</h4>
+    <p><strong>食品与饮料 · 冷面反应 · 品牌创意参考 · 约31 秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=8DoYkQ5wNTA"><img src="https://i.ytimg.com/vi/8DoYkQ5wNTA/hqdefault.jpg" width="220" alt="Ritz · 咸味小岛的落选派对客的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>两人躲在树屋抱怨没被邀请，最后由品牌水上摩托接入海滩派对。</blockquote>
+    <p><a href="https://www.youtube.com/watch?v=8DoYkQ5wNTA">观看作品 · RITZ Crackers</a> · <a href="https://dailycommercials.com/ritz-crackers-super-bowl-2026-review-ritz-island-brings-salty-humor-and-star-power/">剧情与制作来源</a></p>
+    <p><sub>web-20261105-055 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+</tr>
+<tr>
+  <td width="50%" valign="top">
+    <h4>Schweppes · 火星外交用汽水换宝物</h4>
+    <p><strong>食品与饮料 · 角色错位 · 品牌创意参考 · 约48 秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=QYAs3vnWqh8"><img src="https://i.ytimg.com/vi/QYAs3vnWqh8/hqdefault.jpg" width="220" alt="Schweppes · 火星外交用汽水换宝物的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>太空使者与火星代表交换礼物，普通柑橘汽水被放到珍贵星际货物的位置。</blockquote>
+    <p><a href="https://www.youtube.com/watch?v=QYAs3vnWqh8">观看作品 · TBWA PARIS</a> · <a href="https://dailycommercials.com/schweppes-when-citrus-diplomacy-meets-sci-fi-spectacle/">剧情与制作来源</a></p>
+    <p><sub>web-20261105-056 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+  <td width="50%" valign="top">
+    <h4>HARIBO · 成年人突然发出童声</h4>
+    <p><strong>食品与饮料 · 角色错位 · 品牌创意参考 · 约20 秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=NxBhT_37sDw"><img src="https://i.ytimg.com/vi/NxBhT_37sDw/hqdefault.jpg" width="220" alt="HARIBO · 成年人突然发出童声的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>两名成年人物坐在海滨分享糖果，讨论口味时使用孩子的声音。</blockquote>
+    <p><a href="https://www.youtube.com/watch?v=NxBhT_37sDw">观看作品 · HARIBOUKI</a> · <a href="https://dailycommercials.com/haribo-brings-back-in-2015-kids-voices-nostalgix/">剧情与制作来源</a></p>
+    <p><sub>web-20261105-057 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+</tr>
+<tr>
+  <td width="50%" valign="top">
+    <h4>Oat Cult · 燕麦早餐被卷入异教仪式</h4>
+    <p><strong>食品与饮料 · 类型错位 · 品牌创意参考 · 约61 秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=ZGIGIGRyBWk"><img src="https://i.ytimg.com/vi/ZGIGIGRyBWk/hqdefault.jpg" width="220" alt="Oat Cult · 燕麦早餐被卷入异教仪式的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>穿睡衣的主角准备早餐时遇到仪式队伍，好奇加入后场面不断升级。</blockquote>
+    <p><a href="https://www.youtube.com/watch?v=ZGIGIGRyBWk">观看作品 · Oat Cult</a> · <a href="https://dailycommercials.com/oat-cult-ad-a-darkly-comedic-take-on-breakfast/">剧情与制作来源</a></p>
+    <p><sub>web-20261105-059 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+  <td width="50%" valign="top">
+    <h4>KFC · 肉汁森林里的庄严仪式</h4>
+    <p><strong>食品与饮料 · 类型错位 · 品牌创意参考 · 约125 秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=SVHHQKmzYOc"><img src="https://i.ytimg.com/vi/SVHHQKmzYOc/hqdefault.jpg" width="220" alt="KFC · 肉汁森林里的庄严仪式的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>炸鸡信仰系列把肉汁放入神秘森林的仪式场面，用庄严语气夸张食物吸引力。</blockquote>
+    <p><a href="https://www.youtube.com/watch?v=SVHHQKmzYOc">观看作品 · KFC UKI</a> · <a href="https://dailycommercials.com/kfcs-believe-campaign-from-chicken-hypnosis-to-gravy-baptisms/">剧情与制作来源</a></p>
+    <p><sub>web-20261105-062 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+</tr>
+<tr>
+  <td width="50%" valign="top">
+    <h4>Wonderful Halos · 偷吃一个橘子引来报复</h4>
+    <p><strong>食品与饮料 · 欲望升级 · 品牌创意参考 · 约31 秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=TZ2MqeR7N7U"><img src="https://i.ytimg.com/vi/TZ2MqeR7N7U/hqdefault.jpg" width="220" alt="Wonderful Halos · 偷吃一个橘子引来报复的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>家长拿走孩子最后一颗橘子，孩子用极端且一本正经的方式实施报复。</blockquote>
+    <p><a href="https://www.youtube.com/watch?v=TZ2MqeR7N7U">观看作品 · Wonderful Halos</a> · <a href="https://dailycommercials.com/wonderful-halos-hilarious-new-ads/">剧情与制作来源</a></p>
+    <p><sub>web-20261105-063 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+  <td width="50%" valign="top">
+    <h4>Bud Light · 普通人闯错香水广告</h4>
+    <p><strong>食品与饮料 · 元广告 · 品牌创意参考 · 约87 秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=azB5TB_JGmQ"><img src="https://i.ytimg.com/vi/azB5TB_JGmQ/hqdefault.jpg" width="220" alt="Bud Light · 普通人闯错香水广告的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>啤酒代言人突然出现在黑白香水大片中，发现走错广告后切回朋友共饮场景。</blockquote>
+    <p><a href="https://www.youtube.com/watch?v=azB5TB_JGmQ">观看作品 · adDictives</a> · <a href="https://dailycommercials.com/bud-light-wrong-commercial-ft-shane-gillis/">剧情与制作来源</a></p>
+    <p><sub>web-20261105-064 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+</tr>
+<tr>
+  <td width="50%" valign="top">
+    <h4>Aldi · 胡萝卜特工营救圣诞</h4>
+    <p><strong>食品与饮料 · 物件拟人 · 品牌创意参考 · 约91 秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=LYt04t_6XMs"><img src="https://i.ytimg.com/vi/LYt04t_6XMs/hqdefault.jpg" width="220" alt="Aldi · 胡萝卜特工营救圣诞的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>胡萝卜角色进入坏人的总部，闯过机关找回被偷走的节日精神。</blockquote>
+    <p><a href="https://www.youtube.com/watch?v=LYt04t_6XMs">观看作品 · Retro Ad Rewind</a> · <a href="https://dailycommercials.com/aldi-christmas-ad-2024-watch-kevin-the-carrot-saving-christmas/">剧情与制作来源</a></p>
+    <p><sub>web-20261105-065 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+  <td width="50%" valign="top">
+    <h4>M&amp;S · 主人与自己的仙女分身合作</h4>
+    <p><strong>食品与饮料 · 角色复制 · 品牌创意参考 · 约100 秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=BIOcGEkX6AQ"><img src="https://i.ytimg.com/vi/BIOcGEkX6AQ/hqdefault.jpg" width="220" alt="M&amp;S · 主人与自己的仙女分身合作的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>被节日准备压垮的主人遇到仙女分身，普通客厅随魔法变成食物丰盛的聚会空间。</blockquote>
+    <p><a href="https://www.youtube.com/watch?v=BIOcGEkX6AQ">观看作品 · The Mirror</a> · <a href="https://dailycommercials.com/dawn-french-2024-christmas-ad/">剧情与制作来源</a></p>
+    <p><sub>web-20261105-066 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+</tr>
+<tr>
+  <td width="50%" valign="top">
+    <h4>KFC · 鸡柳竞争拍成史诗战场</h4>
+    <p><strong>食品与饮料 · 类型错位 · 品牌创意参考 · 约65 秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=zUCS0PhgWME"><img src="https://i.ytimg.com/vi/zUCS0PhgWME/hqdefault.jpg" width="220" alt="KFC · 鸡柳竞争拍成史诗战场的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>快餐员工组成夸张队伍，争夺鸡柳市场被拍成电影式冲锋。</blockquote>
+    <p><a href="https://www.youtube.com/watch?v=zUCS0PhgWME">观看作品 · Bull N Bear</a> · <a href="https://dailycommercials.com/kfcs-hilarious-new-ad-makes-chicken-wars-fun-again/">剧情与制作来源</a></p>
+    <p><sub>web-20261105-067 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+  <td width="50%" valign="top">
+    <h4>Little Caesars · 一家人甚至狗都长同一张脸</h4>
+    <p><strong>食品与饮料 · 角色复制 · 品牌创意参考 · 约31 秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=wO45Tuciiyo"><img src="https://i.ytimg.com/vi/wO45Tuciiyo/hqdefault.jpg" width="220" alt="Little Caesars · 一家人甚至狗都长同一张脸的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>复古家庭喜剧里的每个家庭成员都像同一个球员，围绕披萨口味争论。</blockquote>
+    <p><a href="https://www.youtube.com/watch?v=wO45Tuciiyo">观看作品 · robercik101</a> · <a href="https://dailycommercials.com/creepy-dog-little-caesars-ad-2024/">剧情与制作来源</a></p>
+    <p><sub>web-20261105-068 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+</tr>
+<tr>
+  <td width="50%" valign="top">
+    <h4>Cadbury · 一块巧克力让人完全分心</h4>
+    <p><strong>食品与饮料 · 欲望升级 · 品牌创意参考 · 约21 秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=8ozypjAkbrM"><img src="https://i.ytimg.com/vi/8ozypjAkbrM/hqdefault.jpg" width="220" alt="Cadbury · 一块巧克力让人完全分心的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>一位母亲被新巧克力吸引，暂时忽略身边女儿；本条采用母亲版本。</blockquote>
+    <p><a href="https://www.youtube.com/watch?v=8ozypjAkbrM">观看作品 · The advert official </a> · <a href="https://dailycommercials.com/how-cadburys-new-bar-is-causing-hilarious-distractions-everywhere/">剧情与制作来源</a></p>
+    <p><sub>web-20261105-072 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+  <td width="50%" valign="top">
+    <h4>Red Bull · 狗狗绕树牵住主人好约会</h4>
+    <p><strong>食品与饮料 · 动物角色 · 品牌创意参考 · 约31 秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=8J4eb_lzjHs"><img src="https://i.ytimg.com/vi/8J4eb_lzjHs/hqdefault.jpg" width="220" alt="Red Bull · 狗狗绕树牵住主人好约会的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>两只狗相遇后不愿分开，喝饮料的动画狗用牵引绳与树延长约会时间。</blockquote>
+    <p><a href="https://www.youtube.com/watch?v=8J4eb_lzjHs">观看作品 · QuirkyFilms</a> · <a href="https://dailycommercials.com/red-bull-dog-date-super-bowl-2026-ad-review-energetic-animated-and-playfully-canine/">剧情与制作来源</a></p>
+    <p><sub>web-20261105-074 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+</tr>
+<tr>
+  <td width="50%" valign="top">
+    <h4>Liquid Death · 能量饮料警示片里人人爆头</h4>
+    <p><strong>食品与饮料 · 类型错位 · 品牌创意参考 · 约31 秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=tEh050NGnVM"><img src="https://i.ytimg.com/vi/tEh050NGnVM/hqdefault.jpg" width="220" alt="Liquid Death · 能量饮料警示片里人人爆头的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>严肃健康警示片声称极端能量饮料会让人头部爆开，用荒诞后果制造品类反差。</blockquote>
+    <p><a href="https://www.youtube.com/watch?v=tEh050NGnVM">观看作品 · Liquid Death</a> · <a href="https://dailycommercials.com/liquid-death-exploding-heads-super-bowl-2026-ad-review-absurd-energy-drink-messaging-at-super-bowl-lx/">剧情与制作来源</a></p>
+    <p><sub>web-20261105-075 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+  <td width="50%" valign="top">
+    <h4>Kinder Bueno · 黑洞危机被巧克力打断</h4>
+    <p><strong>食品与饮料 · 冷面反应 · 品牌创意参考 · 约31 秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=T1z-xbTkJNM"><img src="https://i.ytimg.com/vi/T1z-xbTkJNM/hqdefault.jpg" width="220" alt="Kinder Bueno · 黑洞危机被巧克力打断的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>宇航员面临黑洞危险，一块巧克力和淡定应答把科幻危机转成零食笑点。</blockquote>
+    <p><a href="https://www.youtube.com/watch?v=T1z-xbTkJNM">观看作品 · Kinder Bueno USA</a> · <a href="https://dailycommercials.com/kinder-bueno-yes-bueno-super-bowl-2026-ad-review-a-sci-fi-chocolate-odyssey/">剧情与制作来源</a></p>
+    <p><sub>web-20261105-076 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+</tr>
+<tr>
+  <td width="50%" valign="top">
+    <h4>SVEDKA · 机器人在夜店学人类喝酒跳舞</h4>
+    <p><strong>食品与饮料 · 角色错位 · 品牌创意参考 · 约31 秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=pkeWRI2yJGM"><img src="https://i.ytimg.com/vi/pkeWRI2yJGM/hqdefault.jpg" width="220" alt="SVEDKA · 机器人在夜店学人类喝酒跳舞的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>两个机器人进入人群跳舞、调酒，把机械动作放进普通夜店社交。</blockquote>
+    <p><a href="https://www.youtube.com/watch?v=pkeWRI2yJGM">观看作品 · SVEDKA</a> · <a href="https://dailycommercials.com/svedka-shake-your-bots-off-super-bowl-2026-ad-review-ai-robots-and-vodka-irony-at-super-bowl-lx/">剧情与制作来源</a></p>
+    <p><sub>web-20261105-077 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+  <td width="50%" valign="top">
+    <h4>Absolut × Tabasco · 火山喷出的竟是鸡尾酒</h4>
+    <p><strong>食品与饮料 · 异常用途 · 品牌创意参考 · 约46 秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=1FBVEfTIGVg"><img src="https://i.ytimg.com/vi/1FBVEfTIGVg/hqdefault.jpg" width="220" alt="Absolut × Tabasco · 火山喷出的竟是鸡尾酒的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>防护服人物坐直升机来到火山口，喷出的红色液体变成玻璃杯中的鸡尾酒。</blockquote>
+    <p><a href="https://www.youtube.com/watch?v=1FBVEfTIGVg">观看作品 · Absolut</a> · <a href="https://dailycommercials.com/absolut-x-tabasco-a-volcanic-ad-with-spicy-vodka-and-hot-takes/">剧情与制作来源</a></p>
+    <p><sub>web-20261105-081 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+</tr>
+<tr>
+  <td width="50%" valign="top">
+    <h4>Liquid Death · 生存游戏里的正经赞助播报</h4>
+    <p><strong>食品与饮料 · 元广告 · 品牌创意参考 · 约47 秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=T3bgoouudCA"><img src="https://i.ytimg.com/vi/T3bgoouudCA/hqdefault.jpg" width="220" alt="Liquid Death · 生存游戏里的正经赞助播报的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>主持人以节目赞助语气播报，画面却是极端的生存竞赛，饮料被当作官方补给。</blockquote>
+    <p><a href="https://www.youtube.com/watch?v=T3bgoouudCA">观看作品 · Liquid Death</a> · <a href="https://dailycommercials.com/liquid-death-the-running-man-advert/">剧情与制作来源</a></p>
+    <p><sub>web-20261105-082 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+  <td width="50%" valign="top">
+    <h4>Sainsbury’s · 贪吃巨人闯进节日餐桌</h4>
+    <p><strong>食品与饮料 · 巨物反差 · 品牌创意参考 · 约90 秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=QaF1my5h-Os"><img src="https://i.ytimg.com/vi/QaF1my5h-Os/hqdefault.jpg" width="220" alt="Sainsbury’s · 贪吃巨人闯进节日餐桌的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>意外巨人吞下配送食物，又去城中搜刮聚餐，日常用餐被放大成巨物危机。</blockquote>
+    <p><a href="https://www.youtube.com/watch?v=QaF1my5h-Os">观看作品 · Sainsbury&#x27;s</a> · <a href="https://dailycommercials.com/sainsburys-christmas-2025-advert-the-unexpected-guest/">剧情与制作来源</a></p>
+    <p><sub>web-20261105-083 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+</tr>
+<tr>
+  <td width="50%" valign="top">
+    <h4>Ribena · 倒一杯饮料让客厅下起雨</h4>
+    <p><strong>食品与饮料 · 场景变换 · 品牌创意参考 · 约60 秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=rtpOlpr77OU"><img src="https://i.ytimg.com/vi/rtpOlpr77OU/hqdefault.jpg" width="220" alt="Ribena · 倒一杯饮料让客厅下起雨的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>兄妹倒饮料时室内出现雨，眼前生活与童年踩水回忆逐渐交叠。</blockquote>
+    <p><a href="https://www.youtube.com/watch?v=rtpOlpr77OU">观看作品 · Ribena UK</a> · <a href="https://dailycommercials.com/ribenas-nostalgic-rain-ad-2025-theres-no-taste-like-home/">剧情与制作来源</a></p>
+    <p><sub>web-20261105-084 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+  <td width="50%" valign="top">
+    <h4>Lay’s · 一颗掉落土豆被种成希望</h4>
+    <p><strong>食品与饮料 · 物件串联 · 品牌创意参考 · 约31 秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=Nogd0HC6KFg"><img src="https://i.ytimg.com/vi/Nogd0HC6KFg/hqdefault.jpg" width="220" alt="Lay’s · 一颗掉落土豆被种成希望的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>女孩捡起货车落下的小土豆，照料种植并连接到家庭农场与薯片原料。</blockquote>
+    <p><a href="https://www.youtube.com/watch?v=Nogd0HC6KFg">观看作品 · Lay&#x27;s</a> · <a href="https://dailycommercials.com/lays-super-bowl-2025-commercial-the-little-farmer/">剧情与制作来源</a></p>
+    <p><sub>web-20261105-085 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+</tr>
+<tr>
+  <td width="50%" valign="top">
+    <h4>Hellmann’s · 一口三明治重演餐馆名场面</h4>
+    <p><strong>食品与饮料 · 角色错位 · 品牌创意参考 · 约61 秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=UX9qfSEKyuc"><img src="https://i.ytimg.com/vi/UX9qfSEKyuc/hqdefault.jpg" width="220" alt="Hellmann’s · 一口三明治重演餐馆名场面的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>餐馆中的一口三明治引出夸张满足反应，旁人跟着想点同款。</blockquote>
+    <p><a href="https://www.youtube.com/watch?v=UX9qfSEKyuc">观看作品 · Hellmann&#x27;s</a> · <a href="https://dailycommercials.com/hellmann-super-bowl-ad-2025-when-harry-met-sally/">剧情与制作来源</a></p>
+    <p><sub>web-20261105-086 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+  <td width="50%" valign="top">
+    <h4>Domino’s · 生存竞赛突然需要应急披萨</h4>
+    <p><strong>食品与饮料 · 类型错位 · 品牌创意参考 · 约65 秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=4WpBqy4oYeI"><img src="https://i.ytimg.com/vi/4WpBqy4oYeI/hqdefault.jpg" width="220" alt="Domino’s · 生存竞赛突然需要应急披萨的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>紧绷游戏场面被应急披萨打断，普通外卖变成解决眼前危机的反差道具。</blockquote>
+    <p><a href="https://www.youtube.com/watch?v=4WpBqy4oYeI">观看作品 · Commercial Break</a> · <a href="https://dailycommercials.com/dominos-pizza-squid-game-ads/">剧情与制作来源</a></p>
+    <p><sub>web-20261105-087 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+</tr>
+<tr>
+  <td width="50%" valign="top">
+    <h4>Lurpak · 切蔬菜拍成重金属演出</h4>
+    <p><strong>食品与饮料 · 节奏同步 · 品牌创意参考 · 约30 秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=KUPXAGPqoZk"><img src="https://i.ytimg.com/vi/KUPXAGPqoZk/hqdefault.jpg" width="220" alt="Lurpak · 切蔬菜拍成重金属演出的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>蔬菜被切碎、击破和慢动作展示，烹饪动作跟随重金属音乐形成强烈反差。</blockquote>
+    <p><a href="https://www.youtube.com/watch?v=KUPXAGPqoZk">观看作品 · CHRISTIAN LOBO</a> · <a href="https://dailycommercials.com/lurpak-ad-goes-heavy-metal/">剧情与制作来源</a></p>
+    <p><sub>web-20261105-091 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+  <td width="50%" valign="top">
+    <h4>McDonald’s · 小孩舞步点燃复古生日派对</h4>
+    <p><strong>食品与饮料 · 群体反应 · 品牌创意参考 · 约61 秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=WyqPMYr4fjI"><img src="https://i.ytimg.com/vi/WyqPMYr4fjI/hqdefault.jpg" width="220" alt="McDonald’s · 小孩舞步点燃复古生日派对的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>男孩在复古快餐生日聚会中开始跳舞，周围人陆续被带动，食品构成共享场景。</blockquote>
+    <p><a href="https://www.youtube.com/watch?v=WyqPMYr4fjI">观看作品 · mark Isichei</a> · <a href="https://dailycommercials.com/from-cheeseburger-stools-to-hip-hop-mcdonalds-epic-50th-birthday-ad/">剧情与制作来源</a></p>
+    <p><sub>web-20261105-093 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+</tr>
+<tr>
+  <td width="50%" valign="top">
+    <h4>KFC · 一群人被节拍引向炸鸡</h4>
+    <p><strong>食品与饮料 · 群体反应 · 品牌创意参考 · 约110 秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=UrfQaMAH0Ss"><img src="https://i.ytimg.com/vi/UrfQaMAH0Ss/hqdefault.jpg" width="220" alt="KFC · 一群人被节拍引向炸鸡的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>人群跟随神秘节拍穿行，最后由炸鸡揭晓他们共同追随的对象。</blockquote>
+    <p><a href="https://www.youtube.com/watch?v=UrfQaMAH0Ss">观看作品 · KFC UKI</a> · <a href="https://dailycommercials.com/kfcs-hypnotic-ad-campaign-a-cult-of-chicken/">剧情与制作来源</a></p>
+    <p><sub>web-20261105-094 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+  <td width="50%" valign="top">
+    <h4>Cheetos · 沾满芝士的手什么都碰不了</h4>
+    <p><strong>食品与饮料 · 异常用途 · 品牌创意参考 · 约31 秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=QK2lmJvshjg"><img src="https://i.ytimg.com/vi/QK2lmJvshjg/hqdefault.jpg" width="220" alt="Cheetos · 沾满芝士的手什么都碰不了的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>吃零食沾上的手成为拒绝各种请求的理由，重复动作与音乐口号形成笑点。</blockquote>
+    <p><a href="https://www.youtube.com/watch?v=QK2lmJvshjg">观看作品 · Superbowl Commercials</a> · <a href="https://www.ispot.tv/ad/ZERe/cheetos-popcorn-super-bowl-2020-cant-touch-this-featuring-mc-hammer">剧情与制作来源</a></p>
+    <p><sub>web-20261105-097 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+</tr>
+<tr>
+  <td width="50%" valign="top">
+    <h4>Doritos · 用零食挑选飞机邻座</h4>
+    <p><strong>食品与饮料 · 情节反转 · 品牌创意参考 · 约31 秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=2JqRXLQYF9o"><img src="https://i.ytimg.com/vi/2JqRXLQYF9o/hqdefault.jpg" width="220" alt="Doritos · 用零食挑选飞机邻座的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>乘客不断阻止别人坐身边，又用零食吸引心仪乘客，最后发现对方带着婴儿。</blockquote>
+    <p><a href="https://www.youtube.com/watch?v=2JqRXLQYF9o">观看作品 · Scott Zabielski</a> · <a href="https://www.ispot.tv/ad/7xYj/doritos-super-bowl-2015-middle-seat">剧情与制作来源</a></p>
+    <p><sub>web-20261105-099 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+  <td width="50%" valign="top">
+    <h4>Snickers · 球场上状态不对，吃完换个人</h4>
+    <p><strong>食品与饮料 · 角色错位 · 品牌创意参考 · 约30 秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=voqdFtr7FjU"><img src="https://i.ytimg.com/vi/voqdFtr7FjU/hqdefault.jpg" width="220" alt="Snickers · 球场上状态不对，吃完换个人的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>球队成员被呈现为不适合比赛的人物，吃下一口巧克力后恢复另一种人物状态。</blockquote>
+    <p><a href="https://www.youtube.com/watch?v=voqdFtr7FjU">观看作品 · CelebrityDBI</a> · <a href="https://www.prnewswire.com/news-releases/snickersr-kicks-off-new-advertising-campaign-at-super-bowl-xliv-82931857.html">剧情与制作来源</a></p>
+    <p><sub>web-20261105-100 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
   </td>
 </tr>
 <tr>
   <td width="50%" valign="top">
     <h4>客家三杯鸭烹饪广告</h4>
     <p><strong>工序快剪 · Gemini Omni Flash · 40 秒竖屏</strong></p>
-    <p><em>视频预览待补</em></p>
+    <p><em>作品封面待补</em></p>
     <p><strong>提示词要点</strong></p>
     <blockquote>把翻炒、酱汁和成菜拆成独立节拍，最后对齐参考菜品。</blockquote>
     <p><a href="https://prompset.com/prompts/video/gemini-omni-flash/commercial/hakka-three-cup-duck-cooking-ad-vertical">原片与视频提示词</a></p>
+    <p><sub>legacy-021 · 来源说明 · 深度待评估</sub></p>
   </td>
   <td width="50%" valign="top">
     <h4>咖啡豆旋转聚成罐装咖啡</h4>
     <p><strong>原料变形 · Gemini Omni Flash · 10 秒横屏</strong></p>
-    <p><em>视频预览待补</em></p>
+    <p><em>作品封面待补</em></p>
     <p><strong>提示词要点</strong></p>
     <blockquote>让原料流向罐身，最后减少粒子遮挡并给标签一个完整停留。</blockquote>
     <p><a href="https://prompset.com/prompts/video/gemini-omni-flash/commercial/nescafe-jar-forms-from-swirling-coffee-beans">原片与视频提示词</a></p>
+    <p><sub>legacy-022 · 来源说明 · 深度待评估</sub></p>
   </td>
 </tr>
 <tr>
   <td width="50%" valign="top">
     <h4>迷你厨师在拉面上冲浪</h4>
     <p><strong>微缩世界 · Gemini Omni Flash · 6 秒横屏</strong></p>
-    <p><em>视频预览待补</em></p>
+    <p><em>作品封面待补</em></p>
     <p><strong>提示词要点</strong></p>
     <blockquote>把面条和汤当成赛道与浪，保持食物纹理可辨，角色提供比例。</blockquote>
     <p><a href="https://prompset.com/prompts/video/gemini-omni-flash/commercial/tiny-chef-surfing-ramen-noodles-food-commercial">原片与视频提示词</a></p>
+    <p><sub>legacy-023 · 来源说明 · 深度待评估</sub></p>
   </td>
   <td width="50%" valign="top">
     <h4>浆果村庄围绕巨型酸奶杯</h4>
     <p><strong>巨物场景 · Seedance 2.0 · 15 秒横屏</strong></p>
-    <p><em>视频预览待补</em></p>
+    <p><em>作品封面待补</em></p>
     <p><strong>提示词要点</strong></p>
     <blockquote>让航拍路线把观众引向杯身，浆果与建筑同时交代口味和尺度。</blockquote>
     <p><a href="https://prompset.com/prompts/video/seedance-2-0/commercial/berry-village-drone-ad-around-giant-yogurt-cup">原片与视频提示词</a></p>
+    <p><sub>legacy-024 · 来源说明 · 深度待评估</sub></p>
   </td>
 </tr>
 <tr>
   <td width="50%" valign="top">
     <h4>画里人物偷可乐引来牛仔</h4>
     <p><strong>越界笑点 · Seedance 2.0 · 15 秒横屏</strong></p>
-    <p><em>视频预览待补</em></p>
+    <p><em>作品封面待补</em></p>
     <p><strong>提示词要点</strong></p>
     <blockquote>先确定画框内外的边界，跨界动作落在拿走同一件商品上。</blockquote>
     <p><a href="https://prompset.com/prompts/video/seedance-2-0/commercial/painting-character-steals-cola-cowboy-arrives">原片与视频提示词</a></p>
+    <p><sub>legacy-025 · 来源说明 · 深度待评估</sub></p>
   </td>
   <td width="50%" valign="top">
     <h4>高端炒虾垂直广告</h4>
     <p><strong>热锅质感 · Gemini Omni Flash · 10 秒竖屏</strong></p>
-    <p><em>视频预览待补</em></p>
+    <p><em>作品封面待补</em></p>
     <p><strong>提示词要点</strong></p>
     <blockquote>把锅、食材接触和熟成结果拆开，保留虾形及最终摆盘。</blockquote>
     <p><a href="https://prompset.com/prompts/video/gemini-omni-flash/commercial/high-end-stir-fried-shrimp-ad">原片与视频提示词</a></p>
+    <p><sub>legacy-027 · 来源说明 · 深度待评估</sub></p>
   </td>
 </tr>
 <tr>
   <td width="50%" valign="top">
     <h4>巧克力饼干淋酱、掰开与包装</h4>
     <p><strong>听觉质感 · Seedance 2.0 · 10 秒</strong></p>
-    <p><em>视频预览待补</em></p>
+    <p><em>作品封面待补</em></p>
     <p><strong>提示词要点</strong></p>
     <blockquote>把流动、脆断和包装定格做成三个动作，切面可见后再收尾。</blockquote>
     <p><a href="https://prompset.com/prompts/video/seedance-2-0/commercial/chocolate-biscuit-commercial-with-pour-snap-and-pack-shot">原片与视频提示词</a></p>
+    <p><sub>legacy-029 · 来源说明 · 深度待评估</sub></p>
   </td>
   <td width="50%" valign="top">
     <h4>草莓原料变成成品饮料</h4>
     <p><strong>口味变形 · Hailuo 3.0 · 7 秒横屏</strong></p>
-    <p><em>视频预览待补</em></p>
+    <p><em>作品封面待补</em></p>
     <p><strong>提示词要点</strong></p>
     <blockquote>把果实、液体、容器依次出现，末帧留出可识别的饮品颜色。</blockquote>
     <p><a href="https://prompset.com/prompts/video/hailuo-3-0/commercial/strawberry-drink-transformation-commercial">原片与视频提示词</a></p>
+    <p><sub>legacy-030 · 来源说明 · 深度待评估</sub></p>
   </td>
 </tr>
 </table>
@@ -467,6 +1115,7 @@ for real bottle design and white pump structure.
     <p><strong>提示词要点</strong></p>
     <blockquote>固定服装与商品身份，用拉弓动作建立张力，再切到服装的完整轮廓。</blockquote>
     <p><a href="https://prompset.com/prompts/video/happyhorse-1-1/commercial/luxury-fashion-ad-archer-woman-and-star-products">原片与视频提示词</a></p>
+    <p><sub>legacy-043 · 来源说明 · 深度待评估</sub></p>
   </td>
   <td width="50%" valign="top">
     <h4>秋日睡衣十镜与动效</h4>
@@ -475,6 +1124,7 @@ for real bottle design and white pump structure.
     <p><strong>提示词要点</strong></p>
     <blockquote>用穿着动作交代垂感，用图形接转场，保持整套睡衣的款式和颜色。</blockquote>
     <p><a href="https://prompset.com/prompts/video/hailuo-3-0/commercial/10-shot-autumn-recovery-pajama-ad-with-animated-graphics">原片与视频提示词</a></p>
+    <p><sub>legacy-044 · 来源说明 · 深度待评估</sub></p>
   </td>
 </tr>
 <tr>
@@ -485,6 +1135,7 @@ for real bottle design and white pump structure.
     <p><strong>提示词要点</strong></p>
     <blockquote>从面料微距切到浪中动作、水下与海边定格，锁定同一件衣服和板。</blockquote>
     <p><a href="https://x.com/ImaStudio_ai/status/2081346292996014293">原片与视频提示词</a></p>
+    <p><sub>legacy-045 · 来源说明 · 深度待评估</sub></p>
   </td>
   <td width="50%" valign="top">
     <h4>拿起整套衣服介绍穿搭</h4>
@@ -493,6 +1144,7 @@ for real bottle design and white pump structure.
     <p><strong>提示词要点</strong></p>
     <blockquote>先展示整件外观，再指向一个值得看的面料或剪裁。</blockquote>
     <p><a href="https://viralance.com/examples/ugc-fashion">原片与视频提示词</a> · <a href="https://viralance.com/videos/showcase_27.mp4">直接播放</a></p>
+    <p><sub>legacy-046 · 来源说明 · 深度待评估</sub></p>
   </td>
 </tr>
 <tr>
@@ -503,6 +1155,7 @@ for real bottle design and white pump structure.
     <p><strong>提示词要点</strong></p>
     <blockquote>用一次转身同时展示衣服前后，镜中动作与人同步。</blockquote>
     <p><a href="https://viralance.com/examples/ugc-tryon">原片与视频提示词</a> · <a href="https://viralance.com/videos/showcase_48.mp4">直接播放</a></p>
+    <p><sub>legacy-047 · 来源说明 · 深度待评估</sub></p>
   </td>
   <td width="50%" valign="top">
     <h4>渐变背景中的悬浮球鞋</h4>
@@ -511,6 +1164,7 @@ for real bottle design and white pump structure.
     <p><strong>提示词要点</strong></p>
     <blockquote>只让鞋对着同一方向缓慢旋转，背景灯色负责出场节奏。</blockquote>
     <p><a href="https://viralance.com/examples/sneakers">原片与视频提示词</a> · <a href="https://viralance.com/videos/showcase_55.mp4">直接播放</a></p>
+    <p><sub>legacy-048 · 来源说明 · 深度待评估</sub></p>
   </td>
 </tr>
 <tr>
@@ -521,6 +1175,7 @@ for real bottle design and white pump structure.
     <p><strong>提示词要点</strong></p>
     <blockquote>固定正面全身构图，用手套手进出画面承接衣物切换。</blockquote>
     <p><a href="https://x.com/KrevixAi/status/2101361197400387598">原片</a> · <a href="https://behindthegen.com/w/10-second-mannequin-outfit-change-reel-in-seedance-20-or-gemini-omni">视频提示词</a></p>
+    <p><sub>legacy-049 · 来源说明 · 深度待评估</sub></p>
   </td>
   <td width="50%" valign="top">
     <h4>跑步机变成走秀 T 台</h4>
@@ -529,6 +1184,7 @@ for real bottle design and white pump structure.
     <p><strong>提示词要点</strong></p>
     <blockquote>让模特在同一个机位里稳步前行，衣物本身的垂感承担画面变化。</blockquote>
     <p><a href="https://x.com/KrevixAi/status/2088924016606113844">原片</a> · <a href="https://behindthegen.com/w/treadmill-runway-fashion-ad-with-gpt-image-2-and-seedance-20">视频提示词</a></p>
+    <p><sub>legacy-050 · 来源说明 · 深度待评估</sub></p>
   </td>
 </tr>
 <tr>
@@ -539,6 +1195,7 @@ for real bottle design and white pump structure.
     <p><strong>提示词要点</strong></p>
     <blockquote>把主体、商品、包装和构图固定在分镜里，动画只补自然动作与材质变化。</blockquote>
     <p><a href="https://x.com/OlatundeAI/status/2104496380722946061">原片</a> · <a href="https://behindthegen.com/w/turn-a-product-storyboard-into-a-10-second-ad-with-seedance-25">视频提示词</a></p>
+    <p><sub>legacy-051 · 来源说明 · 深度待评估</sub></p>
   </td>
   <td width="50%" valign="top">
     <h4>主持人展示球鞋并带出价格</h4>
@@ -547,6 +1204,7 @@ for real bottle design and white pump structure.
     <p><strong>提示词要点</strong></p>
     <blockquote>开头直接举鞋，转鞋面特写，末尾留价格信息与口播收束。</blockquote>
     <p><a href="https://x.com/abs_crea8or/status/2116215640151237087">原片</a> · <a href="https://behindthegen.com/w/10-second-vertical-sneaker-ad-with-a-presenter-in-google-veo">视频提示词</a></p>
+    <p><sub>legacy-052 · 来源说明 · 深度待评估</sub></p>
   </td>
 </tr>
 <tr>
@@ -557,6 +1215,7 @@ for real bottle design and white pump structure.
     <p><strong>提示词要点</strong></p>
     <blockquote>固定鞋的黑橙色与外轮廓，HUD 只用于强化动势和节拍。</blockquote>
     <p><a href="https://x.com/Gladhex/status/2045019880693416015">原片</a> · <a href="https://behindthegen.com/w/black-and-orange-sneaker-ad-from-a-single-prompt">视频提示词</a></p>
+    <p><sub>legacy-053 · 来源说明 · 深度待评估</sub></p>
   </td>
   <td width="50%" valign="top">
     <h4>霓虹店招下的街头夹克</h4>
@@ -565,6 +1224,7 @@ for real bottle design and white pump structure.
     <p><strong>提示词要点</strong></p>
     <blockquote>从胸前标志拉焦到人物脸，夹克保持在同一光线下。</blockquote>
     <p><a href="https://swayclip.com/examples/seedance-streetwear-vertical">原片与视频提示词</a></p>
+    <p><sub>legacy-054 · 来源说明 · 深度待评估</sub></p>
   </td>
 </tr>
 <tr>
@@ -575,6 +1235,7 @@ for real bottle design and white pump structure.
     <p><strong>提示词要点</strong></p>
     <blockquote>15 秒白棚服装广告。用拉链、绗缝和色块的微距快剪开场，接披上外套、正面走位、侧面和回身动作，最后推近外套。服装参考明确指定领型、色块和胸前标识，剪辑跟着电子音乐节拍走。</blockquote>
     <p><a href="https://x.com/sophiaparkerr_/status/2080117119694602738">原片与作者提示词</a> · <a href="references/2026-11-03-x-creative-video-prompts.md#07-fila-风格羽绒服快剪">完整拆解</a></p>
+    <p><sub>legacy-x07 · 来源说明 · 深度待评估</sub></p>
   </td>
   <td width="50%" valign="top">
     <h4>红绿黄三套穿搭循环</h4>
@@ -583,6 +1244,7 @@ for real bottle design and white pump structure.
     <p><strong>提示词要点</strong></p>
     <blockquote>16 秒白棚时装片。人物与布光保持一致，把三套造型绑定到红、绿、黄三种信号，每种信号各有配件、姿势、文字和地面元素。作者展示了同一条提示词的三次输出。</blockquote>
     <p><a href="https://x.com/iam_mian7/status/2094279654492533062">原片与作者提示词</a> · <a href="references/2026-11-03-x-creative-video-prompts.md#08-红绿黄三套穿搭循环">完整拆解</a></p>
+    <p><sub>legacy-x08 · 来源说明 · 深度待评估</sub></p>
   </td>
 </tr>
 <tr>
@@ -593,8 +1255,97 @@ for real bottle design and white pump structure.
     <p><strong>提示词要点</strong></p>
     <blockquote>30 秒六段。先写深夜赶稿的压力，由桌上球鞋触发灵感。中间插入跑者穿同款鞋穿过三种环境的想象广告，用落脚、缓震和水花特写串起来。回到工作室后先让角色松一口气，再用客户追加需求反转，最后回到商品英雄镜头。</blockquote>
     <p><a href="https://x.com/SyntheSarah/status/2096099021152498159">原片与作者提示词</a> · <a href="references/2026-11-03-x-creative-video-prompts.md#09-nike-air-max-赶稿反转">完整拆解</a></p>
+    <p><sub>legacy-x09 · 来源说明 · 深度待评估</sub></p>
   </td>
-  <td width="50%"></td>
+  <td width="50%" valign="top">
+    <h4>Prada · 老鼠偷走一只鞋</h4>
+    <p><strong>服装与鞋履 · 微缩世界 · 品牌创意参考</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=jTiRRC-I1So"><img src="https://i.ytimg.com/vi/jTiRRC-I1So/hqdefault.jpg" width="220" alt="Prada · 老鼠偷走一只鞋的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>真人置身手绘雪林，老鼠偷走鞋子，追查后揭出微缩礼物藏匿处。</blockquote>
+    <p><a href="https://www.youtube.com/watch?v=jTiRRC-I1So">观看作品 · Prada</a> · <a href="https://dailycommercials.com/prada-drawing-prada-animated-by-hand-ad-review/">剧情与制作来源</a></p>
+    <p><sub>web-20261105-004 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+</tr>
+<tr>
+  <td width="50%" valign="top">
+    <h4>J.Crew · 三个不靠谱的西装店员</h4>
+    <p><strong>服装与鞋履 · 角色错位 · 品牌创意参考</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=hV_dkS-RF2k"><img src="https://i.ytimg.com/vi/hV_dkS-RF2k/hqdefault.jpg" width="220" alt="J.Crew · 三个不靠谱的西装店员的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>三名新人把量尺寸、接待和改衣变成一连串离谱对话，经理总是晚一步到场。</blockquote>
+    <p><a href="https://www.youtube.com/watch?v=hV_dkS-RF2k">观看作品 · J.Crew</a> · <a href="https://dailycommercials.com/jcrew-we-take-suiting-seriously-ad-review/">剧情与制作来源</a></p>
+    <p><sub>web-20261105-006 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+  <td width="50%" valign="top">
+    <h4>Corteiz × Nike · 广告边讨论边长出来</h4>
+    <p><strong>服装与鞋履 · 元广告 · 品牌创意参考</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=FBSg0ncpbrs"><img src="https://i.ytimg.com/vi/FBSg0ncpbrs/hqdefault.jpg" width="220" alt="Corteiz × Nike · 广告边讨论边长出来的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>幕后声音争论该怎么拍球鞋广告，标志、棚景、人物和造型随指令逐次出现。</blockquote>
+    <p><a href="https://www.youtube.com/watch?v=FBSg0ncpbrs">观看作品 · CORTEIZ</a> · <a href="https://dailycommercials.com/corteiz-nike-how-to-make-an-advert-ad-review/">剧情与制作来源</a></p>
+    <p><sub>web-20261105-008 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+</tr>
+<tr>
+  <td width="50%" valign="top">
+    <h4>SKIMS × DoorDash · 拍广告时的衣橱急救</h4>
+    <p><strong>服装与鞋履 · 元广告 · 品牌创意参考</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=jvw_lStBUf8"><img src="https://i.ytimg.com/vi/jvw_lStBUf8/hqdefault.jpg" width="220" alt="SKIMS × DoorDash · 拍广告时的衣橱急救的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>黑白成片突然切到彩色片场，人物下单补齐衣物，遮挡后回来继续拍摄。</blockquote>
+    <p><a href="https://www.youtube.com/watch?v=jvw_lStBUf8">观看作品 · DoorDash</a> · <a href="https://dailycommercials.com/doordash-skims-delivered-ad-review/">剧情与制作来源</a></p>
+    <p><sub>web-20261105-011 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+  <td width="50%" valign="top">
+    <h4>On · 芭蕾感鞋款拍成动作大片</h4>
+    <p><strong>服装与鞋履 · 类型错位 · 品牌创意参考</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=D35mMLBnAHk"><img src="https://i.ytimg.com/vi/D35mMLBnAHk/hqdefault.jpg" width="220" alt="On · 芭蕾感鞋款拍成动作大片的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>轻巧鞋款被放进广场、楼梯和楼顶的一连串动作片打斗与追逐。</blockquote>
+    <p><a href="https://www.youtube.com/watch?v=D35mMLBnAHk">观看作品 · On</a> · <a href="https://dailycommercials.com/on-zendaya-action-movie-cloudnova-moon-ad-review/">剧情与制作来源</a></p>
+    <p><sub>web-20261105-020 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+</tr>
+<tr>
+  <td width="50%" valign="top">
+    <h4>Gap · 牛仔穿搭融入群体舞蹈</h4>
+    <p><strong>服装与鞋履 · 节奏同步 · 品牌创意参考 · 约91 秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=IwzF26o0AuU"><img src="https://i.ytimg.com/vi/IwzF26o0AuU/hqdefault.jpg" width="220" alt="Gap · 牛仔穿搭融入群体舞蹈的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>不同牛仔造型通过群舞站位与动作重复呈现，把系列服装展示并入表演。</blockquote>
+    <p><a href="https://www.youtube.com/watch?v=IwzF26o0AuU">观看作品 · Gap</a> · <a href="https://dailycommercials.com/gap-katseye-back-to-school-full-tv-commercial/">剧情与制作来源</a></p>
+    <p><sub>web-20261105-033 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+  <td width="50%" valign="top">
+    <h4>Levi’s · 洗衣店里的牛仔角色反转</h4>
+    <p><strong>服装与鞋履 · 角色错位 · 品牌创意参考 · 约31 秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=q40oimgnN00"><img src="https://i.ytimg.com/vi/q40oimgnN00/hqdefault.jpg" width="220" alt="Levi’s · 洗衣店里的牛仔角色反转的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>人物在洗衣店脱下牛仔外层洗涤，让旁观反应和经典场景重演承担看点。</blockquote>
+    <p><a href="https://www.youtube.com/watch?v=q40oimgnN00">观看作品 · Levi&#x27;s®</a> · <a href="https://dailycommercials.com/levis-taps-beyonce-for-bold-new-spin-on-iconic-80s-ad/">剧情与制作来源</a></p>
+    <p><sub>web-20261105-035 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+</tr>
+<tr>
+  <td width="50%" valign="top">
+    <h4>Skechers · 旧鞋飞进泳池，新鞋直接穿上</h4>
+    <p><strong>服装与鞋履 · 情绪转折 · 品牌创意参考 · 约30 秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=4nyKYDP21rM"><img src="https://i.ytimg.com/vi/4nyKYDP21rM/hqdefault.jpg" width="220" alt="Skechers · 旧鞋飞进泳池，新鞋直接穿上的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>人物为系鞋带烦恼，把旧鞋甩出窗外，再轻松穿上免手鞋；飞鞋影响楼下路人。</blockquote>
+    <p><a href="https://www.youtube.com/watch?v=4nyKYDP21rM">观看作品 · SKECHERS</a> · <a href="https://dailycommercials.com/skechers-super-bowl-2026-ad-review-sofia-vergara-kicks-off-big-game-with-easy-comfort-and-humor/">剧情与制作来源</a></p>
+    <p><sub>web-20261105-079 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+  <td width="50%" valign="top">
+    <h4>Dolce &amp; Gabbana · 宠物也参加高级时装片</h4>
+    <p><strong>服装与鞋履 · 动物角色 · 品牌创意参考 · 约33 秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=p18xGXWatrI"><img src="https://i.ytimg.com/vi/p18xGXWatrI/hqdefault.jpg" width="220" alt="Dolce &amp; Gabbana · 宠物也参加高级时装片的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>狗狗穿戴精致项圈、背带和针织衣物，以时装广告语气呈现普通宠物活动。</blockquote>
+    <p><a href="https://www.youtube.com/watch?v=p18xGXWatrI">观看作品 · Dolce&amp;Gabbana</a> · <a href="https://dailycommercials.com/dolce-gabbanas-posh-pet-collection-is-cute/">剧情与制作来源</a></p>
+    <p><sub>web-20261105-089 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
 </tr>
 </table>
 
@@ -603,23 +1354,14 @@ for real bottle design and white pump structure.
 <table>
 <tr>
   <td width="50%" valign="top">
-    <h4>浅蓝皮包 · 锁扣与五金微距</h4>
-    <p><strong>配饰特写 · GPT Image 2 + Seedance 2.0 · 10 秒竖屏</strong></p>
-    <p><a href="https://x.com/Lianaalane/status/2080563926014779842"><img src="https://pbs.twimg.com/amplify_video_thumb/2080563773837135872/img/CMk2kwfVF_zbUJMO.jpg" width="220" alt="浅蓝皮包 · 锁扣与五金微距的作品封面"></a></p>
-    <p><strong>提示词 · 中文改写</strong></p>
-    <blockquote>拍一条浅蓝色皮包的竖屏商品短片。以米色背景和柔和棚光衬托金色五金，用缓慢的微距运镜依次展示标志、磁扣开合、可调肩带和皮革纹理。保持浅景深，让每个细节在对应镜头里清楚可见。</blockquote>
-    <p><a href="https://x.com/Lianaalane/status/2080563926014779842">观看原作者作品 · @Lianaalane</a> · <a href="https://behindthegen.com/w/luxury-handbag-product-ad-with-gpt-image-2-and-seedance-20">提示词原文与流程</a></p>
-  </td>
-  <td width="50%" valign="top">
     <h4>巨型商务女性跨过纽约展示眼镜</h4>
     <p><strong>比例反差 · Wan 3.0 · 7 秒 · 4:3</strong></p>
     <p><a href="https://prompset.com/prompts/video/wan-3-0/commercial/giant-businesswoman-strides-over-nyc-eyewear-ad"><img src="https://media.prompset.com/prompts/8b644ec8-1fd3-4199-8fee-71a73d64fd8e/cover-480.webp" width="220" alt="巨型商务女性跨过纽约展示眼镜的作品封面"></a></p>
     <p><strong>提示词要点</strong></p>
     <blockquote>用街道和楼宇衬托人物尺度，眼镜款式贯穿远景与近景。</blockquote>
     <p><a href="https://prompset.com/prompts/video/wan-3-0/commercial/giant-businesswoman-strides-over-nyc-eyewear-ad">原片与视频提示词</a></p>
+    <p><sub>legacy-055 · 来源说明 · 深度待评估</sub></p>
   </td>
-</tr>
-<tr>
   <td width="50%" valign="top">
     <h4>从微距到城市使用的腕表</h4>
     <p><strong>佩戴与特写 · Wan 3.0 · 15 秒</strong></p>
@@ -627,7 +1369,10 @@ for real bottle design and white pump structure.
     <p><strong>提示词要点</strong></p>
     <blockquote>先用暗场近景建立外观，再给都市人物的佩戴情境和清楚的收尾。</blockquote>
     <p><a href="https://x.com/navi_Ai2/status/2101311302841078204">原片与视频提示词</a></p>
+    <p><sub>legacy-058 · 来源说明 · 深度待评估</sub></p>
   </td>
+</tr>
+<tr>
   <td width="50%" valign="top">
     <h4>室内快速试戴太阳镜</h4>
     <p><strong>UGC 试戴 · Seedance 2.0 · 5 秒竖屏</strong></p>
@@ -635,9 +1380,8 @@ for real bottle design and white pump structure.
     <p><strong>提示词要点</strong></p>
     <blockquote>对比戴上前后，最后用一次轻微扶镜把镜框拉回焦点。</blockquote>
     <p><a href="https://viralance.com/examples/ugc-sunglasses-tryon">原片与视频提示词</a> · <a href="https://viralance.com/videos/ugc-sunglasses-tryon.mp4">直接播放</a></p>
+    <p><sub>legacy-059 · 来源说明 · 深度待评估</sub></p>
   </td>
-</tr>
-<tr>
   <td width="50%" valign="top">
     <h4>近距离手持展示包袋</h4>
     <p><strong>UGC 展示 · Seedance 2.0 · 5 秒竖屏</strong></p>
@@ -645,7 +1389,10 @@ for real bottle design and white pump structure.
     <p><strong>提示词要点</strong></p>
     <blockquote>一次缓慢转动给正侧两面，注意肩带与五金在手持中连贯。</blockquote>
     <p><a href="https://viralance.com/examples/ugc-handbag-haul">原片与视频提示词</a> · <a href="https://viralance.com/videos/ugc-handbag-haul.mp4">直接播放</a></p>
+    <p><sub>legacy-060 · 来源说明 · 深度待评估</sub></p>
   </td>
+</tr>
+<tr>
   <td width="50%" valign="top">
     <h4>黑色反光台上的腕表旋转</h4>
     <p><strong>反射与微距 · Veo 3.1 Fast · 8 秒竖屏</strong></p>
@@ -653,9 +1400,8 @@ for real bottle design and white pump structure.
     <p><strong>提示词要点</strong></p>
     <blockquote>用轮廓光依次扫过表盘玻璃与金属边缘，控制反光强度。</blockquote>
     <p><a href="https://viralance.com/examples/watch">原片与视频提示词</a> · <a href="https://viralance.com/videos/showcase_31.mp4">直接播放</a></p>
+    <p><sub>legacy-061 · 来源说明 · 深度待评估</sub></p>
   </td>
-</tr>
-<tr>
   <td width="50%" valign="top">
     <h4>大理石台上的皮包慢转</h4>
     <p><strong>棚拍陈列 · Veo 3.1 Fast · 8 秒竖屏</strong></p>
@@ -663,7 +1409,10 @@ for real bottle design and white pump structure.
     <p><strong>提示词要点</strong></p>
     <blockquote>用转台展示皮纹和包型，保持手柄、底角和金属件完整。</blockquote>
     <p><a href="https://viralance.com/examples/handbag">原片与视频提示词</a> · <a href="https://viralance.com/videos/showcase_60.mp4">直接播放</a></p>
+    <p><sub>legacy-062 · 来源说明 · 深度待评估</sub></p>
   </td>
+</tr>
+<tr>
   <td width="50%" valign="top">
     <h4>深色镜面上的太阳镜</h4>
     <p><strong>镜片反光 · Veo 3.1 Fast · 8 秒竖屏</strong></p>
@@ -671,6 +1420,16 @@ for real bottle design and white pump structure.
     <p><strong>提示词要点</strong></p>
     <blockquote>把反射限制在镜片和台面，保留镜脚、镜桥和边框比例。</blockquote>
     <p><a href="https://viralance.com/examples/sunglasses">原片与视频提示词</a> · <a href="https://viralance.com/videos/showcase_56.mp4">直接播放</a></p>
+    <p><sub>legacy-063 · 来源说明 · 深度待评估</sub></p>
+  </td>
+  <td width="50%" valign="top">
+    <h4>浅蓝皮包 · 锁扣与五金微距</h4>
+    <p><strong>配饰特写 · GPT Image 2 + Seedance 2.0 · 10 秒竖屏</strong></p>
+    <p><a href="https://x.com/Lianaalane/status/2080563926014779842"><img src="https://pbs.twimg.com/amplify_video_thumb/2080563773837135872/img/CMk2kwfVF_zbUJMO.jpg" width="220" alt="浅蓝皮包 · 锁扣与五金微距的作品封面"></a></p>
+    <p><strong>提示词 · 中文改写</strong></p>
+    <blockquote>拍一条浅蓝色皮包的竖屏商品短片。以米色背景和柔和棚光衬托金色五金，用缓慢的微距运镜依次展示标志、磁扣开合、可调肩带和皮革纹理。保持浅景深，让每个细节在对应镜头里清楚可见。</blockquote>
+    <p><a href="https://x.com/Lianaalane/status/2080563926014779842">观看原作者作品 · @Lianaalane</a> · <a href="https://behindthegen.com/w/luxury-handbag-product-ad-with-gpt-image-2-and-seedance-20">提示词原文与流程</a></p>
+    <p><sub>legacy-064 · 来源说明 · 深度待评估</sub></p>
   </td>
 </tr>
 <tr>
@@ -681,6 +1440,7 @@ for real bottle design and white pump structure.
     <p><strong>提示词要点</strong></p>
     <blockquote>先看摆轮和齿轮动作，再拉到整表与干净的展台。</blockquote>
     <p><a href="https://x.com/drzubi01/status/2113115942582734912">原片</a> · <a href="https://behindthegen.com/w/luxury-mechanical-watch-commercial-in-veo-31-from-one-json-prompt">视频提示词</a></p>
+    <p><sub>legacy-065 · 来源说明 · 深度待评估</sub></p>
   </td>
   <td width="50%" valign="top">
     <h4>不锈钢腕表无缝转台</h4>
@@ -689,6 +1449,7 @@ for real bottle design and white pump structure.
     <p><strong>提示词要点</strong></p>
     <blockquote>用正向参考图锁表壳，转台首尾姿态和光位对齐便于循环。</blockquote>
     <p><a href="https://swayclip.com/examples/watch-metal-turntable">原片与视频提示词</a></p>
+    <p><sub>legacy-066 · 来源说明 · 深度待评估</sub></p>
   </td>
 </tr>
 <tr>
@@ -699,6 +1460,7 @@ for real bottle design and white pump structure.
     <p><strong>提示词要点</strong></p>
     <blockquote>三张产品图分别锁定三块 Jacob &amp; Co. 腕表的表壳、表盘、表带和材质。先建立沙漠路口两辆车与三个人的站位，再用交接箱开盖延后商品揭晓。检查腕表和交换箱包采用稳定机位，箱内三个槽位始终对应同一款表。</blockquote>
     <p><a href="https://x.com/Diplomeme/status/2108406410207993921">原片</a> · <a href="https://x.com/Diplomeme/status/2108406529217163496">作者提示词</a> · <a href="references/2026-11-03-x-creative-video-prompts.md#05-沙漠交接箱里的三块表">完整拆解</a></p>
+    <p><sub>legacy-x05 · 来源说明 · 深度待评估</sub></p>
   </td>
   <td width="50%" valign="top">
     <h4>镜前试戴黑色墨镜</h4>
@@ -707,25 +1469,60 @@ for real bottle design and white pump structure.
     <p><strong>提示词要点</strong></p>
     <blockquote>15 秒分成六段。镜前拿起黑色墨镜作为开场，戴上时切换光线，接街头步行、镜架和镜片特写、他人反应及屋顶收尾。口播、产品展示和结尾动作分别落在不同时间段。</blockquote>
     <p><a href="https://x.com/Inshrah_ali_/status/2079053784580493819">原片与作者提示词</a> · <a href="references/2026-11-03-x-creative-video-prompts.md#06-镜前试戴黑色墨镜">完整拆解</a></p>
+    <p><sub>legacy-x06 · 来源说明 · 深度待评估</sub></p>
   </td>
 </tr>
 <tr>
   <td width="50%" valign="top">
+    <h4>Tiffany · 蓝盒串起三代人的礼物</h4>
+    <p><strong>珠宝与配饰 · 情绪转折 · 品牌创意参考</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=zFNioiOVo28"><img src="https://i.ytimg.com/vi/zFNioiOVo28/hqdefault.jpg" width="220" alt="Tiffany · 蓝盒串起三代人的礼物的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>旧蓝盒触发母女回忆，同一份节日饰物从上一代传给下一代。</blockquote>
+    <p><a href="https://www.youtube.com/watch?v=zFNioiOVo28">观看作品 · Tiffany &amp; Co.</a> · <a href="https://dailycommercials.com/tiffany-you-and-me-ad-review/">剧情与制作来源</a></p>
+    <p><sub>web-20261105-005 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+  <td width="50%" valign="top">
+    <h4>Oura · 手指走进微缩城市</h4>
+    <p><strong>珠宝与配饰 · 微缩世界 · 品牌创意参考</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=szmzlH_AaFU"><img src="https://i.ytimg.com/vi/szmzlH_AaFU/hqdefault.jpg" width="220" alt="Oura · 手指走进微缩城市的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>戴戒指的手把两根手指当腿，在微缩街道、地铁和居家布景中活动。</blockquote>
+    <p><a href="https://www.youtube.com/watch?v=szmzlH_AaFU">观看作品 · ŌURA</a> · <a href="https://dailycommercials.com/oura-wear-your-best-life-commercial-review/">剧情与制作来源</a></p>
+    <p><sub>web-20261105-017 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+</tr>
+<tr>
+  <td width="50%" valign="top">
+    <h4>Meta · 美术馆的香蕉被当零食吃掉</h4>
+    <p><strong>珠宝与配饰 · 情节反转 · 品牌创意参考 · 约31 秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=-cqwXxUo_q8"><img src="https://i.ytimg.com/vi/-cqwXxUo_q8/hqdefault.jpg" width="220" alt="Meta · 美术馆的香蕉被当零食吃掉的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>两人在美术馆把昂贵香蕉艺术品当食物，引出补救与智能眼镜问答。</blockquote>
+    <p><a href="https://www.youtube.com/watch?v=-cqwXxUo_q8">观看作品 · Ray-Ban | Meta</a> · <a href="https://dailycommercials.com/meta-super-bowl-commercials-2025-ft-chris-pratt-and-chris-hemsworth/">剧情与制作来源</a></p>
+    <p><sub>web-20261105-045 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+  <td width="50%" valign="top">
     <h4>机械表从暗处显形</h4>
     <p><strong>微距扫光 · Seedance 2.0 · 12 秒横屏</strong></p>
-    <p><em>视频预览待补</em></p>
+    <p><em>作品封面待补</em></p>
     <p><strong>提示词要点</strong></p>
     <blockquote>让侧光逐步扫过表圈、表盘和机械细节，用光线揭晓外形。</blockquote>
     <p><a href="https://prompset.com/prompts/video/seedance-2-0/commercial/luxury-watch-emerging-from-darkness-with-mechanical-detail">原片与视频提示词</a></p>
+    <p><sub>legacy-056 · 来源说明 · 深度待评估</sub></p>
   </td>
+</tr>
+<tr>
   <td width="50%" valign="top">
     <h4>海岸场景中的钻石项链</h4>
     <p><strong>佩戴与微距 · Seedance 2.0 · 15 秒</strong></p>
-    <p><em>视频预览待补</em></p>
+    <p><em>作品封面待补</em></p>
     <p><strong>提示词要点</strong></p>
     <blockquote>先用环境建立气质，再贴近锁骨看吊坠与链节的反光。</blockquote>
     <p><a href="https://prompset.com/prompts/video/seedance-2-0/commercial/luxury-diamond-necklace-commercial-on-amalfi-coast">原片与视频提示词</a></p>
+    <p><sub>legacy-057 · 来源说明 · 深度待评估</sub></p>
   </td>
+  <td width="50%"></td>
 </tr>
 </table>
 
@@ -734,23 +1531,14 @@ for real bottle design and white pump structure.
 <table>
 <tr>
   <td width="50%" valign="top">
-    <h4>便携搅拌杯 · 果昔演示</h4>
-    <p><strong>小家电 UGC · Seedance 2.0 · 5 秒竖屏</strong></p>
-    <p><a href="https://viralance.com/examples/ugc-blender-demo"><img src="https://viralance.com/images/posters/ugc-blender-demo.jpg" width="220" alt="便携搅拌杯 · 果昔演示的作品封面"></a></p>
-    <p><strong>提示词 · 中文改写</strong></p>
-    <blockquote>生成一段 5 秒的 9:16 手持 UGC 视频。在有自然窗光的明亮厨房里，一位年轻女性用便携搅拌杯制作彩色果昔。制作完成后，她把果昔举向镜头，露出自然的惊喜表情。镜头保持生活化的手持视角。</blockquote>
-    <p><a href="https://viralance.com/examples/ugc-blender-demo">观看作品 · Viralance</a> · <a href="https://viralance.com/examples/ugc-blender-demo#prompt-heading">提示词原文</a> · <a href="https://viralance.com/videos/ugc-blender-demo.mp4">直接播放</a></p>
-  </td>
-  <td width="50%" valign="top">
     <h4>无线耳机暗棚陈列</h4>
     <p><strong>产品英雄镜头 · Wan 3.0 · 10 秒横屏</strong></p>
     <p><a href="https://prompset.com/prompts/video/wan-3-0/commercial/premium-wireless-earbuds-luxury-studio-ad-9-16"><img src="https://media.prompset.com/prompts/3d272ae8-252d-4545-9cf2-5fadc2e9a2a4/cover-480.webp" width="220" alt="无线耳机暗棚陈列的作品封面"></a></p>
     <p><strong>提示词要点</strong></p>
     <blockquote>把耳机和充电盒分层呈现，用灯带划出不同材质和外轮廓。</blockquote>
     <p><a href="https://prompset.com/prompts/video/wan-3-0/commercial/premium-wireless-earbuds-luxury-studio-ad-9-16">原片与视频提示词</a></p>
+    <p><sub>legacy-067 · 来源说明 · 深度待评估</sub></p>
   </td>
-</tr>
-<tr>
   <td width="50%" valign="top">
     <h4>戴上无线耳机后跟节奏点头</h4>
     <p><strong>UGC 使用 · Seedance 2.0 · 5 秒竖屏</strong></p>
@@ -758,6 +1546,18 @@ for real bottle design and white pump structure.
     <p><strong>提示词要点</strong></p>
     <blockquote>以点头代替抽象音质描述，锁定耳罩和头梁的相对位置。</blockquote>
     <p><a href="https://viralance.com/examples/ugc-headphones-review">原片与视频提示词</a> · <a href="https://viralance.com/videos/ugc-headphones-review.mp4">直接播放</a></p>
+    <p><sub>legacy-069 · 来源说明 · 深度待评估</sub></p>
+  </td>
+</tr>
+<tr>
+  <td width="50%" valign="top">
+    <h4>便携搅拌杯 · 果昔演示</h4>
+    <p><strong>小家电 UGC · Seedance 2.0 · 5 秒竖屏</strong></p>
+    <p><a href="https://viralance.com/examples/ugc-blender-demo"><img src="https://viralance.com/images/posters/ugc-blender-demo.jpg" width="220" alt="便携搅拌杯 · 果昔演示的作品封面"></a></p>
+    <p><strong>提示词 · 中文改写</strong></p>
+    <blockquote>生成一段 5 秒的 9:16 手持 UGC 视频。在有自然窗光的明亮厨房里，一位年轻女性用便携搅拌杯制作彩色果昔。制作完成后，她把果昔举向镜头，露出自然的惊喜表情。镜头保持生活化的手持视角。</blockquote>
+    <p><a href="https://viralance.com/examples/ugc-blender-demo">观看作品 · Viralance</a> · <a href="https://viralance.com/examples/ugc-blender-demo#prompt-heading">提示词原文</a> · <a href="https://viralance.com/videos/ugc-blender-demo.mp4">直接播放</a></p>
+    <p><sub>legacy-070 · 来源说明 · 深度待评估</sub></p>
   </td>
   <td width="50%" valign="top">
     <h4>桌面智能手表开箱</h4>
@@ -766,6 +1566,7 @@ for real bottle design and white pump structure.
     <p><strong>提示词要点</strong></p>
     <blockquote>从盒内拿起手表再举到镜头前，包装开合和表带都可见。</blockquote>
     <p><a href="https://viralance.com/examples/ugc-smartwatch-unboxing">原片与视频提示词</a> · <a href="https://viralance.com/videos/ugc-smartwatch-unboxing.mp4">直接播放</a></p>
+    <p><sub>legacy-071 · 来源说明 · 深度待评估</sub></p>
   </td>
 </tr>
 <tr>
@@ -776,6 +1577,7 @@ for real bottle design and white pump structure.
     <p><strong>提示词要点</strong></p>
     <blockquote>举起盒子后用手指定位卖点，盒盖状态在切镜中连贯。</blockquote>
     <p><a href="https://viralance.com/examples/ugc-tech">原片与视频提示词</a> · <a href="https://viralance.com/videos/showcase_47.mp4">直接播放</a></p>
+    <p><sub>legacy-072 · 来源说明 · 深度待评估</sub></p>
   </td>
   <td width="50%" valign="top">
     <h4>九十年代 Sony 随身听广告</h4>
@@ -784,6 +1586,7 @@ for real bottle design and white pump structure.
     <p><strong>分镜提示要点</strong></p>
     <blockquote>用九格分镜把播放器、橙色耳机和旧时代服饰绑在一套视觉风格里。</blockquote>
     <p><a href="https://x.com/abxxai/status/2058125740252799322">原片</a> · <a href="https://behindthegen.com/w/late-90s-sony-cassette-player-ad-with-gpt-image-2-and-seedance-20">分镜提示</a></p>
+    <p><sub>legacy-073 · 来源说明 · 深度待评估</sub></p>
   </td>
 </tr>
 <tr>
@@ -794,6 +1597,7 @@ for real bottle design and white pump structure.
     <p><strong>提示词要点</strong></p>
     <blockquote>人物佩戴和商品特写共同交代使用场景，旁白和视觉风格单独写。</blockquote>
     <p><a href="https://x.com/AIwithSynthia/status/2108194184465395862">原片</a> · <a href="https://behindthegen.com/w/headphone-ad-for-a-made-up-brand-in-one-seedance-25-prompt">视频提示词</a></p>
+    <p><sub>legacy-074 · 来源说明 · 深度待评估</sub></p>
   </td>
   <td width="50%" valign="top">
     <h4>便携咖啡机的完整出液演示</h4>
@@ -802,6 +1606,7 @@ for real bottle design and white pump structure.
     <p><strong>提示词要点</strong></p>
     <blockquote>商品图控制机身和按钮，环境图控制厨房，按下之后才有出液。</blockquote>
     <p><a href="https://fal.ai/learn/devs/seedance-2-5-prompting-guide#:~:text=Give%20each%20reference%20one%20job">原片与视频提示词</a> · <a href="https://v3b.fal.media/files/b/0aa55f8b/mlTjMQIzpIZ1SJ6UU7zEJ_video.mp4">直接播放</a></p>
+    <p><sub>legacy-075 · 来源说明 · 深度待评估</sub></p>
   </td>
 </tr>
 <tr>
@@ -812,15 +1617,109 @@ for real bottle design and white pump structure.
     <p><strong>制作要点</strong></p>
     <blockquote>以商品图为起点安排耳机特写，替换时补足侧面和耳罩参考。</blockquote>
     <p><a href="https://reigniter.ai/videos/headphones-product-video-ad">原片与来源流程</a></p>
+    <p><sub>legacy-076 · 来源说明 · 深度待评估</sub></p>
   </td>
+  <td width="50%" valign="top">
+    <h4>Breville · 一杯咖啡由乐团伴奏</h4>
+    <p><strong>数码与小家电 · 节奏同步 · 品牌创意参考</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=L5lav1UvXUs"><img src="https://i.ytimg.com/vi/L5lav1UvXUs/hqdefault.jpg" width="220" alt="Breville · 一杯咖啡由乐团伴奏的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>磨豆、压粉和出液被拍成舞台仪式，厨房下方乐团跟随制作节拍演奏。</blockquote>
+    <p><a href="https://www.youtube.com/watch?v=L5lav1UvXUs">观看作品 · Breville</a> · <a href="https://dailycommercials.com/breville-glorious-coffee-ad-review/">剧情与制作来源</a></p>
+    <p><sub>web-20261105-012 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+</tr>
+<tr>
+  <td width="50%" valign="top">
+    <h4>Beats · 一间咖啡馆全是不同版本的她</h4>
+    <p><strong>数码与小家电 · 角色复制 · 品牌创意参考</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=WiDpX3w-KJE"><img src="https://i.ytimg.com/vi/WiDpX3w-KJE/hqdefault.jpg" width="220" alt="Beats · 一间咖啡馆全是不同版本的她的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>咖啡馆中的人物逐渐被揭晓为同一人的不同造型，耳机配色和耳垫随着身份变化。</blockquote>
+    <p><a href="https://www.youtube.com/watch?v=WiDpX3w-KJE">观看作品 · Beats by Dre</a> · <a href="https://dailycommercials.com/beats-360-kendall-jenner-ad-review/">剧情与制作来源</a></p>
+    <p><sub>web-20261105-028 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+  <td width="50%" valign="top">
+    <h4>De’Longhi · 一群狗管着人的早晨咖啡</h4>
+    <p><strong>数码与小家电 · 动物角色 · 品牌创意参考</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=7K13bjG_kJ4"><img src="https://i.ytimg.com/vi/7K13bjG_kJ4/hqdefault.jpg" width="220" alt="De’Longhi · 一群狗管着人的早晨咖啡的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>狗狗像室友和管理委员会一样对人提要求，喝咖啡前还要先完成家庭谈判。</blockquote>
+    <p><a href="https://www.youtube.com/watch?v=7K13bjG_kJ4">观看作品 · De&#x27;Longhi Global</a> · <a href="https://dailycommercials.com/delonghi-hot-or-cold-always-perfetto-brad-pitt-ad-review/">剧情与制作来源</a></p>
+    <p><sub>web-20261105-030 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+</tr>
+<tr>
+  <td width="50%" valign="top">
+    <h4>Samsung · 手机关系被送进心理咨询室</h4>
+    <p><strong>数码与小家电 · 角色错位 · 品牌创意参考</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=MXKoROfqeeo"><img src="https://i.ytimg.com/vi/MXKoROfqeeo/hqdefault.jpg" width="220" alt="Samsung · 手机关系被送进心理咨询室的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>换手机的疲惫与惯性被放进关系咨询情境，用严肃访谈呈现消费处境。</blockquote>
+    <p><a href="https://www.youtube.com/watch?v=MXKoROfqeeo">观看作品 · Samsung US</a> · <a href="https://dailycommercials.com/samsung-bedrot-switchers-ad-review/">剧情与制作来源</a></p>
+    <p><sub>web-20261105-041 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+  <td width="50%" valign="top">
+    <h4>Apple · 举重动作轻得像舞蹈</h4>
+    <p><strong>数码与小家电 · 处境可视化 · 品牌创意参考 · 约39 秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=my-6b3CZ8LM"><img src="https://i.ytimg.com/vi/my-6b3CZ8LM/hqdefault.jpg" width="220" alt="Apple · 举重动作轻得像舞蹈的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>举重者轻巧操纵巨型重量，把计算负载这个抽象概念变成有反差的身体表演。</blockquote>
+    <p><a href="https://www.youtube.com/watch?v=my-6b3CZ8LM">观看作品 · Advertisement</a> · <a href="https://dailycommercials.com/johnny-weir-narrates-the-new-apple-weightlifter-ad/">剧情与制作来源</a></p>
+    <p><sub>web-20261105-051 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+</tr>
+<tr>
+  <td width="50%" valign="top">
+    <h4>Lavazza · 机器人也想加入咖啡休息</h4>
+    <p><strong>数码与小家电 · 角色错位 · 品牌创意参考 · 约86 秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=r3UOAWSE1uo"><img src="https://i.ytimg.com/vi/r3UOAWSE1uo/hqdefault.jpg" width="220" alt="Lavazza · 机器人也想加入咖啡休息的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>办公室机器人观察同事喝咖啡的满足感，想加入这种人类的日常仪式。</blockquote>
+    <p><a href="https://www.youtube.com/watch?v=r3UOAWSE1uo">观看作品 · Lavazza</a> · <a href="https://dailycommercials.com/lavazza-ad-2024-pleasure-makes-us-human-the-office/">剧情与制作来源</a></p>
+    <p><sub>web-20261105-070 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+  <td width="50%" valign="top">
+    <h4>Duracell · 球星失灵原来装错电池</h4>
+    <p><strong>数码与小家电 · 物件拟人 · 品牌创意参考 · 约31 秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=huRFGYDWvXA"><img src="https://i.ytimg.com/vi/huRFGYDWvXA/hqdefault.jpg" width="220" alt="Duracell · 球星失灵原来装错电池的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>球星突然表现失常，科学家把原因解释为装错电池，再以重启结构回扣电池。</blockquote>
+    <p><a href="https://www.youtube.com/watch?v=huRFGYDWvXA">观看作品 · Duracell</a> · <a href="https://dailycommercials.com/duracell-and-messi-reboot-the-battery-ad/">剧情与制作来源</a></p>
+    <p><sub>web-20261105-073 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+</tr>
+<tr>
+  <td width="50%" valign="top">
+    <h4>OnePlus · 金属手机遇上重金属怪物乐队</h4>
+    <p><strong>数码与小家电 · 感官隐喻 · 品牌创意参考 · 约113 秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=1sxlT5dusZY"><img src="https://i.ytimg.com/vi/1sxlT5dusZY/hqdefault.jpg" width="220" alt="OnePlus · 金属手机遇上重金属怪物乐队的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>怪物造型乐队演奏重金属，把音乐类型与手机金属外壳建立双关。</blockquote>
+    <p><a href="https://www.youtube.com/watch?v=1sxlT5dusZY">观看作品 · OnePlus</a> · <a href="https://dailycommercials.com/lordi-rocks-oneplus-nord-4-is-this-the-most-epic-phone-ad-yet/">剧情与制作来源</a></p>
+    <p><sub>web-20261105-092 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+  <td width="50%" valign="top">
+    <h4>Amazon · 智能音箱失声，替班人各有脾气</h4>
+    <p><strong>数码与小家电 · 角色错位 · 品牌创意参考 · 约91 秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=iNxvsxU2rJE"><img src="https://i.ytimg.com/vi/iNxvsxU2rJE/hqdefault.jpg" width="220" alt="Amazon · 智能音箱失声，替班人各有脾气的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>语音助手失声后由不同人物代班，普通用户请求得到充满个人脾气的回答。</blockquote>
+    <p><a href="https://www.youtube.com/watch?v=iNxvsxU2rJE">观看作品 · TheAdsWorld</a> · <a href="https://www.ispot.tv/ad/wao9/amazon-echo-super-bowl-2018-pre-release-alexa-loses-her-voice">剧情与制作来源</a></p>
+    <p><sub>web-20261105-098 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+</tr>
+<tr>
   <td width="50%" valign="top">
     <h4>风扇转动与按键控制</h4>
     <p><strong>操作因果 · Seedance 2.5 · 12 秒竖屏</strong></p>
-    <p><em>视频预览待补</em></p>
+    <p><em>作品封面待补</em></p>
     <p><strong>提示词要点</strong></p>
     <blockquote>先给按键接触，再展示风扇转动结果，确保底座和按钮位置一致。</blockquote>
     <p><a href="https://prompset.com/prompts/video/seedance-2-5/commercial/tech-product-ad-rotating-fan-with-button-controls">原片与视频提示词</a></p>
+    <p><sub>legacy-068 · 来源说明 · 深度待评估</sub></p>
   </td>
+  <td width="50%"></td>
 </tr>
 </table>
 
@@ -835,6 +1734,7 @@ for real bottle design and white pump structure.
     <p><strong>提示词要点</strong></p>
     <blockquote>用点火到闻香这一个动作链，结尾把罐身转向镜头。</blockquote>
     <p><a href="https://viralance.com/examples/ugc-scented-candle">原片与视频提示词</a> · <a href="https://viralance.com/videos/ugc-scented-candle.mp4">直接播放</a></p>
+    <p><sub>legacy-080 · 来源说明 · 深度待评估</sub></p>
   </td>
   <td width="50%" valign="top">
     <h4>保温杯喝一口后举杯</h4>
@@ -843,6 +1743,7 @@ for real bottle design and white pump structure.
     <p><strong>提示词要点</strong></p>
     <blockquote>用短喝水动作交代握持方式，杯盖状态和手指位置保持一致。</blockquote>
     <p><a href="https://viralance.com/examples/ugc-tumbler-review">原片与视频提示词</a> · <a href="https://viralance.com/videos/ugc-tumbler-review.mp4">直接播放</a></p>
+    <p><sub>legacy-081 · 来源说明 · 深度待评估</sub></p>
   </td>
 </tr>
 <tr>
@@ -853,6 +1754,7 @@ for real bottle design and white pump structure.
     <p><strong>提示词要点</strong></p>
     <blockquote>两只手依序摆入家具，用接触与重量表现装配过程。</blockquote>
     <p><a href="https://x.com/KrevixAi/status/2101557216272634138">原片</a> · <a href="https://behindthegen.com/w/miniature-luxury-bedroom-assembled-by-giant-hands-in-seedance-20">视频提示词</a></p>
+    <p><sub>legacy-082 · 来源说明 · 深度待评估</sub></p>
   </td>
   <td width="50%" valign="top">
     <h4>第一人称走进海边顶层公寓</h4>
@@ -861,6 +1763,7 @@ for real bottle design and white pump structure.
     <p><strong>提示词要点</strong></p>
     <blockquote>按入口到窗景的路线连续行进，用稳定视角交代空间布局。</blockquote>
     <p><a href="https://x.com/KrevixAi/status/2101726171583205592">原片</a> · <a href="https://behindthegen.com/w/realtor-reel-pov-walk-to-a-seaside-penthouse-in-seedance-20">视频提示词</a></p>
+    <p><sub>legacy-083 · 来源说明 · 深度待评估</sub></p>
   </td>
 </tr>
 <tr>
@@ -871,33 +1774,129 @@ for real bottle design and white pump structure.
     <p><strong>提示词要点</strong></p>
     <blockquote>先拿稳杯子再说话，用动作与停顿安排口播节奏。</blockquote>
     <p><a href="https://fal.ai/learn/devs/seedance-2-5-prompting-guide#:~:text=Write%20dialogue%20as%20a%20performance">原片与视频提示词</a> · <a href="https://v3b.fal.media/files/b/0aa55f7d/aB__WHUenX7ROgBwAOAcH_video.mp4">直接播放</a></p>
+    <p><sub>legacy-084 · 来源说明 · 深度待评估</sub></p>
   </td>
   <td width="50%" valign="top">
-    <h4>空房快速装成带音响的公寓</h4>
-    <p><strong>空间装配 · Gemini Omni Flash · 10 秒横屏</strong></p>
-    <p><em>视频预览待补</em></p>
-    <p><strong>提示词要点</strong></p>
-    <blockquote>先给空房基准机位，家具分批入场，最后让音响落在可辨认的位置。</blockquote>
-    <p><a href="https://prompset.com/prompts/video/gemini-omni-flash/commercial/apartment-assembles-with-furniture-and-bose-audio">原片与视频提示词</a></p>
+    <h4>Asda · 餐桌礼炮变成狂欢坐骑</h4>
+    <p><strong>家居与空间 · 巨物反差 · 品牌创意参考</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=7jEyBPEmVhI"><img src="https://i.ytimg.com/vi/7jEyBPEmVhI/hqdefault.jpg" width="220" alt="Asda · 餐桌礼炮变成狂欢坐骑的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>精致节日餐桌突然切入派对，桌上的拉炮变成可骑乘的巨型道具。</blockquote>
+    <p><a href="https://www.youtube.com/watch?v=7jEyBPEmVhI">观看作品 · Asda</a> · <a href="https://dailycommercials.com/asda-all-of-christmas-boom-ad-review/">剧情与制作来源</a></p>
+    <p><sub>web-20261105-001 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
   </td>
 </tr>
 <tr>
   <td width="50%" valign="top">
+    <h4>Kohl’s · 精灵总部里的礼物巡游</h4>
+    <p><strong>家居与空间 · 微缩世界 · 品牌创意参考</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=Bsb6hwVog6A"><img src="https://i.ytimg.com/vi/Bsb6hwVog6A/hqdefault.jpg" width="220" alt="Kohl’s · 精灵总部里的礼物巡游的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>人物进入玩具感的北极总部，毯子、香水与礼物在不同房间依次揭晓。</blockquote>
+    <p><a href="https://www.youtube.com/watch?v=Bsb6hwVog6A">观看作品 · Kohl&#x27;s</a> · <a href="https://dailycommercials.com/kohls-the-north-kohls-ad-review/">剧情与制作来源</a></p>
+    <p><sub>web-20261105-003 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+  <td width="50%" valign="top">
+    <h4>Hatch · 一整天都被分数追着跑</h4>
+    <p><strong>家居与空间 · 处境可视化 · 品牌创意参考</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=5LSHcp82eOw"><img src="https://i.ytimg.com/vi/5LSHcp82eOw/hqdefault.jpg" width="220" alt="Hatch · 一整天都被分数追着跑的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>人物的日常动作不断被健康评分覆盖，睡前转为安静的床头场景。</blockquote>
+    <p><a href="https://www.youtube.com/watch?v=5LSHcp82eOw">观看作品 · Hatch for Sleep</a> · <a href="https://dailycommercials.com/hatch-life-of-scores-olivia-munn-ad-review/">剧情与制作来源</a></p>
+    <p><sub>web-20261105-014 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+</tr>
+<tr>
+  <td width="50%" valign="top">
+    <h4>Ruggable · 角色切换，脚下地毯也换</h4>
+    <p><strong>家居与空间 · 多款切换 · 品牌创意参考</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=FunDBGvsQE4"><img src="https://i.ytimg.com/vi/FunDBGvsQE4/hqdefault.jpg" width="220" alt="Ruggable · 角色切换，脚下地毯也换的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>同一人物经历工作、带娃和聚会，场景角色变化时地毯花色随之切换，洒落物成为考验。</blockquote>
+    <p><a href="https://www.youtube.com/watch?v=FunDBGvsQE4">观看作品 · Ruggable Washable Rugs</a> · <a href="https://dailycommercials.com/ruggable-rugs-with-range-ad-review/">剧情与制作来源</a></p>
+    <p><sub>web-20261105-024 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+  <td width="50%" valign="top">
+    <h4>Argos · 礼物目录里的角色来闹鬼</h4>
+    <p><strong>家居与空间 · 角色错位 · 品牌创意参考 · 约60 秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=44zMyl-9J8o"><img src="https://i.ytimg.com/vi/44zMyl-9J8o/hqdefault.jpg" width="220" alt="Argos · 礼物目录里的角色来闹鬼的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>玩偶和恐龙吉祥物现身客厅，用圣诞故事式闹鬼纠正主人对礼物的刻板认识。</blockquote>
+    <p><a href="https://www.youtube.com/watch?v=44zMyl-9J8o">观看作品 · Argos</a> · <a href="https://dailycommercials.com/argos-tales-of-argos-past-christmas-ad-review/">剧情与制作来源</a></p>
+    <p><sub>web-20261105-038 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+</tr>
+<tr>
+  <td width="50%" valign="top">
+    <h4>Goodwipes · 高科技发布片最后揭晓卫生间</h4>
+    <p><strong>家居与空间 · 类型错位 · 品牌创意参考</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=165A1ADnXUg"><img src="https://i.ytimg.com/vi/165A1ADnXUg/hqdefault.jpg" width="220" alt="Goodwipes · 高科技发布片最后揭晓卫生间的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>高科技生活宣传的精致画面逐渐揭出人物都坐在卫生间，湿巾包装承担结尾回扣。</blockquote>
+    <p><a href="https://www.youtube.com/watch?v=165A1ADnXUg">观看作品 · goodwipes</a> · <a href="https://dailycommercials.com/goodwipes-asstra-openai-spoof-ad-review/">剧情与制作来源</a></p>
+    <p><sub>web-20261105-040 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+  <td width="50%" valign="top">
+    <h4>Argos · 恐龙玩偶开摇滚演唱会</h4>
+    <p><strong>家居与空间 · 角色代演 · 品牌创意参考 · 约41 秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=qfnRA8bCd7I"><img src="https://i.ytimg.com/vi/qfnRA8bCd7I/hqdefault.jpg" width="220" alt="Argos · 恐龙玩偶开摇滚演唱会的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>恐龙和人偶从礼物角色变成摇滚舞台上的主角，让玩具愿望实体化。</blockquote>
+    <p><a href="https://www.youtube.com/watch?v=qfnRA8bCd7I">观看作品 · Bull N Bear</a> · <a href="https://dailycommercials.com/argos-christmas-ad-2024-a-dinosaur-a-doll-and-a-rock-concert-you-cant-miss/">剧情与制作来源</a></p>
+    <p><sub>web-20261105-050 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+</tr>
+<tr>
+  <td width="50%" valign="top">
+    <h4>Asda · 花园小矮人出动救圣诞</h4>
+    <p><strong>家居与空间 · 微缩世界 · 品牌创意参考 · 约90 秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=A6HITAAtPEI"><img src="https://i.ytimg.com/vi/A6HITAAtPEI/hqdefault.jpg" width="220" alt="Asda · 花园小矮人出动救圣诞的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>暴风雪阻碍节日准备，一队花园小矮人像行动小队一样接手任务。</blockquote>
+    <p><a href="https://www.youtube.com/watch?v=A6HITAAtPEI">观看作品 · Asda</a> · <a href="https://dailycommercials.com/asdas-gnomes-take-on-christmas-2024-in-epic-animated-adventure/">剧情与制作来源</a></p>
+    <p><sub>web-20261105-052 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+  <td width="50%" valign="top">
+    <h4>HORNBACH · 成年人追着巨型玩具卡车跑</h4>
+    <p><strong>家居与空间 · 巨物反差 · 品牌创意参考 · 约120 秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=c1KxkRyPU4E"><img src="https://i.ytimg.com/vi/c1KxkRyPU4E/hqdefault.jpg" width="220" alt="HORNBACH · 成年人追着巨型玩具卡车跑的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>沉闷的成年人听到卡车旋律后像孩子追冰淇淋车一样冲出去，领取自己的工具。</blockquote>
+    <p><a href="https://www.youtube.com/watch?v=c1KxkRyPU4E">观看作品 · HORNBACH Österreich</a> · <a href="https://dailycommercials.com/hornbachs-spring-2025-commericial-is-crazy/">剧情与制作来源</a></p>
+    <p><sub>web-20261105-061 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+</tr>
+<tr>
+  <td width="50%" valign="top">
+    <h4>空房快速装成带音响的公寓</h4>
+    <p><strong>空间装配 · Gemini Omni Flash · 10 秒横屏</strong></p>
+    <p><em>作品封面待补</em></p>
+    <p><strong>提示词要点</strong></p>
+    <blockquote>先给空房基准机位，家具分批入场，最后让音响落在可辨认的位置。</blockquote>
+    <p><a href="https://prompset.com/prompts/video/gemini-omni-flash/commercial/apartment-assembles-with-furniture-and-bose-audio">原片与视频提示词</a></p>
+    <p><sub>legacy-077 · 来源说明 · 深度待评估</sub></p>
+  </td>
+  <td width="50%" valign="top">
     <h4>蜡烛引出童年记忆</h4>
     <p><strong>情绪转场 · Seedance 2.0 · 15 秒</strong></p>
-    <p><em>视频预览待补</em></p>
+    <p><em>作品封面待补</em></p>
     <p><strong>提示词要点</strong></p>
     <blockquote>把点燃后的暖光变成进入回忆的触发点，用同一色温连接两处空间。</blockquote>
     <p><a href="https://prompset.com/prompts/video/seedance-2-0/commercial/nostalgic-3d-candle-ad-with-a-ghostly-childhood-memory">原片与视频提示词</a></p>
+    <p><sub>legacy-078 · 来源说明 · 深度待评估</sub></p>
   </td>
+</tr>
+<tr>
   <td width="50%" valign="top">
     <h4>海边晚餐的蜡烛氛围</h4>
     <p><strong>场景种草 · Seedance 2.5 · 30 秒横屏</strong></p>
-    <p><em>视频预览待补</em></p>
+    <p><em>作品封面待补</em></p>
     <p><strong>提示词要点</strong></p>
     <blockquote>先交代餐桌和海面，用点燃后的烛光变化突出蜡烛的使用场景。</blockquote>
     <p><a href="https://prompset.com/prompts/video/seedance-2-5/commercial/luxury-candle-commercial-seaside-dinner">原片与视频提示词</a></p>
+    <p><sub>legacy-079 · 来源说明 · 深度待评估</sub></p>
   </td>
+  <td width="50%"></td>
 </tr>
 </table>
 
@@ -912,6 +1911,7 @@ for real bottle design and white pump structure.
     <p><strong>提示词要点</strong></p>
     <blockquote>用固定雨夜和接人动机展示车门、车身与到达动作。</blockquote>
     <p><a href="https://prompset.com/prompts/video/grok-imagine-1-5/commercial/cybertruck-picks-up-woman-in-nyc-rain">原片与视频提示词</a></p>
+    <p><sub>legacy-085 · 来源说明 · 深度待评估</sub></p>
   </td>
   <td width="50%" valign="top">
     <h4>机器人骑杜卡迪驶出展厅</h4>
@@ -920,6 +1920,7 @@ for real bottle design and white pump structure.
     <p><strong>提示词要点</strong></p>
     <blockquote>先让车型在展厅里有静止全貌，再用反常骑手带出启动和驶离。</blockquote>
     <p><a href="https://prompset.com/prompts/video/grok-imagine-1-5/commercial/robot-rides-ducati-out-of-showroom">原片与视频提示词</a></p>
+    <p><sub>legacy-087 · 来源说明 · 深度待评估</sub></p>
   </td>
 </tr>
 <tr>
@@ -930,6 +1931,7 @@ for real bottle design and white pump structure.
     <p><strong>生成简报要点</strong></p>
     <blockquote>低机位交代轮胎和底盘，日落登顶后绕车收尾，适合按地点分段。</blockquote>
     <p><a href="https://x.com/maxescu/status/2054640132951859665">原片</a> · <a href="https://x.com/maxescu/status/2054640144930758906">生成简报</a></p>
+    <p><sub>legacy-089 · 来源说明 · 深度待评估</sub></p>
   </td>
   <td width="50%" valign="top">
     <h4>能量饮料触发拉力赛车换色</h4>
@@ -938,6 +1940,7 @@ for real bottle design and white pump structure.
     <p><strong>提示词要点</strong></p>
     <blockquote>饮料触发车漆变化，比赛动作继续遵循同一赛道和车辆位置。</blockquote>
     <p><a href="https://x.com/YourAlphaMom/status/2113390051358888287">原片</a> · <a href="https://behindthegen.com/w/rallycross-spec-ad-in-seedance-25-from-a-15000-character-prompt">视频提示词</a></p>
+    <p><sub>legacy-090 · 来源说明 · 深度待评估</sub></p>
   </td>
 </tr>
 <tr>
@@ -948,6 +1951,7 @@ for real bottle design and white pump structure.
     <p><strong>提示词要点</strong></p>
     <blockquote>车图锁颜色、车灯和车身比例，视频只给跟拍方式与运动节奏。</blockquote>
     <p><a href="https://fal.ai/learn/devs/seedance-2-5-prompting-guide#:~:text=Do%20not%20make%20an%20image%20and%20a%20video%20reference%20do%20the%20same%20job">原片与视频提示词</a> · <a href="https://v3b.fal.media/files/b/0aa55fef/54bY8s46mCunI3aASbdg1_video.mp4">直接播放</a></p>
+    <p><sub>legacy-091 · 来源说明 · 深度待评估</sub></p>
   </td>
   <td width="50%" valign="top">
     <h4>飞天 Tesla 与失重咖啡</h4>
@@ -956,6 +1960,7 @@ for real bottle design and white pump structure.
     <p><strong>提示词要点</strong></p>
     <blockquote>参考图分别限定雨夜伦敦的桥、白色跑车、车内饰和驾驶者。先拍堵车与焦躁，再切到手按中控按钮。起飞后交替拍桥外的车身和车内漂浮的纸、点心与咖啡，最后用重力恢复时的泼洒完成回扣。</blockquote>
     <p><a href="https://x.com/rovvmut_/status/2111322341246681200">原片</a> · <a href="https://x.com/rovvmut_/status/2111322887282184249">作者提示词</a> · <a href="references/2026-11-03-x-creative-video-prompts.md#01-飞天-tesla-与失重咖啡">完整拆解</a></p>
+    <p><sub>legacy-x01 · 来源说明 · 深度待评估</sub></p>
   </td>
 </tr>
 <tr>
@@ -966,24 +1971,47 @@ for real bottle design and white pump structure.
     <p><strong>提示词要点</strong></p>
     <blockquote>15 秒按约 1.5 秒切镜。依照分镜依次点亮车灯、拍三分之四侧面、扫车身面板，接仪表启动、骑行、座桶收纳及智能钥匙演示。每镜指定景别、动作和运镜方向。</blockquote>
     <p><a href="https://x.com/ayzalnooor24521/status/2082653764176240897">原片与作者提示词</a> · <a href="references/2026-11-03-x-creative-video-prompts.md#10-honda-evo-160-功能快剪">完整拆解</a></p>
+    <p><sub>legacy-x10 · 来源说明 · 深度待评估</sub></p>
+  </td>
+  <td width="50%" valign="top">
+    <h4>Citroën · 熊群追车只想找地方冬眠</h4>
+    <p><strong>汽车与出行 · 动物角色 · 品牌创意参考 · 约68 秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=VERV2OYQsaU"><img src="https://i.ytimg.com/vi/VERV2OYQsaU/hqdefault.jpg" width="220" alt="Citroën · 熊群追车只想找地方冬眠的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>熊把舒适车内想成冬眠地点，引出一群熊追车的荒诞追逐。</blockquote>
+    <p><a href="https://www.youtube.com/watch?v=VERV2OYQsaU">观看作品 · Bull N Bear</a> · <a href="https://dailycommercials.com/citroen-ad-2025-a-horde-of-bears/">剧情与制作来源</a></p>
+    <p><sub>web-20261105-044 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+</tr>
+<tr>
+  <td width="50%" valign="top">
+    <h4>WeatherTech · 银发四人组的狂野兜风</h4>
+    <p><strong>汽车与出行 · 角色错位 · 品牌创意参考 · 约61 秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=AhRA3ZS1bjo"><img src="https://i.ytimg.com/vi/AhRA3ZS1bjo/hqdefault.jpg" width="220" alt="WeatherTech · 银发四人组的狂野兜风的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>年长人物开敞篷车四处玩闹，用行为与年龄期待的反差展示车内生活。</blockquote>
+    <p><a href="https://www.youtube.com/watch?v=AhRA3ZS1bjo">观看作品 · WeatherTech CH</a> · <a href="https://dailycommercials.com/weathertech-super-bowl-2025-commercial-and-teasing/">剧情与制作来源</a></p>
+    <p><sub>web-20261105-048 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
   </td>
   <td width="50%" valign="top">
     <h4>液态金属成形为跑车</h4>
     <p><strong>材料变形 · Hailuo 3.0 · 8 秒 · 3:4</strong></p>
-    <p><em>视频预览待补</em></p>
+    <p><em>作品封面待补</em></p>
     <p><strong>提示词要点</strong></p>
     <blockquote>先交代流动方向，再逐渐锁住轮廓、轮位和车灯，末帧留整车。</blockquote>
     <p><a href="https://prompset.com/prompts/video/hailuo-3-0/commercial/liquid-metal-transforms-into-futuristic-sports-car">原片与视频提示词</a></p>
+    <p><sub>legacy-086 · 来源说明 · 深度待评估</sub></p>
   </td>
 </tr>
 <tr>
   <td width="50%" valign="top">
     <h4>黄色汽车自动泊入车位</h4>
     <p><strong>功能演示 · Veo 3.1 · 8 秒横屏</strong></p>
-    <p><em>视频预览待补</em></p>
+    <p><em>作品封面待补</em></p>
     <p><strong>提示词要点</strong></p>
     <blockquote>选能看清车位和轮胎的视角，从驶入到停稳给完整结果。</blockquote>
     <p><a href="https://prompset.com/prompts/video/veo-3-1/commercial/yellow-car-parks-itself-hands-free-with-text-overlay">原片与视频提示词</a></p>
+    <p><sub>legacy-088 · 来源说明 · 深度待评估</sub></p>
   </td>
   <td width="50%"></td>
 </tr>
@@ -1000,6 +2028,7 @@ for real bottle design and white pump structure.
     <p><strong>提示词要点</strong></p>
     <blockquote>先交代包装，再取出单颗，咀嚼反应保持自然。</blockquote>
     <p><a href="https://viralance.com/examples/ugc-vitamin-gummies">原片与视频提示词</a> · <a href="https://viralance.com/videos/ugc-vitamin-gummies.mp4">直接播放</a></p>
+    <p><sub>legacy-092 · 来源说明 · 深度待评估</sub></p>
   </td>
   <td width="50%" valign="top">
     <h4>厨房里手持展示营养补充剂</h4>
@@ -1008,6 +2037,7 @@ for real bottle design and white pump structure.
     <p><strong>提示词要点</strong></p>
     <blockquote>让手持瓶身先入焦，背景保持朴素，方便替换真实包装。</blockquote>
     <p><a href="https://viralance.com/examples/ugc-supplement">原片与视频提示词</a> · <a href="https://viralance.com/videos/showcase_28.mp4">直接播放</a></p>
+    <p><sub>legacy-093 · 来源说明 · 深度待评估</sub></p>
   </td>
 </tr>
 <tr>
@@ -1018,6 +2048,7 @@ for real bottle design and white pump structure.
     <p><strong>提示词要点</strong></p>
     <blockquote>把瓶身展示设为一句话后的停顿，给瓶盖和标签留够时间。</blockquote>
     <p><a href="https://viralance.com/examples/ugc-fitness">原片与视频提示词</a> · <a href="https://viralance.com/videos/showcase_51.mp4">直接播放</a></p>
+    <p><sub>legacy-094 · 来源说明 · 深度待评估</sub></p>
   </td>
   <td width="50%" valign="top">
     <h4>日出跑步后的智能手表 UGC</h4>
@@ -1026,6 +2057,67 @@ for real bottle design and white pump structure.
     <p><strong>关键帧提示要点</strong></p>
     <blockquote>把出汗跑者和腕表做成关键帧，动画需要维持表在同一手腕。</blockquote>
     <p><a href="https://x.com/yourPlugAI/status/2051144761596051874">原片</a> · <a href="https://behindthegen.com/w/smartwatch-fitness-ugc-ad-starting-from-a-keyframe-in-kling-30">关键帧提示</a></p>
+    <p><sub>legacy-095 · 来源说明 · 深度待评估</sub></p>
+  </td>
+</tr>
+<tr>
+  <td width="50%" valign="top">
+    <h4>ASICS · 用自然纪录片研究沙发人类</h4>
+    <p><strong>运动与健康 · 类型错位 · 品牌创意参考</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=tTuMUWlVFZI"><img src="https://i.ytimg.com/vi/tTuMUWlVFZI/hqdefault.jpg" width="220" alt="ASICS · 用自然纪录片研究沙发人类的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>自然纪录片的旁白和观察方式被用来研究久坐办公室与沙发上的现代人。</blockquote>
+    <p><a href="https://www.youtube.com/watch?v=tTuMUWlVFZI">观看作品 · ASICS</a> · <a href="https://dailycommercials.com/asics-human-nature-sigourney-weaver-ad-review/">剧情与制作来源</a></p>
+    <p><sub>web-20261105-018 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+  <td width="50%" valign="top">
+    <h4>Quest · 办儿童派对如同打决赛</h4>
+    <p><strong>运动与健康 · 类型错位 · 品牌创意参考</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=lTySF1Sr52s"><img src="https://i.ytimg.com/vi/lTySF1Sr52s/hqdefault.jpg" width="220" alt="Quest · 办儿童派对如同打决赛的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>普通家长筹备派对的琐事被当作竞技比赛，零食出现在赛后补给位置。</blockquote>
+    <p><a href="https://www.youtube.com/watch?v=lTySF1Sr52s">观看作品 · Quest Nutrition</a> · <a href="https://dailycommercials.com/quest-nutrition-feed-your-athlete-party-hosting-ad-review/">剧情与制作来源</a></p>
+    <p><sub>web-20261105-021 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+</tr>
+<tr>
+  <td width="50%" valign="top">
+    <h4>Peloton · 跑步机把排练室变舞台</h4>
+    <p><strong>运动与健康 · 节奏同步 · 品牌创意参考</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=Vlt4-5Db-NA"><img src="https://i.ytimg.com/vi/Vlt4-5Db-NA/hqdefault.jpg" width="220" alt="Peloton · 跑步机把排练室变舞台的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>人物在跑步机训练与排练室舞蹈之间切换，把运动拍成一场释放情绪的表演。</blockquote>
+    <p><a href="https://www.youtube.com/watch?v=Vlt4-5Db-NA">观看作品 · Peloton</a> · <a href="https://dailycommercials.com/peloton-let-yourself-run-miley-ad-review/">剧情与制作来源</a></p>
+    <p><sub>web-20261105-027 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+  <td width="50%" valign="top">
+    <h4>Nex Playground · 球队招募面试被孩子抢走</h4>
+    <p><strong>运动与健康 · 角色错位 · 品牌创意参考</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=HK3edhhyPNk"><img src="https://i.ytimg.com/vi/HK3edhhyPNk/hqdefault.jpg" width="220" alt="Nex Playground · 球队招募面试被孩子抢走的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>球队负责人严肃面试新援，真正吸引注意的却是想喝果汁的小孩与体感游戏。</blockquote>
+    <p><a href="https://www.youtube.com/watch?v=HK3edhhyPNk">观看作品 · Ryan Reynolds</a> · <a href="https://dailycommercials.com/nex-playground-newest-signing-ad-review/">剧情与制作来源</a></p>
+    <p><sub>web-20261105-039 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+</tr>
+<tr>
+  <td width="50%" valign="top">
+    <h4>Liquid Death · 睡前饮品进入小丑噩梦</h4>
+    <p><strong>运动与健康 · 类型错位 · 品牌创意参考 · 约61 秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=AomsROaQmcE"><img src="https://i.ytimg.com/vi/AomsROaQmcE/hqdefault.jpg" width="220" alt="Liquid Death · 睡前饮品进入小丑噩梦的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>饮用补充剂后的梦境被拍成夸张恐怖喜剧，普通睡前场景通向疯狂小丑世界。</blockquote>
+    <p><a href="https://www.youtube.com/watch?v=AomsROaQmcE">观看作品 · Liquid Death</a> · <a href="https://dailycommercials.com/liquid-death-and-maryruths-unveil-coconut-scream/">剧情与制作来源</a></p>
+    <p><sub>web-20261105-058 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+  <td width="50%" valign="top">
+    <h4>Oikos · 推不动的缆车被轻松推上坡</h4>
+    <p><strong>运动与健康 · 角色错位 · 品牌创意参考 · 约31 秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=sf2Ry_deVN0"><img src="https://i.ytimg.com/vi/sf2Ry_deVN0/hqdefault.jpg" width="220" alt="Oikos · 推不动的缆车被轻松推上坡的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>车停在陡坡上，意想不到的乘客下车推车，把力量反差和酸奶联系起来。</blockquote>
+    <p><a href="https://www.youtube.com/watch?v=sf2Ry_deVN0">观看作品 · OIKOS Protein</a> · <a href="https://dailycommercials.com/oikos-the-big-hill-super-bowl-2026-ad-review-yogurt-muscle-cable-car-comedy/">剧情与制作来源</a></p>
+    <p><sub>web-20261105-078 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
   </td>
 </tr>
 </table>
@@ -1041,6 +2133,7 @@ for real bottle design and white pump structure.
     <p><strong>提示词要点</strong></p>
     <blockquote>用手推门造成前景运动，门后悬浮台把注意力引到商品。</blockquote>
     <p><a href="https://swayclip.com/examples/t2v-pov-neon-product-hook">原片与视频提示词</a></p>
+    <p><sub>legacy-096 · 来源说明 · 深度待评估</sub></p>
   </td>
   <td width="50%" valign="top">
     <h4>单张商品照做成口播快剪</h4>
@@ -1049,6 +2142,7 @@ for real bottle design and white pump structure.
     <p><strong>制作要点</strong></p>
     <blockquote>从产品静帧和标志开始，结合口播与快速切镜组织卖点。</blockquote>
     <p><a href="https://reigniter.ai/videos/social-media-video-ad">原片与来源流程</a></p>
+    <p><sub>legacy-097 · 来源说明 · 深度待评估</sub></p>
   </td>
 </tr>
 <tr>
@@ -1059,6 +2153,7 @@ for real bottle design and white pump structure.
     <p><strong>制作要点</strong></p>
     <blockquote>先建立主视觉，再让商品出现在场景里，最后用尾卡收束。</blockquote>
     <p><a href="https://reigniter.ai/videos/campaign-scene-product-film">原片与来源流程</a></p>
+    <p><sub>legacy-098 · 来源说明 · 深度待评估</sub></p>
   </td>
   <td width="50%" valign="top">
     <h4>商品穿越折纸定格世界</h4>
@@ -1067,6 +2162,7 @@ for real bottle design and white pump structure.
     <p><strong>制作要点</strong></p>
     <blockquote>让商品沿同一路径穿过纸折布景，利用材质差异突出主体。</blockquote>
     <p><a href="https://reigniter.ai/videos/paper-stop-motion-product-ad">原片与来源流程</a></p>
+    <p><sub>legacy-099 · 来源说明 · 深度待评估</sub></p>
   </td>
 </tr>
 <tr>
@@ -1077,7 +2173,19 @@ for real bottle design and white pump structure.
     <p><strong>制作要点</strong></p>
     <blockquote>给吉祥物统一外形和产品握持位置，再在各短片里切换卖点。</blockquote>
     <p><a href="https://reigniter.ai/videos/brand-mascot-ad">原片与来源流程</a></p>
+    <p><sub>legacy-100 · 来源说明 · 深度待评估</sub></p>
   </td>
+  <td width="50%" valign="top">
+    <h4>怪物争抢南瓜杯</h4>
+    <p><strong>情节带货 · Seedance 2.5 · 15 秒横屏</strong></p>
+    <p><a href="https://x.com/MeenakshiYACS/status/2114206878293246053"><img src="https://pbs.twimg.com/amplify_video_thumb/2114206690900168705/img/cv1lxIBnxDsOUaZk.jpg" width="220" alt="怪物争抢南瓜杯的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>角色把南瓜杯抛出去后，怪物转头争抢商品。</blockquote>
+    <p><a href="https://x.com/MeenakshiYACS/status/2114206878293246053">原片</a> · <a href="references/community/inbox/x-2114206878293246053.md">收录记录</a></p>
+    <p><sub>legacy-x-2114206878293246053 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+</tr>
+<tr>
   <td width="50%" valign="top">
     <h4>雨中街景晶体重组</h4>
     <p><strong>软件品牌 · 视觉特效 · Seedance 2.5 · 30 秒 · 961:540</strong></p>
@@ -1085,16 +2193,27 @@ for real bottle design and white pump structure.
     <p><strong>提示词要点</strong></p>
     <blockquote>30 秒，雨后曼哈顿街口。参考图一只定义主角，参考图二只定义候车亭广告牌画面。所有变形共用一个过程，物体先分解成半透明晶粒，随后悬停重排，最后重组为新形态。汽车的连续变化在开头先把这个规则演给观众看。</blockquote>
     <p><a href="https://x.com/Iancu_ai/status/2098420840073236536">原片与作者提示词</a> · <a href="references/2026-11-03-x-creative-video-prompts.md#03-雨中街景晶体重组">完整拆解</a></p>
+    <p><sub>legacy-x03 · 来源说明 · 深度待评估</sub></p>
+  </td>
+  <td width="50%" valign="top">
+    <h4>Flipkart · 坏运气的一天被商品改写</h4>
+    <p><strong>通用商品与品牌 · 时间循环 · 品牌创意参考</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=AatGYlKbSKs"><img src="https://i.ytimg.com/vi/AatGYlKbSKs/hqdefault.jpg" width="220" alt="Flipkart · 坏运气的一天被商品改写的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>同一个糟糕早晨反复重置，手机、手机壳和衣服等购物物件逐渐改变相遇结果。</blockquote>
+    <p><a href="https://www.youtube.com/watch?v=AatGYlKbSKs">观看作品 · Flipkart</a> · <a href="https://dailycommercials.com/flipkart-luck-badal-sakta-hai-ad-review/">剧情与制作来源</a></p>
+    <p><sub>web-20261105-026 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
   </td>
 </tr>
 <tr>
   <td width="50%" valign="top">
-    <h4>怪物争抢南瓜杯</h4>
-    <p><strong>情节带货 · Seedance 2.5 · 15 秒横屏</strong></p>
-    <p><a href="https://x.com/MeenakshiYACS/status/2114206878293246053"><img src="https://pbs.twimg.com/amplify_video_thumb/2114206690900168705/img/cv1lxIBnxDsOUaZk.jpg" width="220" alt="怪物争抢南瓜杯的作品封面"></a></p>
-    <p><strong>创意拆解 · 提示词待补</strong></p>
-    <blockquote>角色把南瓜杯抛出去后，怪物转头争抢商品。</blockquote>
-    <p><a href="https://x.com/MeenakshiYACS/status/2114206878293246053">原片</a> · <a href="references/community/inbox/x-2114206878293246053.md">收录记录</a></p>
+    <h4>Wolt · 主角越淡定，周围越失控</h4>
+    <p><strong>通用商品与品牌 · 冷面反应 · 品牌创意参考</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=bB0TdCbh8HI"><img src="https://i.ytimg.com/vi/bB0TdCbh8HI/hqdefault.jpg" width="220" alt="Wolt · 主角越淡定，周围越失控的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>主人公平静讨论配送费用，身边人的反应不断升级，环境混乱与淡定形成反差。</blockquote>
+    <p><a href="https://www.youtube.com/watch?v=bB0TdCbh8HI">观看作品 · Wolt</a> · <a href="https://dailycommercials.com/wolt-ad-2025-starring-owen-wilson-is-hilarious/">剧情与制作来源</a></p>
+    <p><sub>web-20261105-043 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
   </td>
   <td width="50%"></td>
 </tr>

@@ -1,5 +1,9 @@
 # 参考视频与灵感
 
+按[创意机制索引](INDEX.md)跨品类查找动作和观看回报，或在[首页作品预览](../README.md#全部作品预览)按商品浏览。案例统一保存于 [data/references.json](../data/references.json)，字段、检索命令和收录方法见[参考库说明](../docs/reference-library.md)。
+
+[2026-11-05 新增 100 条创意商品视频](2026-11-05-creative-commerce-100.md) 为本轮来源说明级参考，附原片入口、商品接入假设与待核实项。
+
 已收录 [REF-002 · Mentos办公室猛犸象](REF-002-mentos-mammoth.md) 的来源和抽帧观察记录；不转载原片。本库首批具体剧情仍为原创起点。
 
 [X 创意视频提示词精选 · 第 1 批](2026-11-03-x-creative-video-prompts.md) 收录 10 条带成片及作者提示词的参考，附原帖互动快照、镜头拆解和带货迁移方向。

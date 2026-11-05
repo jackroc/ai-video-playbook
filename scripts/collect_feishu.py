@@ -22,11 +22,14 @@ from urllib.parse import urlencode, urlsplit
 from urllib.request import build_opener, HTTPRedirectHandler, Request
 
 from notify_feishu import notify
+import reference_catalog
 
 ROOT = Path(__file__).resolve().parents[1]
 RUNTIME = ROOT / ".local"
 REPO_URL = "git@github.com:jackroc/ai-video-playbook.git"
 PUBLIC_URL = "https://github.com/jackroc/ai-video-playbook/blob/main/"
+CATALOG_PATHS = ("references/community", "data/references.json", "README.md", "references/INDEX.md",
+                 "references/2026-11-05-creative-commerce-100.md")
 HOSTS = {"x.com", "www.x.com", "twitter.com", "www.twitter.com", "mobile.twitter.com",
          "tiktok.com", "www.tiktok.com", "m.tiktok.com", "vm.tiktok.com", "vt.tiktok.com", "v.tiktok.com"}
 FETCH_HOSTS = HOSTS | {"publish.twitter.com", "publish.x.com"}
@@ -265,9 +268,12 @@ def prepare_repo(repo):
     if git(repo, "status", "--porcelain"):
         # A previous interrupted publish can leave only generated paths dirty.
         dirty = git(repo, "status", "--porcelain").splitlines()
-        if any(not row[3:].strip('"').startswith("references/community/") for row in dirty):
+        paths = [row[3:].strip('"') for row in dirty]
+        if any(path not in CATALOG_PATHS and not path.startswith("references/community/") for path in paths):
             raise RuntimeError("Unexpected local changes in collection checkout")
-        git(repo, "add", "--", "references/community")
+        if (repo / reference_catalog.DATA).exists():
+            reference_catalog.render(reference_catalog.load(repo), repo)
+        git(repo, "add", "--", *CATALOG_PATHS)
         git(repo, "commit", "-m", "docs: recover interrupted community collection")
     # Push an interrupted prior commit before pulling; reject divergence for manual recovery.
     if git(repo, "rev-list", "--count", "origin/main..HEAD") != "0":
@@ -277,16 +283,22 @@ def prepare_repo(repo):
 
 def publish(repo, data):
     prepare_repo(repo)
+    data = dict(data, prompt=prompt_from(data["text"]))
     key = post_key(data["url"])
     existing = list((repo / "references/community").glob("*/" + key + ".md"))
     if existing:
+        if reference_catalog.upsert_community(repo, data, key):
+            git(repo, "add", "--", *CATALOG_PATHS)
+            git(repo, "commit", "-m", "docs: index public video reference " + key)
+            git(repo, "push", "origin", "HEAD:main")
         return PUBLIC_URL + existing[0].relative_to(repo).as_posix()
     category = classify(data["text"])[0]
     path = repo / "references/community" / category / (key + ".md")
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(render(data), encoding="utf-8")
     index_files(repo)
-    git(repo, "add", "--", "references/community")
+    reference_catalog.upsert_community(repo, data, key)
+    git(repo, "add", "--", *CATALOG_PATHS)
     git(repo, "commit", "-m", "docs: collect public video reference " + key)
     git(repo, "push", "origin", "HEAD:main")
     return PUBLIC_URL + path.relative_to(repo).as_posix()
