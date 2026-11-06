@@ -14,6 +14,7 @@ from urllib.parse import urlsplit, urlunsplit
 ROOT = Path(__file__).resolve().parents[1]
 DATA = Path("data/references.json")
 REVIEW_REPORT = "references/2026-11-06-priority-20-analysis.md"
+NEW_BATCH_REPORT = "references/2026-11-06-creative-commerce-100.md"
 CATEGORIES = ["美妆与香氛", "食品与饮料", "服装与鞋履", "珠宝与配饰", "数码与小家电",
               "家居与空间", "汽车与出行", "运动与健康", "通用商品与品牌"]
 OBSERVATIONS = {"source_description", "metadata_only", "frames", "partial_video", "full_video"}
@@ -116,6 +117,13 @@ def validate(records, root=ROOT):
                 raise ValueError(f"Missing {field}: {key}")
         if not record["creative"]["mechanisms"] or not record["creative"]["summary"]:
             raise ValueError(f"Missing creative retrieval information: {key}")
+        prompt = record["prompt"]
+        if prompt["status"] == "original_excerpt":
+            if (prompt.get("stage") not in {"video", "storyboard_image", "image"}
+                    or not prompt.get("text") or not prompt.get("url")
+                    or urlsplit(prompt["url"]).scheme != "https"
+                    or prompt.get("completeness") != "short_excerpt_full_text_at_source"):
+                raise ValueError(f"Author excerpt needs stage, text and original link: {key}")
         if record["observation"]["method"] == "full_video" and not record["observation"]["scope"]:
             raise ValueError(f"Full viewing needs an observation scope: {key}")
         if record.get("review", {}).get("status") == "analyzed":
@@ -188,13 +196,17 @@ def card(record):
     if poster:
         image = f'<img src="{escape(poster, quote=True)}" width="220" alt="{escape(record["title"], quote=True)}的作品封面">'
         visual = html_link("", media["watch_url"]).replace("></a>", ">" + image + "</a>")
-    text = prompt["text"] or record["creative"]["summary"]
+    text = prompt.get("summary") or prompt["text"] or record["creative"]["summary"]
     reviewed = record.get("review", {}).get("status") == "analyzed"
-    label = prompt["label"] if prompt["text"] else ("创意与动作 · 全片辅助分析" if reviewed else "创意线索 · 来源说明整理")
+    fallback_label = "创意与动作 · 全片辅助分析" if reviewed else ("创意线索 · 抽帧与来源说明" if record["observation"]["method"] == "frames" else "创意线索 · 来源说明整理")
+    label = prompt.get("summary_label") or (prompt["label"] if prompt["text"] else fallback_label)
     links = list(record["links"])
     extra = []
     if reviewed:
         links.append({"label": "动作拆解 / 适合商品 / 替换步骤", "url": review_link(record)})
+    elif record["collection"] == "2026-11-06":
+        links.append({"label": "商品适配 / 换品思路 / 核实记录", "url": NEW_BATCH_REPORT + "#" + record["id"]})
+    if record["transfer"].get("suitable_products"):
         examples = [item for group in record["transfer"]["suitable_products"] for item in group["examples"]]
         extra = [f'    <p><strong>适合商品：</strong>{escape("、".join(examples))}</p>']
     direct = media["direct_video_url"]
@@ -203,7 +215,10 @@ def card(record):
     evidence = observation_label(record)
     footer = f'{record["id"]} · {evidence} · 深度{record["depth"]["status"].replace("not_reviewed", "待评估")}'
     if not prompt["text"]:
-        footer += " · 原作者提示词：已查来源未发现" if prompt["status"] == "not_found_in_checked_sources" else " · 公开提示词待补"
+        if prompt.get("stage") == "unknown" and record["observation"].get("frame_spotcheck"):
+            footer += " · 正文未取得完整提示词，评论待查"
+        else:
+            footer += " · 原作者提示词：已查来源未发现" if prompt["status"] == "not_found_in_checked_sources" else " · 公开提示词待补"
     return "\n".join([
         '  <td width="50%" valign="top">',
         f'    <h4>{escape(record["title"])}</h4>',
@@ -216,6 +231,61 @@ def card(record):
         f'    <p><sub>{escape(footer)}</sub></p>',
         '  </td>',
     ])
+
+
+def render_new_batch(records):
+    batch = [r for r in records if r["collection"] == "2026-11-06"]
+    stages = Counter(r["prompt"].get("stage", "unknown") for r in batch)
+    frames = sum(r["observation"]["method"] == "frames" for r in batch)
+    lines = ["# 新增 100 条创意带货视频参考 · 2026-11-06", "",
+             f"本批 {len(batch)} 条：{frames} 条 AI 创作者作品、{len(batch) - frames} 条品牌广告与历史经典。原链接和媒体标识均与既有案例去重；跨账号重传仍可能漏识别。", "",
+             f"已取得作者正文中的视频提示词 {stages['video']} 条、分镜图提示词 {stages['storyboard_image']} 条、场景生图提示词 {stages['image']} 条。保留短摘录与原帖入口，另写中文要点；未取得的评论区指令不凭空补写。", "",
+             f"**观察范围：** AI 作品各抽查开头、中间、结尾三张画面，共{frames * 3}张；没有连续观看或听验。品牌广告按剧情/制作说明整理，核对 YouTube oEmbed 和封面入口，尚未完整观看该上传版本。商品适配与换品思路均为本库判断，深度与生成效果未测试。", "",
+             "片长：AI 作品以实际文件为准；品牌广告为搜索卡片约数。历史活动年份与上传日期分开保存。X 互动仅为2026-11-06的帖子累计快照，不能当销量或实时增速。", "",
+             "[全部双列预览](../README.md#全部作品预览) · [机制索引](INDEX.md) · [上一批100条](2026-11-05-creative-commerce-100.md) · [已补20条全片分析](2026-11-06-priority-20-analysis.md)", "",
+             "## 按商品选参考", "", "| 案例 | 适合商品 | 提示词类型 | 观察依据 |", "| --- | --- | --- | --- |"]
+    for r in batch:
+        examples = "、".join(x for group in r["transfer"]["suitable_products"] for x in group["examples"])
+        stage = {"video": "视频原文入口", "storyboard_image": "分镜图原文入口", "image": "场景生图原文入口"}.get(r["prompt"].get("stage"), "未取得")
+        lines.append(f'| [{r["title"]}](#{r["id"]}) | {examples} | {stage} | {observation_label(r)} |')
+    for r in batch:
+        prompt, media, source = r["prompt"], r["media"], r["source"]
+        lines.extend(["", f'<a id="{r["id"]}"></a>', "", f'## {r["id"]} · {r["title"]}', "",
+                      f'**{r["metadata"]}**', "", f'[![作品封面]({media["poster"]})]({media["watch_url"]})', "",
+                      " · ".join(f'[{item["label"]}]({item["url"]})' for item in r["links"]), "",
+                      "**创意线索** " + r["creative"]["summary"], "",
+                      "**机制** " + " / ".join(r["creative"]["mechanisms"]), "",
+                      "**适合商品（待按实物确认）** " + "、".join(x for group in r["transfer"]["suitable_products"] for x in group["examples"]), "",
+                      "**换品思路** " + "".join(r["transfer"]["hypotheses"]), "",
+                      "**限制与待核实** " + "；".join(r["transfer"]["constraints"]), "",
+                      "### 提示词", ""])
+        if prompt["text"]:
+            lines.extend([f'**{prompt["summary_label"]}** {prompt["summary"]}', "",
+                          f'**{prompt["label"]}**', "", "> " + prompt["text"], "",
+                          f'[查看作者完整正文]({prompt["url"]})。此处是短摘录；中文写法由本库整理，不是作者完整提示词。', ""])
+        else:
+            lines.extend([prompt["scope"], ""])
+        lines.extend(["### 来源与核实", "",
+                      f'- {"原帖账号" if source["creator_role"] == "posting_account" else "当前版本上传者"}：{source["creator"]}；核对日期：{source["checked_at"]}。'])
+        lines.extend('- ' + scope for scope in r["observation"]["scope"])
+        if source.get("published_at"):
+            lines.append(f'- 原帖发布时间（UTC）：{source["published_at"]}。模型名称为作者自述，未独立验证。')
+        else:
+            lines.append('- 当前视频上传日期未知；文章日期与历史活动年份不代填上传日期。')
+        if source.get("description_published_at"):
+            lines.append(f'- 剧情来源文章日期：{source["description_published_at"]}。')
+        if source.get("campaign_year"):
+            lines.append(f'- 历史活动年份：{source["campaign_year"]}；当前链接可能为存档上传。')
+        if r["observation"].get("frame_spotcheck"):
+            times = r["observation"]["frame_spotcheck"]["sampled_times_seconds"]
+            lines.append('- 实际文件 ' + f'{media["duration_seconds"]:.3f} 秒；抽查时刻（秒）：' + ' / '.join(str(t) for t in times) + '。')
+        traffic = r["metrics"]["traffic"]
+        if traffic:
+            counts = "；".join(f'{label} {traffic[field]:,}' for field, label in [('views','浏览'),('likes','赞'),('bookmarks','收藏'),('replies','回复')] if traffic.get(field) is not None)
+            lines.append('- X帖子互动快照：' + counts + '。来源为公开帖子元数据（FxTwitter），成交未知。')
+        else:
+            lines.append('- 本轮未取得同口径的互动快照，成交未知。')
+    return "\n".join(lines) + "\n"
 
 
 def render_reviews(records):
@@ -274,7 +344,7 @@ def render(records, root=ROOT, check=False):
 
 为商品创意选片积累原片、观看依据、动作与跨品类联想。面向 TikTok 商品，也收录其他平台和品牌广告的创意参考。
 
-[全部作品预览](#全部作品预览) · [20 条动作与换品详解](references/2026-11-06-priority-20-analysis.md) · [创意机制索引](references/INDEX.md) · [新增 100 条](references/2026-11-05-creative-commerce-100.md) · [收录与检索](docs/reference-library.md)
+[全部作品预览](#全部作品预览) · [20 条动作与换品详解](references/2026-11-06-priority-20-analysis.md) · [创意机制索引](references/INDEX.md) · [最新 100 条](references/2026-11-06-creative-commerce-100.md) · [收录与检索](docs/reference-library.md)
 
 """
     for record in records:
@@ -287,7 +357,7 @@ def render(records, root=ROOT, check=False):
     references = [record for record in records if record["kind"] != "generated"]
     counts = Counter(record["collection"] for record in records)
     lines = ["## 全部作品预览", "", f"收录 {len(records)} 个案例。按商品浏览，或从[创意机制索引](references/INDEX.md)跨品类找动作与看点。", "",
-             "卡片区分来源说明、抽帧和观看记录。提示词要点为中文整理，公开原文见来源；具体商品能否替换，需要在使用时核对。", "",
+             "点击封面观看作品。卡片区分来源说明、抽帧和观看记录；提示词类型分别标注视频、分镜图与生图，中文要点为本库整理，原文见作者链接。具体商品能否替换，需要在使用时核对。", "",
              " · ".join(f"[{name}](#{name})" for name in CATEGORIES), "",
              "[结构化数据](data/references.json) · [数据字段与收录方法](docs/reference-library.md)", ""]
     for category in CATEGORIES:
@@ -315,6 +385,8 @@ def render(records, root=ROOT, check=False):
             case = f'{record["id"]} · {title}'
             if record.get("review", {}).get("status") == "analyzed":
                 case = f'[{case}]({Path(REVIEW_REPORT).name}#{record["id"]})'
+            elif record["collection"] == "2026-11-06":
+                case = f'[{case}]({Path(NEW_BATCH_REPORT).name}#{record["id"]})'
             index.append(f'| {case} | {record["category"]} | {observation_label(record)} | [来源]({record["source"]["url"]}) |')
         index.append("")
     outputs[root / "references/INDEX.md"] = "\n".join(index)
@@ -341,6 +413,7 @@ def render(records, root=ROOT, check=False):
                        " · ".join(f'[{item["label"]}]({item["url"]})' for item in record["links"]), ""])
     outputs[root / "references/2026-11-05-creative-commerce-100.md"] = "\n".join(report)
     outputs[root / REVIEW_REPORT] = render_reviews(records)
+    outputs[root / NEW_BATCH_REPORT] = render_new_batch(records)
     for path, content in outputs.items():
         if check:
             if not path.exists() or path.read_text(encoding="utf-8") != content:

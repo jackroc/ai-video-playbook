@@ -2,7 +2,7 @@
 
 为商品创意选片积累原片、观看依据、动作与跨品类联想。面向 TikTok 商品，也收录其他平台和品牌广告的创意参考。
 
-[全部作品预览](#全部作品预览) · [20 条动作与换品详解](references/2026-11-06-priority-20-analysis.md) · [创意机制索引](references/INDEX.md) · [新增 100 条](references/2026-11-05-creative-commerce-100.md) · [收录与检索](docs/reference-library.md)
+[全部作品预览](#全部作品预览) · [20 条动作与换品详解](references/2026-11-06-priority-20-analysis.md) · [创意机制索引](references/INDEX.md) · [最新 100 条](references/2026-11-06-creative-commerce-100.md) · [收录与检索](docs/reference-library.md)
 
 ## 原创成片
 
@@ -26,9 +26,9 @@ for real bottle design and white pump structure.
 
 ## 全部作品预览
 
-收录 214 个案例。按商品浏览，或从[创意机制索引](references/INDEX.md)跨品类找动作与看点。
+收录 314 个案例。按商品浏览，或从[创意机制索引](references/INDEX.md)跨品类找动作与看点。
 
-卡片区分来源说明、抽帧和观看记录。提示词要点为中文整理，公开原文见来源；具体商品能否替换，需要在使用时核对。
+点击封面观看作品。卡片区分来源说明、抽帧和观看记录；提示词类型分别标注视频、分镜图与生图，中文要点为本库整理，原文见作者链接。具体商品能否替换，需要在使用时核对。
 
 [美妆与香氛](#美妆与香氛) · [食品与饮料](#食品与饮料) · [服装与鞋履](#服装与鞋履) · [珠宝与配饰](#珠宝与配饰) · [数码与小家电](#数码与小家电) · [家居与空间](#家居与空间) · [汽车与出行](#汽车与出行) · [运动与健康](#运动与健康) · [通用商品与品牌](#通用商品与品牌)
 
@@ -286,6 +286,192 @@ for real bottle design and white pump structure.
 </tr>
 <tr>
   <td width="50%" valign="top">
+    <h4>染发喷雾 · 自拍演示转专业落版</h4>
+    <p><strong>美妆与香氛 · Seedance 2.5 · 30.1秒 · 16:9</strong></p>
+    <p><a href="https://x.com/Aqsahere_/status/2091372529709400169"><img src="https://pbs.twimg.com/amplify_video_thumb/2091372179510476800/img/1A7_m1C-g80kcoJo.jpg" width="220" alt="染发喷雾 · 自拍演示转专业落版的作品封面"></a></p>
+    <p><strong>提示词写法 · 本库整理（视频）</strong></p>
+    <blockquote>自拍使用演示和棚拍定版分开写，明确两段的时间与画面语言；发色变化需要单独验收。</blockquote>
+    <p><strong>适合商品：</strong>临时染发喷雾、彩色发蜡</p>
+    <p><a href="https://x.com/Aqsahere_/status/2091372529709400169">观看作品 / 来源</a> · <a href="https://x.com/Aqsahere_/status/2091372529709400169">作者提示词原帖</a> · <a href="references/2026-11-06-creative-commerce-100.md#web-20261106-015">商品适配 / 换品思路 / 核实记录</a> · <a href="https://video.twimg.com/amplify_video/2091372179510476800/vid/avc1/1280x720/bX6kL0s4vknCiqMa.mp4?tag=29">播放入口</a></p>
+    <p><sub>web-20261106-015 · 抽帧观察 · 深度待评估</sub></p>
+  </td>
+  <td width="50%" valign="top">
+    <h4>香水ASMR开箱 · 三段接力完成揭晓</h4>
+    <p><strong>美妆与香氛 · Seedance 2.0 + GPT Image 2 / Nano Banana · 29.9秒 · 9:16</strong></p>
+    <p><a href="https://x.com/Ciri_ai/status/2076552852194123851"><img src="https://pbs.twimg.com/amplify_video_thumb/2076552451113840640/img/2wl2R-9CNuBB9nZ5.jpg" width="220" alt="香水ASMR开箱 · 三段接力完成揭晓的作品封面"></a></p>
+    <p><strong>提示词写法 · 本库整理（分镜图）</strong></p>
+    <blockquote>这是香水分镜图提示词：按开箱进程安排触感镜头、道具和画面组织；ASMR仍需另验声音。</blockquote>
+    <p><strong>适合商品：</strong>香水礼盒、化妆包、旅行分装瓶</p>
+    <p><a href="https://x.com/Ciri_ai/status/2076552852194123851">观看作品 / 来源</a> · <a href="https://x.com/Ciri_ai/status/2076552852194123851">作者提示词原帖</a> · <a href="references/2026-11-06-creative-commerce-100.md#web-20261106-027">商品适配 / 换品思路 / 核实记录</a> · <a href="https://video.twimg.com/amplify_video/2076552451113840640/vid/avc1/720x1280/LT3LtB-sMHbAw1ht.mp4?tag=28">播放入口</a></p>
+    <p><sub>web-20261106-027 · 抽帧观察 · 深度待评估</sub></p>
+  </td>
+</tr>
+<tr>
+  <td width="50%" valign="top">
+    <h4>洗发水五段 · 湿发到产品定版</h4>
+    <p><strong>美妆与香氛 · Seedance 2.0 · 15.1秒 · 16:9</strong></p>
+    <p><a href="https://x.com/Rosey_watson/status/2090369532435083731"><img src="https://pbs.twimg.com/amplify_video_thumb/2090369443348254720/img/EJJLyhAXgySf5Cdv.jpg" width="220" alt="洗发水五段 · 湿发到产品定版的作品封面"></a></p>
+    <p><strong>提示词写法 · 本库整理（视频）</strong></p>
+    <blockquote>把湿发、使用、冲洗和定版拆开，分别约束头发、泡沫、光线与产品；结尾品牌占位字需替换。</blockquote>
+    <p><strong>适合商品：</strong>洗发水、护发素</p>
+    <p><a href="https://x.com/Rosey_watson/status/2090369532435083731">观看作品 / 来源</a> · <a href="https://x.com/Rosey_watson/status/2090369532435083731">作者提示词原帖</a> · <a href="references/2026-11-06-creative-commerce-100.md#web-20261106-033">商品适配 / 换品思路 / 核实记录</a> · <a href="https://video.twimg.com/amplify_video/2090369443348254720/vid/avc1/1280x720/KyzoVX0qkrgVFzEA.mp4?tag=29">播放入口</a></p>
+    <p><sub>web-20261106-033 · 抽帧观察 · 深度待评估</sub></p>
+  </td>
+  <td width="50%" valign="top">
+    <h4>酒红腮红盘 · 人货场三个锁分别写</h4>
+    <p><strong>美妆与香氛 · Seedance 2.0 · 15.1秒 · 16:9</strong></p>
+    <p><a href="https://x.com/sophiaparkerr_/status/2095862309285421150"><img src="https://pbs.twimg.com/amplify_video_thumb/2095861386173923328/img/HJZzuHra3HBh-u64.jpg" width="220" alt="酒红腮红盘 · 人货场三个锁分别写的作品封面"></a></p>
+    <p><strong>提示词写法 · 本库整理（视频）</strong></p>
+    <blockquote>人物、穿着与四格腮红盘分别锁定，再安排取粉、上妆、转脸与包装定版。</blockquote>
+    <p><strong>适合商品：</strong>腮红盘、眼影盘、粉盒</p>
+    <p><a href="https://x.com/sophiaparkerr_/status/2095862309285421150">观看作品 / 来源</a> · <a href="https://x.com/sophiaparkerr_/status/2095862309285421150">作者提示词原帖</a> · <a href="references/2026-11-06-creative-commerce-100.md#web-20261106-034">商品适配 / 换品思路 / 核实记录</a> · <a href="https://video.twimg.com/amplify_video/2095861386173923328/vid/avc1/1920x1080/zg_f6QkzW2fimVH1.mp4?tag=29">播放入口</a></p>
+    <p><sub>web-20261106-034 · 抽帧观察 · 深度待评估</sub></p>
+  </td>
+</tr>
+<tr>
+  <td width="50%" valign="top">
+    <h4>覆盆子唇油 · 果色与妆色互相呼应</h4>
+    <p><strong>美妆与香氛 · Seedance 2.5 · 38.2秒 · 9:16</strong></p>
+    <p><a href="https://x.com/itxabdullaa/status/2103084704979394875"><img src="https://pbs.twimg.com/amplify_video_thumb/2103084654358306816/img/-TPcD2GcpfO6A8Oa.jpg" width="220" alt="覆盆子唇油 · 果色与妆色互相呼应的作品封面"></a></p>
+    <p><strong>提示词写法 · 本库整理（视频）</strong></p>
+    <blockquote>人物图与唇油图分工引用，先定真实摄影，再写质地、颜色、持瓶与上妆展示。</blockquote>
+    <p><strong>适合商品：</strong>唇油、唇釉、口红</p>
+    <p><a href="https://x.com/itxabdullaa/status/2103084704979394875">观看作品 / 来源</a> · <a href="https://x.com/itxabdullaa/status/2103084704979394875">作者提示词原帖</a> · <a href="references/2026-11-06-creative-commerce-100.md#web-20261106-035">商品适配 / 换品思路 / 核实记录</a> · <a href="https://video.twimg.com/amplify_video/2103084654358306816/vid/avc1/720x1280/7pP1ul3N62QJ2d4s.mp4?tag=29">播放入口</a></p>
+    <p><sub>web-20261106-035 · 抽帧观察 · 深度待评估</sub></p>
+  </td>
+  <td width="50%" valign="top">
+    <h4>薰衣草面膜 · 挖取质地再回包装</h4>
+    <p><strong>美妆与香氛 · Seedance 2.5 · 10.1秒 · 135:76</strong></p>
+    <p><a href="https://x.com/AvelyrahnAI/status/2097908289619284300"><img src="https://pbs.twimg.com/amplify_video_thumb/2097908264403095552/img/vvOkdlMVs8FlnTyl.jpg" width="220" alt="薰衣草面膜 · 挖取质地再回包装的作品封面"></a></p>
+    <p><strong>提示词写法 · 本库整理（视频）</strong></p>
+    <blockquote>统一淡紫色棚景，分别写罐体、膏体、取用与上脸；效果词不替代真实商品功效资料。</blockquote>
+    <p><strong>适合商品：</strong>泥膜、面霜、化妆刮勺</p>
+    <p><a href="https://x.com/AvelyrahnAI/status/2097908289619284300">观看作品 / 来源</a> · <a href="https://x.com/AvelyrahnAI/status/2097908289619284300">作者提示词原帖</a> · <a href="references/2026-11-06-creative-commerce-100.md#web-20261106-038">商品适配 / 换品思路 / 核实记录</a> · <a href="https://video.twimg.com/amplify_video/2097908264403095552/vid/avc1/1080x608/yIC9DxwnrEGV0HVf.mp4?tag=29">播放入口</a></p>
+    <p><sub>web-20261106-038 · 抽帧观察 · 深度待评估</sub></p>
+  </td>
+</tr>
+<tr>
+  <td width="50%" valign="top">
+    <h4>MANSCAPED · 被剪掉的毛发唱离别歌</h4>
+    <p><strong>美妆与香氛 · 品牌创意 · 约31秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=jI9V70EAXiI"><img src="https://i.ytimg.com/vi/jI9V70EAXiI/hqdefault.jpg" width="220" alt="MANSCAPED · 被剪掉的毛发唱离别歌的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>毛发团被做成有情绪的小角色，为一次普通修剪唱起悲伤告别。</blockquote>
+    <p><strong>适合商品：</strong>修剪器、剃须刀、清洁刷</p>
+    <p><a href="https://www.youtube.com/watch?v=jI9V70EAXiI">观看作品 / 来源</a> · <a href="https://dailycommercials.com/manscapeds-hair-ballad-super-bowl-2026-ad-review-grotesque-humor-meets-grooming-marketing/">剧情 / 制作来源</a> · <a href="references/2026-11-06-creative-commerce-100.md#web-20261106-042">商品适配 / 换品思路 / 核实记录</a></p>
+    <p><sub>web-20261106-042 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+  <td width="50%" valign="top">
+    <h4>AXE · 邻居把普通淋浴变成荒诞事件</h4>
+    <p><strong>美妆与香氛 · 品牌创意 · 约80秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=r2vuITs4xCs"><img src="https://i.ytimg.com/vi/r2vuITs4xCs/hqdefault.jpg" width="220" alt="AXE · 邻居把普通淋浴变成荒诞事件的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>普通清洁场景被旁人的夸张介入打断，严肃表演推动无厘头升级。</blockquote>
+    <p><strong>适合商品：</strong>沐浴露、香氛、浴室配件</p>
+    <p><a href="https://www.youtube.com/watch?v=r2vuITs4xCs">观看作品 / 来源</a> · <a href="https://dailycommercials.com/axe-the-neighbour-tv-commercial/">剧情 / 制作来源</a> · <a href="references/2026-11-06-creative-commerce-100.md#web-20261106-051">商品适配 / 换品思路 / 核实记录</a></p>
+    <p><sub>web-20261106-051 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+</tr>
+<tr>
+  <td width="50%" valign="top">
+    <h4>Every Man Jack · 篝火边讲洗护恐怖故事</h4>
+    <p><strong>美妆与香氛 · 品牌创意 · 约100秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=deri-t_psnU"><img src="https://i.ytimg.com/vi/deri-t_psnU/hqdefault.jpg" width="220" alt="Every Man Jack · 篝火边讲洗护恐怖故事的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>男人围火讲日常洗护糟心经历，按恐怖故事语气渲染，产品在解围时出现。</blockquote>
+    <p><strong>适合商品：</strong>沐浴露、洗发水、旅行洗护包</p>
+    <p><a href="https://www.youtube.com/watch?v=deri-t_psnU">观看作品 / 来源</a> · <a href="https://dailycommercials.com/every-man-jacks-scary-stories-ad/">剧情 / 制作来源</a> · <a href="references/2026-11-06-creative-commerce-100.md#web-20261106-053">商品适配 / 换品思路 / 核实记录</a></p>
+    <p><sub>web-20261106-053 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+  <td width="50%" valign="top">
+    <h4>Neutrogena · 看不见的代言人配看不见的防晒</h4>
+    <p><strong>美妆与香氛 · 品牌创意 · 约31秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=dT7S75eYhcQ"><img src="https://i.ytimg.com/vi/dT7S75eYhcQ/hqdefault.jpg" width="220" alt="Neutrogena · 看不见的代言人配看不见的防晒的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>借人物“看不见”的梗与产品轻薄隐形的表达，令代言人的缺席成为注意点。</blockquote>
+    <p><strong>适合商品：</strong>防晒、透明定妆用品、隐形配饰</p>
+    <p><a href="https://www.youtube.com/watch?v=dT7S75eYhcQ">观看作品 / 来源</a> · <a href="https://dailycommercials.com/neutrogena-ad-sunscreen-you-cant-see-campaign-ft-john-cena/">剧情 / 制作来源</a> · <a href="references/2026-11-06-creative-commerce-100.md#web-20261106-054">商品适配 / 换品思路 / 核实记录</a></p>
+    <p><sub>web-20261106-054 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+</tr>
+<tr>
+  <td width="50%" valign="top">
+    <h4>AXE · 沙发长到约会对象都睡着了</h4>
+    <p><strong>美妆与香氛 · 品牌创意 · 约61秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=s-sMKrbVkQg"><img src="https://i.ytimg.com/vi/s-sMKrbVkQg/hqdefault.jpg" width="220" alt="AXE · 沙发长到约会对象都睡着了的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>人物沿异常漫长的沙发努力靠近对方，等待本身被拉成视觉笑话。</blockquote>
+    <p><strong>适合商品：</strong>香氛、靠垫、沙发毯</p>
+    <p><a href="https://www.youtube.com/watch?v=s-sMKrbVkQg">观看作品 / 来源</a> · <a href="https://dailycommercials.com/axes-new-long-lasting-fragrance-commercial/">剧情 / 制作来源</a> · <a href="references/2026-11-06-creative-commerce-100.md#web-20261106-055">商品适配 / 换品思路 / 核实记录</a></p>
+    <p><sub>web-20261106-055 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+  <td width="50%" valign="top">
+    <h4>AXE · 狗也为香味吃醋</h4>
+    <p><strong>美妆与香氛 · 品牌创意 · 约60秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=-Vk5cTxiMfA"><img src="https://i.ytimg.com/vi/-Vk5cTxiMfA/hqdefault.jpg" width="220" alt="AXE · 狗也为香味吃醋的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>人物的气味引发宠物过度在意与嫉妒，让日常亲近动作失控。</blockquote>
+    <p><strong>适合商品：</strong>香氛、宠物衣物、衣物香氛袋</p>
+    <p><a href="https://www.youtube.com/watch?v=-Vk5cTxiMfA">观看作品 / 来源</a> · <a href="https://dailycommercials.com/hilarious-axe-sweet-smelling-fragrance-that-drives-everyone-crazy/">剧情 / 制作来源</a> · <a href="references/2026-11-06-creative-commerce-100.md#web-20261106-058">商品适配 / 换品思路 / 核实记录</a></p>
+    <p><sub>web-20261106-058 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+</tr>
+<tr>
+  <td width="50%" valign="top">
+    <h4>Liquid Death × Dr. Squatch · 肥皂拍成连环恐怖片</h4>
+    <p><strong>美妆与香氛 · 品牌创意 · 约32秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=8KR0KaLvyKU"><img src="https://i.ytimg.com/vi/8KR0KaLvyKU/hqdefault.jpg" width="220" alt="Liquid Death × Dr. Squatch · 肥皂拍成连环恐怖片的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>用惊悚片的镜头、道具与严肃语气推一块名为Dirt Murderer的肥皂。</blockquote>
+    <p><strong>适合商品：</strong>香皂、清洁海绵、沐浴用品</p>
+    <p><a href="https://www.youtube.com/watch?v=8KR0KaLvyKU">观看作品 / 来源</a> · <a href="https://dailycommercials.com/liquid-death-ad-psycho-perfect-soap/">剧情 / 制作来源</a> · <a href="references/2026-11-06-creative-commerce-100.md#web-20261106-067">商品适配 / 换品思路 / 核实记录</a></p>
+    <p><sub>web-20261106-067 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+  <td width="50%" valign="top">
+    <h4>Lynx · 抢劫现场集体被香味带跑题</h4>
+    <p><strong>美妆与香氛 · 品牌创意 · 约81秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=LMuDlEqMpNc"><img src="https://i.ytimg.com/vi/LMuDlEqMpNc/hqdefault.jpg" width="220" alt="Lynx · 抢劫现场集体被香味带跑题的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>原本紧绷的抢劫场景被香味打断，人物注意力从危机转到气味。</blockquote>
+    <p><strong>适合商品：</strong>香水、织物香氛、香氛袋</p>
+    <p><a href="https://www.youtube.com/watch?v=LMuDlEqMpNc">观看作品 / 来源</a> · <a href="https://dailycommercials.com/lynx-hilarious-advert-2024-robbery/">剧情 / 制作来源</a> · <a href="references/2026-11-06-creative-commerce-100.md#web-20261106-074">商品适配 / 换品思路 / 核实记录</a></p>
+    <p><sub>web-20261106-074 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+</tr>
+<tr>
+  <td width="50%" valign="top">
+    <h4>Chanel N°5 · 赴约路线错开，期待反而成为主角</h4>
+    <p><strong>美妆与香氛 · 品牌创意 · 约60秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=UyZFbgke1Bo"><img src="https://i.ytimg.com/vi/UyZFbgke1Bo/hqdefault.jpg" width="220" alt="Chanel N°5 · 赴约路线错开，期待反而成为主角的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>两人的出发与抵达被交叉剪接，地点和时间差制造期待，香氛以情绪与包装收束。</blockquote>
+    <p><strong>适合商品：</strong>香水、约会穿搭、随身包</p>
+    <p><a href="https://www.youtube.com/watch?v=UyZFbgke1Bo">观看作品 / 来源</a> · <a href="https://dailycommercials.com/chanel-ad-2024-ft-margot-robbie-and-jacob-elordi/">剧情 / 制作来源</a> · <a href="references/2026-11-06-creative-commerce-100.md#web-20261106-082">商品适配 / 换品思路 / 核实记录</a></p>
+    <p><sub>web-20261106-082 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+  <td width="50%" valign="top">
+    <h4>KENZO · 无聊宴会逃出来，身体突然失控起舞</h4>
+    <p><strong>美妆与香氛 · 品牌创意 / 历史经典 · 约229秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=mBdbJbEnTzI"><img src="https://i.ytimg.com/vi/mBdbJbEnTzI/hqdefault.jpg" width="220" alt="KENZO · 无聊宴会逃出来，身体突然失控起舞的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>人物离开拘谨宴会，走廊与楼梯成为越跳越夸张的表演空间，最后与眼形图案回扣。</blockquote>
+    <p><strong>适合商品：</strong>香水、礼服、舞鞋</p>
+    <p><a href="https://www.youtube.com/watch?v=mBdbJbEnTzI">观看作品 / 来源</a> · <a href="https://www.thewrap.com/spike-jonze-kenzo-perfume-commericial-the-leftovers-margaret-qualley/">剧情 / 制作来源</a> · <a href="references/2026-11-06-creative-commerce-100.md#web-20261106-098">商品适配 / 换品思路 / 核实记录</a></p>
+    <p><sub>web-20261106-098 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+</tr>
+<tr>
+  <td width="50%" valign="top">
+    <h4>e.l.f. MELISA · 美妆广告变成长篇拉美肥皂剧</h4>
+    <p><strong>美妆与香氛 · 品牌创意 · 约124秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=ClX4DldtGq0"><img src="https://i.ytimg.com/vi/ClX4DldtGq0/hqdefault.jpg" width="220" alt="e.l.f. MELISA · 美妆广告变成长篇拉美肥皂剧的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>用肥皂剧式关系、对白与夸张表演放大美妆场景，让普通产品展示承担戏剧转折。</blockquote>
+    <p><strong>适合商品：</strong>彩妆、定妆喷雾、化妆包</p>
+    <p><a href="https://www.youtube.com/watch?v=ClX4DldtGq0">观看作品 / 来源</a> · <a href="https://dailycommercials.com/e-l-f-cosmetics-super-bowl-2026-review-melisa-telenovela-ad-melissa-mccarthy-cultural-play/">剧情 / 制作来源</a> · <a href="references/2026-11-06-creative-commerce-100.md#web-20261106-100">商品适配 / 换品思路 / 核实记录</a></p>
+    <p><sub>web-20261106-100 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+  <td width="50%" valign="top">
     <h4>海滩场景串联人物与美妆商品</h4>
     <p><strong>情境种草 · Seedance 2.5 · 30 秒竖屏</strong></p>
     <p><em>作品封面待补</em></p>
@@ -294,6 +480,8 @@ for real bottle design and white pump structure.
     <p><a href="https://prompset.com/prompts/video/seedance-2-5/commercial/luxury-beach-beauty-commercial-with-product">原片与视频提示词</a></p>
     <p><sub>legacy-001 · 来源说明 · 深度待评估</sub></p>
   </td>
+</tr>
+<tr>
   <td width="50%" valign="top">
     <h4>化妆台前的上妆动作</h4>
     <p><strong>使用演示 · Kling 3.0 · 5 秒 · 4:3</strong></p>
@@ -303,8 +491,6 @@ for real bottle design and white pump structure.
     <p><a href="https://prompset.com/prompts/video/kling-3-0/commercial/blonde-woman-applying-makeup-luxury-vanity">原片与视频提示词</a></p>
     <p><sub>legacy-002 · 来源说明 · 深度待评估</sub></p>
   </td>
-</tr>
-<tr>
   <td width="50%" valign="top">
     <h4>暗棚环绕睫毛膏</h4>
     <p><strong>环绕特写 · Seedance 2.5 · 20 秒横屏</strong></p>
@@ -314,6 +500,8 @@ for real bottle design and white pump structure.
     <p><a href="https://prompset.com/prompts/video/seedance-2-5/commercial/luxury-mascara-ad-with-orbiting-camera-in-dark-studio">原片与视频提示词</a></p>
     <p><sub>legacy-003 · 来源说明 · 深度待评估</sub></p>
   </td>
+</tr>
+<tr>
   <td width="50%" valign="top">
     <h4>木炭、水花与香雾中的香水</h4>
     <p><strong>材质反差 · Kling 3.0 · 10 秒 · 2:3</strong></p>
@@ -323,8 +511,6 @@ for real bottle design and white pump structure.
     <p><a href="https://prompset.com/prompts/video/kling-3-0/commercial/luxury-perfume-ad-with-charcoal-water-splash-and-mist">原片与视频提示词</a></p>
     <p><sub>legacy-004 · 来源说明 · 深度待评估</sub></p>
   </td>
-</tr>
-<tr>
   <td width="50%" valign="top">
     <h4>豪华列车上的面霜失窃疑案</h4>
     <p><strong>悬疑喜剧 · Seedance 2.5 · 30 秒横屏</strong></p>
@@ -334,6 +520,8 @@ for real bottle design and white pump structure.
     <p><a href="https://prompset.com/prompts/video/seedance-2-5/commercial/luxury-train-comedy-cream-theft-mystery">原片与视频提示词</a></p>
     <p><sub>legacy-005 · 来源说明 · 深度待评估</sub></p>
   </td>
+</tr>
+<tr>
   <td width="50%" valign="top">
     <h4>金色粉盒与模特五镜广告</h4>
     <p><strong>人物与商品交替 · Seedance 2.5 · 15 秒竖屏</strong></p>
@@ -343,6 +531,7 @@ for real bottle design and white pump structure.
     <p><a href="https://prompset.com/prompts/video/seedance-2-5/commercial/luxury-gold-compact-beauty-ad-with-model-five-shots">原片与视频提示词</a></p>
     <p><sub>legacy-007 · 来源说明 · 深度待评估</sub></p>
   </td>
+  <td width="50%"></td>
 </tr>
 </table>
 
@@ -503,7 +692,7 @@ for real bottle design and white pump structure.
     <h4>Mentos · 办公室猛犸象</h4>
     <p><strong>食品广告 · 荒诞反转 · 6 秒竖屏</strong></p>
     <p><a href="https://www.tiktok.com/@mentosph/video/7677498635528998162"><img src="assets/previews/mentos.jpg" width="220" alt="Mentos · 办公室猛犸象的作品封面"></a></p>
-    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <p><strong>创意线索 · 抽帧与来源说明</strong></p>
     <blockquote>用商品动作带出突兀的巨物揭晓，再回到人物的淡定反应。</blockquote>
     <p><a href="https://www.tiktok.com/@mentosph/video/7677498635528998162">原片</a> · <a href="references/REF-002-mentos-mammoth.md">镜头拆解</a></p>
     <p><sub>legacy-ref · 抽帧观察 · 深度待评估 · 公开提示词待补</sub></p>
@@ -1037,6 +1226,380 @@ for real bottle design and white pump structure.
 </tr>
 <tr>
   <td width="50%" valign="top">
+    <h4>可乐与薄荷糖 · 行车视角里的喷泉反转</h4>
+    <p><strong>食品与饮料 · GPT Image 2.5 + Seedance 2.5 · 30.1秒 · 3:4</strong></p>
+    <p><a href="https://x.com/techhalla/status/2100526482212712584"><img src="https://pbs.twimg.com/amplify_video_thumb/2100525146381402112/img/QddlhiPGi273sE8D.jpg" width="220" alt="可乐与薄荷糖 · 行车视角里的喷泉反转的作品封面"></a></p>
+    <p><strong>创意线索 · 抽帧与来源说明</strong></p>
+    <blockquote>日常道路与品牌车辆搭出真实感，巨杯与汽水喷流把普通饮料变成荒诞事件。</blockquote>
+    <p><strong>适合商品：</strong>汽水、薄荷糖、巨型派对杯</p>
+    <p><a href="https://x.com/techhalla/status/2100526482212712584">观看作品 / 来源</a> · <a href="references/2026-11-06-creative-commerce-100.md#web-20261106-001">商品适配 / 换品思路 / 核实记录</a> · <a href="https://video.twimg.com/amplify_video/2100525146381402112/vid/avc1/900x1200/39n4IpsklDU90_uu.mp4?tag=29">播放入口</a></p>
+    <p><sub>web-20261106-001 · 抽帧观察 · 深度待评估 · 正文未取得完整提示词，评论待查</sub></p>
+  </td>
+  <td width="50%" valign="top">
+    <h4>猪排饭工序 · 动漫提示词与写实成片的偏差</h4>
+    <p><strong>食品与饮料 · Seedance 2.5 · 30.1秒 · 16:9</strong></p>
+    <p><a href="https://x.com/Goodmanprotocol/status/2098845134326808734"><img src="https://pbs.twimg.com/amplify_video_thumb/2098845053456404480/img/-wHAQaA0qoonjjhB.jpg" width="220" alt="猪排饭工序 · 动漫提示词与写实成片的偏差的作品封面"></a></p>
+    <p><strong>提示词写法 · 本库整理（视频）</strong></p>
+    <blockquote>原帖写动漫料理、按工序推进，并排除分镜板入镜；实际抽帧偏写实，风格要求未兑现。</blockquote>
+    <p><strong>适合商品：</strong>猪排半成品、日式酱汁、炒锅</p>
+    <p><a href="https://x.com/Goodmanprotocol/status/2098845134326808734">观看作品 / 来源</a> · <a href="https://x.com/Goodmanprotocol/status/2098845134326808734">作者提示词原帖</a> · <a href="references/2026-11-06-creative-commerce-100.md#web-20261106-002">商品适配 / 换品思路 / 核实记录</a> · <a href="https://video.twimg.com/amplify_video/2098845053456404480/vid/avc1/1920x1080/ixERr56oigQB8Po5.mp4?tag=29">播放入口</a></p>
+    <p><sub>web-20261106-002 · 抽帧观察 · 深度待评估</sub></p>
+  </td>
+</tr>
+<tr>
+  <td width="50%" valign="top">
+    <h4>汽水一口 · 从厨房飞进水果山脉</h4>
+    <p><strong>食品与饮料 · Seedance 2.5 · 60.1秒 · 16:9</strong></p>
+    <p><a href="https://x.com/ShamiWeb3/status/2096388928416919829"><img src="https://pbs.twimg.com/amplify_video_thumb/2096388454389301248/img/eBogQXr3mE7NJVtR.jpg" width="220" alt="汽水一口 · 从厨房飞进水果山脉的作品封面"></a></p>
+    <p><strong>提示词写法 · 本库整理（视频）</strong></p>
+    <blockquote>区分现实手持与梦境运镜，分段写开罐、失重、水果世界和回到厨房的构图衔接。</blockquote>
+    <p><strong>适合商品：</strong>汽水、果味饮品、罐装茶</p>
+    <p><a href="https://x.com/ShamiWeb3/status/2096388928416919829">观看作品 / 来源</a> · <a href="https://x.com/ShamiWeb3/status/2096388928416919829">作者提示词原帖</a> · <a href="references/2026-11-06-creative-commerce-100.md#web-20261106-008">商品适配 / 换品思路 / 核实记录</a> · <a href="https://video.twimg.com/amplify_video/2096388454389301248/vid/avc1/2560x1440/mzt_fzEMUtACcyfC.mp4?tag=29">播放入口</a></p>
+    <p><sub>web-20261106-008 · 抽帧观察 · 深度待评估</sub></p>
+  </td>
+  <td width="50%" valign="top">
+    <h4>屋顶蛋白咖啡 · 九格分镜顺序转视频</h4>
+    <p><strong>食品与饮料 · GPT Image 2 + Seedance 2.0 · 14.9秒 · 90:121</strong></p>
+    <p><a href="https://x.com/Just_sharon7/status/2054395226920464665"><img src="https://pbs.twimg.com/amplify_video_thumb/2054394791149101056/img/-3KvHAJMbeGPF1mA.jpg" width="220" alt="屋顶蛋白咖啡 · 九格分镜顺序转视频的作品封面"></a></p>
+    <p><strong>提示词写法 · 本库整理（视频）</strong></p>
+    <blockquote>给九格分镜严格执行顺序，同时固定人物、场景与光线；逐格检查操作衔接。</blockquote>
+    <p><strong>适合商品：</strong>即饮咖啡、蛋白饮品、透明咖啡杯</p>
+    <p><a href="https://x.com/Just_sharon7/status/2054395226920464665">观看作品 / 来源</a> · <a href="https://x.com/Just_sharon7/status/2054395226920464665">作者提示词原帖</a> · <a href="references/2026-11-06-creative-commerce-100.md#web-20261106-020">商品适配 / 换品思路 / 核实记录</a> · <a href="https://video.twimg.com/amplify_video/2054394791149101056/vid/avc1/1080x1452/D2ehjdt2LeS6nWWy.mp4?tag=27">播放入口</a></p>
+    <p><sub>web-20261106-020 · 抽帧观察 · 深度待评估</sub></p>
+  </td>
+</tr>
+<tr>
+  <td width="50%" valign="top">
+    <h4>早餐麦片 · 勺子和蓝莓也加入表演</h4>
+    <p><strong>食品与饮料 · Seedance 2.0 · 15.1秒 · 9:16</strong></p>
+    <p><a href="https://x.com/ShamiWeb3/status/2051101131502460948"><img src="https://pbs.twimg.com/ext_tw_video_thumb/2051101092034097152/pu/img/rQlv4xIrFfJOIBuW.jpg" width="220" alt="早餐麦片 · 勺子和蓝莓也加入表演的作品封面"></a></p>
+    <p><strong>提示词写法 · 本库整理（视频）</strong></p>
+    <blockquote>按早餐阶段分配包装、牛奶、勺子与水果动作，用小幅幻想打破普通吃早餐。</blockquote>
+    <p><strong>适合商品：</strong>麦片、早餐谷物、早餐碗</p>
+    <p><a href="https://x.com/ShamiWeb3/status/2051101131502460948">观看作品 / 来源</a> · <a href="https://x.com/ShamiWeb3/status/2051101131502460948">作者提示词原帖</a> · <a href="references/2026-11-06-creative-commerce-100.md#web-20261106-021">商品适配 / 换品思路 / 核实记录</a> · <a href="https://video.twimg.com/ext_tw_video/2051101092034097152/pu/vid/avc1/720x1280/an-dbwK624eL5gNe.mp4?tag=25">播放入口</a></p>
+    <p><sub>web-20261106-021 · 抽帧观察 · 深度待评估</sub></p>
+  </td>
+  <td width="50%" valign="top">
+    <h4>播客场景植入 · 谈话中途拿起饮料</h4>
+    <p><strong>食品与饮料 · Seedance 2.0 · 19.1秒 · 16:9</strong></p>
+    <p><a href="https://x.com/AmControo/status/2082140512769699859"><img src="https://pbs.twimg.com/amplify_video_thumb/2082140385376088064/img/Up7eUoFBu-zJvq9g.jpg" width="220" alt="播客场景植入 · 谈话中途拿起饮料的作品封面"></a></p>
+    <p><strong>创意线索 · 抽帧与来源说明</strong></p>
+    <blockquote>原帖展示播客式AI主持人与饮品推广，利用谈话环境提供商品进入画面的理由。</blockquote>
+    <p><strong>适合商品：</strong>罐装饮料、咖啡杯、桌面麦克风</p>
+    <p><a href="https://x.com/AmControo/status/2082140512769699859">观看作品 / 来源</a> · <a href="references/2026-11-06-creative-commerce-100.md#web-20261106-022">商品适配 / 换品思路 / 核实记录</a> · <a href="https://video.twimg.com/amplify_video/2082140385376088064/vid/avc1/1280x720/dQvF6_sK7Hou9tCt.mp4?tag=29">播放入口</a></p>
+    <p><sub>web-20261106-022 · 抽帧观察 · 深度待评估 · 正文未取得完整提示词，评论待查</sub></p>
+  </td>
+</tr>
+<tr>
+  <td width="50%" valign="top">
+    <h4>直播饼干酱 · 开罐拉丝引来弹幕</h4>
+    <p><strong>食品与饮料 · GPT Image 2 + Seedance 2.0 · 15.1秒 · 16:9</strong></p>
+    <p><a href="https://x.com/AIwithJessica/status/2062469235046301876"><img src="https://pbs.twimg.com/amplify_video_thumb/2062236756611915776/img/nwB6Vj9sg_MHjjpf.jpg" width="220" alt="直播饼干酱 · 开罐拉丝引来弹幕的作品封面"></a></p>
+    <p><strong>提示词写法 · 本库整理（视频）</strong></p>
+    <blockquote>先定义模拟直播与厨房场景，再安排开盖、舀起、涂抹和评论反应；弹幕也是生成内容。</blockquote>
+    <p><strong>适合商品：</strong>饼干酱、花生酱、果酱</p>
+    <p><a href="https://x.com/AIwithJessica/status/2062469235046301876">观看作品 / 来源</a> · <a href="https://x.com/AIwithJessica/status/2062469235046301876">作者提示词原帖</a> · <a href="references/2026-11-06-creative-commerce-100.md#web-20261106-023">商品适配 / 换品思路 / 核实记录</a> · <a href="https://video.twimg.com/amplify_video/2062236756611915776/vid/avc1/1280x720/To2-4UIAZFy6FatP.mp4?tag=27">播放入口</a></p>
+    <p><sub>web-20261106-023 · 抽帧观察 · 深度待评估</sub></p>
+  </td>
+  <td width="50%" valign="top">
+    <h4>巧克力冲饮 · 十二格第一人称工序</h4>
+    <p><strong>食品与饮料 · GPT Image 2 + Gemini Omni Flash · 10.0秒 · 16:9</strong></p>
+    <p><a href="https://x.com/Strength04_X/status/2078315376660939132"><img src="https://pbs.twimg.com/amplify_video_thumb/2078315265662898178/img/SI2S7pQ30KbMvkGO.jpg" width="220" alt="巧克力冲饮 · 十二格第一人称工序的作品封面"></a></p>
+    <p><strong>提示词写法 · 本库整理（分镜图）</strong></p>
+    <blockquote>这是十二格商业分镜图提示词：设置单页排版、镜头顺序与冲饮工序；成片需另做视频编排。</blockquote>
+    <p><strong>适合商品：</strong>巧克力冲饮、咖啡粉、杯子</p>
+    <p><a href="https://x.com/Strength04_X/status/2078315376660939132">观看作品 / 来源</a> · <a href="https://x.com/Strength04_X/status/2078315376660939132">作者提示词原帖</a> · <a href="references/2026-11-06-creative-commerce-100.md#web-20261106-026">商品适配 / 换品思路 / 核实记录</a> · <a href="https://video.twimg.com/amplify_video/2078315265662898178/vid/avc1/1280x720/SsNRVzcD6P77DRAl.mp4?tag=29">播放入口</a></p>
+    <p><sub>web-20261106-026 · 抽帧观察 · 深度待评估</sub></p>
+  </td>
+</tr>
+<tr>
+  <td width="50%" valign="top">
+    <h4>披萨夜自拍 · 开盒、拉丝、试吃与碰杯</h4>
+    <p><strong>食品与饮料 · MiniMax H3 · 15.2秒 · 16:9</strong></p>
+    <p><a href="https://x.com/ShamiWeb3/status/2082799917140197798"><img src="https://pbs.twimg.com/amplify_video_thumb/2082799495843295232/img/r2dr2vS7Z7fKbmY1.jpg" width="220" alt="披萨夜自拍 · 开盒、拉丝、试吃与碰杯的作品封面"></a></p>
+    <p><strong>提示词写法 · 本库整理（视频）</strong></p>
+    <blockquote>用手机自拍限定影像质感，披萨的开盒、拉丝、试吃与朋友反应共同组成十五秒过程。</blockquote>
+    <p><strong>适合商品：</strong>冷冻披萨、即食披萨、餐盘</p>
+    <p><a href="https://x.com/ShamiWeb3/status/2082799917140197798">观看作品 / 来源</a> · <a href="https://x.com/ShamiWeb3/status/2082799917140197798">作者提示词原帖</a> · <a href="references/2026-11-06-creative-commerce-100.md#web-20261106-028">商品适配 / 换品思路 / 核实记录</a> · <a href="https://video.twimg.com/amplify_video/2082799495843295232/vid/avc1/2560x1440/ewWSpz_ZiSeXGKVA.mp4?tag=29">播放入口</a></p>
+    <p><sub>web-20261106-028 · 抽帧观察 · 深度待评估</sub></p>
+  </td>
+  <td width="50%" valign="top">
+    <h4>复古汽水开瓶 · 沙漠长出未来城市</h4>
+    <p><strong>食品与饮料 · Seedance 2 Fast · 15.1秒 · 1253:720</strong></p>
+    <p><a href="https://x.com/DjajaYerry75/status/2080666062690140315"><img src="https://pbs.twimg.com/amplify_video_thumb/2080665910692749312/img/GnAP8ldA9JmwGodB.jpg" width="220" alt="复古汽水开瓶 · 沙漠长出未来城市的作品封面"></a></p>
+    <p><strong>提示词写法 · 本库整理（视频）</strong></p>
+    <blockquote>开瓶释放的红色能量作为转场桥梁，连接沙漠瓶身与复古未来城市。</blockquote>
+    <p><strong>适合商品：</strong>玻璃瓶汽水、果味饮料</p>
+    <p><a href="https://x.com/DjajaYerry75/status/2080666062690140315">观看作品 / 来源</a> · <a href="https://x.com/DjajaYerry75/status/2080666062690140315">作者提示词原帖</a> · <a href="references/2026-11-06-creative-commerce-100.md#web-20261106-036">商品适配 / 换品思路 / 核实记录</a> · <a href="https://video.twimg.com/amplify_video/2080665910692749312/vid/avc1/2506x1440/Z1OPgDyrHRx2VvpI.mp4?tag=29">播放入口</a></p>
+    <p><sub>web-20261106-036 · 抽帧观察 · 深度待评估</sub></p>
+  </td>
+</tr>
+<tr>
+  <td width="50%" valign="top">
+    <h4>复古卡座饮料 · 一口之间四次甩镜</h4>
+    <p><strong>食品与饮料 · Seedance 2.5 · 15.1秒 · 16:9</strong></p>
+    <p><a href="https://x.com/soulful__ai/status/2103844376120340877"><img src="https://pbs.twimg.com/amplify_video_thumb/2103843487385063424/img/ebOrp8P4F9sIW2Tx.jpg" width="220" alt="复古卡座饮料 · 一口之间四次甩镜的作品封面"></a></p>
+    <p><strong>提示词写法 · 本库整理（视频）</strong></p>
+    <blockquote>把人物、服装、卡座、品牌与饮料共同固定，靠抓杯、推近、喝一口与快速甩镜组织节奏。</blockquote>
+    <p><strong>适合商品：</strong>奶昔、罐装饮品、咖啡杯</p>
+    <p><a href="https://x.com/soulful__ai/status/2103844376120340877">观看作品 / 来源</a> · <a href="https://x.com/soulful__ai/status/2103844376120340877">作者提示词原帖</a> · <a href="references/2026-11-06-creative-commerce-100.md#web-20261106-039">商品适配 / 换品思路 / 核实记录</a> · <a href="https://video.twimg.com/amplify_video/2103843487385063424/vid/avc1/1280x720/z2E4QjxdGa-tfojw.mp4?tag=29">播放入口</a></p>
+    <p><sub>web-20261106-039 · 抽帧观察 · 深度待评估</sub></p>
+  </td>
+  <td width="50%" valign="top">
+    <h4>能量饮料前后 · 慢早晨切换高速模式</h4>
+    <p><strong>食品与饮料 · Seedance 2.5 · 30.1秒 · 16:9</strong></p>
+    <p><a href="https://x.com/doctorwasif/status/2099717908482207928"><img src="https://pbs.twimg.com/amplify_video_thumb/2099717844388999168/img/oBlViGfEJr_jNbm9.jpg" width="220" alt="能量饮料前后 · 慢早晨切换高速模式的作品封面"></a></p>
+    <p><strong>提示词写法 · 本库整理（视频）</strong></p>
+    <blockquote>饮用前后分配不同色温、动作速度与运镜，让情绪转折对应明确的产品动作节点。</blockquote>
+    <p><strong>适合商品：</strong>罐装饮料、咖啡、早餐杯</p>
+    <p><a href="https://x.com/doctorwasif/status/2099717908482207928">观看作品 / 来源</a> · <a href="https://x.com/doctorwasif/status/2099717908482207928">作者提示词原帖</a> · <a href="references/2026-11-06-creative-commerce-100.md#web-20261106-040">商品适配 / 换品思路 / 核实记录</a> · <a href="https://video.twimg.com/amplify_video/2099717844388999168/vid/avc1/1280x720/T0NLo3hFY5yhV230.mp4?tag=29">播放入口</a></p>
+    <p><sub>web-20261106-040 · 抽帧观察 · 深度待评估</sub></p>
+  </td>
+</tr>
+<tr>
+  <td width="50%" valign="top">
+    <h4>Liquid I.V. · 马桶合唱团提醒你补水</h4>
+    <p><strong>食品与饮料 · 品牌创意 · 约31秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=ZjDfVdrtl48"><img src="https://i.ytimg.com/vi/ZjDfVdrtl48/hqdefault.jpg" width="220" alt="Liquid I.V. · 马桶合唱团提醒你补水的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>浴室洁具唱起深情歌曲，把通常不入镜的生活物件变成广告主角。</blockquote>
+    <p><strong>适合商品：</strong>冲饮粉、水杯、浴室清洁用品</p>
+    <p><a href="https://www.youtube.com/watch?v=ZjDfVdrtl48">观看作品 / 来源</a> · <a href="https://dailycommercials.com/liquid-i-v-super-bowl-2026-ad-review-singing-toilets-bathroom-humor-hydration-gone-wild/">剧情 / 制作来源</a> · <a href="references/2026-11-06-creative-commerce-100.md#web-20261106-041">商品适配 / 换品思路 / 核实记录</a></p>
+    <p><sub>web-20261106-041 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+  <td width="50%" valign="top">
+    <h4>Pringles · 用薯片拼出理想恋人</h4>
+    <p><strong>食品与饮料 · 品牌创意 · 约31秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=SBRUJs2PoGc"><img src="https://i.ytimg.com/vi/SBRUJs2PoGc/hqdefault.jpg" width="220" alt="Pringles · 用薯片拼出理想恋人的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>一罐薯片被拼成恋爱对象，约会越认真，脆弱薯片身体带来的荒诞越突出。</blockquote>
+    <p><strong>适合商品：</strong>薯片、曲奇、积木摆件</p>
+    <p><a href="https://www.youtube.com/watch?v=SBRUJs2PoGc">观看作品 / 来源</a> · <a href="https://dailycommercials.com/pringles-super-bowl-2026-ft-sabrina-carpenter/">剧情 / 制作来源</a> · <a href="references/2026-11-06-creative-commerce-100.md#web-20261106-044">商品适配 / 换品思路 / 核实记录</a></p>
+    <p><sub>web-20261106-044 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+</tr>
+<tr>
+  <td width="50%" valign="top">
+    <h4>NERDS · 糖果走红毯完成华丽变身</h4>
+    <p><strong>食品与饮料 · 品牌创意 · 约31秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=XOIHAAuMwPI"><img src="https://i.ytimg.com/vi/XOIHAAuMwPI/hqdefault.jpg" width="220" alt="NERDS · 糖果走红毯完成华丽变身的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>拟人糖果接受造型指导，再像明星一样登上红毯，以体积和表面变化揭晓新品。</blockquote>
+    <p><strong>适合商品：</strong>糖果、小玩具、盲盒</p>
+    <p><a href="https://www.youtube.com/watch?v=XOIHAAuMwPI">观看作品 / 来源</a> · <a href="https://dailycommercials.com/nerds-super-bowl-2026-advert/">剧情 / 制作来源</a> · <a href="references/2026-11-06-creative-commerce-100.md#web-20261106-045">商品适配 / 换品思路 / 核实记录</a></p>
+    <p><sub>web-20261106-045 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+  <td width="50%" valign="top">
+    <h4>Pepsi · 北极熊盲喝后怀疑人生</h4>
+    <p><strong>食品与饮料 · 品牌创意 · 约31秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=7vKCq52wWUY"><img src="https://i.ytimg.com/vi/7vKCq52wWUY/hqdefault.jpg" width="220" alt="Pepsi · 北极熊盲喝后怀疑人生的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>熟悉的动物形象在盲测揭晓后改变偏好，引出一连串身份困惑和社交笑点。</blockquote>
+    <p><strong>适合商品：</strong>饮料、咖啡、零食</p>
+    <p><a href="https://www.youtube.com/watch?v=7vKCq52wWUY">观看作品 / 来源</a> · <a href="https://dailycommercials.com/pepsi-the-choice-super-bowl-2026-when-a-polar-bear-breaks-free-from-cola-loyalty/">剧情 / 制作来源</a> · <a href="references/2026-11-06-creative-commerce-100.md#web-20261106-046">商品适配 / 换品思路 / 核实记录</a></p>
+    <p><sub>web-20261106-046 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+</tr>
+<tr>
+  <td width="50%" valign="top">
+    <h4>Pringles · 薯片鸭嘴招来鸭王加冕</h4>
+    <p><strong>食品与饮料 · 品牌创意 · 约31秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=PGvFIqghsTg"><img src="https://i.ytimg.com/vi/PGvFIqghsTg/hqdefault.jpg" width="220" alt="Pringles · 薯片鸭嘴招来鸭王加冕的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>用两片薯片摆鸭嘴的小游戏，被真鸭群误认成首领，普通公园约会升级成仪式。</blockquote>
+    <p><strong>适合商品：</strong>弧形薯片、趣味餐具、派对眼镜</p>
+    <p><a href="https://www.youtube.com/watch?v=PGvFIqghsTg">观看作品 / 来源</a> · <a href="https://dailycommercials.com/pringles-duck-lips-advert-2025-by-fcb-new-york/">剧情 / 制作来源</a> · <a href="references/2026-11-06-creative-commerce-100.md#web-20261106-047">商品适配 / 换品思路 / 核实记录</a></p>
+    <p><sub>web-20261106-047 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+  <td width="50%" valign="top">
+    <h4>Nature Valley · 森林木偶熊盯上能量棒</h4>
+    <p><strong>食品与饮料 · 品牌创意 · 约31秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=dr2oG9pBiJc"><img src="https://i.ytimg.com/vi/dr2oG9pBiJc/hqdefault.jpg" width="220" alt="Nature Valley · 森林木偶熊盯上能量棒的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>手工质感的林地动物为零食动心，让角色反应与食材近景交替。</blockquote>
+    <p><strong>适合商品：</strong>谷物棒、坚果零食、花生酱</p>
+    <p><a href="https://www.youtube.com/watch?v=dr2oG9pBiJc">观看作品 / 来源</a> · <a href="https://dailycommercials.com/nature-valley-we-make-nature-delicious-2025-campaign-by-the-martin-agency/">剧情 / 制作来源</a> · <a href="references/2026-11-06-creative-commerce-100.md#web-20261106-049">商品适配 / 换品思路 / 核实记录</a></p>
+    <p><sub>web-20261106-049 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+</tr>
+<tr>
+  <td width="50%" valign="top">
+    <h4>Starry · 访谈节目突然放出汽水吉祥物</h4>
+    <p><strong>食品与饮料 · 品牌创意 · 约68秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=kxm0TIDqbjI"><img src="https://i.ytimg.com/vi/kxm0TIDqbjI/hqdefault.jpg" width="220" alt="Starry · 访谈节目突然放出汽水吉祥物的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>节目里认真讨论对汽水的恐惧，随后柑橘角色带着饮料闯入，打破访谈秩序。</blockquote>
+    <p><strong>适合商品：</strong>柑橘饮品、派对零食、趣味杯</p>
+    <p><a href="https://www.youtube.com/watch?v=kxm0TIDqbjI">观看作品 / 来源</a> · <a href="https://dailycommercials.com/starrys-bring-out-the-starry-takes-fear-of-soda-to-hilarious-heights/">剧情 / 制作来源</a> · <a href="references/2026-11-06-creative-commerce-100.md#web-20261106-056">商品适配 / 换品思路 / 核实记录</a></p>
+    <p><sub>web-20261106-056 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+  <td width="50%" valign="top">
+    <h4>SkinnyPop · 明星被手里爆米花抢了风头</h4>
+    <p><strong>食品与饮料 · 品牌创意 · 约31秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=eM0HmZ24RGA"><img src="https://i.ytimg.com/vi/eM0HmZ24RGA/hqdefault.jpg" width="220" alt="SkinnyPop · 明星被手里爆米花抢了风头的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>酒店员工看似在追捧明星，真正关心的却是她手中的零食。</blockquote>
+    <p><strong>适合商品：</strong>爆米花、饼干、便携小零食</p>
+    <p><a href="https://www.youtube.com/watch?v=eM0HmZ24RGA">观看作品 / 来源</a> · <a href="https://dailycommercials.com/jennifer-aniston-gets-upstaged-by-popcorn-in-skinnypops-witty-new-ad/">剧情 / 制作来源</a> · <a href="references/2026-11-06-creative-commerce-100.md#web-20261106-057">商品适配 / 换品思路 / 核实记录</a></p>
+    <p><sub>web-20261106-057 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+</tr>
+<tr>
+  <td width="50%" valign="top">
+    <h4>Mountain Dew · 喝一口来到海豹歌手的世界</h4>
+    <p><strong>食品与饮料 · 品牌创意 · 约80秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=SUGqOQPfn5k"><img src="https://i.ytimg.com/vi/SUGqOQPfn5k/hqdefault.jpg" width="220" alt="Mountain Dew · 喝一口来到海豹歌手的世界的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>饮料带出热带幻想，歌手名字与动物海豹合体，让熟悉歌曲获得荒诞视觉版本。</blockquote>
+    <p><strong>适合商品：</strong>果味汽水、冰饮杯、派对用品</p>
+    <p><a href="https://www.youtube.com/watch?v=SUGqOQPfn5k">观看作品 / 来源</a> · <a href="https://dailycommercials.com/mountain-dew-super-bowl-ad-2025-ft-seal/">剧情 / 制作来源</a> · <a href="references/2026-11-06-creative-commerce-100.md#web-20261106-060">商品适配 / 换品思路 / 核实记录</a></p>
+    <p><sub>web-20261106-060 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+  <td width="50%" valign="top">
+    <h4>RITZ · 脾气咸的人聚在咸味俱乐部</h4>
+    <p><strong>食品与饮料 · 品牌创意 · 约61秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=xNjINFAdmhI"><img src="https://i.ytimg.com/vi/xNjINFAdmhI/hqdefault.jpg" width="220" alt="RITZ · 脾气咸的人聚在咸味俱乐部的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>把咸味与难相处性格连在一起，严肃私人会所被零食和意外来客搅动。</blockquote>
+    <p><strong>适合商品：</strong>咸味饼干、坚果、派对零食</p>
+    <p><a href="https://www.youtube.com/watch?v=xNjINFAdmhI">观看作品 / 来源</a> · <a href="https://dailycommercials.com/ritz-salty-club-super-bowl-commercial-2025-ft-michael-shannon-and-aubrey-plaza/">剧情 / 制作来源</a> · <a href="references/2026-11-06-creative-commerce-100.md#web-20261106-061">商品适配 / 换品思路 / 核实记录</a></p>
+    <p><sub>web-20261106-061 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+</tr>
+<tr>
+  <td width="50%" valign="top">
+    <h4>Oikos · 小个子反过来推着运动员赶飞机</h4>
+    <p><strong>食品与饮料 · 品牌创意 · 约31秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=a1nZVblGBhs"><img src="https://i.ytimg.com/vi/a1nZVblGBhs/hqdefault.jpg" width="220" alt="Oikos · 小个子反过来推着运动员赶飞机的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>机场改登机口后，外表柔弱的人承担意外的大力动作，反转对体型的预期。</blockquote>
+    <p><strong>适合商品：</strong>酸奶、蛋白饮品、旅行包</p>
+    <p><a href="https://www.youtube.com/watch?v=a1nZVblGBhs">观看作品 / 来源</a> · <a href="https://dailycommercials.com/oikos-super-bowl-advert-2025-ft-juno-temple-and-myles-garrett/">剧情 / 制作来源</a> · <a href="references/2026-11-06-creative-commerce-100.md#web-20261106-062">商品适配 / 换品思路 / 核实记录</a></p>
+    <p><sub>web-20261106-062 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+  <td width="50%" valign="top">
+    <h4>Coors Light · 周一办公室全员变树懒</h4>
+    <p><strong>食品与饮料 · 品牌创意 · 约61秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=ZZPKkHQiYGg"><img src="https://i.ytimg.com/vi/ZZPKkHQiYGg/hqdefault.jpg" width="220" alt="Coors Light · 周一办公室全员变树懒的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>工作与购物被树懒的超慢动作接管，把星期一的疲惫状态变得可见。</blockquote>
+    <p><strong>适合商品：</strong>咖啡、休闲饮料、办公靠垫</p>
+    <p><a href="https://www.youtube.com/watch?v=ZZPKkHQiYGg">观看作品 / 来源</a> · <a href="https://dailycommercials.com/coors-light-super-bowl-2025-sloths-in-the-office/">剧情 / 制作来源</a> · <a href="references/2026-11-06-creative-commerce-100.md#web-20261106-063">商品适配 / 换品思路 / 核实记录</a></p>
+    <p><sub>web-20261106-063 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+</tr>
+<tr>
+  <td width="50%" valign="top">
+    <h4>Pringles · 胡子飞离主人去买薯片</h4>
+    <p><strong>食品与饮料 · 品牌创意 · 约31秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=vJukG10E1no"><img src="https://i.ytimg.com/vi/vJukG10E1no/hqdefault.jpg" width="220" alt="Pringles · 胡子飞离主人去买薯片的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>聚会缺零食后，多人的胡子像救援队一样离开脸部，去补货。</blockquote>
+    <p><strong>适合商品：</strong>袋装零食、剃须用品、派对餐具</p>
+    <p><a href="https://www.youtube.com/watch?v=vJukG10E1no">观看作品 / 来源</a> · <a href="https://dailycommercials.com/pringles-super-bowl-2025-call-of-the-mustaches/">剧情 / 制作来源</a> · <a href="references/2026-11-06-creative-commerce-100.md#web-20261106-064">商品适配 / 换品思路 / 核实记录</a></p>
+    <p><sub>web-20261106-064 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+  <td width="50%" valign="top">
+    <h4>Häagen-Dazs · 速度电影主角开始慢慢吃冰淇淋</h4>
+    <p><strong>食品与饮料 · 品牌创意 · 约31秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=jPFmZMCMWUc"><img src="https://i.ytimg.com/vi/jPFmZMCMWUc/hqdefault.jpg" width="220" alt="Häagen-Dazs · 速度电影主角开始慢慢吃冰淇淋的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>预期会极速驾驶的人物因为吃冰淇淋选择悠闲行进，另一角色追上来才发现原因。</blockquote>
+    <p><strong>适合商品：</strong>冰淇淋、甜点、旅行杯</p>
+    <p><a href="https://www.youtube.com/watch?v=jPFmZMCMWUc">观看作品 / 来源</a> · <a href="https://dailycommercials.com/haagen-dazs-super-bowl-2025-commercial/">剧情 / 制作来源</a> · <a href="references/2026-11-06-creative-commerce-100.md#web-20261106-065">商品适配 / 换品思路 / 核实记录</a></p>
+    <p><sub>web-20261106-065 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+</tr>
+<tr>
+  <td width="50%" valign="top">
+    <h4>Doritos · 外星吸力也抢不过一包零食</h4>
+    <p><strong>食品与饮料 · 品牌创意 · 约31秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=sIAnQwiCpRc"><img src="https://i.ytimg.com/vi/sIAnQwiCpRc/hqdefault.jpg" width="220" alt="Doritos · 外星吸力也抢不过一包零食的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>外星绑架被改成抢零食的拔河，人类与飞船争夺同一个小目标。</blockquote>
+    <p><strong>适合商品：</strong>薯片、饼干、糖果</p>
+    <p><a href="https://www.youtube.com/watch?v=sIAnQwiCpRc">观看作品 / 来源</a> · <a href="https://dailycommercials.com/doritos-crash-the-super-bowl-2025-abduction/">剧情 / 制作来源</a> · <a href="references/2026-11-06-creative-commerce-100.md#web-20261106-066">商品适配 / 换品思路 / 核实记录</a></p>
+    <p><sub>web-20261106-066 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+  <td width="50%" valign="top">
+    <h4>Warburtons · 黑帮电影语气认真讲一条面包</h4>
+    <p><strong>食品与饮料 · 品牌创意 · 约131秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=RwBUnabkHxA"><img src="https://i.ytimg.com/vi/RwBUnabkHxA/hqdefault.jpg" width="220" alt="Warburtons · 黑帮电影语气认真讲一条面包的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>演员接管面包厂老板身份，用犯罪片式叙事介绍平凡的生产与早餐食物。</blockquote>
+    <p><strong>适合商品：</strong>吐司、烘焙原料、早餐酱</p>
+    <p><a href="https://www.youtube.com/watch?v=RwBUnabkHxA">观看作品 / 来源</a> · <a href="https://dailycommercials.com/warburtons-commercial-samuel-l-jackson-stars-in-mad-about-the-bread/">剧情 / 制作来源</a> · <a href="references/2026-11-06-creative-commerce-100.md#web-20261106-075">商品适配 / 换品思路 / 核实记录</a></p>
+    <p><sub>web-20261106-075 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+</tr>
+<tr>
+  <td width="50%" valign="top">
+    <h4>Starbucks · 跑一趟咖啡穿过雪山训练场</h4>
+    <p><strong>食品与饮料 · 品牌创意 · 约91秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=E2hakODWz_0"><img src="https://i.ytimg.com/vi/E2hakODWz_0/hqdefault.jpg" width="220" alt="Starbucks · 跑一趟咖啡穿过雪山训练场的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>普通送咖啡任务被延伸到雪地、山村和训练场，杯子贯穿一段温暖的旅程。</blockquote>
+    <p><strong>适合商品：</strong>保温杯、即饮咖啡、携带托盘</p>
+    <p><a href="https://www.youtube.com/watch?v=E2hakODWz_0">观看作品 / 来源</a> · <a href="https://dailycommercials.com/starbucks-the-coffee-run-2026-ad-review-olympic-cinematic-coffee-and-ritual-amid-big-game-window/">剧情 / 制作来源</a> · <a href="references/2026-11-06-creative-commerce-100.md#web-20261106-077">商品适配 / 换品思路 / 核实记录</a></p>
+    <p><sub>web-20261106-077 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+  <td width="50%" valign="top">
+    <h4>KFC × Cheetos · 两个吉祥物先对决再合作</h4>
+    <p><strong>食品与饮料 · 品牌创意 · 约81秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=IdsJPgKWQ0o"><img src="https://i.ytimg.com/vi/IdsJPgKWQ0o/hqdefault.jpg" width="220" alt="KFC × Cheetos · 两个吉祥物先对决再合作的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>两种品牌代表角色把口味融合演成竞争与合作，让联名食物获得动作剧情。</blockquote>
+    <p><strong>适合商品：</strong>混合零食、蘸酱套装、双款礼盒</p>
+    <p><a href="https://www.youtube.com/watch?v=IdsJPgKWQ0o">观看作品 / 来源</a> · <a href="https://dailycommercials.com/kfc-x-cheetos-new-crunchin-cheese-from-kfc/">剧情 / 制作来源</a> · <a href="references/2026-11-06-creative-commerce-100.md#web-20261106-083">商品适配 / 换品思路 / 核实记录</a></p>
+    <p><sub>web-20261106-083 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+</tr>
+<tr>
+  <td width="50%" valign="top">
+    <h4>Reese’s · 太想吃巧克力，连熔岩都认错</h4>
+    <p><strong>食品与饮料 · 品牌创意 · 约31秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=KCMjc-xGv_c"><img src="https://i.ytimg.com/vi/KCMjc-xGv_c/hqdefault.jpg" width="220" alt="Reese’s · 太想吃巧克力，连熔岩都认错的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>人们把火山熔岩当成夹心巧克力，护林员像做紧急公告一样劝阻。</blockquote>
+    <p><strong>适合商品：</strong>夹心巧克力、熔岩蛋糕、甜点</p>
+    <p><a href="https://www.youtube.com/watch?v=KCMjc-xGv_c">观看作品 / 来源</a> · <a href="https://dailycommercials.com/super-bowl-reese-2025-commercial/">剧情 / 制作来源</a> · <a href="references/2026-11-06-creative-commerce-100.md#web-20261106-085">商品适配 / 换品思路 / 核实记录</a></p>
+    <p><sub>web-20261106-085 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+  <td width="50%" valign="top">
+    <h4>Evian · 镜子里的人全变成婴儿</h4>
+    <p><strong>食品与饮料 · 品牌创意 / 历史经典 · 约77秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=ikuiByrF6rs"><img src="https://i.ytimg.com/vi/ikuiByrF6rs/hqdefault.jpg" width="220" alt="Evian · 镜子里的人全变成婴儿的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>街边倒影把成年人映成婴儿，越来越多人加入舞动，镜内外动作互相呼应。</blockquote>
+    <p><strong>适合商品：</strong>饮用水、日常鞋服、镜面装饰</p>
+    <p><a href="https://www.youtube.com/watch?v=ikuiByrF6rs">观看作品 / 来源</a> · <a href="references/2026-11-06-creative-commerce-100.md#web-20261106-086">商品适配 / 换品思路 / 核实记录</a></p>
+    <p><sub>web-20261106-086 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+</tr>
+<tr>
+  <td width="50%" valign="top">
+    <h4>Cravendale · 假如猫长出了拇指</h4>
+    <p><strong>食品与饮料 · 品牌创意 / 历史经典 · 约42秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=IdA_fLC7WIQ"><img src="https://i.ytimg.com/vi/IdA_fLC7WIQ/hqdefault.jpg" width="220" alt="Cravendale · 假如猫长出了拇指的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>猫一旦能握东西，就开始练习、组织并设法自己取得牛奶，日常宠物关系反转。</blockquote>
+    <p><strong>适合商品：</strong>宠物玩具、宠物收纳、人用饮品</p>
+    <p><a href="https://www.youtube.com/watch?v=IdA_fLC7WIQ">观看作品 / 来源</a> · <a href="https://www.wk.com/work/cravendale-cats/">剧情 / 制作来源</a> · <a href="references/2026-11-06-creative-commerce-100.md#web-20261106-094">商品适配 / 换品思路 / 核实记录</a></p>
+    <p><sub>web-20261106-094 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+  <td width="50%" valign="top">
+    <h4>Cadbury · 大猩猩认真等着鼓点爆发</h4>
+    <p><strong>食品与饮料 · 品牌创意 / 历史经典 · 约91秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=TnzFRV1LwIo"><img src="https://i.ytimg.com/vi/TnzFRV1LwIo/hqdefault.jpg" width="220" alt="Cadbury · 大猩猩认真等着鼓点爆发的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>近景长时间拍准备演奏的大猩猩，音乐积累后终于进入鼓点高潮。</blockquote>
+    <p><strong>适合商品：</strong>巧克力、节奏玩具、桌面摆件</p>
+    <p><a href="https://www.youtube.com/watch?v=TnzFRV1LwIo">观看作品 / 来源</a> · <a href="references/2026-11-06-creative-commerce-100.md#web-20261106-097">商品适配 / 换品思路 / 核实记录</a></p>
+    <p><sub>web-20261106-097 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+</tr>
+<tr>
+  <td width="50%" valign="top">
     <h4>客家三杯鸭烹饪广告</h4>
     <p><strong>工序快剪 · Gemini Omni Flash · 40 秒竖屏</strong></p>
     <p><em>作品封面待补</em></p>
@@ -1361,6 +1924,138 @@ for real bottle design and white pump structure.
     <p><sub>web-20261105-089 · 全片工具分析＋逐秒抽帧复核 · 深度待评估 · 原作者提示词：已查来源未发现</sub></p>
   </td>
 </tr>
+<tr>
+  <td width="50%" valign="top">
+    <h4>穿搭板活过来 · 人物与单品同步转圈</h4>
+    <p><strong>服装与鞋履 · GPT Image 2.5 + Seedance 2.5 · 16.9秒 · 3:4</strong></p>
+    <p><a href="https://x.com/AI__TSUBAKI/status/2102459655700287648"><img src="https://pbs.twimg.com/amplify_video_thumb/2102454105415581696/img/lvihHRx34pyYo-fZ.jpg" width="220" alt="穿搭板活过来 · 人物与单品同步转圈的作品封面"></a></p>
+    <p><strong>提示词写法 · 本库整理（视频）</strong></p>
+    <blockquote>固定版式、字标与单品位置，只让人物和单品转动；用动作范围限制布局漂移。</blockquote>
+    <p><strong>适合商品：</strong>套装、鞋履、手袋、发饰</p>
+    <p><a href="https://x.com/AI__TSUBAKI/status/2102459655700287648">观看作品 / 来源</a> · <a href="https://x.com/AI__TSUBAKI/status/2102459655700287648">作者提示词原帖</a> · <a href="references/2026-11-06-creative-commerce-100.md#web-20261106-004">商品适配 / 换品思路 / 核实记录</a> · <a href="https://video.twimg.com/amplify_video/2102454105415581696/vid/avc1/1440x1920/2EGV_ZoJ46ISurtr.mp4?tag=29">播放入口</a></p>
+    <p><sub>web-20261106-004 · 抽帧观察 · 深度待评估</sub></p>
+  </td>
+  <td width="50%" valign="top">
+    <h4>首尔穿搭日记 · 从醒来到出门</h4>
+    <p><strong>服装与鞋履 · Seedance 2.5 · 30.1秒 · 16:9</strong></p>
+    <p><a href="https://x.com/AIwithkhan/status/2113244959990329635"><img src="https://pbs.twimg.com/amplify_video_thumb/2113244892843622400/img/h_r4juw--K9Fy0Zo.jpg" width="220" alt="首尔穿搭日记 · 从醒来到出门的作品封面"></a></p>
+    <p><strong>提示词写法 · 本库整理（视频）</strong></p>
+    <blockquote>先设统一人物、造型和影像风格，再逐镜指定景别与动作，串起从起床到城市活动的一天。</blockquote>
+    <p><strong>适合商品：</strong>休闲套装、外套、太阳镜</p>
+    <p><a href="https://x.com/AIwithkhan/status/2113244959990329635">观看作品 / 来源</a> · <a href="https://x.com/AIwithkhan/status/2113244959990329635">作者提示词原帖</a> · <a href="references/2026-11-06-creative-commerce-100.md#web-20261106-005">商品适配 / 换品思路 / 核实记录</a> · <a href="https://video.twimg.com/amplify_video/2113244892843622400/vid/avc1/1280x720/2xwtzwlQyzSY-nRa.mp4?tag=29">播放入口</a></p>
+    <p><sub>web-20261106-005 · 抽帧观察 · 深度待评估</sub></p>
+  </td>
+</tr>
+<tr>
+  <td width="50%" valign="top">
+    <h4>衬衫从商品图进入分镜广告</h4>
+    <p><strong>服装与鞋履 · 模型未核实 · 15.1秒 · 120:133</strong></p>
+    <p><a href="https://x.com/HeyAbhishek/status/2098058251921457332"><img src="https://pbs.twimg.com/amplify_video_thumb/2098058232304648192/img/41W99tBqtjTJUiEl.jpg" width="220" alt="衬衫从商品图进入分镜广告的作品封面"></a></p>
+    <p><strong>创意线索 · 抽帧与来源说明</strong></p>
+    <blockquote>作者分享商品照、商品信息板与分镜串成成品的流程，成片以服装与人物造型为中心。</blockquote>
+    <p><strong>适合商品：</strong>衬衫、短袖、外套</p>
+    <p><a href="https://x.com/HeyAbhishek/status/2098058251921457332">观看作品 / 来源</a> · <a href="references/2026-11-06-creative-commerce-100.md#web-20261106-006">商品适配 / 换品思路 / 核实记录</a> · <a href="https://video.twimg.com/amplify_video/2098058232304648192/vid/avc1/720x798/JoH8G1Zr-cQKqY8p.mp4?tag=16">播放入口</a></p>
+    <p><sub>web-20261106-006 · 抽帧观察 · 深度待评估 · 正文未取得完整提示词，评论待查</sub></p>
+  </td>
+  <td width="50%" valign="top">
+    <h4>穿搭信息图 · 六件单品一起旋转</h4>
+    <p><strong>服装与鞋履 · GPT Image 2 + Seedance 2.5 · 16.1秒 · 3:4</strong></p>
+    <p><a href="https://x.com/AIwithkhan/status/2101148067458347258"><img src="https://pbs.twimg.com/amplify_video_thumb/2101148034981875712/img/Lb8TtAzos4Csy5Xc.jpg" width="220" alt="穿搭信息图 · 六件单品一起旋转的作品封面"></a></p>
+    <p><strong>提示词写法 · 本库整理（视频）</strong></p>
+    <blockquote>把人物与单品视为同一信息图内的独立运动对象，分别指定旋转，背景与版式固定。</blockquote>
+    <p><strong>适合商品：</strong>整套穿搭、项链、鞋履</p>
+    <p><a href="https://x.com/AIwithkhan/status/2101148067458347258">观看作品 / 来源</a> · <a href="https://x.com/AIwithkhan/status/2101148067458347258">作者提示词原帖</a> · <a href="references/2026-11-06-creative-commerce-100.md#web-20261106-007">商品适配 / 换品思路 / 核实记录</a> · <a href="https://video.twimg.com/amplify_video/2101148034981875712/vid/avc1/834x1112/b1c-QOtGFGUtKiPD.mp4?tag=29">播放入口</a></p>
+    <p><sub>web-20261106-007 · 抽帧观察 · 深度待评估</sub></p>
+  </td>
+</tr>
+<tr>
+  <td width="50%" valign="top">
+    <h4>吊扇叶片一扫 · 四套秋装轮换</h4>
+    <p><strong>服装与鞋履 · Seedance 2.5 · 16.1秒 · 16:9</strong></p>
+    <p><a href="https://x.com/AIwithkhan/status/2102221702667309467"><img src="https://pbs.twimg.com/amplify_video_thumb/2102221642365825024/img/aD15in0b_dmeAaQA.jpg" width="220" alt="吊扇叶片一扫 · 四套秋装轮换的作品封面"></a></p>
+    <p><strong>提示词写法 · 本库整理（视频）</strong></p>
+    <blockquote>固定正上方机位，人物、场景与服装各用参考；让不透明扇叶完整遮挡后再切换造型。</blockquote>
+    <p><strong>适合商品：</strong>秋季套装、靴子、肩包</p>
+    <p><a href="https://x.com/AIwithkhan/status/2102221702667309467">观看作品 / 来源</a> · <a href="https://x.com/AIwithkhan/status/2102221702667309467">作者提示词原帖</a> · <a href="references/2026-11-06-creative-commerce-100.md#web-20261106-009">商品适配 / 换品思路 / 核实记录</a> · <a href="https://video.twimg.com/amplify_video/2102221642365825024/vid/avc1/1280x720/hFIfMV1Z8z9FFCCF.mp4?tag=29">播放入口</a></p>
+    <p><sub>web-20261106-009 · 抽帧观察 · 深度待评估</sub></p>
+  </td>
+  <td width="50%" valign="top">
+    <h4>粉色客厅吊扇换装 · 场景图先行</h4>
+    <p><strong>服装与鞋履 · GPT Image 2.5（视频模型未核实） · 14.1秒 · 360:641</strong></p>
+    <p><a href="https://x.com/TanLuAI/status/2108902456935801227"><img src="https://pbs.twimg.com/amplify_video_thumb/2108901703735300097/img/xsxlk8bIYGpBv0_X.jpg" width="220" alt="粉色客厅吊扇换装 · 场景图先行的作品封面"></a></p>
+    <p><strong>提示词写法 · 本库整理（生图）</strong></p>
+    <blockquote>这是场景生图提示词：先固定无人客厅与近景扇叶，让扇叶尺寸足以遮住未来的人物全身。视频提示词在评论区，本轮未取得。</blockquote>
+    <p><strong>适合商品：</strong>家居服、连衣裙、套装</p>
+    <p><a href="https://x.com/TanLuAI/status/2108902456935801227">观看作品 / 来源</a> · <a href="https://x.com/TanLuAI/status/2108902456935801227">作者提示词原帖</a> · <a href="references/2026-11-06-creative-commerce-100.md#web-20261106-010">商品适配 / 换品思路 / 核实记录</a> · <a href="https://video.twimg.com/amplify_video/2108901703735300097/vid/avc1/720x1282/4zwntzrrHEKdXmgQ.mp4?tag=29">播放入口</a></p>
+    <p><sub>web-20261106-010 · 抽帧观察 · 深度待评估</sub></p>
+  </td>
+</tr>
+<tr>
+  <td width="50%" valign="top">
+    <h4>火箭球鞋 · 超能力照样只是去上班</h4>
+    <p><strong>服装与鞋履 · Seedance 2.5 · 29.0秒 · 16:9</strong></p>
+    <p><a href="https://x.com/Just_sharon7/status/2111764736207716496"><img src="https://pbs.twimg.com/amplify_video_thumb/2111764002129010688/img/P1fCDiWMgbLTPUFP.jpg" width="220" alt="火箭球鞋 · 超能力照样只是去上班的作品封面"></a></p>
+    <p><strong>提示词写法 · 本库整理（视频）</strong></p>
+    <blockquote>明确为虚构推进鞋，先写核心概念，再分配人物动作、幻想效果与产品画面。</blockquote>
+    <p><strong>适合商品：</strong>运动鞋、滑板鞋、鞋饰</p>
+    <p><a href="https://x.com/Just_sharon7/status/2111764736207716496">观看作品 / 来源</a> · <a href="https://x.com/Just_sharon7/status/2111764736207716496">作者提示词原帖</a> · <a href="references/2026-11-06-creative-commerce-100.md#web-20261106-014">商品适配 / 换品思路 / 核实记录</a> · <a href="https://video.twimg.com/amplify_video/2111764002129010688/vid/avc1/2560x1440/UiGjun_rGVKl3pNI.mp4?tag=29">播放入口</a></p>
+    <p><sub>web-20261106-014 · 抽帧观察 · 深度待评估</sub></p>
+  </td>
+  <td width="50%" valign="top">
+    <h4>直播选裙子 · 观众意见推动换装</h4>
+    <p><strong>服装与鞋履 · Seedance 2.5 · 15.1秒 · 9:16</strong></p>
+    <p><a href="https://x.com/Rosey_watson/status/2086281029913133211"><img src="https://pbs.twimg.com/amplify_video_thumb/2086280978646114305/img/HCo-wBRtKb0JwE0X.jpg" width="220" alt="直播选裙子 · 观众意见推动换装的作品封面"></a></p>
+    <p><strong>提示词写法 · 本库整理（视频）</strong></p>
+    <blockquote>先定直播卧室与自然手机质感，让人物读评论、在两件衣服间选择，再展示结果。</blockquote>
+    <p><strong>适合商品：</strong>连衣裙、耳饰、手提包</p>
+    <p><a href="https://x.com/Rosey_watson/status/2086281029913133211">观看作品 / 来源</a> · <a href="https://x.com/Rosey_watson/status/2086281029913133211">作者提示词原帖</a> · <a href="references/2026-11-06-creative-commerce-100.md#web-20261106-016">商品适配 / 换品思路 / 核实记录</a> · <a href="https://video.twimg.com/amplify_video/2086280978646114305/vid/avc1/720x1280/b-_ZpENOBu3l5UIe.mp4?tag=29">播放入口</a></p>
+    <p><sub>web-20261106-016 · 抽帧观察 · 深度待评估</sub></p>
+  </td>
+</tr>
+<tr>
+  <td width="50%" valign="top">
+    <h4>城堡婚纱 · 宏大空间与刺绣微距交替</h4>
+    <p><strong>服装与鞋履 · Seedance 2.5 · 14.0秒 · 16:9</strong></p>
+    <p><a href="https://x.com/Just_sharon7/status/2113203864371618209"><img src="https://pbs.twimg.com/amplify_video_thumb/2113203357309612032/img/Klx-k9fcb8agi_fA.jpg" width="220" alt="城堡婚纱 · 宏大空间与刺绣微距交替的作品封面"></a></p>
+    <p><strong>提示词写法 · 本库整理（视频）</strong></p>
+    <blockquote>锁定礼服与人物外观，以花园远景、人物运动和刺绣细节分配不同展示职责。</blockquote>
+    <p><strong>适合商品：</strong>婚纱、礼服、头纱</p>
+    <p><a href="https://x.com/Just_sharon7/status/2113203864371618209">观看作品 / 来源</a> · <a href="https://x.com/Just_sharon7/status/2113203864371618209">作者提示词原帖</a> · <a href="references/2026-11-06-creative-commerce-100.md#web-20261106-017">商品适配 / 换品思路 / 核实记录</a> · <a href="https://video.twimg.com/amplify_video/2113203357309612032/vid/avc1/2560x1440/EzX2oA4wT1aku2pw.mp4?tag=29">播放入口</a></p>
+    <p><sub>web-20261106-017 · 抽帧观察 · 深度待评估</sub></p>
+  </td>
+  <td width="50%" valign="top">
+    <h4>Barbour · 围巾帽子救回冻住的合唱团</h4>
+    <p><strong>服装与鞋履 · 品牌创意 · 约72秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=8XS_SG76kQ0"><img src="https://i.ytimg.com/vi/8XS_SG76kQ0/hqdefault.jpg" width="220" alt="Barbour · 围巾帽子救回冻住的合唱团的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>寒冷让羊群唱不下去，牧羊犬找来冬季配件分发，合唱重新开始。</blockquote>
+    <p><strong>适合商品：</strong>围巾、帽子、手套</p>
+    <p><a href="https://www.youtube.com/watch?v=8XS_SG76kQ0">观看作品 / 来源</a> · <a href="https://dailycommercials.com/shaun-the-sheep-thaw-hearts-in-barbour-christmas-ad-2024/">剧情 / 制作来源</a> · <a href="references/2026-11-06-creative-commerce-100.md#web-20261106-069">商品适配 / 换品思路 / 核实记录</a></p>
+    <p><sub>web-20261106-069 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+</tr>
+<tr>
+  <td width="50%" valign="top">
+    <h4>Skechers · 穿鞋不弯腰，连梦里也有人指导</h4>
+    <p><strong>服装与鞋履 · 品牌创意 · 约31秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=FmOUV26pqMA"><img src="https://i.ytimg.com/vi/FmOUV26pqMA/hqdefault.jpg" width="220" alt="Skechers · 穿鞋不弯腰，连梦里也有人指导的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>球员与意外出现的音乐人围绕轻松穿鞋展开对话，日常动作被梦境人物打断。</blockquote>
+    <p><strong>适合商品：</strong>一脚蹬鞋、鞋拔、便携凳</p>
+    <p><a href="https://www.youtube.com/watch?v=FmOUV26pqMA">观看作品 / 来源</a> · <a href="https://dailycommercials.com/harry-kane-dreams-of-snoop-dogg-in-hilarious-skechers-ad/">剧情 / 制作来源</a> · <a href="references/2026-11-06-creative-commerce-100.md#web-20261106-072">商品适配 / 换品思路 / 核实记录</a></p>
+    <p><sub>web-20261106-072 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+  <td width="50%" valign="top">
+    <h4>M&amp;S · 摇一下雪球，家里变成派对</h4>
+    <p><strong>服装与鞋履 · 品牌创意 · 约90秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=sVHiDpPXako"><img src="https://i.ytimg.com/vi/sVHiDpPXako/hqdefault.jpg" width="220" alt="M&amp;S · 摇一下雪球，家里变成派对的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>孩子操控雪球，让平常的家人、房间和服装接连进入节庆歌舞状态。</blockquote>
+    <p><strong>适合商品：</strong>雪球摆件、节日套装、灯串</p>
+    <p><a href="https://www.youtube.com/watch?v=sVHiDpPXako">观看作品 / 来源</a> · <a href="https://dailycommercials.com/ms-christmas-ad-2024-i-believe-in-miracles/">剧情 / 制作来源</a> · <a href="references/2026-11-06-creative-commerce-100.md#web-20261106-081">商品适配 / 换品思路 / 核实记录</a></p>
+    <p><sub>web-20261106-081 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+</tr>
 </table>
 
 ### 珠宝与配饰
@@ -1518,6 +2213,40 @@ for real bottle design and white pump structure.
     <p><sub>web-20261105-045 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
   </td>
   <td width="50%" valign="top">
+    <h4>通勤包的一天 · 装入物件再带出门</h4>
+    <p><strong>珠宝与配饰 · Seedance 2.5 · 30.1秒 · 16:9</strong></p>
+    <p><a href="https://x.com/AIwithSynthia/status/2103689025676828948"><img src="https://pbs.twimg.com/amplify_video_thumb/2103688930457743361/img/fG2--fvwMnXToN5V.jpg" width="220" alt="通勤包的一天 · 装入物件再带出门的作品封面"></a></p>
+    <p><strong>提示词写法 · 本库整理（视频）</strong></p>
+    <blockquote>要求生活化手持UGC，并把包的介绍、开合、装物、背负与外出逐步串起。</blockquote>
+    <p><strong>适合商品：</strong>通勤包、托特包、收纳内胆</p>
+    <p><a href="https://x.com/AIwithSynthia/status/2103689025676828948">观看作品 / 来源</a> · <a href="https://x.com/AIwithSynthia/status/2103689025676828948">作者提示词原帖</a> · <a href="references/2026-11-06-creative-commerce-100.md#web-20261106-012">商品适配 / 换品思路 / 核实记录</a> · <a href="https://video.twimg.com/amplify_video/2103688930457743361/vid/avc1/1280x720/o8p2wlyB4LN_8dz6.mp4?tag=29">播放入口</a></p>
+    <p><sub>web-20261106-012 · 抽帧观察 · 深度待评估</sub></p>
+  </td>
+</tr>
+<tr>
+  <td width="50%" valign="top">
+    <h4>太阳镜白棚 · 取戴动作带出镜腿细节</h4>
+    <p><strong>珠宝与配饰 · GPT Image 2 + Seedance 2.0 · 14.7秒 · 16:9</strong></p>
+    <p><a href="https://x.com/AIwithNatalia/status/2081273233740083648"><img src="https://pbs.twimg.com/amplify_video_thumb/2081273132208533504/img/hkAf81lV-yXWe1ym.jpg" width="220" alt="太阳镜白棚 · 取戴动作带出镜腿细节的作品封面"></a></p>
+    <p><strong>提示词写法 · 本库整理（视频）</strong></p>
+    <blockquote>人物与太阳镜分别用参考锁定，白棚内用拿取、佩戴和侧脸转动展示外观。</blockquote>
+    <p><strong>适合商品：</strong>太阳镜、光学眼镜</p>
+    <p><a href="https://x.com/AIwithNatalia/status/2081273233740083648">观看作品 / 来源</a> · <a href="https://x.com/AIwithNatalia/status/2081273233740083648">作者提示词原帖</a> · <a href="references/2026-11-06-creative-commerce-100.md#web-20261106-024">商品适配 / 换品思路 / 核实记录</a> · <a href="https://video.twimg.com/amplify_video/2081273132208533504/vid/avc1/1920x1080/A69pYOvqgWHVXOtY.mp4?tag=29">播放入口</a></p>
+    <p><sub>web-20261106-024 · 抽帧观察 · 深度待评估</sub></p>
+  </td>
+  <td width="50%" valign="top">
+    <h4>Oakley Meta · 第一人称把观众带进运动现场</h4>
+    <p><strong>珠宝与配饰 · 品牌创意 · 约61秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=ym-6Nw53bVw"><img src="https://i.ytimg.com/vi/ym-6Nw53bVw/hqdefault.jpg" width="220" alt="Oakley Meta · 第一人称把观众带进运动现场的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>通过运动员和创作者的视点切换，把眼镜佩戴与所见画面连接。</blockquote>
+    <p><strong>适合商品：</strong>运动眼镜、头戴相机、运动头带</p>
+    <p><a href="https://www.youtube.com/watch?v=ym-6Nw53bVw">观看作品 / 来源</a> · <a href="https://dailycommercials.com/oakley-meta-super-bowl-2026-review-athletic-intelligence-is-here-and-the-future-of-smart-wearables/">剧情 / 制作来源</a> · <a href="references/2026-11-06-creative-commerce-100.md#web-20261106-076">商品适配 / 换品思路 / 核实记录</a></p>
+    <p><sub>web-20261106-076 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+</tr>
+<tr>
+  <td width="50%" valign="top">
     <h4>机械表从暗处显形</h4>
     <p><strong>微距扫光 · Seedance 2.0 · 12 秒横屏</strong></p>
     <p><em>作品封面待补</em></p>
@@ -1526,8 +2255,6 @@ for real bottle design and white pump structure.
     <p><a href="https://prompset.com/prompts/video/seedance-2-0/commercial/luxury-watch-emerging-from-darkness-with-mechanical-detail">原片与视频提示词</a></p>
     <p><sub>legacy-056 · 来源说明 · 深度待评估</sub></p>
   </td>
-</tr>
-<tr>
   <td width="50%" valign="top">
     <h4>海岸场景中的钻石项链</h4>
     <p><strong>佩戴与微距 · Seedance 2.0 · 15 秒</strong></p>
@@ -1537,7 +2264,6 @@ for real bottle design and white pump structure.
     <p><a href="https://prompset.com/prompts/video/seedance-2-0/commercial/luxury-diamond-necklace-commercial-on-amalfi-coast">原片与视频提示词</a></p>
     <p><sub>legacy-057 · 来源说明 · 深度待评估</sub></p>
   </td>
-  <td width="50%"></td>
 </tr>
 </table>
 
@@ -1729,6 +2455,138 @@ for real bottle design and white pump structure.
 </tr>
 <tr>
   <td width="50%" valign="top">
+    <h4>困倦早晨 · 便携咖啡机成为清醒仪式</h4>
+    <p><strong>数码与小家电 · Seedance 2.5 · 30.1秒 · 16:9</strong></p>
+    <p><a href="https://x.com/Just_sharon7/status/2114344359600566303"><img src="https://pbs.twimg.com/amplify_video_thumb/2114320710311251968/img/HTp0XoDQL9Opz8uq.jpg" width="220" alt="困倦早晨 · 便携咖啡机成为清醒仪式的作品封面"></a></p>
+    <p><strong>提示词写法 · 本库整理（视频）</strong></p>
+    <blockquote>用产品外观描述锁定咖啡机，再把困倦、操作、萃取与饮用排成晨间小故事。</blockquote>
+    <p><strong>适合商品：</strong>便携咖啡机、咖啡杯、奶泡机</p>
+    <p><a href="https://x.com/Just_sharon7/status/2114344359600566303">观看作品 / 来源</a> · <a href="https://x.com/Just_sharon7/status/2114344359600566303">作者提示词原帖</a> · <a href="references/2026-11-06-creative-commerce-100.md#web-20261106-011">商品适配 / 换品思路 / 核实记录</a> · <a href="https://video.twimg.com/amplify_video/2114320710311251968/vid/avc1/1280x720/UkMJsfHY9IQiq5pk.mp4?tag=29">播放入口</a></p>
+    <p><sub>web-20261106-011 · 抽帧观察 · 深度待评估</sub></p>
+  </td>
+  <td width="50%" valign="top">
+    <h4>拍立得提前五秒 · 先看到即将发生的照片</h4>
+    <p><strong>数码与小家电 · Seedance 2.5 · 30.1秒 · 16:9</strong></p>
+    <p><a href="https://x.com/john_my07/status/2104220928796499974"><img src="https://pbs.twimg.com/amplify_video_thumb/2104220702094344192/img/SFgidKAjwLwCK0KC.jpg" width="220" alt="拍立得提前五秒 · 先看到即将发生的照片的作品封面"></a></p>
+    <p><strong>提示词写法 · 本库整理（视频）</strong></p>
+    <blockquote>把相机外观参考与时间反转规则分开写：照片提前出现，后续现实重现照片里的事件。</blockquote>
+    <p><strong>适合商品：</strong>拍立得、照片打印机、相框</p>
+    <p><a href="https://x.com/john_my07/status/2104220928796499974">观看作品 / 来源</a> · <a href="https://x.com/john_my07/status/2104220928796499974">作者提示词原帖</a> · <a href="references/2026-11-06-creative-commerce-100.md#web-20261106-018">商品适配 / 换品思路 / 核实记录</a> · <a href="https://video.twimg.com/amplify_video/2104220702094344192/vid/avc1/1280x720/q5h4RAbLqebHqR8Z.mp4?tag=29">播放入口</a></p>
+    <p><sub>web-20261106-018 · 抽帧观察 · 深度待评估</sub></p>
+  </td>
+</tr>
+<tr>
+  <td width="50%" valign="top">
+    <h4>镜头爆炸图 · 外壳与内部结构分层揭晓</h4>
+    <p><strong>数码与小家电 · MiniMax H3 · 15.1秒 · 16:9</strong></p>
+    <p><a href="https://x.com/AmControo/status/2085366255540637965"><img src="https://pbs.twimg.com/amplify_video_thumb/2085366162620051457/img/VLiqHp0H19JUGdhb.jpg" width="220" alt="镜头爆炸图 · 外壳与内部结构分层揭晓的作品封面"></a></p>
+    <p><strong>创意线索 · 抽帧与来源说明</strong></p>
+    <blockquote>原帖展示虚构NOVA X1镜头的概念广告，外观反光和结构层次构成技术感。</blockquote>
+    <p><strong>适合商品：</strong>相机镜头、耳机、机械配件</p>
+    <p><a href="https://x.com/AmControo/status/2085366255540637965">观看作品 / 来源</a> · <a href="references/2026-11-06-creative-commerce-100.md#web-20261106-029">商品适配 / 换品思路 / 核实记录</a> · <a href="https://video.twimg.com/amplify_video/2085366162620051457/vid/avc1/1280x720/2EEYmUqMKe-IP9hB.mp4?tag=29">播放入口</a></p>
+    <p><sub>web-20261106-029 · 抽帧观察 · 深度待评估 · 正文未取得完整提示词，评论待查</sub></p>
+  </td>
+  <td width="50%" valign="top">
+    <h4>有线打结到无线 · 八次快切的小烦恼反转</h4>
+    <p><strong>数码与小家电 · GPT Image 2 + Kling 3.0 · 15.7秒 · 4:5</strong></p>
+    <p><a href="https://x.com/ShamiWeb3/status/2058717714055930230"><img src="https://pbs.twimg.com/amplify_video_thumb/2058717113418915840/img/6iakooTupa7WwSnu.jpg" width="220" alt="有线打结到无线 · 八次快切的小烦恼反转的作品封面"></a></p>
+    <p><strong>提示词写法 · 本库整理（视频）</strong></p>
+    <blockquote>先写耳机线缠绕的小困扰，再按日式生活片段安排新耳机；原帖把竖屏与16:9混写，画幅以实际文件为准。</blockquote>
+    <p><strong>适合商品：</strong>无线耳机、耳机收纳盒</p>
+    <p><a href="https://x.com/ShamiWeb3/status/2058717714055930230">观看作品 / 来源</a> · <a href="https://x.com/ShamiWeb3/status/2058717714055930230">作者提示词原帖</a> · <a href="references/2026-11-06-creative-commerce-100.md#web-20261106-030">商品适配 / 换品思路 / 核实记录</a> · <a href="https://video.twimg.com/amplify_video/2058717113418915840/vid/avc1/2160x2700/kY2N0GITkHWhVeX4.mp4?tag=27">播放入口</a></p>
+    <p><sub>web-20261106-030 · 抽帧观察 · 深度待评估</sub></p>
+  </td>
+</tr>
+<tr>
+  <td width="50%" valign="top">
+    <h4>Hatch · 睡前刷手机拍成恐怖预告</h4>
+    <p><strong>数码与小家电 · 品牌创意 · 约91秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=LcdPZ0aEdRQ"><img src="https://i.ytimg.com/vi/LcdPZ0aEdRQ/hqdefault.jpg" width="220" alt="Hatch · 睡前刷手机拍成恐怖预告的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>把停不下来的手机通知与黑夜恐怖片语法结合，让睡前习惯变成悬念。</blockquote>
+    <p><strong>适合商品：</strong>闹钟、床头灯、手机收纳盒</p>
+    <p><a href="https://www.youtube.com/watch?v=LcdPZ0aEdRQ">观看作品 / 来源</a> · <a href="https://dailycommercials.com/hatchs-goodnight-phone-faux-horror-trailer-ad-review/">剧情 / 制作来源</a> · <a href="references/2026-11-06-creative-commerce-100.md#web-20261106-048">商品适配 / 换品思路 / 核实记录</a></p>
+    <p><sub>web-20261106-048 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+  <td width="50%" valign="top">
+    <h4>Duracell · 解说员卡住后换电池重启</h4>
+    <p><strong>数码与小家电 · 品牌创意 · 约31秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=PIB7bs4zhjE"><img src="https://i.ytimg.com/vi/PIB7bs4zhjE/hqdefault.jpg" width="220" alt="Duracell · 解说员卡住后换电池重启的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>直播解说突然停摆，科学家角色像修电器一样替换电池，让评论重新继续。</blockquote>
+    <p><strong>适合商品：</strong>AA电池、遥控器、桌面小电器</p>
+    <p><a href="https://www.youtube.com/watch?v=PIB7bs4zhjE">观看作品 / 来源</a> · <a href="https://dailycommercials.com/duracell-super-bowl-commercial-2025-ft-tom-brady/">剧情 / 制作来源</a> · <a href="references/2026-11-06-creative-commerce-100.md#web-20261106-059">商品适配 / 换品思路 / 核实记录</a></p>
+    <p><sub>web-20261106-059 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+</tr>
+<tr>
+  <td width="50%" valign="top">
+    <h4>Currys · 网购习惯碰到真实吹风机</h4>
+    <p><strong>数码与小家电 · 品牌创意 · 约30秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=bEUeGOxx-G4"><img src="https://i.ytimg.com/vi/bEUeGOxx-G4/hqdefault.jpg" width="220" alt="Currys · 网购习惯碰到真实吹风机的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>习惯点屏幕的人走进实体店，尝试真实商品后被夸张风力打破预期。</blockquote>
+    <p><strong>适合商品：</strong>吹风机、桌面风扇、美容仪</p>
+    <p><a href="https://www.youtube.com/watch?v=bEUeGOxx-G4">观看作品 / 来源</a> · <a href="https://dailycommercials.com/currys-latest-ad-blows-away-online-shopping-literally/">剧情 / 制作来源</a> · <a href="references/2026-11-06-creative-commerce-100.md#web-20261106-071">商品适配 / 换品思路 / 核实记录</a></p>
+    <p><sub>web-20261106-071 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+  <td width="50%" valign="top">
+    <h4>Beats Pill · 隔壁大声放的偏偏是自己的歌</h4>
+    <p><strong>数码与小家电 · 品牌创意 · 约92秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=VKv55xU_OuQ"><img src="https://i.ytimg.com/vi/VKv55xU_OuQ/hqdefault.jpg" width="220" alt="Beats Pill · 隔壁大声放的偏偏是自己的歌的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>想睡觉的歌手被邻居派对吵醒，更尴尬的是音箱正放自己的作品。</blockquote>
+    <p><strong>适合商品：</strong>便携音箱、耳塞、夜灯</p>
+    <p><a href="https://www.youtube.com/watch?v=VKv55xU_OuQ">观看作品 / 来源</a> · <a href="https://dailycommercials.com/lil-wayne-lebron-james-star-in-beats-by-dre-commercial/">剧情 / 制作来源</a> · <a href="references/2026-11-06-creative-commerce-100.md#web-20261106-073">商品适配 / 换品思路 / 核实记录</a></p>
+    <p><sub>web-20261106-073 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+</tr>
+<tr>
+  <td width="50%" valign="top">
+    <h4>Apple · 一滴水让跑者开始同时处理多项任务</h4>
+    <p><strong>数码与小家电 · 品牌创意 · 约66秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=dJObc0V6hJU"><img src="https://i.ytimg.com/vi/dJObc0V6hJU/hqdefault.jpg" width="220" alt="Apple · 一滴水让跑者开始同时处理多项任务的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>沙漠跑者被水滴点醒，奔跑中演奏、解谜与突破障碍，把芯片和散热抽象成表演。</blockquote>
+    <p><strong>适合商品：</strong>散热配件、运动水杯、手机支架</p>
+    <p><a href="https://www.youtube.com/watch?v=dJObc0V6hJU">观看作品 / 来源</a> · <a href="https://dailycommercials.com/apple-iphone-17-pro-peak-performance-ad-review/">剧情 / 制作来源</a> · <a href="references/2026-11-06-creative-commerce-100.md#web-20261106-078">商品适配 / 换品思路 / 核实记录</a></p>
+    <p><sub>web-20261106-078 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+  <td width="50%" valign="top">
+    <h4>Apple Heartstrings · 声音视角带出家庭连接</h4>
+    <p><strong>数码与小家电 · 品牌创意 · 约111秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=w2NN3OvfJFY"><img src="https://i.ytimg.com/vi/w2NN3OvfJFY/hqdefault.jpg" width="220" alt="Apple Heartstrings · 声音视角带出家庭连接的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>从父亲听不清的主观状态出发，声音逐渐回归，女儿的音乐完成情绪回报。</blockquote>
+    <p><strong>适合商品：</strong>有依据的听力辅助设备、耳机、家庭礼物</p>
+    <p><a href="https://www.youtube.com/watch?v=w2NN3OvfJFY">观看作品 / 来源</a> · <a href="https://dailycommercials.com/apple-christmas-ad-2024-a-holiday-ad-that-hears-you-out/">剧情 / 制作来源</a> · <a href="references/2026-11-06-creative-commerce-100.md#web-20261106-080">商品适配 / 换品思路 / 核实记录</a></p>
+    <p><sub>web-20261106-080 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+</tr>
+<tr>
+  <td width="50%" valign="top">
+    <h4>Blendtec · 手机放进搅拌机，结果到底怎样</h4>
+    <p><strong>数码与小家电 · 品牌创意 / 历史经典 · 约98秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=qg1ckCkm8YI"><img src="https://i.ytimg.com/vi/qg1ckCkm8YI/hqdefault.jpg" width="220" alt="Blendtec · 手机放进搅拌机，结果到底怎样的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>主持人用清晰规则和等待揭晓，把家电演示做成可持续追看的实验栏目。</blockquote>
+    <p><strong>适合商品：</strong>搅拌机、切菜器、厨房收纳</p>
+    <p><a href="https://www.youtube.com/watch?v=qg1ckCkm8YI">观看作品 / 来源</a> · <a href="references/2026-11-06-creative-commerce-100.md#web-20261106-093">商品适配 / 换品思路 / 核实记录</a></p>
+    <p><sub>web-20261106-093 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+  <td width="50%" valign="top">
+    <h4>Samsung · 鸵鸟戴上VR后开始练飞</h4>
+    <p><strong>数码与小家电 · 品牌创意 / 历史经典 · 约60秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=Czl-Y9kQ3H4"><img src="https://i.ytimg.com/vi/Czl-Y9kQ3H4/hqdefault.jpg" width="220" alt="Samsung · 鸵鸟戴上VR后开始练飞的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>不会飞的动物看到飞行视角后不断尝试，最后升空，设备成为想象的入口。</blockquote>
+    <p><strong>适合商品：</strong>VR配件、运动眼镜、玩具飞行器</p>
+    <p><a href="https://www.youtube.com/watch?v=Czl-Y9kQ3H4">观看作品 / 来源</a> · <a href="https://www.samsungmobilepress.com/articles/ostrich-samsung-electronics-galaxy-brand-commercial-wins-thirteen-awards-including-seven-gold-pencils-at-the-one-club-awards">剧情 / 制作来源</a> · <a href="references/2026-11-06-creative-commerce-100.md#web-20261106-096">商品适配 / 换品思路 / 核实记录</a></p>
+    <p><sub>web-20261106-096 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+</tr>
+<tr>
+  <td width="50%" valign="top">
     <h4>风扇转动与按键控制</h4>
     <p><strong>操作因果 · Seedance 2.5 · 12 秒竖屏</strong></p>
     <p><em>作品封面待补</em></p>
@@ -1888,6 +2746,160 @@ for real bottle design and white pump structure.
 </tr>
 <tr>
   <td width="50%" valign="top">
+    <h4>生日吹蜡烛 · 火焰和香槟的双重反转</h4>
+    <p><strong>家居与空间 · Seedance 2.0 · 10.1秒 · 9:16</strong></p>
+    <p><a href="https://x.com/Chengzilhy/status/2080257001268125733"><img src="https://pbs.twimg.com/amplify_video_thumb/2080255348896915456/img/ytFQLE_PKdA3JJ5L.jpg" width="220" alt="生日吹蜡烛 · 火焰和香槟的双重反转的作品封面"></a></p>
+    <p><strong>提示词写法 · 本库整理（视频）</strong></p>
+    <blockquote>先规定人物参考职责与固定手机机位，再用蛋糕、吹气、火焰和酒液接出两次反转。</blockquote>
+    <p><strong>适合商品：</strong>生日蜡烛、蛋糕装饰、派对杯</p>
+    <p><a href="https://x.com/Chengzilhy/status/2080257001268125733">观看作品 / 来源</a> · <a href="https://x.com/Chengzilhy/status/2080257001268125733">作者提示词原帖</a> · <a href="references/2026-11-06-creative-commerce-100.md#web-20261106-013">商品适配 / 换品思路 / 核实记录</a> · <a href="https://video.twimg.com/amplify_video/2080255348896915456/vid/avc1/2160x3840/AcGblBz0zt_P-fxS.mp4?tag=29">播放入口</a></p>
+    <p><sub>web-20261106-013 · 抽帧观察 · 深度待评估</sub></p>
+  </td>
+  <td width="50%" valign="top">
+    <h4>手中迷你沙发 · 变成完整客厅的尺度反转</h4>
+    <p><strong>家居与空间 · Gemini Omni · 10.1秒 · 16:9</strong></p>
+    <p><a href="https://x.com/KrevixAi/status/2099935072010822040"><img src="https://pbs.twimg.com/amplify_video_thumb/2099934923293417472/img/w042WAysO6ZPZf9x.jpg" width="220" alt="手中迷你沙发 · 变成完整客厅的尺度反转的作品封面"></a></p>
+    <p><strong>创意线索 · 抽帧与来源说明</strong></p>
+    <blockquote>抽帧可见手中微型沙发、放大的家具与完整客厅，用尺度变化把陈设展示变成揭晓过程；过渡细节待完整观看。</blockquote>
+    <p><strong>适合商品：</strong>沙发、床头柜、家居灯具</p>
+    <p><a href="https://x.com/KrevixAi/status/2099935072010822040">观看作品 / 来源</a> · <a href="references/2026-11-06-creative-commerce-100.md#web-20261106-031">商品适配 / 换品思路 / 核实记录</a> · <a href="https://video.twimg.com/amplify_video/2099934923293417472/vid/avc1/3840x2160/s5jvOD9VeEXQgjMv.mp4?tag=29">播放入口</a></p>
+    <p><sub>web-20261106-031 · 抽帧观察 · 深度待评估 · 正文未取得完整提示词，评论待查</sub></p>
+  </td>
+</tr>
+<tr>
+  <td width="50%" valign="top">
+    <h4>保温杯八镜 · 从开盖到车载场景</h4>
+    <p><strong>家居与空间 · GPT Image 2（视频模型未核实） · 10.1秒 · 9:16</strong></p>
+    <p><a href="https://x.com/SeeratFatima112/status/2096519498622976124"><img src="https://pbs.twimg.com/amplify_video_thumb/2096519429131739136/img/lH6uxYiaDnw3NHeP.jpg" width="220" alt="保温杯八镜 · 从开盖到车载场景的作品封面"></a></p>
+    <p><strong>提示词写法 · 本库整理（视频）</strong></p>
+    <blockquote>逐镜写手持、开盖、放冰、车载和户外，并用商品图固定杯盖、把手、颜色与标识。</blockquote>
+    <p><strong>适合商品：</strong>保温杯、运动水杯、吸管杯</p>
+    <p><a href="https://x.com/SeeratFatima112/status/2096519498622976124">观看作品 / 来源</a> · <a href="https://x.com/SeeratFatima112/status/2096519498622976124">作者提示词原帖</a> · <a href="references/2026-11-06-creative-commerce-100.md#web-20261106-032">商品适配 / 换品思路 / 核实记录</a> · <a href="https://video.twimg.com/amplify_video/2096519429131739136/vid/avc1/720x1280/rdDGH8YwMe7OHmQ6.mp4?tag=29">播放入口</a></p>
+    <p><sub>web-20261106-032 · 抽帧观察 · 深度待评估</sub></p>
+  </td>
+  <td width="50%" valign="top">
+    <h4>Spruce · 让狗来挑院子里的用品</h4>
+    <p><strong>家居与空间 · 品牌创意 · 约31秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=IS7p8yL1xYA"><img src="https://i.ytimg.com/vi/IS7p8yL1xYA/hqdefault.jpg" width="220" alt="Spruce · 让狗来挑院子里的用品的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>把园艺用品的选择权交给宠物视角，借人狗关系组织庭院场景与产品出现。</blockquote>
+    <p><strong>适合商品：</strong>园艺工具、户外垫、宠物用品</p>
+    <p><a href="https://www.youtube.com/watch?v=IS7p8yL1xYA">观看作品 / 来源</a> · <a href="https://dailycommercials.com/spruce-super-bowl-2026-ad-review-dogs-kirk-herbstreit-the-pet-friendly-weed-killer-that-picked-its-moment/">剧情 / 制作来源</a> · <a href="references/2026-11-06-creative-commerce-100.md#web-20261106-043">商品适配 / 换品思路 / 核实记录</a></p>
+    <p><sub>web-20261106-043 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+</tr>
+<tr>
+  <td width="50%" valign="top">
+    <h4>LEGO · 拼搭一下就切换电影人格</h4>
+    <p><strong>家居与空间 · 品牌创意 · 约120秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=E5EiD_-247g"><img src="https://i.ytimg.com/vi/E5EiD_-247g/hqdefault.jpg" width="220" alt="LEGO · 拼搭一下就切换电影人格的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>主角边搭积木边切换服装、身份和大片类型，让玩具成为想象世界的入口。</blockquote>
+    <p><strong>适合商品：</strong>拼装玩具、模型、手工套装</p>
+    <p><a href="https://www.youtube.com/watch?v=E5EiD_-247g">观看作品 / 来源</a> · <a href="https://dailycommercials.com/lego-never-stop-playing-ft-tom-holland/">剧情 / 制作来源</a> · <a href="references/2026-11-06-creative-commerce-100.md#web-20261106-050">商品适配 / 换品思路 / 核实记录</a></p>
+    <p><sub>web-20261106-050 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+  <td width="50%" valign="top">
+    <h4>Aldi · 只说带火鸡，结果整个圣诞都加码</h4>
+    <p><strong>家居与空间 · 品牌创意 · 约60秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=HTpTPUs4NLQ"><img src="https://i.ytimg.com/vi/HTpTPUs4NLQ/hqdefault.jpg" width="220" alt="Aldi · 只说带火鸡，结果整个圣诞都加码的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>一对客人把简单聚餐分工执行得过分隆重，食物与布置一路升级。</blockquote>
+    <p><strong>适合商品：</strong>节日餐具、桌布、烤盘、礼盒</p>
+    <p><a href="https://www.youtube.com/watch?v=HTpTPUs4NLQ">观看作品 / 来源</a> · <a href="https://dailycommercials.com/aldi-australia-2024-christmas-campaign-go-a-little-extra/">剧情 / 制作来源</a> · <a href="references/2026-11-06-creative-commerce-100.md#web-20261106-068">商品适配 / 换品思路 / 核实记录</a></p>
+    <p><sub>web-20261106-068 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+</tr>
+<tr>
+  <td width="50%" valign="top">
+    <h4>Morrisons · 烤箱手套成为厨房合唱团</h4>
+    <p><strong>家居与空间 · 品牌创意 · 约61秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=zPRt0TPbPWg"><img src="https://i.ytimg.com/vi/zPRt0TPbPWg/hqdefault.jpg" width="220" alt="Morrisons · 烤箱手套成为厨房合唱团的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>厨房忙碌时手套唱歌助阵，与烤制和上桌食物交错，把家务拍成歌舞片。</blockquote>
+    <p><strong>适合商品：</strong>隔热手套、烤盘、围裙</p>
+    <p><a href="https://www.youtube.com/watch?v=zPRt0TPbPWg">观看作品 / 来源</a> · <a href="https://dailycommercials.com/morrisons-singing-gloves-steal-the-show-in-2024-christmas-ad/">剧情 / 制作来源</a> · <a href="references/2026-11-06-creative-commerce-100.md#web-20261106-070">商品适配 / 换品思路 / 核实记录</a></p>
+    <p><sub>web-20261106-070 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+  <td width="50%" valign="top">
+    <h4>TinyTAN × Happy Meal · 玩具从餐盒边跳进音乐片</h4>
+    <p><strong>家居与空间 · 品牌创意 · 约31秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=X9rq3jxNuE4"><img src="https://i.ytimg.com/vi/X9rq3jxNuE4/hqdefault.jpg" width="220" alt="TinyTAN × Happy Meal · 玩具从餐盒边跳进音乐片的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>小体型动画角色在餐盒与周边商品间起舞，把包装变成舞台。</blockquote>
+    <p><strong>适合商品：</strong>收藏玩具、盲盒、礼盒</p>
+    <p><a href="https://www.youtube.com/watch?v=X9rq3jxNuE4">观看作品 / 来源</a> · <a href="https://dailycommercials.com/mcdonalds-x-bts-tinytan-happy-meal-tv-commercial/">剧情 / 制作来源</a> · <a href="references/2026-11-06-creative-commerce-100.md#web-20261106-079">商品适配 / 换品思路 / 核实记录</a></p>
+    <p><sub>web-20261106-079 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+</tr>
+<tr>
+  <td width="50%" valign="top">
+    <h4>HORNBACH · 春天让人像动物一样蜕变</h4>
+    <p><strong>家居与空间 · 品牌创意 · 约46秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=ehoNeV1E4oU"><img src="https://i.ytimg.com/vi/ehoNeV1E4oU/hqdefault.jpg" width="220" alt="HORNBACH · 春天让人像动物一样蜕变的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>春季DIY冲动被表现为身体与行为的夸张变化，让人与自然更新形成类比。</blockquote>
+    <p><strong>适合商品：</strong>园艺手套、种植套装、工具</p>
+    <p><a href="https://www.youtube.com/watch?v=ehoNeV1E4oU">观看作品 / 来源</a> · <a href="https://dailycommercials.com/hornbach-ad-2024-spring-metamorphosis/">剧情 / 制作来源</a> · <a href="references/2026-11-06-creative-commerce-100.md#web-20261106-084">商品适配 / 换品思路 / 核实记录</a></p>
+    <p><sub>web-20261106-084 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+  <td width="50%" valign="top">
+    <h4>IKEA · 一本目录被当成革命性科技发布</h4>
+    <p><strong>家居与空间 · 品牌创意 / 历史经典 · 约149秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=MOXQo7nURs0"><img src="https://i.ytimg.com/vi/MOXQo7nURs0/hqdefault.jpg" width="220" alt="IKEA · 一本目录被当成革命性科技发布的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>用数码新品发布语气介绍纸质目录，翻页、手指操作和无需充电形成反差。</blockquote>
+    <p><strong>适合商品：</strong>纸质笔记本、相册、桌面收纳册</p>
+    <p><a href="https://www.youtube.com/watch?v=MOXQo7nURs0">观看作品 / 来源</a> · <a href="references/2026-11-06-creative-commerce-100.md#web-20261106-089">商品适配 / 换品思路 / 核实记录</a></p>
+    <p><sub>web-20261106-089 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+</tr>
+<tr>
+  <td width="50%" valign="top">
+    <h4>Squatty Potty · 用彩虹冰淇淋讲卫浴小凳</h4>
+    <p><strong>家居与空间 · 品牌创意 / 历史经典 · 约174秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=YbYWhdLO43Q"><img src="https://i.ytimg.com/vi/YbYWhdLO43Q/hqdefault.jpg" width="220" alt="Squatty Potty · 用彩虹冰淇淋讲卫浴小凳的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>王子主持的童话讲解搭配独角兽和彩色冰淇淋，把尴尬的卫浴话题变成视觉表演。</blockquote>
+    <p><strong>适合商品：</strong>卫浴脚凳、卫生间收纳、清洁用品</p>
+    <p><a href="https://www.youtube.com/watch?v=YbYWhdLO43Q">观看作品 / 来源</a> · <a href="https://www.prnewswire.com/news-releases/squatty-potty-drops-new-video-campaign-discover-the-most-pleasurable-way-to-poop-300539127.html">剧情 / 制作来源</a> · <a href="references/2026-11-06-creative-commerce-100.md#web-20261106-090">商品适配 / 换品思路 / 核实记录</a></p>
+    <p><sub>web-20261106-090 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+  <td width="50%" valign="top">
+    <h4>Purple · 生鸡蛋放到床垫上做夸张测试</h4>
+    <p><strong>家居与空间 · 品牌创意 / 历史经典 · 约239秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=4BvwpjaGZCQ"><img src="https://i.ytimg.com/vi/4BvwpjaGZCQ/hqdefault.jpg" width="220" alt="Purple · 生鸡蛋放到床垫上做夸张测试的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>先解释一个易懂的测试规则，再让观众等待鸡蛋与床垫接触后的结果。</blockquote>
+    <p><strong>适合商品：</strong>坐垫、枕头、床垫</p>
+    <p><a href="https://www.youtube.com/watch?v=4BvwpjaGZCQ">观看作品 / 来源</a> · <a href="references/2026-11-06-creative-commerce-100.md#web-20261106-091">商品适配 / 换品思路 / 核实记录</a></p>
+    <p><sub>web-20261106-091 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+</tr>
+<tr>
+  <td width="50%" valign="top">
+    <h4>Poo-Pourri · 优雅主持人一本正经谈厕所</h4>
+    <p><strong>家居与空间 · 品牌创意 / 历史经典 · 约136秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=ZKLnhuzh9uY"><img src="https://i.ytimg.com/vi/ZKLnhuzh9uY/hqdefault.jpg" width="220" alt="Poo-Pourri · 优雅主持人一本正经谈厕所的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>端庄人物用极认真语气讲尴尬话题，持瓶和使用说明让小喷雾成为叙事中心。</blockquote>
+    <p><strong>适合商品：</strong>卫生间香氛、清洁喷雾、旅行收纳</p>
+    <p><a href="https://www.youtube.com/watch?v=ZKLnhuzh9uY">观看作品 / 来源</a> · <a href="references/2026-11-06-creative-commerce-100.md#web-20261106-092">商品适配 / 换品思路 / 核实记录</a></p>
+    <p><sub>web-20261106-092 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+  <td width="50%" valign="top">
+    <h4>IKEA Lamp 2 · 被丢弃的灯获得第二个家</h4>
+    <p><strong>家居与空间 · 品牌创意 / 历史经典 · 约76秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=neW2zmtiGQk"><img src="https://i.ytimg.com/vi/neW2zmtiGQk/hqdefault.jpg" width="220" alt="IKEA Lamp 2 · 被丢弃的灯获得第二个家的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>从路边被弃置的旧灯出发，通过被带走和重新点亮，改变观众对旧物的期待。</blockquote>
+    <p><strong>适合商品：</strong>台灯、灯罩、可翻新家居</p>
+    <p><a href="https://www.youtube.com/watch?v=neW2zmtiGQk">观看作品 / 来源</a> · <a href="https://en.wikipedia.org/wiki/Lamp_%28advertisement%29">剧情 / 制作来源</a> · <a href="references/2026-11-06-creative-commerce-100.md#web-20261106-099">商品适配 / 换品思路 / 核实记录</a></p>
+    <p><sub>web-20261106-099 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+</tr>
+<tr>
+  <td width="50%" valign="top">
     <h4>空房快速装成带音响的公寓</h4>
     <p><strong>空间装配 · Gemini Omni Flash · 10 秒横屏</strong></p>
     <p><em>作品封面待补</em></p>
@@ -2012,6 +3024,50 @@ for real bottle design and white pump structure.
     <blockquote>年长人物开敞篷车四处玩闹，用行为与年龄期待的反差展示车内生活。</blockquote>
     <p><a href="https://www.youtube.com/watch?v=AhRA3ZS1bjo">观看作品 · WeatherTech CH</a> · <a href="https://dailycommercials.com/weathertech-super-bowl-2025-commercial-and-teasing/">剧情与制作来源</a></p>
     <p><sub>web-20261105-048 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+  <td width="50%" valign="top">
+    <h4>跑车通勤 · 日常驾驶滑向悬浮飞行</h4>
+    <p><strong>汽车与出行 · Seedance 2.5 · 30.1秒 · 16:9</strong></p>
+    <p><a href="https://x.com/Just_sharon7/status/2111825290150527310"><img src="https://pbs.twimg.com/amplify_video_thumb/2111824719834198016/img/DWJJM8oY5y6RCjUc.jpg" width="220" alt="跑车通勤 · 日常驾驶滑向悬浮飞行的作品封面"></a></p>
+    <p><strong>提示词写法 · 本库整理（视频）</strong></p>
+    <blockquote>固定车辆与人物，以实拍摄影语言组织驾驶与幻想飞行；实拍措辞不代表真有实拍或真实功能。</blockquote>
+    <p><strong>适合商品：</strong>车载杯、驾驶配件、汽车模型</p>
+    <p><a href="https://x.com/Just_sharon7/status/2111825290150527310">观看作品 / 来源</a> · <a href="https://x.com/Just_sharon7/status/2111825290150527310">作者提示词原帖</a> · <a href="references/2026-11-06-creative-commerce-100.md#web-20261106-037">商品适配 / 换品思路 / 核实记录</a> · <a href="https://video.twimg.com/amplify_video/2111824719834198016/vid/avc1/2560x1440/Kc6L92r3PyV2uOso.mp4?tag=29">播放入口</a></p>
+    <p><sub>web-20261106-037 · 抽帧观察 · 深度待评估</sub></p>
+  </td>
+</tr>
+<tr>
+  <td width="50%" valign="top">
+    <h4>Mercedes-Benz · 鸡身在跳舞，鸡头稳得出奇</h4>
+    <p><strong>汽车与出行 · 品牌创意 / 历史经典 · 约47秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=nLwML2PagbY"><img src="https://i.ytimg.com/vi/nLwML2PagbY/hqdefault.jpg" width="220" alt="Mercedes-Benz · 鸡身在跳舞，鸡头稳得出奇的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>双手带着鸡的身体随音乐移动，头部却保持稳定，把稳定控制抽象成直观对比。</blockquote>
+    <p><strong>适合商品：</strong>稳定器、相机支架、防抖配件</p>
+    <p><a href="https://www.youtube.com/watch?v=nLwML2PagbY">观看作品 / 来源</a> · <a href="references/2026-11-06-creative-commerce-100.md#web-20261106-087">商品适配 / 换品思路 / 核实记录</a></p>
+    <p><sub>web-20261106-087 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+  <td width="50%" valign="top">
+    <h4>Volvo · 两台卡车之间的一字马</h4>
+    <p><strong>汽车与出行 · 品牌创意 / 历史经典 · 约77秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=M7FIvfx5J10"><img src="https://i.ytimg.com/vi/M7FIvfx5J10/hqdefault.jpg" width="220" alt="Volvo · 两台卡车之间的一字马的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>人物站在两车之间，车辆逐渐分离时保持横叉姿态，稳定的运动形成长时间悬念。</blockquote>
+    <p><strong>适合商品：</strong>滑轨、支架、玩具车</p>
+    <p><a href="https://www.youtube.com/watch?v=M7FIvfx5J10">观看作品 / 来源</a> · <a href="references/2026-11-06-creative-commerce-100.md#web-20261106-088">商品适配 / 换品思路 / 核实记录</a></p>
+    <p><sub>web-20261106-088 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+</tr>
+<tr>
+  <td width="50%" valign="top">
+    <h4>Honda · 汽车零件接力，最后推动整辆车</h4>
+    <p><strong>汽车与出行 · 品牌创意 / 历史经典 · 约122秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=w4XiaP-WhNw"><img src="https://i.ytimg.com/vi/w4XiaP-WhNw/hqdefault.jpg" width="220" alt="Honda · 汽车零件接力，最后推动整辆车的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>齿轮、轮胎等零件依次触发下一步，长链条最终回到完整汽车。</blockquote>
+    <p><strong>适合商品：</strong>桌面玩具、机械模型、收纳组合</p>
+    <p><a href="https://www.youtube.com/watch?v=w4XiaP-WhNw">观看作品 / 来源</a> · <a href="references/2026-11-06-creative-commerce-100.md#web-20261106-095">商品适配 / 换品思路 / 核实记录</a></p>
+    <p><sub>web-20261106-095 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
   </td>
   <td width="50%" valign="top">
     <h4>液态金属成形为跑车</h4>
@@ -2140,6 +3196,41 @@ for real bottle design and white pump structure.
     <p><sub>web-20261105-078 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
   </td>
 </tr>
+<tr>
+  <td width="50%" valign="top">
+    <h4>复古DV健身日记 · 蛋白饮品的自然停顿</h4>
+    <p><strong>运动与健康 · 模型未核实 · 15.1秒 · 16:9</strong></p>
+    <p><a href="https://x.com/maxxmalist/status/2085330197524390113"><img src="https://pbs.twimg.com/amplify_video_thumb/2085329547554136064/img/Uy6dHoER2tqSToWe.jpg" width="220" alt="复古DV健身日记 · 蛋白饮品的自然停顿的作品封面"></a></p>
+    <p><strong>提示词写法 · 本库整理（视频）</strong></p>
+    <blockquote>先约定DV自拍机位，再把走动、训练和休息分成镜头；饮品出现在生活停顿中。</blockquote>
+    <p><strong>适合商品：</strong>蛋白饮品、运动水杯、健身包</p>
+    <p><a href="https://x.com/maxxmalist/status/2085330197524390113">观看作品 / 来源</a> · <a href="https://x.com/maxxmalist/status/2085330197524390113">作者提示词原帖</a> · <a href="references/2026-11-06-creative-commerce-100.md#web-20261106-003">商品适配 / 换品思路 / 核实记录</a> · <a href="https://video.twimg.com/amplify_video/2085329547554136064/vid/avc1/1280x720/eXTN8rTuu59FskOG.mp4?tag=29">播放入口</a></p>
+    <p><sub>web-20261106-003 · 抽帧观察 · 深度待评估</sub></p>
+  </td>
+  <td width="50%" valign="top">
+    <h4>健身杯贯穿一天 · 多场景保持同一SKU</h4>
+    <p><strong>运动与健康 · Seedance 2.0 · 48.4秒 · 9:16</strong></p>
+    <p><a href="https://x.com/sipteaandcoffee/status/2076542398843511040"><img src="https://pbs.twimg.com/amplify_video_thumb/2076542169670987776/img/PUgXy6lyqFPixxZ2.jpg" width="220" alt="健身杯贯穿一天 · 多场景保持同一SKU的作品封面"></a></p>
+    <p><strong>提示词写法 · 本库整理（视频）</strong></p>
+    <blockquote>先定手持快剪与环境音，再把训练生活拆成连续小段；跨场景保持同一随身商品。</blockquote>
+    <p><strong>适合商品：</strong>健身水杯、运动手表、健身套装</p>
+    <p><a href="https://x.com/sipteaandcoffee/status/2076542398843511040">观看作品 / 来源</a> · <a href="https://x.com/sipteaandcoffee/status/2076542398843511040">作者提示词原帖</a> · <a href="references/2026-11-06-creative-commerce-100.md#web-20261106-019">商品适配 / 换品思路 / 核实记录</a> · <a href="https://video.twimg.com/amplify_video/2076542169670987776/vid/avc1/1440x2560/pXvdcRQbB9jVsp0F.mp4?tag=28">播放入口</a></p>
+    <p><sub>web-20261106-019 · 抽帧观察 · 深度待评估</sub></p>
+  </td>
+</tr>
+<tr>
+  <td width="50%" valign="top">
+    <h4>SmartyPants · 礼貌家长内心其实想赢</h4>
+    <p><strong>运动与健康 · 品牌创意 · 约31秒</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=dxj-zBrxGhE"><img src="https://i.ytimg.com/vi/dxj-zBrxGhE/hqdefault.jpg" width="220" alt="SmartyPants · 礼貌家长内心其实想赢的作品封面"></a></p>
+    <p><strong>创意线索 · 来源说明整理</strong></p>
+    <blockquote>科学展上的礼貌表情与竞争心旁白相反，让普通家长活动变成心理较量。</blockquote>
+    <p><strong>适合商品：</strong>文具、科学玩具、便携零食</p>
+    <p><a href="https://www.youtube.com/watch?v=dxj-zBrxGhE">观看作品 / 来源</a> · <a href="https://dailycommercials.com/smartypants-vitamins-hyper-competitive-parents/">剧情 / 制作来源</a> · <a href="references/2026-11-06-creative-commerce-100.md#web-20261106-052">商品适配 / 换品思路 / 核实记录</a></p>
+    <p><sub>web-20261106-052 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+  </td>
+  <td width="50%"></td>
+</tr>
 </table>
 
 ### 通用商品与品牌
@@ -2235,7 +3326,16 @@ for real bottle design and white pump structure.
     <p><a href="https://www.youtube.com/watch?v=bB0TdCbh8HI">观看作品 · Wolt</a> · <a href="https://dailycommercials.com/wolt-ad-2025-starring-owen-wilson-is-hilarious/">剧情与制作来源</a></p>
     <p><sub>web-20261105-043 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
   </td>
-  <td width="50%"></td>
+  <td width="50%" valign="top">
+    <h4>十二格ASMR开箱 · 声音动词先写进分镜</h4>
+    <p><strong>通用商品与品牌 · GPT Image 2 + Gemini Omni / Seedance 2.0 · 30.2秒 · 9:16</strong></p>
+    <p><a href="https://x.com/Ciri_ai/status/2076202198888022135"><img src="https://pbs.twimg.com/amplify_video_thumb/2076202047389741056/img/U6b7FLkM-Cs1xo3t.jpg" width="220" alt="十二格ASMR开箱 · 声音动词先写进分镜的作品封面"></a></p>
+    <p><strong>提示词写法 · 本库整理（分镜图）</strong></p>
+    <blockquote>这是分镜图提示词：先指定信息板版式，再用十二格列出拆封、触碰与声音动作；不是视频模型指令。</blockquote>
+    <p><strong>适合商品：</strong>独立包装饮品、礼盒、冲泡食品</p>
+    <p><a href="https://x.com/Ciri_ai/status/2076202198888022135">观看作品 / 来源</a> · <a href="https://x.com/Ciri_ai/status/2076202198888022135">作者提示词原帖</a> · <a href="references/2026-11-06-creative-commerce-100.md#web-20261106-025">商品适配 / 换品思路 / 核实记录</a> · <a href="https://video.twimg.com/amplify_video/2076202047389741056/vid/avc1/720x1280/qL3hwVmrls_lzUR4.mp4?tag=28">播放入口</a></p>
+    <p><sub>web-20261106-025 · 抽帧观察 · 深度待评估</sub></p>
+  </td>
 </tr>
 </table>
 

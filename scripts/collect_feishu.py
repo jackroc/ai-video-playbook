@@ -30,7 +30,8 @@ REPO_URL = "git@github.com:jackroc/ai-video-playbook.git"
 PUBLIC_URL = "https://github.com/jackroc/ai-video-playbook/blob/main/"
 CATALOG_PATHS = ("references/community", "data/references.json", "README.md", "references/INDEX.md",
                  "references/2026-11-05-creative-commerce-100.md",
-                 "references/2026-11-06-priority-20-analysis.md")
+                 "references/2026-11-06-priority-20-analysis.md",
+                 "references/2026-11-06-creative-commerce-100.md")
 HOSTS = {"x.com", "www.x.com", "twitter.com", "www.twitter.com", "mobile.twitter.com",
          "tiktok.com", "www.tiktok.com", "m.tiktok.com", "vm.tiktok.com", "vt.tiktok.com", "v.tiktok.com"}
 FETCH_HOSTS = HOSTS | {"publish.twitter.com", "publish.x.com"}

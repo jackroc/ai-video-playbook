@@ -81,6 +81,32 @@ class CatalogTests(unittest.TestCase):
         self.assertIn("未独立连续听验", report)
         self.assertIn("具体例子", report)
 
+    def test_author_excerpts_require_stage_and_keep_editorial_summary_separate(self):
+        r = self.record
+        r["prompt"].update(status="original_excerpt", text="A clean storyboard", url=r["source"]["url"],
+                           completeness="short_excerpt_full_text_at_source")
+        with self.assertRaisesRegex(ValueError, "Author excerpt needs stage"):
+            catalog.validate([r])
+        r["prompt"].update(stage="storyboard_image", summary="分镜图先排工序", summary_label="分镜图写法 · 本库整理")
+        catalog.validate([r])
+        html = catalog.card(r)
+        self.assertIn("分镜图写法 · 本库整理", html)
+        self.assertIn("分镜图先排工序", html)
+        self.assertNotIn("A clean storyboard", html)
+
+    def test_new_batch_details_keep_spotcheck_scope_and_original_prompt_link(self):
+        r = next(r for r in catalog.load() if r["collection"] == "2026-11-06" and r["prompt"].get("stage") == "storyboard_image")
+        self.assertEqual(r["observation"]["frame_spotcheck"]["sampled_frames"], 3)
+        self.assertNotEqual(r.get("review", {}).get("status"), "analyzed")
+        html = catalog.card(r)
+        self.assertIn(catalog.NEW_BATCH_REPORT + "#" + r["id"], html)
+        report = catalog.render_new_batch([r])
+        self.assertIn("分镜图提示词 1 条", report)
+        self.assertIn("没有连续观看或听验", report)
+        self.assertIn(r["prompt"]["url"], report)
+        self.assertIn(r["prompt"]["text"], report)
+        self.assertIn("适合商品", report)
+
 
 if __name__ == "__main__":
     unittest.main()

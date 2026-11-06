@@ -107,11 +107,29 @@
 | --- | --- | --- | --- |
 | legacy-011 · 护发精华与发丝展示 | 美妆与香氛 | 来源说明 | [来源](https://viralance.com/examples/ugc-hair-serum) |
 
+## 主次反转（1）
+
+| 案例 | 商品方向 | 观察依据 | 原片 |
+| --- | --- | --- | --- |
+| [web-20261106-057 · SkinnyPop · 明星被手里爆米花抢了风头](2026-11-06-creative-commerce-100.md#web-20261106-057) | 食品与饮料 | 来源说明 | [来源](https://www.youtube.com/watch?v=eM0HmZ24RGA) |
+
+## 争夺升级（1）
+
+| 案例 | 商品方向 | 观察依据 | 原片 |
+| --- | --- | --- | --- |
+| [web-20261106-066 · Doritos · 外星吸力也抢不过一包零食](2026-11-06-creative-commerce-100.md#web-20261106-066) | 食品与饮料 | 来源说明 | [来源](https://www.youtube.com/watch?v=sIAnQwiCpRc) |
+
 ## 五镜棚拍（1）
 
 | 案例 | 商品方向 | 观察依据 | 原片 |
 | --- | --- | --- | --- |
 | legacy-017 · 五段琥珀色香水广告 | 美妆与香氛 | 来源说明 | [来源](https://x.com/CaliraVal/status/2086686230029402183) |
+
+## 产品接力（1）
+
+| 案例 | 商品方向 | 观察依据 | 原片 |
+| --- | --- | --- | --- |
+| [web-20261106-039 · 复古卡座饮料 · 一口之间四次甩镜](2026-11-06-creative-commerce-100.md#web-20261106-039) | 食品与饮料 | 抽帧观察 | [来源](https://x.com/soulful__ai/status/2103844376120340877) |
 
 ## 产品英雄镜头（1）
 
@@ -125,6 +143,24 @@
 | --- | --- | --- | --- |
 | legacy-007 · 金色粉盒与模特五镜广告 | 美妆与香氛 | 来源说明 | [来源](https://prompset.com/prompts/video/seedance-2-5/commercial/luxury-gold-compact-beauty-ad-with-model-five-shots) |
 
+## 人物机械化（1）
+
+| 案例 | 商品方向 | 观察依据 | 原片 |
+| --- | --- | --- | --- |
+| [web-20261106-059 · Duracell · 解说员卡住后换电池重启](2026-11-06-creative-commerce-100.md#web-20261106-059) | 数码与小家电 | 来源说明 | [来源](https://www.youtube.com/watch?v=PIB7bs4zhjE) |
+
+## 人设反差（1）
+
+| 案例 | 商品方向 | 观察依据 | 原片 |
+| --- | --- | --- | --- |
+| [web-20261106-092 · Poo-Pourri · 优雅主持人一本正经谈厕所](2026-11-06-creative-commerce-100.md#web-20261106-092) | 家居与空间 | 来源说明 | [来源](https://www.youtube.com/watch?v=ZKLnhuzh9uY) |
+
+## 任务升级（1）
+
+| 案例 | 商品方向 | 观察依据 | 原片 |
+| --- | --- | --- | --- |
+| [web-20261106-077 · Starbucks · 跑一趟咖啡穿过雪山训练场](2026-11-06-creative-commerce-100.md#web-20261106-077) | 食品与饮料 | 来源说明 | [来源](https://www.youtube.com/watch?v=E2hakODWz_0) |
+
 ## 佩戴与微距（1）
 
 | 案例 | 商品方向 | 观察依据 | 原片 |
@@ -136,6 +172,12 @@
 | 案例 | 商品方向 | 观察依据 | 原片 |
 | --- | --- | --- | --- |
 | legacy-058 · 从微距到城市使用的腕表 | 珠宝与配饰 | 来源说明 | [来源](https://x.com/navi_Ai2/status/2101311302841078204) |
+
+## 佩戴揭晓（1）
+
+| 案例 | 商品方向 | 观察依据 | 原片 |
+| --- | --- | --- | --- |
+| [web-20261106-024 · 太阳镜白棚 · 取戴动作带出镜腿细节](2026-11-06-creative-commerce-100.md#web-20261106-024) | 珠宝与配饰 | 抽帧观察 | [来源](https://x.com/AIwithNatalia/status/2081273233740083648) |
 
 ## 使用场景（1）
 
@@ -159,7 +201,13 @@
 | web-20261105-082 · Liquid Death · 生存游戏里的正经赞助播报 | 食品与饮料 | 来源说明 | [来源](https://www.youtube.com/watch?v=T3bgoouudCA) |
 | web-20261105-096 · Dollar Shave Club · 仓库导览一路发生怪事 | 美妆与香氛 | 来源说明 | [来源](https://www.youtube.com/watch?v=ZUG9qYTJMsI) |
 
-## 冷面反应（20）
+## 内外反差（1）
+
+| 案例 | 商品方向 | 观察依据 | 原片 |
+| --- | --- | --- | --- |
+| [web-20261106-052 · SmartyPants · 礼貌家长内心其实想赢](2026-11-06-creative-commerce-100.md#web-20261106-052) | 运动与健康 | 来源说明 | [来源](https://www.youtube.com/watch?v=dxj-zBrxGhE) |
+
+## 冷面反应（27）
 
 | 案例 | 商品方向 | 观察依据 | 原片 |
 | --- | --- | --- | --- |
@@ -183,18 +231,45 @@
 | [web-20261105-095 · Old Spice · 浴室讲着讲着就骑上马](2026-11-06-priority-20-analysis.md#web-20261105-095) | 美妆与香氛 | 全片工具分析＋逐秒抽帧复核 | [来源](https://www.youtube.com/watch?v=CaT_oieImqw) |
 | web-20261105-096 · Dollar Shave Club · 仓库导览一路发生怪事 | 美妆与香氛 | 来源说明 | [来源](https://www.youtube.com/watch?v=ZUG9qYTJMsI) |
 | [web-20261105-099 · Doritos · 用零食挑选飞机邻座](2026-11-06-priority-20-analysis.md#web-20261105-099) | 食品与饮料 | 全片工具分析＋逐秒抽帧复核 | [来源](https://www.youtube.com/watch?v=2JqRXLQYF9o) |
+| [web-20261106-013 · 生日吹蜡烛 · 火焰和香槟的双重反转](2026-11-06-creative-commerce-100.md#web-20261106-013) | 家居与空间 | 抽帧观察 | [来源](https://x.com/Chengzilhy/status/2080257001268125733) |
+| [web-20261106-014 · 火箭球鞋 · 超能力照样只是去上班](2026-11-06-creative-commerce-100.md#web-20261106-014) | 服装与鞋履 | 抽帧观察 | [来源](https://x.com/Just_sharon7/status/2111764736207716496) |
+| [web-20261106-037 · 跑车通勤 · 日常驾驶滑向悬浮飞行](2026-11-06-creative-commerce-100.md#web-20261106-037) | 汽车与出行 | 抽帧观察 | [来源](https://x.com/Just_sharon7/status/2111825290150527310) |
+| [web-20261106-052 · SmartyPants · 礼貌家长内心其实想赢](2026-11-06-creative-commerce-100.md#web-20261106-052) | 运动与健康 | 来源说明 | [来源](https://www.youtube.com/watch?v=dxj-zBrxGhE) |
+| [web-20261106-057 · SkinnyPop · 明星被手里爆米花抢了风头](2026-11-06-creative-commerce-100.md#web-20261106-057) | 食品与饮料 | 来源说明 | [来源](https://www.youtube.com/watch?v=eM0HmZ24RGA) |
+| [web-20261106-067 · Liquid Death × Dr. Squatch · 肥皂拍成连环恐怖片](2026-11-06-creative-commerce-100.md#web-20261106-067) | 美妆与香氛 | 来源说明 | [来源](https://www.youtube.com/watch?v=8KR0KaLvyKU) |
+| [web-20261106-092 · Poo-Pourri · 优雅主持人一本正经谈厕所](2026-11-06-creative-commerce-100.md#web-20261106-092) | 家居与空间 | 来源说明 | [来源](https://www.youtube.com/watch?v=ZKLnhuzh9uY) |
 
-## 分镜驱动（1）
+## 分镜驱动（7）
 
 | 案例 | 商品方向 | 观察依据 | 原片 |
 | --- | --- | --- | --- |
 | legacy-051 · 帽饰分镜转十秒商品广告 | 服装与鞋履 | 来源说明 | [来源](https://x.com/OlatundeAI/status/2104496380722946061) |
+| [web-20261106-006 · 衬衫从商品图进入分镜广告](2026-11-06-creative-commerce-100.md#web-20261106-006) | 服装与鞋履 | 抽帧观察 | [来源](https://x.com/HeyAbhishek/status/2098058251921457332) |
+| [web-20261106-020 · 屋顶蛋白咖啡 · 九格分镜顺序转视频](2026-11-06-creative-commerce-100.md#web-20261106-020) | 食品与饮料 | 抽帧观察 | [来源](https://x.com/Just_sharon7/status/2054395226920464665) |
+| [web-20261106-025 · 十二格ASMR开箱 · 声音动词先写进分镜](2026-11-06-creative-commerce-100.md#web-20261106-025) | 通用商品与品牌 | 抽帧观察 | [来源](https://x.com/Ciri_ai/status/2076202198888022135) |
+| [web-20261106-026 · 巧克力冲饮 · 十二格第一人称工序](2026-11-06-creative-commerce-100.md#web-20261106-026) | 食品与饮料 | 抽帧观察 | [来源](https://x.com/Strength04_X/status/2078315376660939132) |
+| [web-20261106-027 · 香水ASMR开箱 · 三段接力完成揭晓](2026-11-06-creative-commerce-100.md#web-20261106-027) | 美妆与香氛 | 抽帧观察 | [来源](https://x.com/Ciri_ai/status/2076552852194123851) |
+| [web-20261106-031 · 手中迷你沙发 · 变成完整客厅的尺度反转](2026-11-06-creative-commerce-100.md#web-20261106-031) | 家居与空间 | 抽帧观察 | [来源](https://x.com/KrevixAi/status/2099935072010822040) |
+
+## 前后反差（3）
+
+| 案例 | 商品方向 | 观察依据 | 原片 |
+| --- | --- | --- | --- |
+| [web-20261106-015 · 染发喷雾 · 自拍演示转专业落版](2026-11-06-creative-commerce-100.md#web-20261106-015) | 美妆与香氛 | 抽帧观察 | [来源](https://x.com/Aqsahere_/status/2091372529709400169) |
+| [web-20261106-030 · 有线打结到无线 · 八次快切的小烦恼反转](2026-11-06-creative-commerce-100.md#web-20261106-030) | 数码与小家电 | 抽帧观察 | [来源](https://x.com/ShamiWeb3/status/2058717714055930230) |
+| [web-20261106-040 · 能量饮料前后 · 慢早晨切换高速模式](2026-11-06-creative-commerce-100.md#web-20261106-040) | 食品与饮料 | 抽帧观察 | [来源](https://x.com/doctorwasif/status/2099717908482207928) |
 
 ## 剧情与旁白（1）
 
 | 案例 | 商品方向 | 观察依据 | 原片 |
 | --- | --- | --- | --- |
 | legacy-074 · LUMI 虚构耳机生活方式广告 | 数码与小家电 | 来源说明 | [来源](https://x.com/AIwithSynthia/status/2108194184465395862) |
+
+## 力量反差（1）
+
+| 案例 | 商品方向 | 观察依据 | 原片 |
+| --- | --- | --- | --- |
+| [web-20261106-062 · Oikos · 小个子反过来推着运动员赶飞机](2026-11-06-creative-commerce-100.md#web-20261106-062) | 食品与饮料 | 来源说明 | [来源](https://www.youtube.com/watch?v=a1nZVblGBhs) |
 
 ## 功能与材质（1）
 
@@ -209,7 +284,37 @@
 | legacy-070 · 便携搅拌杯 · 果昔演示 | 数码与小家电 | 来源说明 | [来源](https://viralance.com/examples/ugc-blender-demo) |
 | legacy-088 · 黄色汽车自动泊入车位 | 汽车与出行 | 来源说明 | [来源](https://prompset.com/prompts/video/veo-3-1/commercial/yellow-car-parks-itself-hands-free-with-text-overlay) |
 
-## 动物角色（4）
+## 功能隐喻（1）
+
+| 案例 | 商品方向 | 观察依据 | 原片 |
+| --- | --- | --- | --- |
+| [web-20261106-078 · Apple · 一滴水让跑者开始同时处理多项任务](2026-11-06-creative-commerce-100.md#web-20261106-078) | 数码与小家电 | 来源说明 | [来源](https://www.youtube.com/watch?v=dJObc0V6hJU) |
+
+## 动作接力（1）
+
+| 案例 | 商品方向 | 观察依据 | 原片 |
+| --- | --- | --- | --- |
+| [web-20261106-076 · Oakley Meta · 第一人称把观众带进运动现场](2026-11-06-creative-commerce-100.md#web-20261106-076) | 珠宝与配饰 | 来源说明 | [来源](https://www.youtube.com/watch?v=ym-6Nw53bVw) |
+
+## 动物反应（1）
+
+| 案例 | 商品方向 | 观察依据 | 原片 |
+| --- | --- | --- | --- |
+| [web-20261106-058 · AXE · 狗也为香味吃醋](2026-11-06-creative-commerce-100.md#web-20261106-058) | 美妆与香氛 | 来源说明 | [来源](https://www.youtube.com/watch?v=-Vk5cTxiMfA) |
+
+## 动物拟人（1）
+
+| 案例 | 商品方向 | 观察依据 | 原片 |
+| --- | --- | --- | --- |
+| [web-20261106-094 · Cravendale · 假如猫长出了拇指](2026-11-06-creative-commerce-100.md#web-20261106-094) | 食品与饮料 | 来源说明 | [来源](https://www.youtube.com/watch?v=IdA_fLC7WIQ) |
+
+## 动物视角（1）
+
+| 案例 | 商品方向 | 观察依据 | 原片 |
+| --- | --- | --- | --- |
+| [web-20261106-043 · Spruce · 让狗来挑院子里的用品](2026-11-06-creative-commerce-100.md#web-20261106-043) | 家居与空间 | 来源说明 | [来源](https://www.youtube.com/watch?v=IS7p8yL1xYA) |
+
+## 动物角色（8）
 
 | 案例 | 商品方向 | 观察依据 | 原片 |
 | --- | --- | --- | --- |
@@ -217,6 +322,16 @@
 | web-20261105-044 · Citroën · 熊群追车只想找地方冬眠 | 汽车与出行 | 来源说明 | [来源](https://www.youtube.com/watch?v=VERV2OYQsaU) |
 | [web-20261105-074 · Red Bull · 狗狗绕树牵住主人好约会](2026-11-06-priority-20-analysis.md#web-20261105-074) | 食品与饮料 | 全片工具分析＋逐秒抽帧复核 | [来源](https://www.youtube.com/watch?v=8J4eb_lzjHs) |
 | [web-20261105-089 · Dolce & Gabbana · 宠物也参加高级时装片](2026-11-06-priority-20-analysis.md#web-20261105-089) | 服装与鞋履 | 全片工具分析＋逐秒抽帧复核 | [来源](https://www.youtube.com/watch?v=p18xGXWatrI) |
+| [web-20261106-049 · Nature Valley · 森林木偶熊盯上能量棒](2026-11-06-creative-commerce-100.md#web-20261106-049) | 食品与饮料 | 来源说明 | [来源](https://www.youtube.com/watch?v=dr2oG9pBiJc) |
+| [web-20261106-063 · Coors Light · 周一办公室全员变树懒](2026-11-06-creative-commerce-100.md#web-20261106-063) | 食品与饮料 | 来源说明 | [来源](https://www.youtube.com/watch?v=ZZPKkHQiYGg) |
+| [web-20261106-069 · Barbour · 围巾帽子救回冻住的合唱团](2026-11-06-creative-commerce-100.md#web-20261106-069) | 服装与鞋履 | 来源说明 | [来源](https://www.youtube.com/watch?v=8XS_SG76kQ0) |
+| [web-20261106-096 · Samsung · 鸵鸟戴上VR后开始练飞](2026-11-06-creative-commerce-100.md#web-20261106-096) | 数码与小家电 | 来源说明 | [来源](https://www.youtube.com/watch?v=Czl-Y9kQ3H4) |
+
+## 动物隐喻（1）
+
+| 案例 | 商品方向 | 观察依据 | 原片 |
+| --- | --- | --- | --- |
+| [web-20261106-087 · Mercedes-Benz · 鸡身在跳舞，鸡头稳得出奇](2026-11-06-creative-commerce-100.md#web-20261106-087) | 汽车与出行 | 来源说明 | [来源](https://www.youtube.com/watch?v=nLwML2PagbY) |
 
 ## 原料变形（1）
 
@@ -236,6 +351,12 @@
 | 案例 | 商品方向 | 观察依据 | 原片 |
 | --- | --- | --- | --- |
 | legacy-061 · 黑色反光台上的腕表旋转 | 珠宝与配饰 | 来源说明 | [来源](https://viralance.com/examples/watch) |
+
+## 反差搭档（1）
+
+| 案例 | 商品方向 | 观察依据 | 原片 |
+| --- | --- | --- | --- |
+| [web-20261106-072 · Skechers · 穿鞋不弯腰，连梦里也有人指导](2026-11-06-creative-commerce-100.md#web-20261106-072) | 服装与鞋履 | 来源说明 | [来源](https://www.youtube.com/watch?v=FmOUV26pqMA) |
 
 ## 口味变形（1）
 
@@ -279,13 +400,20 @@
 | --- | --- | --- | --- |
 | legacy-050 · 跑步机变成走秀 T 台 | 服装与鞋履 | 来源说明 | [来源](https://x.com/KrevixAi/status/2088924016606113844) |
 
+## 图像动起来（2）
+
+| 案例 | 商品方向 | 观察依据 | 原片 |
+| --- | --- | --- | --- |
+| [web-20261106-004 · 穿搭板活过来 · 人物与单品同步转圈](2026-11-06-creative-commerce-100.md#web-20261106-004) | 服装与鞋履 | 抽帧观察 | [来源](https://x.com/AI__TSUBAKI/status/2102459655700287648) |
+| [web-20261106-007 · 穿搭信息图 · 六件单品一起旋转](2026-11-06-creative-commerce-100.md#web-20261106-007) | 服装与鞋履 | 抽帧观察 | [来源](https://x.com/AIwithkhan/status/2101148067458347258) |
+
 ## 场景与尾卡（1）
 
 | 案例 | 商品方向 | 观察依据 | 原片 |
 | --- | --- | --- | --- |
 | legacy-098 · 商品进入品牌场景并用标志收尾 | 通用商品与品牌 | 来源说明 | [来源](https://reigniter.ai/videos/campaign-scene-product-film) |
 
-## 场景变换（8）
+## 场景变换（12）
 
 | 案例 | 商品方向 | 观察依据 | 原片 |
 | --- | --- | --- | --- |
@@ -297,6 +425,23 @@
 | web-20261105-058 · Liquid Death · 睡前饮品进入小丑噩梦 | 运动与健康 | 来源说明 | [来源](https://www.youtube.com/watch?v=AomsROaQmcE) |
 | web-20261105-084 · Ribena · 倒一杯饮料让客厅下起雨 | 食品与饮料 | 来源说明 | [来源](https://www.youtube.com/watch?v=rtpOlpr77OU) |
 | [web-20261105-095 · Old Spice · 浴室讲着讲着就骑上马](2026-11-06-priority-20-analysis.md#web-20261105-095) | 美妆与香氛 | 全片工具分析＋逐秒抽帧复核 | [来源](https://www.youtube.com/watch?v=CaT_oieImqw) |
+| [web-20261106-008 · 汽水一口 · 从厨房飞进水果山脉](2026-11-06-creative-commerce-100.md#web-20261106-008) | 食品与饮料 | 抽帧观察 | [来源](https://x.com/ShamiWeb3/status/2096388928416919829) |
+| [web-20261106-036 · 复古汽水开瓶 · 沙漠长出未来城市](2026-11-06-creative-commerce-100.md#web-20261106-036) | 食品与饮料 | 抽帧观察 | [来源](https://x.com/DjajaYerry75/status/2080666062690140315) |
+| [web-20261106-060 · Mountain Dew · 喝一口来到海豹歌手的世界](2026-11-06-creative-commerce-100.md#web-20261106-060) | 食品与饮料 | 来源说明 | [来源](https://www.youtube.com/watch?v=SUGqOQPfn5k) |
+| [web-20261106-081 · M&S · 摇一下雪球，家里变成派对](2026-11-06-creative-commerce-100.md#web-20261106-081) | 服装与鞋履 | 来源说明 | [来源](https://www.youtube.com/watch?v=sVHiDpPXako) |
+
+## 场景接力（2）
+
+| 案例 | 商品方向 | 观察依据 | 原片 |
+| --- | --- | --- | --- |
+| [web-20261106-077 · Starbucks · 跑一趟咖啡穿过雪山训练场](2026-11-06-creative-commerce-100.md#web-20261106-077) | 食品与饮料 | 来源说明 | [来源](https://www.youtube.com/watch?v=E2hakODWz_0) |
+| [web-20261106-098 · KENZO · 无聊宴会逃出来，身体突然失控起舞](2026-11-06-creative-commerce-100.md#web-20261106-098) | 美妆与香氛 | 来源说明 | [来源](https://www.youtube.com/watch?v=mBdbJbEnTzI) |
+
+## 场景植入（1）
+
+| 案例 | 商品方向 | 观察依据 | 原片 |
+| --- | --- | --- | --- |
+| [web-20261106-022 · 播客场景植入 · 谈话中途拿起饮料](2026-11-06-creative-commerce-100.md#web-20261106-022) | 食品与饮料 | 抽帧观察 | [来源](https://x.com/AmControo/status/2082140512769699859) |
 
 ## 场景种草（1）
 
@@ -309,6 +454,12 @@
 | 案例 | 商品方向 | 观察依据 | 原片 |
 | --- | --- | --- | --- |
 | legacy-044 · 秋日睡衣十镜与动效 | 服装与鞋履 | 来源说明 | [来源](https://prompset.com/prompts/video/hailuo-3-0/commercial/10-shot-autumn-recovery-pajama-ad-with-animated-graphics) |
+
+## 场景锁定（1）
+
+| 案例 | 商品方向 | 观察依据 | 原片 |
+| --- | --- | --- | --- |
+| [web-20261106-010 · 粉色客厅吊扇换装 · 场景图先行](2026-11-06-creative-commerce-100.md#web-20261106-010) | 服装与鞋履 | 抽帧观察 | [来源](https://x.com/TanLuAI/status/2108902456935801227) |
 
 ## 声音反差（1）
 
@@ -332,7 +483,13 @@
 | --- | --- | --- | --- |
 | legacy-073 · 九十年代 Sony 随身听广告 | 数码与小家电 | 来源说明 | [来源](https://x.com/abxxai/status/2058125740252799322) |
 
-## 多款切换（4）
+## 多场景展示（1）
+
+| 案例 | 商品方向 | 观察依据 | 原片 |
+| --- | --- | --- | --- |
+| [web-20261106-032 · 保温杯八镜 · 从开盖到车载场景](2026-11-06-creative-commerce-100.md#web-20261106-032) | 家居与空间 | 抽帧观察 | [来源](https://x.com/SeeratFatima112/status/2096519498622976124) |
+
+## 多款切换（7）
 
 | 案例 | 商品方向 | 观察依据 | 原片 |
 | --- | --- | --- | --- |
@@ -340,12 +497,61 @@
 | [web-20261105-028 · Beats · 一间咖啡馆全是不同版本的她](2026-11-06-priority-20-analysis.md#web-20261105-028) | 数码与小家电 | 全片工具分析＋逐秒抽帧复核 | [来源](https://www.youtube.com/watch?v=WiDpX3w-KJE) |
 | web-20261105-033 · Gap · 牛仔穿搭融入群体舞蹈 | 服装与鞋履 | 来源说明 | [来源](https://www.youtube.com/watch?v=IwzF26o0AuU) |
 | [web-20261105-080 · e.l.f. × H&M · 喷香动作连成舞步](2026-11-06-priority-20-analysis.md#web-20261105-080) | 美妆与香氛 | 全片工具分析＋逐秒抽帧复核 | [来源](https://www.youtube.com/watch?v=wd1XfPtRVGc) |
+| [web-20261106-004 · 穿搭板活过来 · 人物与单品同步转圈](2026-11-06-creative-commerce-100.md#web-20261106-004) | 服装与鞋履 | 抽帧观察 | [来源](https://x.com/AI__TSUBAKI/status/2102459655700287648) |
+| [web-20261106-009 · 吊扇叶片一扫 · 四套秋装轮换](2026-11-06-creative-commerce-100.md#web-20261106-009) | 服装与鞋履 | 抽帧观察 | [来源](https://x.com/AIwithkhan/status/2102221702667309467) |
+| [web-20261106-016 · 直播选裙子 · 观众意见推动换装](2026-11-06-creative-commerce-100.md#web-20261106-016) | 服装与鞋履 | 抽帧观察 | [来源](https://x.com/Rosey_watson/status/2086281029913133211) |
+
+## 多款展示（2）
+
+| 案例 | 商品方向 | 观察依据 | 原片 |
+| --- | --- | --- | --- |
+| [web-20261106-005 · 首尔穿搭日记 · 从醒来到出门](2026-11-06-creative-commerce-100.md#web-20261106-005) | 服装与鞋履 | 抽帧观察 | [来源](https://x.com/AIwithkhan/status/2113244959990329635) |
+| [web-20261106-007 · 穿搭信息图 · 六件单品一起旋转](2026-11-06-creative-commerce-100.md#web-20261106-007) | 服装与鞋履 | 抽帧观察 | [来源](https://x.com/AIwithkhan/status/2101148067458347258) |
 
 ## 夸张动作（1）
 
 | 案例 | 商品方向 | 观察依据 | 原片 |
 | --- | --- | --- | --- |
 | legacy-031 · 便利店滑行抢到冰汽水 | 食品与饮料 | 来源说明 | [来源](https://x.com/CaliraVal/status/2068553291898958262) |
+
+## 实验悬念（2）
+
+| 案例 | 商品方向 | 观察依据 | 原片 |
+| --- | --- | --- | --- |
+| [web-20261106-091 · Purple · 生鸡蛋放到床垫上做夸张测试](2026-11-06-creative-commerce-100.md#web-20261106-091) | 家居与空间 | 来源说明 | [来源](https://www.youtube.com/watch?v=4BvwpjaGZCQ) |
+| [web-20261106-093 · Blendtec · 手机放进搅拌机，结果到底怎样](2026-11-06-creative-commerce-100.md#web-20261106-093) | 数码与小家电 | 来源说明 | [来源](https://www.youtube.com/watch?v=qg1ckCkm8YI) |
+
+## 容量展示（1）
+
+| 案例 | 商品方向 | 观察依据 | 原片 |
+| --- | --- | --- | --- |
+| [web-20261106-012 · 通勤包的一天 · 装入物件再带出门](2026-11-06-creative-commerce-100.md#web-20261106-012) | 珠宝与配饰 | 抽帧观察 | [来源](https://x.com/AIwithSynthia/status/2103689025676828948) |
+
+## 对抗转合作（1）
+
+| 案例 | 商品方向 | 观察依据 | 原片 |
+| --- | --- | --- | --- |
+| [web-20261106-083 · KFC × Cheetos · 两个吉祥物先对决再合作](2026-11-06-creative-commerce-100.md#web-20261106-083) | 食品与饮料 | 来源说明 | [来源](https://www.youtube.com/watch?v=IdsJPgKWQ0o) |
+
+## 尺度反差（3）
+
+| 案例 | 商品方向 | 观察依据 | 原片 |
+| --- | --- | --- | --- |
+| [web-20261106-017 · 城堡婚纱 · 宏大空间与刺绣微距交替](2026-11-06-creative-commerce-100.md#web-20261106-017) | 服装与鞋履 | 抽帧观察 | [来源](https://x.com/Just_sharon7/status/2113203864371618209) |
+| [web-20261106-066 · Doritos · 外星吸力也抢不过一包零食](2026-11-06-creative-commerce-100.md#web-20261106-066) | 食品与饮料 | 来源说明 | [来源](https://www.youtube.com/watch?v=sIAnQwiCpRc) |
+| [web-20261106-088 · Volvo · 两台卡车之间的一字马](2026-11-06-creative-commerce-100.md#web-20261106-088) | 汽车与出行 | 来源说明 | [来源](https://www.youtube.com/watch?v=M7FIvfx5J10) |
+
+## 层层加码（1）
+
+| 案例 | 商品方向 | 观察依据 | 原片 |
+| --- | --- | --- | --- |
+| [web-20261106-068 · Aldi · 只说带火鸡，结果整个圣诞都加码](2026-11-06-creative-commerce-100.md#web-20261106-068) | 家居与空间 | 来源说明 | [来源](https://www.youtube.com/watch?v=HTpTPUs4NLQ) |
+
+## 层层揭晓（1）
+
+| 案例 | 商品方向 | 观察依据 | 原片 |
+| --- | --- | --- | --- |
+| [web-20261106-027 · 香水ASMR开箱 · 三段接力完成揭晓](2026-11-06-creative-commerce-100.md#web-20261106-027) | 美妆与香氛 | 抽帧观察 | [来源](https://x.com/Ciri_ai/status/2076552852194123851) |
 
 ## 工序与切面（1）
 
@@ -365,7 +571,7 @@
 | --- | --- | --- | --- |
 | legacy-021 · 客家三杯鸭烹饪广告 | 食品与饮料 | 来源说明 | [来源](https://prompset.com/prompts/video/gemini-omni-flash/commercial/hakka-three-cup-duck-cooking-ad-vertical) |
 
-## 工序演绎（4）
+## 工序演绎（12）
 
 | 案例 | 商品方向 | 观察依据 | 原片 |
 | --- | --- | --- | --- |
@@ -373,6 +579,14 @@
 | [web-20261105-024 · Ruggable · 角色切换，脚下地毯也换](2026-11-06-priority-20-analysis.md#web-20261105-024) | 家居与空间 | 全片工具分析＋逐秒抽帧复核 | [来源](https://www.youtube.com/watch?v=FunDBGvsQE4) |
 | web-20261105-036 · McDonald’s · 偷一根薯条的小动作合集 | 食品与饮料 | 来源说明 | [来源](https://www.youtube.com/watch?v=-CEJ6j_mENw) |
 | [web-20261105-090 · Armani · 把香味拆成可见的柑橘与露珠](2026-11-06-priority-20-analysis.md#web-20261105-090) | 美妆与香氛 | 全片工具分析＋逐秒抽帧复核 | [来源](https://www.youtube.com/watch?v=GuFMb9EAvEM) |
+| [web-20261106-002 · 猪排饭工序 · 动漫提示词与写实成片的偏差](2026-11-06-creative-commerce-100.md#web-20261106-002) | 食品与饮料 | 抽帧观察 | [来源](https://x.com/Goodmanprotocol/status/2098845134326808734) |
+| [web-20261106-011 · 困倦早晨 · 便携咖啡机成为清醒仪式](2026-11-06-creative-commerce-100.md#web-20261106-011) | 数码与小家电 | 抽帧观察 | [来源](https://x.com/Just_sharon7/status/2114344359600566303) |
+| [web-20261106-020 · 屋顶蛋白咖啡 · 九格分镜顺序转视频](2026-11-06-creative-commerce-100.md#web-20261106-020) | 食品与饮料 | 抽帧观察 | [来源](https://x.com/Just_sharon7/status/2054395226920464665) |
+| [web-20261106-021 · 早餐麦片 · 勺子和蓝莓也加入表演](2026-11-06-creative-commerce-100.md#web-20261106-021) | 食品与饮料 | 抽帧观察 | [来源](https://x.com/ShamiWeb3/status/2051101131502460948) |
+| [web-20261106-025 · 十二格ASMR开箱 · 声音动词先写进分镜](2026-11-06-creative-commerce-100.md#web-20261106-025) | 通用商品与品牌 | 抽帧观察 | [来源](https://x.com/Ciri_ai/status/2076202198888022135) |
+| [web-20261106-026 · 巧克力冲饮 · 十二格第一人称工序](2026-11-06-creative-commerce-100.md#web-20261106-026) | 食品与饮料 | 抽帧观察 | [来源](https://x.com/Strength04_X/status/2078315376660939132) |
+| [web-20261106-032 · 保温杯八镜 · 从开盖到车载场景](2026-11-06-creative-commerce-100.md#web-20261106-032) | 家居与空间 | 抽帧观察 | [来源](https://x.com/SeeratFatima112/status/2096519498622976124) |
+| [web-20261106-033 · 洗发水五段 · 湿发到产品定版](2026-11-06-creative-commerce-100.md#web-20261106-033) | 美妆与香氛 | 抽帧观察 | [来源](https://x.com/Rosey_watson/status/2090369532435083731) |
 
 ## 工艺与切面（1）
 
@@ -399,6 +613,18 @@
 | --- | --- | --- | --- |
 | legacy-024 · 浆果村庄围绕巨型酸奶杯 | 食品与饮料 | 来源说明 | [来源](https://prompset.com/prompts/video/seedance-2-0/commercial/berry-village-drone-ad-around-giant-yogurt-cup) |
 
+## 平行叙事（1）
+
+| 案例 | 商品方向 | 观察依据 | 原片 |
+| --- | --- | --- | --- |
+| [web-20261106-082 · Chanel N°5 · 赴约路线错开，期待反而成为主角](2026-11-06-creative-commerce-100.md#web-20261106-082) | 美妆与香氛 | 来源说明 | [来源](https://www.youtube.com/watch?v=UyZFbgke1Bo) |
+
+## 延迟回报（1）
+
+| 案例 | 商品方向 | 观察依据 | 原片 |
+| --- | --- | --- | --- |
+| [web-20261106-097 · Cadbury · 大猩猩认真等着鼓点爆发](2026-11-06-creative-commerce-100.md#web-20261106-097) | 食品与饮料 | 来源说明 | [来源](https://www.youtube.com/watch?v=TnzFRV1LwIo) |
+
 ## 延迟揭晓（2）
 
 | 案例 | 商品方向 | 观察依据 | 原片 |
@@ -412,7 +638,13 @@
 | --- | --- | --- | --- |
 | legacy-008 · 蓝铜色美发工具开箱 | 美妆与香氛 | 来源说明 | [来源](https://x.com/AvelyrahnAI/status/2093932080497594740) |
 
-## 异常用途（8）
+## 异常尺度（1）
+
+| 案例 | 商品方向 | 观察依据 | 原片 |
+| --- | --- | --- | --- |
+| [web-20261106-055 · AXE · 沙发长到约会对象都睡着了](2026-11-06-creative-commerce-100.md#web-20261106-055) | 美妆与香氛 | 来源说明 | [来源](https://www.youtube.com/watch?v=s-sMKrbVkQg) |
+
+## 异常用途（12）
 
 | 案例 | 商品方向 | 观察依据 | 原片 |
 | --- | --- | --- | --- |
@@ -424,6 +656,10 @@
 | [web-20261105-074 · Red Bull · 狗狗绕树牵住主人好约会](2026-11-06-priority-20-analysis.md#web-20261105-074) | 食品与饮料 | 全片工具分析＋逐秒抽帧复核 | [来源](https://www.youtube.com/watch?v=8J4eb_lzjHs) |
 | web-20261105-081 · Absolut × Tabasco · 火山喷出的竟是鸡尾酒 | 食品与饮料 | 来源说明 | [来源](https://www.youtube.com/watch?v=1FBVEfTIGVg) |
 | web-20261105-097 · Cheetos · 沾满芝士的手什么都碰不了 | 食品与饮料 | 来源说明 | [来源](https://www.youtube.com/watch?v=QK2lmJvshjg) |
+| [web-20261106-001 · 可乐与薄荷糖 · 行车视角里的喷泉反转](2026-11-06-creative-commerce-100.md#web-20261106-001) | 食品与饮料 | 抽帧观察 | [来源](https://x.com/techhalla/status/2100526482212712584) |
+| [web-20261106-014 · 火箭球鞋 · 超能力照样只是去上班](2026-11-06-creative-commerce-100.md#web-20261106-014) | 服装与鞋履 | 抽帧观察 | [来源](https://x.com/Just_sharon7/status/2111764736207716496) |
+| [web-20261106-037 · 跑车通勤 · 日常驾驶滑向悬浮飞行](2026-11-06-creative-commerce-100.md#web-20261106-037) | 汽车与出行 | 抽帧观察 | [来源](https://x.com/Just_sharon7/status/2111825290150527310) |
+| [web-20261106-093 · Blendtec · 手机放进搅拌机，结果到底怎样](2026-11-06-creative-commerce-100.md#web-20261106-093) | 数码与小家电 | 来源说明 | [来源](https://www.youtube.com/watch?v=qg1ckCkm8YI) |
 
 ## 形态反差（2）
 
@@ -431,6 +667,13 @@
 | --- | --- | --- | --- |
 | web-20261105-075 · Liquid Death · 能量饮料警示片里人人爆头 | 食品与饮料 | 来源说明 | [来源](https://www.youtube.com/watch?v=tEh050NGnVM) |
 | web-20261105-100 · Snickers · 球场上状态不对，吃完换个人 | 食品与饮料 | 来源说明 | [来源](https://www.youtube.com/watch?v=voqdFtr7FjU) |
+
+## 形状联想（2）
+
+| 案例 | 商品方向 | 观察依据 | 原片 |
+| --- | --- | --- | --- |
+| [web-20261106-047 · Pringles · 薯片鸭嘴招来鸭王加冕](2026-11-06-creative-commerce-100.md#web-20261106-047) | 食品与饮料 | 来源说明 | [来源](https://www.youtube.com/watch?v=PGvFIqghsTg) |
+| [web-20261106-085 · Reese’s · 太想吃巧克力，连熔岩都认错](2026-11-06-creative-commerce-100.md#web-20261106-085) | 食品与饮料 | 来源说明 | [来源](https://www.youtube.com/watch?v=KCMjc-xGv_c) |
 
 ## 待分类（3）
 
@@ -474,6 +717,12 @@
 | --- | --- | --- | --- |
 | legacy-082 · 巨手搭建微缩卧室 | 家居与空间 | 来源说明 | [来源](https://x.com/KrevixAi/status/2101557216272634138) |
 
+## 微缩角色（1）
+
+| 案例 | 商品方向 | 观察依据 | 原片 |
+| --- | --- | --- | --- |
+| [web-20261106-079 · TinyTAN × Happy Meal · 玩具从餐盒边跳进音乐片](2026-11-06-creative-commerce-100.md#web-20261106-079) | 家居与空间 | 来源说明 | [来源](https://www.youtube.com/watch?v=X9rq3jxNuE4) |
+
 ## 微距扫光（1）
 
 | 案例 | 商品方向 | 观察依据 | 原片 |
@@ -486,6 +735,12 @@
 | --- | --- | --- | --- |
 | legacy-035 · 热巧克力流过甜点 | 食品与饮料 | 来源说明 | [来源](https://viralance.com/examples/chocolate) |
 | legacy-036 · 蜂蜜慢淋松饼塔 | 食品与饮料 | 来源说明 | [来源](https://viralance.com/examples/seedance25-honey-pancakes) |
+
+## 悬念揭晓（1）
+
+| 案例 | 商品方向 | 观察依据 | 原片 |
+| --- | --- | --- | --- |
+| [web-20261106-018 · 拍立得提前五秒 · 先看到即将发生的照片](2026-11-06-creative-commerce-100.md#web-20261106-018) | 数码与小家电 | 抽帧观察 | [来源](https://x.com/john_my07/status/2104220928796499974) |
 
 ## 悬浮定格（1）
 
@@ -518,13 +773,45 @@
 | --- | --- | --- | --- |
 | legacy-001 · 海滩场景串联人物与美妆商品 | 美妆与香氛 | 来源说明 | [来源](https://prompset.com/prompts/video/seedance-2-5/commercial/luxury-beach-beauty-commercial-with-product) |
 
+## 情绪升级（1）
+
+| 案例 | 商品方向 | 观察依据 | 原片 |
+| --- | --- | --- | --- |
+| [web-20261106-048 · Hatch · 睡前刷手机拍成恐怖预告](2026-11-06-creative-commerce-100.md#web-20261106-048) | 数码与小家电 | 来源说明 | [来源](https://www.youtube.com/watch?v=LcdPZ0aEdRQ) |
+
+## 情绪反差（1）
+
+| 案例 | 商品方向 | 观察依据 | 原片 |
+| --- | --- | --- | --- |
+| [web-20261106-042 · MANSCAPED · 被剪掉的毛发唱离别歌](2026-11-06-creative-commerce-100.md#web-20261106-042) | 美妆与香氛 | 来源说明 | [来源](https://www.youtube.com/watch?v=jI9V70EAXiI) |
+
+## 情绪反转（2）
+
+| 案例 | 商品方向 | 观察依据 | 原片 |
+| --- | --- | --- | --- |
+| [web-20261106-058 · AXE · 狗也为香味吃醋](2026-11-06-creative-commerce-100.md#web-20261106-058) | 美妆与香氛 | 来源说明 | [来源](https://www.youtube.com/watch?v=-Vk5cTxiMfA) |
+| [web-20261106-099 · IKEA Lamp 2 · 被丢弃的灯获得第二个家](2026-11-06-creative-commerce-100.md#web-20261106-099) | 家居与空间 | 来源说明 | [来源](https://www.youtube.com/watch?v=neW2zmtiGQk) |
+
+## 情绪外化（2）
+
+| 案例 | 商品方向 | 观察依据 | 原片 |
+| --- | --- | --- | --- |
+| [web-20261106-063 · Coors Light · 周一办公室全员变树懒](2026-11-06-creative-commerce-100.md#web-20261106-063) | 食品与饮料 | 来源说明 | [来源](https://www.youtube.com/watch?v=ZZPKkHQiYGg) |
+| [web-20261106-084 · HORNBACH · 春天让人像动物一样蜕变](2026-11-06-creative-commerce-100.md#web-20261106-084) | 家居与空间 | 来源说明 | [来源](https://www.youtube.com/watch?v=ehoNeV1E4oU) |
+
+## 情绪爆发（1）
+
+| 案例 | 商品方向 | 观察依据 | 原片 |
+| --- | --- | --- | --- |
+| [web-20261106-098 · KENZO · 无聊宴会逃出来，身体突然失控起舞](2026-11-06-creative-commerce-100.md#web-20261106-098) | 美妆与香氛 | 来源说明 | [来源](https://www.youtube.com/watch?v=mBdbJbEnTzI) |
+
 ## 情绪转场（1）
 
 | 案例 | 商品方向 | 观察依据 | 原片 |
 | --- | --- | --- | --- |
 | legacy-078 · 蜡烛引出童年记忆 | 家居与空间 | 来源说明 | [来源](https://prompset.com/prompts/video/seedance-2-0/commercial/nostalgic-3d-candle-ad-with-a-ghostly-childhood-memory) |
 
-## 情绪转折（9）
+## 情绪转折（12）
 
 | 案例 | 商品方向 | 观察依据 | 原片 |
 | --- | --- | --- | --- |
@@ -537,6 +824,9 @@
 | web-20261105-079 · Skechers · 旧鞋飞进泳池，新鞋直接穿上 | 服装与鞋履 | 来源说明 | [来源](https://www.youtube.com/watch?v=4nyKYDP21rM) |
 | web-20261105-084 · Ribena · 倒一杯饮料让客厅下起雨 | 食品与饮料 | 来源说明 | [来源](https://www.youtube.com/watch?v=rtpOlpr77OU) |
 | web-20261105-085 · Lay’s · 一颗掉落土豆被种成希望 | 食品与饮料 | 来源说明 | [来源](https://www.youtube.com/watch?v=Nogd0HC6KFg) |
+| [web-20261106-011 · 困倦早晨 · 便携咖啡机成为清醒仪式](2026-11-06-creative-commerce-100.md#web-20261106-011) | 数码与小家电 | 抽帧观察 | [来源](https://x.com/Just_sharon7/status/2114344359600566303) |
+| [web-20261106-069 · Barbour · 围巾帽子救回冻住的合唱团](2026-11-06-creative-commerce-100.md#web-20261106-069) | 服装与鞋履 | 来源说明 | [来源](https://www.youtube.com/watch?v=8XS_SG76kQ0) |
+| [web-20261106-080 · Apple Heartstrings · 声音视角带出家庭连接](2026-11-06-creative-commerce-100.md#web-20261106-080) | 数码与小家电 | 来源说明 | [来源](https://www.youtube.com/watch?v=w2NN3OvfJFY) |
 
 ## 情节与包装（1）
 
@@ -544,7 +834,13 @@
 | --- | --- | --- | --- |
 | legacy-032 · 赛道终点后的 VOLT 运动饮料 | 食品与饮料 | 来源说明 | [来源](https://x.com/yourPlugAI/status/2064788732285517886) |
 
-## 情节反转（19）
+## 情节升级（1）
+
+| 案例 | 商品方向 | 观察依据 | 原片 |
+| --- | --- | --- | --- |
+| [web-20261106-046 · Pepsi · 北极熊盲喝后怀疑人生](2026-11-06-creative-commerce-100.md#web-20261106-046) | 食品与饮料 | 来源说明 | [来源](https://www.youtube.com/watch?v=7vKCq52wWUY) |
+
+## 情节反转（21）
 
 | 案例 | 商品方向 | 观察依据 | 原片 |
 | --- | --- | --- | --- |
@@ -567,13 +863,52 @@
 | [web-20261105-073 · Duracell · 球星失灵原来装错电池](2026-11-06-priority-20-analysis.md#web-20261105-073) | 数码与小家电 | 全片工具分析＋逐秒抽帧复核 | [来源](https://www.youtube.com/watch?v=huRFGYDWvXA) |
 | web-20261105-087 · Domino’s · 生存竞赛突然需要应急披萨 | 食品与饮料 | 来源说明 | [来源](https://www.youtube.com/watch?v=4WpBqy4oYeI) |
 | [web-20261105-099 · Doritos · 用零食挑选飞机邻座](2026-11-06-priority-20-analysis.md#web-20261105-099) | 食品与饮料 | 全片工具分析＋逐秒抽帧复核 | [来源](https://www.youtube.com/watch?v=2JqRXLQYF9o) |
+| [web-20261106-013 · 生日吹蜡烛 · 火焰和香槟的双重反转](2026-11-06-creative-commerce-100.md#web-20261106-013) | 家居与空间 | 抽帧观察 | [来源](https://x.com/Chengzilhy/status/2080257001268125733) |
+| [web-20261106-074 · Lynx · 抢劫现场集体被香味带跑题](2026-11-06-creative-commerce-100.md#web-20261106-074) | 美妆与香氛 | 来源说明 | [来源](https://www.youtube.com/watch?v=LMuDlEqMpNc) |
 
-## 感官隐喻（2）
+## 意外升级（11）
+
+| 案例 | 商品方向 | 观察依据 | 原片 |
+| --- | --- | --- | --- |
+| [web-20261106-001 · 可乐与薄荷糖 · 行车视角里的喷泉反转](2026-11-06-creative-commerce-100.md#web-20261106-001) | 食品与饮料 | 抽帧观察 | [来源](https://x.com/techhalla/status/2100526482212712584) |
+| [web-20261106-036 · 复古汽水开瓶 · 沙漠长出未来城市](2026-11-06-creative-commerce-100.md#web-20261106-036) | 食品与饮料 | 抽帧观察 | [来源](https://x.com/DjajaYerry75/status/2080666062690140315) |
+| [web-20261106-044 · Pringles · 用薯片拼出理想恋人](2026-11-06-creative-commerce-100.md#web-20261106-044) | 食品与饮料 | 来源说明 | [来源](https://www.youtube.com/watch?v=SBRUJs2PoGc) |
+| [web-20261106-047 · Pringles · 薯片鸭嘴招来鸭王加冕](2026-11-06-creative-commerce-100.md#web-20261106-047) | 食品与饮料 | 来源说明 | [来源](https://www.youtube.com/watch?v=PGvFIqghsTg) |
+| [web-20261106-051 · AXE · 邻居把普通淋浴变成荒诞事件](2026-11-06-creative-commerce-100.md#web-20261106-051) | 美妆与香氛 | 来源说明 | [来源](https://www.youtube.com/watch?v=r2vuITs4xCs) |
+| [web-20261106-064 · Pringles · 胡子飞离主人去买薯片](2026-11-06-creative-commerce-100.md#web-20261106-064) | 食品与饮料 | 来源说明 | [来源](https://www.youtube.com/watch?v=vJukG10E1no) |
+| [web-20261106-068 · Aldi · 只说带火鸡，结果整个圣诞都加码](2026-11-06-creative-commerce-100.md#web-20261106-068) | 家居与空间 | 来源说明 | [来源](https://www.youtube.com/watch?v=HTpTPUs4NLQ) |
+| [web-20261106-071 · Currys · 网购习惯碰到真实吹风机](2026-11-06-creative-commerce-100.md#web-20261106-071) | 数码与小家电 | 来源说明 | [来源](https://www.youtube.com/watch?v=bEUeGOxx-G4) |
+| [web-20261106-078 · Apple · 一滴水让跑者开始同时处理多项任务](2026-11-06-creative-commerce-100.md#web-20261106-078) | 数码与小家电 | 来源说明 | [来源](https://www.youtube.com/watch?v=dJObc0V6hJU) |
+| [web-20261106-085 · Reese’s · 太想吃巧克力，连熔岩都认错](2026-11-06-creative-commerce-100.md#web-20261106-085) | 食品与饮料 | 来源说明 | [来源](https://www.youtube.com/watch?v=KCMjc-xGv_c) |
+| [web-20261106-094 · Cravendale · 假如猫长出了拇指](2026-11-06-creative-commerce-100.md#web-20261106-094) | 食品与饮料 | 来源说明 | [来源](https://www.youtube.com/watch?v=IdA_fLC7WIQ) |
+
+## 意外登场（1）
+
+| 案例 | 商品方向 | 观察依据 | 原片 |
+| --- | --- | --- | --- |
+| [web-20261106-056 · Starry · 访谈节目突然放出汽水吉祥物](2026-11-06-creative-commerce-100.md#web-20261106-056) | 食品与饮料 | 来源说明 | [来源](https://www.youtube.com/watch?v=kxm0TIDqbjI) |
+
+## 感官视角（1）
+
+| 案例 | 商品方向 | 观察依据 | 原片 |
+| --- | --- | --- | --- |
+| [web-20261106-080 · Apple Heartstrings · 声音视角带出家庭连接](2026-11-06-creative-commerce-100.md#web-20261106-080) | 数码与小家电 | 来源说明 | [来源](https://www.youtube.com/watch?v=w2NN3OvfJFY) |
+
+## 感官隐喻（5）
 
 | 案例 | 商品方向 | 观察依据 | 原片 |
 | --- | --- | --- | --- |
 | [web-20261105-090 · Armani · 把香味拆成可见的柑橘与露珠](2026-11-06-priority-20-analysis.md#web-20261105-090) | 美妆与香氛 | 全片工具分析＋逐秒抽帧复核 | [来源](https://www.youtube.com/watch?v=GuFMb9EAvEM) |
 | web-20261105-092 · OnePlus · 金属手机遇上重金属怪物乐队 | 数码与小家电 | 来源说明 | [来源](https://www.youtube.com/watch?v=1sxlT5dusZY) |
+| [web-20261106-008 · 汽水一口 · 从厨房飞进水果山脉](2026-11-06-creative-commerce-100.md#web-20261106-008) | 食品与饮料 | 抽帧观察 | [来源](https://x.com/ShamiWeb3/status/2096388928416919829) |
+| [web-20261106-035 · 覆盆子唇油 · 果色与妆色互相呼应](2026-11-06-creative-commerce-100.md#web-20261106-035) | 美妆与香氛 | 抽帧观察 | [来源](https://x.com/itxabdullaa/status/2103084704979394875) |
+| [web-20261106-090 · Squatty Potty · 用彩虹冰淇淋讲卫浴小凳](2026-11-06-creative-commerce-100.md#web-20261106-090) | 家居与空间 | 来源说明 | [来源](https://www.youtube.com/watch?v=YbYWhdLO43Q) |
+
+## 戏剧升级（1）
+
+| 案例 | 商品方向 | 观察依据 | 原片 |
+| --- | --- | --- | --- |
+| [web-20261106-100 · e.l.f. MELISA · 美妆广告变成长篇拉美肥皂剧](2026-11-06-creative-commerce-100.md#web-20261106-100) | 美妆与香氛 | 来源说明 | [来源](https://www.youtube.com/watch?v=ClX4DldtGq0) |
 
 ## 手持口播（1）
 
@@ -587,11 +922,23 @@
 | --- | --- | --- | --- |
 | legacy-068 · 风扇转动与按键控制 | 数码与小家电 | 来源说明 | [来源](https://prompset.com/prompts/video/seedance-2-5/commercial/tech-product-ad-rotating-fan-with-button-controls) |
 
+## 故障反转（1）
+
+| 案例 | 商品方向 | 观察依据 | 原片 |
+| --- | --- | --- | --- |
+| [web-20261106-059 · Duracell · 解说员卡住后换电池重启](2026-11-06-creative-commerce-100.md#web-20261106-059) | 数码与小家电 | 来源说明 | [来源](https://www.youtube.com/watch?v=PIB7bs4zhjE) |
+
 ## 旋转与水滴（1）
 
 | 案例 | 商品方向 | 观察依据 | 原片 |
 | --- | --- | --- | --- |
 | legacy-014 · 香水 · 湿黑大理石上的玻璃瓶 | 美妆与香氛 | 来源说明 | [来源](https://viralance.com/examples/perfume) |
+
+## 时间反转（1）
+
+| 案例 | 商品方向 | 观察依据 | 原片 |
+| --- | --- | --- | --- |
+| [web-20261106-018 · 拍立得提前五秒 · 先看到即将发生的照片](2026-11-06-creative-commerce-100.md#web-20261106-018) | 数码与小家电 | 抽帧观察 | [来源](https://x.com/john_my07/status/2104220928796499974) |
 
 ## 时间循环（1）
 
@@ -622,6 +969,24 @@
 | 案例 | 商品方向 | 观察依据 | 原片 |
 | --- | --- | --- | --- |
 | legacy-016 · 眼影刷扫过眼睑 | 美妆与香氛 | 来源说明 | [来源](https://viralance.com/examples/makeup) |
+
+## 极限展示（1）
+
+| 案例 | 商品方向 | 观察依据 | 原片 |
+| --- | --- | --- | --- |
+| [web-20261106-088 · Volvo · 两台卡车之间的一字马](2026-11-06-creative-commerce-100.md#web-20261106-088) | 汽车与出行 | 来源说明 | [来源](https://www.youtube.com/watch?v=M7FIvfx5J10) |
+
+## 梦境介入（1）
+
+| 案例 | 商品方向 | 观察依据 | 原片 |
+| --- | --- | --- | --- |
+| [web-20261106-072 · Skechers · 穿鞋不弯腰，连梦里也有人指导](2026-11-06-creative-commerce-100.md#web-20261106-072) | 服装与鞋履 | 来源说明 | [来源](https://www.youtube.com/watch?v=FmOUV26pqMA) |
+
+## 梦想兑现（1）
+
+| 案例 | 商品方向 | 观察依据 | 原片 |
+| --- | --- | --- | --- |
+| [web-20261106-096 · Samsung · 鸵鸟戴上VR后开始练飞](2026-11-06-creative-commerce-100.md#web-20261106-096) | 数码与小家电 | 来源说明 | [来源](https://www.youtube.com/watch?v=Czl-Y9kQ3H4) |
 
 ## 棚拍特写（1）
 
@@ -698,11 +1063,38 @@
 | [web-20261105-065 · Aldi · 胡萝卜特工营救圣诞](2026-11-06-priority-20-analysis.md#web-20261105-065) | 食品与饮料 | 全片工具分析＋逐秒抽帧复核 | [来源](https://www.youtube.com/watch?v=LYt04t_6XMs) |
 | [web-20261105-073 · Duracell · 球星失灵原来装错电池](2026-11-06-priority-20-analysis.md#web-20261105-073) | 数码与小家电 | 全片工具分析＋逐秒抽帧复核 | [来源](https://www.youtube.com/watch?v=huRFGYDWvXA) |
 
+## 物件视角（1）
+
+| 案例 | 商品方向 | 观察依据 | 原片 |
+| --- | --- | --- | --- |
+| [web-20261106-099 · IKEA Lamp 2 · 被丢弃的灯获得第二个家](2026-11-06-creative-commerce-100.md#web-20261106-099) | 家居与空间 | 来源说明 | [来源](https://www.youtube.com/watch?v=neW2zmtiGQk) |
+
+## 物体拟人（5）
+
+| 案例 | 商品方向 | 观察依据 | 原片 |
+| --- | --- | --- | --- |
+| [web-20261106-021 · 早餐麦片 · 勺子和蓝莓也加入表演](2026-11-06-creative-commerce-100.md#web-20261106-021) | 食品与饮料 | 抽帧观察 | [来源](https://x.com/ShamiWeb3/status/2051101131502460948) |
+| [web-20261106-041 · Liquid I.V. · 马桶合唱团提醒你补水](2026-11-06-creative-commerce-100.md#web-20261106-041) | 食品与饮料 | 来源说明 | [来源](https://www.youtube.com/watch?v=ZjDfVdrtl48) |
+| [web-20261106-042 · MANSCAPED · 被剪掉的毛发唱离别歌](2026-11-06-creative-commerce-100.md#web-20261106-042) | 美妆与香氛 | 来源说明 | [来源](https://www.youtube.com/watch?v=jI9V70EAXiI) |
+| [web-20261106-044 · Pringles · 用薯片拼出理想恋人](2026-11-06-creative-commerce-100.md#web-20261106-044) | 食品与饮料 | 来源说明 | [来源](https://www.youtube.com/watch?v=SBRUJs2PoGc) |
+| [web-20261106-070 · Morrisons · 烤箱手套成为厨房合唱团](2026-11-06-creative-commerce-100.md#web-20261106-070) | 家居与空间 | 来源说明 | [来源](https://www.youtube.com/watch?v=zPRt0TPbPWg) |
+
 ## 环绕特写（1）
 
 | 案例 | 商品方向 | 观察依据 | 原片 |
 | --- | --- | --- | --- |
 | legacy-003 · 暗棚环绕睫毛膏 | 美妆与香氛 | 来源说明 | [来源](https://prompset.com/prompts/video/seedance-2-5/commercial/luxury-mascara-ad-with-orbiting-camera-in-dark-studio) |
+
+## 生活叙事（6）
+
+| 案例 | 商品方向 | 观察依据 | 原片 |
+| --- | --- | --- | --- |
+| [web-20261106-003 · 复古DV健身日记 · 蛋白饮品的自然停顿](2026-11-06-creative-commerce-100.md#web-20261106-003) | 运动与健康 | 抽帧观察 | [来源](https://x.com/maxxmalist/status/2085330197524390113) |
+| [web-20261106-005 · 首尔穿搭日记 · 从醒来到出门](2026-11-06-creative-commerce-100.md#web-20261106-005) | 服装与鞋履 | 抽帧观察 | [来源](https://x.com/AIwithkhan/status/2113244959990329635) |
+| [web-20261106-012 · 通勤包的一天 · 装入物件再带出门](2026-11-06-creative-commerce-100.md#web-20261106-012) | 珠宝与配饰 | 抽帧观察 | [来源](https://x.com/AIwithSynthia/status/2103689025676828948) |
+| [web-20261106-019 · 健身杯贯穿一天 · 多场景保持同一SKU](2026-11-06-creative-commerce-100.md#web-20261106-019) | 运动与健康 | 抽帧观察 | [来源](https://x.com/sipteaandcoffee/status/2076542398843511040) |
+| [web-20261106-028 · 披萨夜自拍 · 开盒、拉丝、试吃与碰杯](2026-11-06-creative-commerce-100.md#web-20261106-028) | 食品与饮料 | 抽帧观察 | [来源](https://x.com/ShamiWeb3/status/2082799917140197798) |
+| [web-20261106-030 · 有线打结到无线 · 八次快切的小烦恼反转](2026-11-06-creative-commerce-100.md#web-20261106-030) | 数码与小家电 | 抽帧观察 | [来源](https://x.com/ShamiWeb3/status/2058717714055930230) |
 
 ## 由细到全（1）
 
@@ -710,11 +1102,30 @@
 | --- | --- | --- | --- |
 | legacy-065 · 机械表从齿轮微距拉到棚景 | 珠宝与配饰 | 来源说明 | [来源](https://x.com/drzubi01/status/2113115942582734912) |
 
+## 社交冲突（1）
+
+| 案例 | 商品方向 | 观察依据 | 原片 |
+| --- | --- | --- | --- |
+| [web-20261106-073 · Beats Pill · 隔壁大声放的偏偏是自己的歌](2026-11-06-creative-commerce-100.md#web-20261106-073) | 数码与小家电 | 来源说明 | [来源](https://www.youtube.com/watch?v=VKv55xU_OuQ) |
+
+## 社交反差（2）
+
+| 案例 | 商品方向 | 观察依据 | 原片 |
+| --- | --- | --- | --- |
+| [web-20261106-051 · AXE · 邻居把普通淋浴变成荒诞事件](2026-11-06-creative-commerce-100.md#web-20261106-051) | 美妆与香氛 | 来源说明 | [来源](https://www.youtube.com/watch?v=r2vuITs4xCs) |
+| [web-20261106-074 · Lynx · 抢劫现场集体被香味带跑题](2026-11-06-creative-commerce-100.md#web-20261106-074) | 美妆与香氛 | 来源说明 | [来源](https://www.youtube.com/watch?v=LMuDlEqMpNc) |
+
 ## 科技图形（1）
 
 | 案例 | 商品方向 | 观察依据 | 原片 |
 | --- | --- | --- | --- |
 | legacy-053 · 黑橙球鞋搭配 HUD 快剪 | 服装与鞋履 | 来源说明 | [来源](https://x.com/Gladhex/status/2045019880693416015) |
+
+## 稳定性反差（1）
+
+| 案例 | 商品方向 | 观察依据 | 原片 |
+| --- | --- | --- | --- |
+| [web-20261106-087 · Mercedes-Benz · 鸡身在跳舞，鸡头稳得出奇](2026-11-06-creative-commerce-100.md#web-20261106-087) | 汽车与出行 | 来源说明 | [来源](https://www.youtube.com/watch?v=nLwML2PagbY) |
 
 ## 空间装配（3）
 
@@ -730,7 +1141,26 @@
 | --- | --- | --- | --- |
 | [web-20261105-089 · Dolce & Gabbana · 宠物也参加高级时装片](2026-11-06-priority-20-analysis.md#web-20261105-089) | 服装与鞋履 | 全片工具分析＋逐秒抽帧复核 | [来源](https://www.youtube.com/watch?v=p18xGXWatrI) |
 
-## 类型错位（19）
+## 第一人称（2）
+
+| 案例 | 商品方向 | 观察依据 | 原片 |
+| --- | --- | --- | --- |
+| [web-20261106-031 · 手中迷你沙发 · 变成完整客厅的尺度反转](2026-11-06-creative-commerce-100.md#web-20261106-031) | 家居与空间 | 抽帧观察 | [来源](https://x.com/KrevixAi/status/2099935072010822040) |
+| [web-20261106-076 · Oakley Meta · 第一人称把观众带进运动现场](2026-11-06-creative-commerce-100.md#web-20261106-076) | 珠宝与配饰 | 来源说明 | [来源](https://www.youtube.com/watch?v=ym-6Nw53bVw) |
+
+## 等待反差（1）
+
+| 案例 | 商品方向 | 观察依据 | 原片 |
+| --- | --- | --- | --- |
+| [web-20261106-055 · AXE · 沙发长到约会对象都睡着了](2026-11-06-creative-commerce-100.md#web-20261106-055) | 美妆与香氛 | 来源说明 | [来源](https://www.youtube.com/watch?v=s-sMKrbVkQg) |
+
+## 类型反差（1）
+
+| 案例 | 商品方向 | 观察依据 | 原片 |
+| --- | --- | --- | --- |
+| [web-20261106-065 · Häagen-Dazs · 速度电影主角开始慢慢吃冰淇淋](2026-11-06-creative-commerce-100.md#web-20261106-065) | 食品与饮料 | 来源说明 | [来源](https://www.youtube.com/watch?v=jPFmZMCMWUc) |
+
+## 类型错位（31）
 
 | 案例 | 商品方向 | 观察依据 | 原片 |
 | --- | --- | --- | --- |
@@ -753,6 +1183,18 @@
 | web-20261105-082 · Liquid Death · 生存游戏里的正经赞助播报 | 食品与饮料 | 来源说明 | [来源](https://www.youtube.com/watch?v=T3bgoouudCA) |
 | web-20261105-087 · Domino’s · 生存竞赛突然需要应急披萨 | 食品与饮料 | 来源说明 | [来源](https://www.youtube.com/watch?v=4WpBqy4oYeI) |
 | [web-20261105-091 · Lurpak · 切蔬菜拍成重金属演出](2026-11-06-priority-20-analysis.md#web-20261105-091) | 食品与饮料 | 全片工具分析＋逐秒抽帧复核 | [来源](https://www.youtube.com/watch?v=KUPXAGPqoZk) |
+| [web-20261106-041 · Liquid I.V. · 马桶合唱团提醒你补水](2026-11-06-creative-commerce-100.md#web-20261106-041) | 食品与饮料 | 来源说明 | [来源](https://www.youtube.com/watch?v=ZjDfVdrtl48) |
+| [web-20261106-045 · NERDS · 糖果走红毯完成华丽变身](2026-11-06-creative-commerce-100.md#web-20261106-045) | 食品与饮料 | 来源说明 | [来源](https://www.youtube.com/watch?v=XOIHAAuMwPI) |
+| [web-20261106-048 · Hatch · 睡前刷手机拍成恐怖预告](2026-11-06-creative-commerce-100.md#web-20261106-048) | 数码与小家电 | 来源说明 | [来源](https://www.youtube.com/watch?v=LcdPZ0aEdRQ) |
+| [web-20261106-050 · LEGO · 拼搭一下就切换电影人格](2026-11-06-creative-commerce-100.md#web-20261106-050) | 家居与空间 | 来源说明 | [来源](https://www.youtube.com/watch?v=E5EiD_-247g) |
+| [web-20261106-053 · Every Man Jack · 篝火边讲洗护恐怖故事](2026-11-06-creative-commerce-100.md#web-20261106-053) | 美妆与香氛 | 来源说明 | [来源](https://www.youtube.com/watch?v=deri-t_psnU) |
+| [web-20261106-056 · Starry · 访谈节目突然放出汽水吉祥物](2026-11-06-creative-commerce-100.md#web-20261106-056) | 食品与饮料 | 来源说明 | [来源](https://www.youtube.com/watch?v=kxm0TIDqbjI) |
+| [web-20261106-067 · Liquid Death × Dr. Squatch · 肥皂拍成连环恐怖片](2026-11-06-creative-commerce-100.md#web-20261106-067) | 美妆与香氛 | 来源说明 | [来源](https://www.youtube.com/watch?v=8KR0KaLvyKU) |
+| [web-20261106-075 · Warburtons · 黑帮电影语气认真讲一条面包](2026-11-06-creative-commerce-100.md#web-20261106-075) | 食品与饮料 | 来源说明 | [来源](https://www.youtube.com/watch?v=RwBUnabkHxA) |
+| [web-20261106-089 · IKEA · 一本目录被当成革命性科技发布](2026-11-06-creative-commerce-100.md#web-20261106-089) | 家居与空间 | 来源说明 | [来源](https://www.youtube.com/watch?v=MOXQo7nURs0) |
+| [web-20261106-090 · Squatty Potty · 用彩虹冰淇淋讲卫浴小凳](2026-11-06-creative-commerce-100.md#web-20261106-090) | 家居与空间 | 来源说明 | [来源](https://www.youtube.com/watch?v=YbYWhdLO43Q) |
+| [web-20261106-097 · Cadbury · 大猩猩认真等着鼓点爆发](2026-11-06-creative-commerce-100.md#web-20261106-097) | 食品与饮料 | 来源说明 | [来源](https://www.youtube.com/watch?v=TnzFRV1LwIo) |
+| [web-20261106-100 · e.l.f. MELISA · 美妆广告变成长篇拉美肥皂剧](2026-11-06-creative-commerce-100.md#web-20261106-100) | 美妆与香氛 | 来源说明 | [来源](https://www.youtube.com/watch?v=ClX4DldtGq0) |
 
 ## 纸艺世界（1）
 
@@ -760,7 +1202,42 @@
 | --- | --- | --- | --- |
 | legacy-099 · 商品穿越折纸定格世界 | 通用商品与品牌 | 来源说明 | [来源](https://reigniter.ai/videos/paper-stop-motion-product-ad) |
 
-## 群体反应（6）
+## 细节展示（6）
+
+| 案例 | 商品方向 | 观察依据 | 原片 |
+| --- | --- | --- | --- |
+| [web-20261106-006 · 衬衫从商品图进入分镜广告](2026-11-06-creative-commerce-100.md#web-20261106-006) | 服装与鞋履 | 抽帧观察 | [来源](https://x.com/HeyAbhishek/status/2098058251921457332) |
+| [web-20261106-017 · 城堡婚纱 · 宏大空间与刺绣微距交替](2026-11-06-creative-commerce-100.md#web-20261106-017) | 服装与鞋履 | 抽帧观察 | [来源](https://x.com/Just_sharon7/status/2113203864371618209) |
+| [web-20261106-024 · 太阳镜白棚 · 取戴动作带出镜腿细节](2026-11-06-creative-commerce-100.md#web-20261106-024) | 珠宝与配饰 | 抽帧观察 | [来源](https://x.com/AIwithNatalia/status/2081273233740083648) |
+| [web-20261106-029 · 镜头爆炸图 · 外壳与内部结构分层揭晓](2026-11-06-creative-commerce-100.md#web-20261106-029) | 数码与小家电 | 抽帧观察 | [来源](https://x.com/AmControo/status/2085366255540637965) |
+| [web-20261106-033 · 洗发水五段 · 湿发到产品定版](2026-11-06-creative-commerce-100.md#web-20261106-033) | 美妆与香氛 | 抽帧观察 | [来源](https://x.com/Rosey_watson/status/2090369532435083731) |
+| [web-20261106-034 · 酒红腮红盘 · 人货场三个锁分别写](2026-11-06-creative-commerce-100.md#web-20261106-034) | 美妆与香氛 | 抽帧观察 | [来源](https://x.com/sophiaparkerr_/status/2095862309285421150) |
+
+## 结构展示（1）
+
+| 案例 | 商品方向 | 观察依据 | 原片 |
+| --- | --- | --- | --- |
+| [web-20261106-095 · Honda · 汽车零件接力，最后推动整辆车](2026-11-06-creative-commerce-100.md#web-20261106-095) | 汽车与出行 | 来源说明 | [来源](https://www.youtube.com/watch?v=w4XiaP-WhNw) |
+
+## 结构拆解（1）
+
+| 案例 | 商品方向 | 观察依据 | 原片 |
+| --- | --- | --- | --- |
+| [web-20261106-029 · 镜头爆炸图 · 外壳与内部结构分层揭晓](2026-11-06-creative-commerce-100.md#web-20261106-029) | 数码与小家电 | 抽帧观察 | [来源](https://x.com/AmControo/status/2085366255540637965) |
+
+## 结果揭晓（1）
+
+| 案例 | 商品方向 | 观察依据 | 原片 |
+| --- | --- | --- | --- |
+| [web-20261106-091 · Purple · 生鸡蛋放到床垫上做夸张测试](2026-11-06-creative-commerce-100.md#web-20261106-091) | 家居与空间 | 来源说明 | [来源](https://www.youtube.com/watch?v=4BvwpjaGZCQ) |
+
+## 缺席表演（1）
+
+| 案例 | 商品方向 | 观察依据 | 原片 |
+| --- | --- | --- | --- |
+| [web-20261106-054 · Neutrogena · 看不见的代言人配看不见的防晒](2026-11-06-creative-commerce-100.md#web-20261106-054) | 美妆与香氛 | 来源说明 | [来源](https://www.youtube.com/watch?v=dT7S75eYhcQ) |
+
+## 群体反应（7）
 
 | 案例 | 商品方向 | 观察依据 | 原片 |
 | --- | --- | --- | --- |
@@ -770,8 +1247,29 @@
 | web-20261105-067 · KFC · 鸡柳竞争拍成史诗战场 | 食品与饮料 | 来源说明 | [来源](https://www.youtube.com/watch?v=zUCS0PhgWME) |
 | web-20261105-093 · McDonald’s · 小孩舞步点燃复古生日派对 | 食品与饮料 | 来源说明 | [来源](https://www.youtube.com/watch?v=WyqPMYr4fjI) |
 | web-20261105-094 · KFC · 一群人被节拍引向炸鸡 | 食品与饮料 | 来源说明 | [来源](https://www.youtube.com/watch?v=UrfQaMAH0Ss) |
+| [web-20261106-053 · Every Man Jack · 篝火边讲洗护恐怖故事](2026-11-06-creative-commerce-100.md#web-20261106-053) | 美妆与香氛 | 来源说明 | [来源](https://www.youtube.com/watch?v=deri-t_psnU) |
 
-## 节奏同步（12）
+## 色彩呼应（3）
+
+| 案例 | 商品方向 | 观察依据 | 原片 |
+| --- | --- | --- | --- |
+| [web-20261106-034 · 酒红腮红盘 · 人货场三个锁分别写](2026-11-06-creative-commerce-100.md#web-20261106-034) | 美妆与香氛 | 抽帧观察 | [来源](https://x.com/sophiaparkerr_/status/2095862309285421150) |
+| [web-20261106-035 · 覆盆子唇油 · 果色与妆色互相呼应](2026-11-06-creative-commerce-100.md#web-20261106-035) | 美妆与香氛 | 抽帧观察 | [来源](https://x.com/itxabdullaa/status/2103084704979394875) |
+| [web-20261106-038 · 薰衣草面膜 · 挖取质地再回包装](2026-11-06-creative-commerce-100.md#web-20261106-038) | 美妆与香氛 | 抽帧观察 | [来源](https://x.com/AvelyrahnAI/status/2097908289619284300) |
+
+## 节奏切换（1）
+
+| 案例 | 商品方向 | 观察依据 | 原片 |
+| --- | --- | --- | --- |
+| [web-20261106-040 · 能量饮料前后 · 慢早晨切换高速模式](2026-11-06-creative-commerce-100.md#web-20261106-040) | 食品与饮料 | 抽帧观察 | [来源](https://x.com/doctorwasif/status/2099717908482207928) |
+
+## 节奏反转（1）
+
+| 案例 | 商品方向 | 观察依据 | 原片 |
+| --- | --- | --- | --- |
+| [web-20261106-065 · Häagen-Dazs · 速度电影主角开始慢慢吃冰淇淋](2026-11-06-creative-commerce-100.md#web-20261106-065) | 食品与饮料 | 来源说明 | [来源](https://www.youtube.com/watch?v=jPFmZMCMWUc) |
+
+## 节奏同步（17）
 
 | 案例 | 商品方向 | 观察依据 | 原片 |
 | --- | --- | --- | --- |
@@ -787,12 +1285,37 @@
 | [web-20261105-091 · Lurpak · 切蔬菜拍成重金属演出](2026-11-06-priority-20-analysis.md#web-20261105-091) | 食品与饮料 | 全片工具分析＋逐秒抽帧复核 | [来源](https://www.youtube.com/watch?v=KUPXAGPqoZk) |
 | web-20261105-092 · OnePlus · 金属手机遇上重金属怪物乐队 | 数码与小家电 | 来源说明 | [来源](https://www.youtube.com/watch?v=1sxlT5dusZY) |
 | web-20261105-093 · McDonald’s · 小孩舞步点燃复古生日派对 | 食品与饮料 | 来源说明 | [来源](https://www.youtube.com/watch?v=WyqPMYr4fjI) |
+| [web-20261106-002 · 猪排饭工序 · 动漫提示词与写实成片的偏差](2026-11-06-creative-commerce-100.md#web-20261106-002) | 食品与饮料 | 抽帧观察 | [来源](https://x.com/Goodmanprotocol/status/2098845134326808734) |
+| [web-20261106-039 · 复古卡座饮料 · 一口之间四次甩镜](2026-11-06-creative-commerce-100.md#web-20261106-039) | 食品与饮料 | 抽帧观察 | [来源](https://x.com/soulful__ai/status/2103844376120340877) |
+| [web-20261106-070 · Morrisons · 烤箱手套成为厨房合唱团](2026-11-06-creative-commerce-100.md#web-20261106-070) | 家居与空间 | 来源说明 | [来源](https://www.youtube.com/watch?v=zPRt0TPbPWg) |
+| [web-20261106-079 · TinyTAN × Happy Meal · 玩具从餐盒边跳进音乐片](2026-11-06-creative-commerce-100.md#web-20261106-079) | 家居与空间 | 来源说明 | [来源](https://www.youtube.com/watch?v=X9rq3jxNuE4) |
+| [web-20261106-086 · Evian · 镜子里的人全变成婴儿](2026-11-06-creative-commerce-100.md#web-20261106-086) | 食品与饮料 | 来源说明 | [来源](https://www.youtube.com/watch?v=ikuiByrF6rs) |
+
+## 虚实反差（1）
+
+| 案例 | 商品方向 | 观察依据 | 原片 |
+| --- | --- | --- | --- |
+| [web-20261106-071 · Currys · 网购习惯碰到真实吹风机](2026-11-06-creative-commerce-100.md#web-20261106-071) | 数码与小家电 | 来源说明 | [来源](https://www.youtube.com/watch?v=bEUeGOxx-G4) |
+
+## 观众参与（2）
+
+| 案例 | 商品方向 | 观察依据 | 原片 |
+| --- | --- | --- | --- |
+| [web-20261106-016 · 直播选裙子 · 观众意见推动换装](2026-11-06-creative-commerce-100.md#web-20261106-016) | 服装与鞋履 | 抽帧观察 | [来源](https://x.com/Rosey_watson/status/2086281029913133211) |
+| [web-20261106-023 · 直播饼干酱 · 开罐拉丝引来弹幕](2026-11-06-creative-commerce-100.md#web-20261106-023) | 食品与饮料 | 抽帧观察 | [来源](https://x.com/AIwithJessica/status/2062469235046301876) |
 
 ## 角色与包装一致（1）
 
 | 案例 | 商品方向 | 观察依据 | 原片 |
 | --- | --- | --- | --- |
 | legacy-018 · 七镜唇釉 UGC | 美妆与香氛 | 来源说明 | [来源](https://x.com/AIwithSynthia/status/2080265839773933905) |
+
+## 角色互换（2）
+
+| 案例 | 商品方向 | 观察依据 | 原片 |
+| --- | --- | --- | --- |
+| [web-20261106-043 · Spruce · 让狗来挑院子里的用品](2026-11-06-creative-commerce-100.md#web-20261106-043) | 家居与空间 | 来源说明 | [来源](https://www.youtube.com/watch?v=IS7p8yL1xYA) |
+| [web-20261106-062 · Oikos · 小个子反过来推着运动员赶飞机](2026-11-06-creative-commerce-100.md#web-20261106-062) | 食品与饮料 | 来源说明 | [来源](https://www.youtube.com/watch?v=a1nZVblGBhs) |
 
 ## 角色代演（5）
 
@@ -803,6 +1326,12 @@
 | web-20261105-022 · M&M’s · 浪漫告白原来想做拌零食 | 食品与饮料 | 来源说明 | [来源](https://www.youtube.com/watch?v=MeweRDuq0so) |
 | web-20261105-050 · Argos · 恐龙玩偶开摇滚演唱会 | 家居与空间 | 来源说明 | [来源](https://www.youtube.com/watch?v=qfnRA8bCd7I) |
 | web-20261105-052 · Asda · 花园小矮人出动救圣诞 | 家居与空间 | 来源说明 | [来源](https://www.youtube.com/watch?v=A6HITAAtPEI) |
+
+## 角色切换（1）
+
+| 案例 | 商品方向 | 观察依据 | 原片 |
+| --- | --- | --- | --- |
+| [web-20261106-050 · LEGO · 拼搭一下就切换电影人格](2026-11-06-creative-commerce-100.md#web-20261106-050) | 家居与空间 | 来源说明 | [来源](https://www.youtube.com/watch?v=E5EiD_-247g) |
 
 ## 角色动作（1）
 
@@ -815,6 +1344,18 @@
 | 案例 | 商品方向 | 观察依据 | 原片 |
 | --- | --- | --- | --- |
 | legacy-087 · 机器人骑杜卡迪驶出展厅 | 汽车与出行 | 来源说明 | [来源](https://prompset.com/prompts/video/grok-imagine-1-5/commercial/robot-rides-ducati-out-of-showroom) |
+
+## 角色变形（1）
+
+| 案例 | 商品方向 | 观察依据 | 原片 |
+| --- | --- | --- | --- |
+| [web-20261106-084 · HORNBACH · 春天让人像动物一样蜕变](2026-11-06-creative-commerce-100.md#web-20261106-084) | 家居与空间 | 来源说明 | [来源](https://www.youtube.com/watch?v=ehoNeV1E4oU) |
+
+## 角色变身（1）
+
+| 案例 | 商品方向 | 观察依据 | 原片 |
+| --- | --- | --- | --- |
+| [web-20261106-045 · NERDS · 糖果走红毯完成华丽变身](2026-11-06-creative-commerce-100.md#web-20261106-045) | 食品与饮料 | 来源说明 | [来源](https://www.youtube.com/watch?v=XOIHAAuMwPI) |
 
 ## 角色复制（4）
 
@@ -830,6 +1371,18 @@
 | 案例 | 商品方向 | 观察依据 | 原片 |
 | --- | --- | --- | --- |
 | legacy-100 · 品牌吉祥物介绍商品 | 通用商品与品牌 | 来源说明 | [来源](https://reigniter.ai/videos/brand-mascot-ad) |
+
+## 角色碰撞（1）
+
+| 案例 | 商品方向 | 观察依据 | 原片 |
+| --- | --- | --- | --- |
+| [web-20261106-083 · KFC × Cheetos · 两个吉祥物先对决再合作](2026-11-06-creative-commerce-100.md#web-20261106-083) | 食品与饮料 | 来源说明 | [来源](https://www.youtube.com/watch?v=IdsJPgKWQ0o) |
+
+## 角色群像（1）
+
+| 案例 | 商品方向 | 观察依据 | 原片 |
+| --- | --- | --- | --- |
+| [web-20261106-061 · RITZ · 脾气咸的人聚在咸味俱乐部](2026-11-06-creative-commerce-100.md#web-20261106-061) | 食品与饮料 | 来源说明 | [来源](https://www.youtube.com/watch?v=xNjINFAdmhI) |
 
 ## 角色错位（24）
 
@@ -860,6 +1413,30 @@
 | web-20261105-098 · Amazon · 智能音箱失声，替班人各有脾气 | 数码与小家电 | 来源说明 | [来源](https://www.youtube.com/watch?v=iNxvsxU2rJE) |
 | web-20261105-100 · Snickers · 球场上状态不对，吃完换个人 | 食品与饮料 | 来源说明 | [来源](https://www.youtube.com/watch?v=voqdFtr7FjU) |
 
+## 语言双关（4）
+
+| 案例 | 商品方向 | 观察依据 | 原片 |
+| --- | --- | --- | --- |
+| [web-20261106-054 · Neutrogena · 看不见的代言人配看不见的防晒](2026-11-06-creative-commerce-100.md#web-20261106-054) | 美妆与香氛 | 来源说明 | [来源](https://www.youtube.com/watch?v=dT7S75eYhcQ) |
+| [web-20261106-060 · Mountain Dew · 喝一口来到海豹歌手的世界](2026-11-06-creative-commerce-100.md#web-20261106-060) | 食品与饮料 | 来源说明 | [来源](https://www.youtube.com/watch?v=SUGqOQPfn5k) |
+| [web-20261106-061 · RITZ · 脾气咸的人聚在咸味俱乐部](2026-11-06-creative-commerce-100.md#web-20261106-061) | 食品与饮料 | 来源说明 | [来源](https://www.youtube.com/watch?v=xNjINFAdmhI) |
+| [web-20261106-089 · IKEA · 一本目录被当成革命性科技发布](2026-11-06-creative-commerce-100.md#web-20261106-089) | 家居与空间 | 来源说明 | [来源](https://www.youtube.com/watch?v=MOXQo7nURs0) |
+
+## 谈话打断（1）
+
+| 案例 | 商品方向 | 观察依据 | 原片 |
+| --- | --- | --- | --- |
+| [web-20261106-022 · 播客场景植入 · 谈话中途拿起饮料](2026-11-06-creative-commerce-100.md#web-20261106-022) | 食品与饮料 | 抽帧观察 | [来源](https://x.com/AmControo/status/2082140512769699859) |
+
+## 质地展示（4）
+
+| 案例 | 商品方向 | 观察依据 | 原片 |
+| --- | --- | --- | --- |
+| [web-20261106-023 · 直播饼干酱 · 开罐拉丝引来弹幕](2026-11-06-creative-commerce-100.md#web-20261106-023) | 食品与饮料 | 抽帧观察 | [来源](https://x.com/AIwithJessica/status/2062469235046301876) |
+| [web-20261106-028 · 披萨夜自拍 · 开盒、拉丝、试吃与碰杯](2026-11-06-creative-commerce-100.md#web-20261106-028) | 食品与饮料 | 抽帧观察 | [来源](https://x.com/ShamiWeb3/status/2082799917140197798) |
+| [web-20261106-038 · 薰衣草面膜 · 挖取质地再回包装](2026-11-06-creative-commerce-100.md#web-20261106-038) | 美妆与香氛 | 抽帧观察 | [来源](https://x.com/AvelyrahnAI/status/2097908289619284300) |
+| [web-20261106-049 · Nature Valley · 森林木偶熊盯上能量棒](2026-11-06-creative-commerce-100.md#web-20261106-049) | 食品与饮料 | 来源说明 | [来源](https://www.youtube.com/watch?v=dr2oG9pBiJc) |
+
 ## 越界笑点（1）
 
 | 案例 | 商品方向 | 观察依据 | 原片 |
@@ -878,6 +1455,25 @@
 | --- | --- | --- | --- |
 | legacy-089 · 福特 Bronco 秋季登顶 | 汽车与出行 | 来源说明 | [来源](https://x.com/maxescu/status/2054640132951859665) |
 
+## 身份反差（2）
+
+| 案例 | 商品方向 | 观察依据 | 原片 |
+| --- | --- | --- | --- |
+| [web-20261106-073 · Beats Pill · 隔壁大声放的偏偏是自己的歌](2026-11-06-creative-commerce-100.md#web-20261106-073) | 数码与小家电 | 来源说明 | [来源](https://www.youtube.com/watch?v=VKv55xU_OuQ) |
+| [web-20261106-075 · Warburtons · 黑帮电影语气认真讲一条面包](2026-11-06-creative-commerce-100.md#web-20261106-075) | 食品与饮料 | 来源说明 | [来源](https://www.youtube.com/watch?v=RwBUnabkHxA) |
+
+## 身份反转（1）
+
+| 案例 | 商品方向 | 观察依据 | 原片 |
+| --- | --- | --- | --- |
+| [web-20261106-046 · Pepsi · 北极熊盲喝后怀疑人生](2026-11-06-creative-commerce-100.md#web-20261106-046) | 食品与饮料 | 来源说明 | [来源](https://www.youtube.com/watch?v=7vKCq52wWUY) |
+
+## 身体元素拟人（1）
+
+| 案例 | 商品方向 | 观察依据 | 原片 |
+| --- | --- | --- | --- |
+| [web-20261106-064 · Pringles · 胡子飞离主人去买薯片](2026-11-06-creative-commerce-100.md#web-20261106-064) | 食品与饮料 | 来源说明 | [来源](https://www.youtube.com/watch?v=vJukG10E1no) |
+
 ## 运动使用（1）
 
 | 案例 | 商品方向 | 观察依据 | 原片 |
@@ -889,6 +1485,12 @@
 | 案例 | 商品方向 | 观察依据 | 原片 |
 | --- | --- | --- | --- |
 | legacy-041 · 披萨从入炉到拉丝 | 食品与饮料 | 来源说明 | [来源](https://x.com/drzubi01/status/2112406349594464566) |
+
+## 连锁反应（1）
+
+| 案例 | 商品方向 | 观察依据 | 原片 |
+| --- | --- | --- | --- |
+| [web-20261106-095 · Honda · 汽车零件接力，最后推动整辆车](2026-11-06-creative-commerce-100.md#web-20261106-095) | 汽车与出行 | 来源说明 | [来源](https://www.youtube.com/watch?v=w4XiaP-WhNw) |
 
 ## 追逐升级（7）
 
@@ -902,12 +1504,25 @@
 | web-20261105-053 · Pepsi · 汽水车追上披萨外卖 | 食品与饮料 | 来源说明 | [来源](https://www.youtube.com/watch?v=Ck3DljNaiz4) |
 | [web-20261105-065 · Aldi · 胡萝卜特工营救圣诞](2026-11-06-priority-20-analysis.md#web-20261105-065) | 食品与饮料 | 全片工具分析＋逐秒抽帧复核 | [来源](https://www.youtube.com/watch?v=LYt04t_6XMs) |
 
+## 道具触发（1）
+
+| 案例 | 商品方向 | 观察依据 | 原片 |
+| --- | --- | --- | --- |
+| [web-20261106-081 · M&S · 摇一下雪球，家里变成派对](2026-11-06-creative-commerce-100.md#web-20261106-081) | 服装与鞋履 | 来源说明 | [来源](https://www.youtube.com/watch?v=sVHiDpPXako) |
+
 ## 遮挡揭晓（2）
 
 | 案例 | 商品方向 | 观察依据 | 原片 |
 | --- | --- | --- | --- |
 | web-20261105-011 · SKIMS × DoorDash · 拍广告时的衣橱急救 | 服装与鞋履 | 来源说明 | [来源](https://www.youtube.com/watch?v=jvw_lStBUf8) |
 | web-20261105-079 · Skechers · 旧鞋飞进泳池，新鞋直接穿上 | 服装与鞋履 | 来源说明 | [来源](https://www.youtube.com/watch?v=4nyKYDP21rM) |
+
+## 遮挡转场（2）
+
+| 案例 | 商品方向 | 观察依据 | 原片 |
+| --- | --- | --- | --- |
+| [web-20261106-009 · 吊扇叶片一扫 · 四套秋装轮换](2026-11-06-creative-commerce-100.md#web-20261106-009) | 服装与鞋履 | 抽帧观察 | [来源](https://x.com/AIwithkhan/status/2102221702667309467) |
+| [web-20261106-010 · 粉色客厅吊扇换装 · 场景图先行](2026-11-06-creative-commerce-100.md#web-20261106-010) | 服装与鞋履 | 抽帧观察 | [来源](https://x.com/TanLuAI/status/2108902456935801227) |
 
 ## 重复升级（3）
 
@@ -916,6 +1531,24 @@
 | web-20261105-037 · McDonald’s · 一个抬眉动作传遍办公室 | 食品与饮料 | 来源说明 | [来源](https://www.youtube.com/watch?v=Zt336MYMY2c) |
 | web-20261105-097 · Cheetos · 沾满芝士的手什么都碰不了 | 食品与饮料 | 来源说明 | [来源](https://www.youtube.com/watch?v=QK2lmJvshjg) |
 | web-20261105-098 · Amazon · 智能音箱失声，替班人各有脾气 | 数码与小家电 | 来源说明 | [来源](https://www.youtube.com/watch?v=iNxvsxU2rJE) |
+
+## 重复锚点（1）
+
+| 案例 | 商品方向 | 观察依据 | 原片 |
+| --- | --- | --- | --- |
+| [web-20261106-019 · 健身杯贯穿一天 · 多场景保持同一SKU](2026-11-06-creative-commerce-100.md#web-20261106-019) | 运动与健康 | 抽帧观察 | [来源](https://x.com/sipteaandcoffee/status/2076542398843511040) |
+
+## 错位相遇（1）
+
+| 案例 | 商品方向 | 观察依据 | 原片 |
+| --- | --- | --- | --- |
+| [web-20261106-082 · Chanel N°5 · 赴约路线错开，期待反而成为主角](2026-11-06-creative-commerce-100.md#web-20261106-082) | 美妆与香氛 | 来源说明 | [来源](https://www.youtube.com/watch?v=UyZFbgke1Bo) |
+
+## 镜像反转（1）
+
+| 案例 | 商品方向 | 观察依据 | 原片 |
+| --- | --- | --- | --- |
+| [web-20261106-086 · Evian · 镜子里的人全变成婴儿](2026-11-06-creative-commerce-100.md#web-20261106-086) | 食品与饮料 | 来源说明 | [来源](https://www.youtube.com/watch?v=ikuiByrF6rs) |
 
 ## 镜片反光（1）
 
@@ -928,3 +1561,15 @@
 | 案例 | 商品方向 | 观察依据 | 原片 |
 | --- | --- | --- | --- |
 | legacy-006 · 睫毛膏刷头微距揭晓 | 美妆与香氛 | 来源说明 | [来源](https://prompset.com/prompts/video/wan-3-0/commercial/luxury-vertical-mascara-ad-with-macro-brush-reveal) |
+
+## 风格切换（1）
+
+| 案例 | 商品方向 | 观察依据 | 原片 |
+| --- | --- | --- | --- |
+| [web-20261106-015 · 染发喷雾 · 自拍演示转专业落版](2026-11-06-creative-commerce-100.md#web-20261106-015) | 美妆与香氛 | 抽帧观察 | [来源](https://x.com/Aqsahere_/status/2091372529709400169) |
+
+## 风格错位（1）
+
+| 案例 | 商品方向 | 观察依据 | 原片 |
+| --- | --- | --- | --- |
+| [web-20261106-003 · 复古DV健身日记 · 蛋白饮品的自然停顿](2026-11-06-creative-commerce-100.md#web-20261106-003) | 运动与健康 | 抽帧观察 | [来源](https://x.com/maxxmalist/status/2085330197524390113) |
