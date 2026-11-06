@@ -13,6 +13,7 @@ from urllib.parse import urlsplit, urlunsplit
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = Path("data/references.json")
+REVIEW_REPORT = "references/2026-11-06-priority-20-analysis.md"
 CATEGORIES = ["美妆与香氛", "食品与饮料", "服装与鞋履", "珠宝与配饰", "数码与小家电",
               "家居与空间", "汽车与出行", "运动与健康", "通用商品与品牌"]
 OBSERVATIONS = {"source_description", "metadata_only", "frames", "partial_video", "full_video"}
@@ -117,6 +118,21 @@ def validate(records, root=ROOT):
             raise ValueError(f"Missing creative retrieval information: {key}")
         if record["observation"]["method"] == "full_video" and not record["observation"]["scope"]:
             raise ValueError(f"Full viewing needs an observation scope: {key}")
+        if record.get("review", {}).get("status") == "analyzed":
+            duration = record["media"]["duration_seconds"]
+            visual = record["observation"].get("visual_review", {})
+            coverage = visual.get("coverage_seconds", [])
+            if (not duration or len(coverage) != 2 or coverage[0] != 0
+                    or abs(coverage[1] - duration) > .001
+                    or visual.get("sampled_frames", 0) < int(duration)
+                    or not re.fullmatch(r"[a-f0-9]{64}", visual.get("file_sha256", ""))
+                    or record["observation"].get("automated_analysis", {}).get("status") != "completed"):
+                raise ValueError(f"Analysis needs full-duration visual evidence: {key}")
+            if not record["actions"]["sequence"] or not record["transfer"].get("suitable_products") or not record["transfer"].get("replacement_steps"):
+                raise ValueError(f"Analysis needs actions and product substitution: {key}")
+            for step in record["actions"]["sequence"]:
+                if not 0 <= step["start_seconds"] < step["end_seconds"] <= duration + .001:
+                    raise ValueError(f"Action interval exceeds video duration: {key}")
         for path in (record["media"]["poster"], *(link["url"] for link in record["links"])):
             if not path:
                 continue
@@ -150,6 +166,21 @@ def html_link(label, url):
     return f'<a href="{escape(url, quote=True)}">{escape(label)}</a>'
 
 
+def review_link(record, prefix=""):
+    return f'{prefix}{REVIEW_REPORT}#{record["id"]}'
+
+
+def timestamp(seconds):
+    return f"{int(seconds) // 60:02d}:{int(seconds) % 60:02d}"
+
+
+def observation_label(record):
+    if record.get("review", {}).get("status") == "analyzed":
+        return "全片工具分析＋逐秒抽帧复核"
+    return {"metadata_only": "仅元数据", "source_description": "来源说明", "frames": "抽帧观察",
+            "partial_video": "部分观看", "full_video": "完整观看"}[record["observation"]["method"]]
+
+
 def card(record):
     media, prompt = record["media"], record["prompt"]
     poster = media["poster"]
@@ -158,16 +189,21 @@ def card(record):
         image = f'<img src="{escape(poster, quote=True)}" width="220" alt="{escape(record["title"], quote=True)}的作品封面">'
         visual = html_link("", media["watch_url"]).replace("></a>", ">" + image + "</a>")
     text = prompt["text"] or record["creative"]["summary"]
-    label = prompt["label"] if prompt["text"] else "创意线索 · 来源说明整理"
+    reviewed = record.get("review", {}).get("status") == "analyzed"
+    label = prompt["label"] if prompt["text"] else ("创意与动作 · 全片辅助分析" if reviewed else "创意线索 · 来源说明整理")
     links = list(record["links"])
+    extra = []
+    if reviewed:
+        links.append({"label": "动作拆解 / 适合商品 / 替换步骤", "url": review_link(record)})
+        examples = [item for group in record["transfer"]["suitable_products"] for item in group["examples"]]
+        extra = [f'    <p><strong>适合商品：</strong>{escape("、".join(examples))}</p>']
     direct = media["direct_video_url"]
     if direct and direct not in {item["url"] for item in links}:
         links.append({"label": "播放入口", "url": direct})
-    evidence = {"metadata_only": "仅元数据", "source_description": "来源说明", "frames": "抽帧观察",
-                "partial_video": "部分观看", "full_video": "完整观看"}[record["observation"]["method"]]
+    evidence = observation_label(record)
     footer = f'{record["id"]} · {evidence} · 深度{record["depth"]["status"].replace("not_reviewed", "待评估")}'
     if not prompt["text"]:
-        footer += " · 公开提示词待补"
+        footer += " · 原作者提示词：已查来源未发现" if prompt["status"] == "not_found_in_checked_sources" else " · 公开提示词待补"
     return "\n".join([
         '  <td width="50%" valign="top">',
         f'    <h4>{escape(record["title"])}</h4>',
@@ -175,10 +211,60 @@ def card(record):
         f'    <p>{visual}</p>',
         f'    <p><strong>{escape(label)}</strong></p>',
         f'    <blockquote>{escape(text)}</blockquote>',
+        *extra,
         '    <p>' + " · ".join(html_link(item["label"], item["url"]) for item in links) + '</p>',
         f'    <p><sub>{escape(footer)}</sub></p>',
         '  </td>',
     ])
+
+
+def render_reviews(records):
+    reviewed = [r for r in records if r.get("review", {}).get("status") == "analyzed"]
+    lines = ["# 优先 20 条创意参考 · 动作拆解与商品替换", "", "更新于 2026-11-06。由 data/references.json 生成。", "",
+             "本轮逐条调用视频分镜工具分析完整链接，再读取同一原片文件，以 1fps 从开场到片尾顺序复核画面。工具部分时间码有误，以下按实际片长和逐秒画面重排，约 1 秒精度，不能直接当剪辑切点。", "",
+             "观察方式保留为 `frames`，并记录全时长覆盖、采样数量与文件指纹。声音仅为工具辅助识别，未独立连续听验；没有把它标成人工连续视听验收。适用商品与替换步骤是本库的创意判断，尚未转换深度或试生成。", "",
+             "本轮已查作品公开简介及文末所列剧情/制作来源，未发现这 20 条的原作者生成提示词。广告对白与公开广告脚本分别记录，不能当作生成提示词；其他未查来源中是否存在提示词仍未知。", "",
+             "[全部作品预览](../README.md#全部作品预览) · [机制索引](INDEX.md) · [完整数据](../data/references.json)", "",
+             "## 按商品快速选片", "", "| 参考 | 适合商品 | 使用判断 |", "| --- | --- | --- |"]
+    for r in reviewed:
+        examples = "、".join(x for group in r["transfer"]["suitable_products"] for x in group["examples"])
+        lines.append(f'| [{r["title"]}](#{r["id"]}) | {examples} | {r["review"]["recommendation"]} |')
+    for r in reviewed:
+        obs, transfer, review = r["observation"], r["transfer"], r["review"]
+        lines.extend(["", f'<a id="{r["id"]}"></a>', "", f'## {r["id"]} · {r["title"]}', "",
+                      f'**{r["metadata"]}**', "", f'[![作品封面]({r["media"]["poster"]})]({r["media"]["watch_url"]})', "",
+                      f'[播放原片]({r["media"]["watch_url"]}) · [剧情/制作来源]({r["source"]["description_url"]})', "",
+                      "**版本与观察范围** " + review["version_note"], "",
+                      f'实际文件 {r["media"]["duration_seconds"]:.3f} 秒；全片工具分析，另以 1fps 复核 {obs["visual_review"]["sampled_frames"]} 帧。声音未独立连续听验。', "",
+                      "**开场钩子** " + r["creative"]["hook"], "", "**结尾回报** " + r["creative"]["payoff"], "",
+                      "**使用判断** " + review["recommendation"], "", "### 动作拆解", "",
+                      f'原道具：{r["actions"]["original_prop"]}。', "",
+                      "| 约略区间 | 画面与动作 | 创意作用 |", "| --- | --- | --- |"])
+        for step in r["actions"]["sequence"]:
+            seconds = int(step["start_seconds"])
+            url = r["media"]["watch_url"] + f"&t={seconds}s"
+            time = f'{timestamp(seconds)}–{timestamp(step["end_seconds"])}'
+            lines.append(f'| [{time}]({url}) | {step["description"]} | {step["creative_role"]} |')
+        lines.extend(["", "### 适合什么商品", ""])
+        for group in transfer["suitable_products"]:
+            lines.append(f'- **{group["category"]}**：{"、".join(group["examples"])}。{group["fit_reason"]}')
+        lines.extend(["", "### 怎么替换商品", ""])
+        for i, step in enumerate(transfer["replacement_steps"], 1):
+            lines.append(f"{i}. {step}")
+        example = transfer["example"]
+        lines.extend(["", f'**具体例子 · {example["product"]}** {example["preserve"]}{example["replace"]}', "",
+                      "**使用限制**", ""])
+        lines.extend("- " + item for item in transfer["constraints"])
+        lines.extend(["", "### 深度参考时需要保留和另做的部分", "",
+                      "- 可借动作：" + "；".join(r["depth"]["preserves"]) + "。",
+                      "- 缺口：" + "；".join(r["depth"]["gaps"]) + "。",
+                      "- 声音依赖：" + "".join(review["sound_dependencies"]),
+                      "- " + r["depth"]["notes"], "", "### 原作者提示词与来源", "",
+                      "本次已查来源未发现公开的生成提示词；原文为空，未用本库的动作分析或适配例子代填。", ""])
+        if r["prompt"].get("related_script_url"):
+            lines.extend([f'[公开广告脚本与制作署名]({r["prompt"]["related_script_url"]})；这是广告脚本，不是生成提示词，未复制全文。', ""])
+        lines.extend(f'- [已查来源 {i}]({url})' for i, url in enumerate(r["prompt"]["checked_sources"], 1))
+    return "\n".join(lines) + "\n"
 
 
 def render(records, root=ROOT, check=False):
@@ -188,7 +274,7 @@ def render(records, root=ROOT, check=False):
 
 为商品创意选片积累原片、观看依据、动作与跨品类联想。面向 TikTok 商品，也收录其他平台和品牌广告的创意参考。
 
-[全部作品预览](#全部作品预览) · [创意机制索引](references/INDEX.md) · [新增 100 条](references/2026-11-05-creative-commerce-100.md) · [收录与检索](docs/reference-library.md)
+[全部作品预览](#全部作品预览) · [20 条动作与换品详解](references/2026-11-06-priority-20-analysis.md) · [创意机制索引](references/INDEX.md) · [新增 100 条](references/2026-11-05-creative-commerce-100.md) · [收录与检索](docs/reference-library.md)
 
 """
     for record in records:
@@ -226,26 +312,35 @@ def render(records, root=ROOT, check=False):
         index.extend([f"## {mechanism}（{len(group)}）", "", "| 案例 | 商品方向 | 观察依据 | 原片 |", "| --- | --- | --- | --- |"])
         for record in group:
             title = record["title"].replace("|", " ")
-            index.append(f'| {record["id"]} · {title} | {record["category"]} | {record["observation"]["method"]} | [来源]({record["source"]["url"]}) |')
+            case = f'{record["id"]} · {title}'
+            if record.get("review", {}).get("status") == "analyzed":
+                case = f'[{case}]({Path(REVIEW_REPORT).name}#{record["id"]})'
+            index.append(f'| {case} | {record["category"]} | {observation_label(record)} | [来源]({record["source"]["url"]}) |')
         index.append("")
     outputs[root / "references/INDEX.md"] = "\n".join(index)
     batch = [record for record in records if record["collection"] == "2026-11-05"]
     report = ["# 新增 100 条创意商品视频参考 · 2026-11-05", "",
-              "本批按具体创意机制筛选，包含品牌广告和历史作品。来源说明与公开播放器元数据已核对；尚未逐条连续观看或进行深度复刻，商品接入均为待验证假设。", "",
+              "本批按具体创意机制筛选，包含品牌广告和历史作品。原100条中的优先20条已于2026-11-06补全片工具分析、逐秒画面复核与换品方案，其余仍为来源说明级线索。所有案例均未验证深度复刻，商品接入需要按具体实物核对。", "",
               "[全部封面预览](../README.md#全部作品预览) · [创意机制索引](INDEX.md) · [完整结构化数据](../data/references.json)", ""]
-    report.extend(["## 优先补看清单", "", "这 20 条覆盖不同机制，优先补连续观看、声音和关键动作区间。当前仍为来源说明级线索。", ""])
+    report.extend(["## 优先 20 条 · 分析入口", "", "已补动作拆解、适用商品与替换步骤；声音未独立连续听验。详情见[20条分析](2026-11-06-priority-20-analysis.md)。", ""])
     for record in batch:
         if record.get("review_priority") == "first_20":
-            report.append(f'- [{record["title"]}]({record["source"]["url"]}) · {record["id"]}')
+            target = f'{Path(REVIEW_REPORT).name}#{record["id"]}' if record.get("review") else record["source"]["url"]
+            report.append(f'- [{record["title"]}]({target}) · {record["id"]}')
     report.append("")
     for record in batch:
+        detail = []
+        if record.get("review", {}).get("status") == "analyzed":
+            detail = [f'[动作拆解、适用商品与替换步骤]({Path(REVIEW_REPORT).name}#{record["id"]}) · {observation_label(record)}', ""]
         report.extend([f'## {record["id"]} · {record["title"]}', "",
                        f'**{record["category"]} · {" / ".join(record["creative"]["mechanisms"])}**', "",
                        record["creative"]["summary"], "",
+                       *detail,
                        "**接入假设** " + "".join(record["transfer"]["hypotheses"]), "",
                        "**待核实** " + "".join(record["transfer"]["constraints"]), "",
                        " · ".join(f'[{item["label"]}]({item["url"]})' for item in record["links"]), ""])
     outputs[root / "references/2026-11-05-creative-commerce-100.md"] = "\n".join(report)
+    outputs[root / REVIEW_REPORT] = render_reviews(records)
     for path, content in outputs.items():
         if check:
             if not path.exists() or path.read_text(encoding="utf-8") != content:

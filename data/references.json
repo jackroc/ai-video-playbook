@@ -9885,14 +9885,14 @@
     "kind": "reference",
     "collection": "2026-11-05",
     "category": "美妆与香氛",
-    "metadata": "美妆与香氛 · 异常用途 · 品牌创意参考 · 约32 秒",
+    "metadata": "美妆与香氛 · 异常用途 · 约32秒 · 16:9 · 已补动作拆解",
     "source": {
       "url": "https://www.youtube.com/watch?v=YRZCRfnNzo8",
       "platform": "YouTube",
       "creator": "e.l.f. Cosmetics",
-      "published_at": null,
-      "checked_at": "2026-11-05",
-      "availability": "oembed_available",
+      "published_at": "2026-10-19",
+      "checked_at": "2026-11-06",
+      "availability": "video_retrieved",
       "creator_role": "uploader",
       "description_url": "https://dailycommercials.com/elf-hair-astronaut-ad-review/",
       "description_published_at": "2026-10-25",
@@ -9902,63 +9902,172 @@
       "poster": "https://i.ytimg.com/vi/YRZCRfnNzo8/hqdefault.jpg",
       "watch_url": "https://www.youtube.com/watch?v=YRZCRfnNzo8",
       "direct_video_url": "https://www.youtube.com/watch?v=YRZCRfnNzo8",
-      "duration_seconds": 32,
-      "aspect_ratio": null,
+      "duration_seconds": 31.68,
+      "aspect_ratio": "16:9",
       "title": "What the h.e.l.f.? with Gloss Mode Treatment Oil",
-      "duration_basis": "search_card_rounded"
+      "duration_basis": "retrieved_media_ffprobe"
     },
     "creative": {
       "mechanisms": [
         "异常用途",
         "冷面反应"
       ],
-      "summary": "宇航员整理完卷发后拒绝戴头盔，把爱美选择放进严肃的太空任务。",
-      "hook": null,
-      "payoff": null,
-      "strength": "not_reviewed"
+      "summary": "好发型与必须戴头盔的场合冲突：照镜面、犹豫、放下头盔、出舱，最终用月面飘发放大“舍不得遮住”的心理。",
+      "hook": "严肃太空出舱程序中，宇航员先拿出一瓶护发油。",
+      "payoff": "其他人都戴头盔，她却让卷发直接飘在月面；地面控制室的错愕回应荒诞选择。",
+      "strength": "qualitative_review",
+      "assessment": "适合护发类强关联改编；跨到无关小商品时看点与商品会脱节。"
     },
     "actions": {
-      "original_prop": null,
+      "original_prop": "小瓶护发油、宇航头盔、宇航服",
       "sequence": [
         {
-          "description": "宇航员整理完卷发后拒绝戴头盔，把爱美选择放进严肃的太空任务。",
-          "basis": "source_description"
+          "start_seconds": 0,
+          "end_seconds": 4,
+          "description": "月面基地与控制室建立严肃任务语境。",
+          "creative_role": "先让观众相信规则",
+          "basis": "full_duration_frames_with_automated_video_analysis"
+        },
+        {
+          "start_seconds": 4,
+          "end_seconds": 9,
+          "description": "手持金色小瓶；女主端详自己的头发，举起头盔。",
+          "creative_role": "商品与反常决定相连",
+          "basis": "full_duration_frames_with_automated_video_analysis"
+        },
+        {
+          "start_seconds": 9,
+          "end_seconds": 18,
+          "description": "借头盔金色镜面看自己，拨弄头发；切到全副装备的队友，女主仍不戴头盔。",
+          "creative_role": "反复确认“遮住还是露出”",
+          "basis": "full_duration_frames_with_automated_video_analysis"
+        },
+        {
+          "start_seconds": 18,
+          "end_seconds": 23,
+          "description": "手转舱门把手，队伍出舱到月面。",
+          "creative_role": "越过不可逆的门槛",
+          "basis": "full_duration_frames_with_automated_video_analysis"
+        },
+        {
+          "start_seconds": 23,
+          "end_seconds": 29,
+          "description": "控制室人物困惑；女主在月面转头，头发向上飘散。",
+          "creative_role": "反应镜头与核心视觉回报",
+          "basis": "full_duration_frames_with_automated_video_analysis"
+        },
+        {
+          "start_seconds": 29,
+          "end_seconds": 31.68,
+          "description": "月面产品系列陈列和标识。",
+          "creative_role": "交代实际商品",
+          "basis": "full_duration_frames_with_automated_video_analysis"
         }
       ],
-      "observed_intervals": []
+      "observed_intervals": [
+        {
+          "start_seconds": 0,
+          "end_seconds": 31.68,
+          "mode": "automated_full_clip_analysis_and_1fps_visual_review"
+        }
+      ]
     },
     "transfer": {
       "hypotheses": [
-        "护发商品可在整理头发的原有镜头接入。"
+        "护发与造型：商品需与头发造型有关；只依据实物资料表达效果。",
+        "发饰与佩戴配件：可借“舍不得遮住”矛盾，但需另写佩戴展示，不能把发饰替换成涂抹型产品。"
       ],
       "constraints": [
-        "太空段为荒诞叙事，不能当作真实功能展示。",
-        "本次商品的外观、尺寸、操作与款色仍需重新核对。"
+        "不能从幻想太空画面推导真实防护或生存效果。",
+        "头盔遮挡、发丝细节和失重发型不能指望深度图自动复制。"
       ],
-      "requires_product_review": true
+      "requires_product_review": true,
+      "suitable_products": [
+        {
+          "category": "护发与造型",
+          "examples": [
+            "发油",
+            "卷发定型乳",
+            "免洗护发素"
+          ],
+          "fit_reason": "商品需与头发造型有关；只依据实物资料表达效果。"
+        },
+        {
+          "category": "发饰与佩戴配件",
+          "examples": [
+            "发箍",
+            "发夹"
+          ],
+          "fit_reason": "可借“舍不得遮住”矛盾，但需另写佩戴展示，不能把发饰替换成涂抹型产品。"
+        }
+      ],
+      "replacement_steps": [
+        "保留拿头盔、看倒影、迟疑、放下、队友凝视的因果顺序。",
+        "同类商品替换 4 秒处的瓶身，重新确定抓握、瓶盖和标签朝向。",
+        "需要演示用法时，新增符合实物的用量或佩戴镜头；原片只持瓶，不当作完整操作示范。",
+        "把结尾的头发或发饰展示换成本款真实款色，并保留旁观者反应。"
+      ],
+      "example": {
+        "product": "卷发定型乳",
+        "preserve": "保留宇航员不愿遮住发型的决定。",
+        "replace": "把金瓶换为真实包装；增加一个原创梳理卷发镜头，月面结尾仍展示本款形成的造型。"
+      }
     },
     "depth": {
       "status": "not_reviewed",
-      "preserves": [],
-      "gaps": [],
-      "notes": "候选阶段未转换深度；核心动作、遮挡、接触及声音依赖待实际观看后评估。"
+      "preserves": [
+        "举头盔、转头、拨发、开门与走出的身体节奏"
+      ],
+      "gaps": [
+        "发丝与光泽",
+        "头盔反射",
+        "出舱场景连接和小瓶身份"
+      ],
+      "notes": "已从RGB画面提出动作保留项和缺口；尚未转换深度或试生成，以上是观察判断，不是适配验收。"
     },
     "observation": {
-      "method": "source_description",
+      "method": "frames",
       "scope": [
-        "读取公开案例说明并核对当前视频标题、上传者与封面元数据；尚未连续观看或听验原片。",
-        "替代版本可能与案例文中长短版本不同，正式选用前核对完整剧情与结尾。"
+        "Higgsfield 视频分镜工具对当前链接做全片分析；随后读取同一原片文件，以1fps从开场至片尾顺序复核图像。",
+        "时间码按实际文件和逐秒画面重排，约1秒精度；不是逐帧切点或接触时刻。",
+        "声音说明仅为工具辅助识别与制作依赖判断；未独立连续听验，不把转写当原作者脚本或提示词。",
+        "与当前链接中的完整版本对应；时间码为约 1 秒精度的定位区间。"
       ],
       "evidence_urls": [
         "https://dailycommercials.com/elf-hair-astronaut-ad-review/",
         "https://www.youtube.com/watch?v=YRZCRfnNzo8"
-      ]
+      ],
+      "reviewed_at": "2026-11-06",
+      "visual_review": {
+        "sampling_fps": 1,
+        "sampled_frames": 32,
+        "coverage_seconds": [
+          0,
+          31.68
+        ],
+        "file_sha256": "7ae3036554302680c4075c79efdfec62a541bf8b11752b20a749667999ef25ca",
+        "width": 640,
+        "height": 360
+      },
+      "automated_analysis": {
+        "tool": "Higgsfield video_analysis",
+        "status": "completed",
+        "scene_count": 13,
+        "timestamps": "not_used_without_frame_review"
+      },
+      "audio_review": "tool_assisted_only"
     },
     "prompt": {
-      "status": "unknown",
-      "label": "提示词待补",
+      "status": "not_found_in_checked_sources",
+      "label": "原作者提示词 · 已查来源未发现",
       "text": null,
-      "url": null
+      "url": null,
+      "checked_at": "2026-11-06",
+      "checked_sources": [
+        "https://www.youtube.com/watch?v=YRZCRfnNzo8",
+        "https://dailycommercials.com/elf-hair-astronaut-ad-review/"
+      ],
+      "check_scope": "已读当前作品的公开简介和所列剧情/制作来源；未把广告对白、广告脚本或本库改编建议当成生成提示词。"
     },
     "metrics": {
       "status": "unknown",
@@ -9979,7 +10088,18 @@
         "url": "https://dailycommercials.com/elf-hair-astronaut-ad-review/"
       }
     ],
-    "review_priority": "first_20"
+    "review_priority": "first_20",
+    "review": {
+      "status": "analyzed",
+      "date": "2026-11-06",
+      "report": "references/2026-11-06-priority-20-analysis.md#web-20261105-007",
+      "version_note": "与当前链接中的完整版本对应；时间码为约 1 秒精度的定位区间。",
+      "sound_dependencies": [
+        "出舱指令与控制室反应强化反差；具体用词另核，不搬用原曲。"
+      ],
+      "recommendation": "适合护发类强关联改编；跨到无关小商品时看点与商品会脱节。",
+      "adaptation_basis": "editorial_hypothesis_not_generation_test"
+    }
   },
   {
     "schema_version": 1,
@@ -10907,14 +11027,14 @@
     "kind": "reference",
     "collection": "2026-11-05",
     "category": "珠宝与配饰",
-    "metadata": "珠宝与配饰 · 微缩世界 · 品牌创意参考",
+    "metadata": "珠宝与配饰 · 微缩世界 · 约61秒 · 16:9 · 已补动作拆解",
     "source": {
       "url": "https://www.youtube.com/watch?v=szmzlH_AaFU",
       "platform": "YouTube",
       "creator": "ŌURA",
-      "published_at": null,
-      "checked_at": "2026-11-05",
-      "availability": "oembed_available",
+      "published_at": "2026-10-08",
+      "checked_at": "2026-11-06",
+      "availability": "video_retrieved",
       "creator_role": "uploader",
       "description_url": "https://dailycommercials.com/oura-wear-your-best-life-commercial-review/",
       "description_published_at": "2026-10-09",
@@ -10924,62 +11044,180 @@
       "poster": "https://i.ytimg.com/vi/szmzlH_AaFU/hqdefault.jpg",
       "watch_url": "https://www.youtube.com/watch?v=szmzlH_AaFU",
       "direct_video_url": "https://www.youtube.com/watch?v=szmzlH_AaFU",
-      "duration_seconds": null,
-      "aspect_ratio": null,
-      "title": "Wear Your Best Life"
+      "duration_seconds": 61.301,
+      "aspect_ratio": "16:9",
+      "title": "Wear Your Best Life",
+      "duration_basis": "retrieved_media_ffprobe"
     },
     "creative": {
       "mechanisms": [
         "微缩世界",
         "角色代演"
       ],
-      "summary": "戴戒指的手把两根手指当腿，在微缩街道、地铁和居家布景中活动。",
-      "hook": null,
-      "payoff": null,
-      "strength": "not_reviewed"
+      "summary": "把戴戒指的手当成城市居民，用两指步行和运动串起生活切片；戒指直接位于动作主体上，无需额外插入硬广。",
+      "hook": "微缩街道中的“两条腿”原来是一只戴戒指的手。",
+      "payoff": "同一套手指角色完成通勤、活动、休息，最后在山坡远望城市。",
+      "strength": "qualitative_review",
+      "assessment": "手部佩戴品优先参考；很适合跨到美甲，跨到大件商品需重构主角。"
     },
     "actions": {
-      "original_prop": null,
+      "original_prop": "智能戒指、手指、微缩城市和指板等道具",
       "sequence": [
         {
-          "description": "戴戒指的手把两根手指当腿，在微缩街道、地铁和居家布景中活动。",
-          "basis": "source_description"
+          "start_seconds": 0,
+          "end_seconds": 7,
+          "description": "夜色小城与出租车先建立比例感。",
+          "creative_role": "先看环境再揭示主体",
+          "basis": "full_duration_frames_with_automated_video_analysis"
+        },
+        {
+          "start_seconds": 7,
+          "end_seconds": 19,
+          "description": "两指在街边、公园与地铁站“走路”，不同戒指和袖口区分角色。",
+          "creative_role": "把佩戴动作人格化",
+          "basis": "full_duration_frames_with_automated_video_analysis"
+        },
+        {
+          "start_seconds": 19,
+          "end_seconds": 23,
+          "description": "监视器里出现小手；诊室中的手互相触碰。",
+          "creative_role": "把生活事件缩小",
+          "basis": "full_duration_frames_with_automated_video_analysis"
+        },
+        {
+          "start_seconds": 23,
+          "end_seconds": 35,
+          "description": "玻璃健身房、躺椅、跳水和水下手部镜头连贯展示活动。",
+          "creative_role": "多场景持续佩戴",
+          "basis": "full_duration_frames_with_automated_video_analysis"
+        },
+        {
+          "start_seconds": 35,
+          "end_seconds": 42,
+          "description": "手指踩指板滑行，随后在室内地毯上行走。",
+          "creative_role": "具体动作形成观看回报",
+          "basis": "full_duration_frames_with_automated_video_analysis"
+        },
+        {
+          "start_seconds": 42,
+          "end_seconds": 53,
+          "description": "楼窗内依次出现看电视、洗澡、休息与弹琴的手。",
+          "creative_role": "把一天收束成生活群像",
+          "basis": "full_duration_frames_with_automated_video_analysis"
+        },
+        {
+          "start_seconds": 53,
+          "end_seconds": 61.3,
+          "description": "戴戒指的手来到山坡，城市与品牌字卡收尾。",
+          "creative_role": "让微缩世界完整闭环",
+          "basis": "full_duration_frames_with_automated_video_analysis"
         }
       ],
-      "observed_intervals": []
+      "observed_intervals": [
+        {
+          "start_seconds": 0,
+          "end_seconds": 61.301,
+          "mode": "automated_full_clip_analysis_and_1fps_visual_review"
+        }
+      ]
     },
     "transfer": {
       "hypotheses": [
-        "戒指可保持佩戴状态，把生活场景缩小成手部舞台。"
+        "手部首饰：商品能稳定戴在手指上，宽度不妨碍两指交替。",
+        "美甲装饰：需要改近景与机位，让装饰面朝镜头；不继承健康追踪叙事。"
       ],
       "constraints": [
-        "多指接触与微缩道具比例是关键难点。",
-        "本次商品的外观、尺寸、操作与款色仍需重新核对。"
+        "不要把普通戒指沿用成健康监测器。",
+        "水下镜头和指板只适用于商品条件允许的方案。"
       ],
-      "requires_product_review": true
+      "requires_product_review": true,
+      "suitable_products": [
+        {
+          "category": "手部首饰",
+          "examples": [
+            "戒指",
+            "可调节指环"
+          ],
+          "fit_reason": "商品能稳定戴在手指上，宽度不妨碍两指交替。"
+        },
+        {
+          "category": "美甲装饰",
+          "examples": [
+            "穿戴甲",
+            "指甲贴"
+          ],
+          "fit_reason": "需要改近景与机位，让装饰面朝镜头；不继承健康追踪叙事。"
+        }
+      ],
+      "replacement_steps": [
+        "以食指和中指交替点地保留“走路”的节奏，先核实商品到底戴在哪根手指。",
+        "戒指替换需固定每个角色的款色、宽度与朝向，镜头间不随机换手。",
+        "把城市场景选成与商品有关的日常活动；防水、运动等场景只给已核实支持的商品。",
+        "美甲版本需新增手背朝镜头的停顿，不能只照搬掌侧和远景。",
+        "最后仍回到佩戴主体与城市全景，不改成无关包装特写。"
+      ],
+      "example": {
+        "product": "穿戴甲",
+        "preserve": "保留微缩城市和两指散步。",
+        "replace": "让角色在微缩咖啡馆的桌面停步并转手背，露出真实甲型与图案；原健康寓意改成一天穿搭展示。"
+      }
     },
     "depth": {
       "status": "not_reviewed",
-      "preserves": [],
-      "gaps": [],
-      "notes": "候选阶段未转换深度；核心动作、遮挡、接触及声音依赖待实际观看后评估。"
+      "preserves": [
+        "两指交替、手腕倾斜和指板路径",
+        "同一微缩场景中的空间关系"
+      ],
+      "gaps": [
+        "细手指接触与遮挡",
+        "戒指/甲面细节",
+        "水体及大量场景切换"
+      ],
+      "notes": "已从RGB画面提出动作保留项和缺口；尚未转换深度或试生成，以上是观察判断，不是适配验收。"
     },
     "observation": {
-      "method": "source_description",
+      "method": "frames",
       "scope": [
-        "读取公开案例说明并核对当前视频标题、上传者与封面元数据；尚未连续观看或听验原片。",
-        "替代版本可能与案例文中长短版本不同，正式选用前核对完整剧情与结尾。"
+        "Higgsfield 视频分镜工具对当前链接做全片分析；随后读取同一原片文件，以1fps从开场至片尾顺序复核图像。",
+        "时间码按实际文件和逐秒画面重排，约1秒精度；不是逐帧切点或接触时刻。",
+        "声音说明仅为工具辅助识别与制作依赖判断；未独立连续听验，不把转写当原作者脚本或提示词。",
+        "与当前链接中的完整版本对应；时间码为约 1 秒精度的定位区间。"
       ],
       "evidence_urls": [
         "https://dailycommercials.com/oura-wear-your-best-life-commercial-review/",
         "https://www.youtube.com/watch?v=szmzlH_AaFU"
-      ]
+      ],
+      "reviewed_at": "2026-11-06",
+      "visual_review": {
+        "sampling_fps": 1,
+        "sampled_frames": 61,
+        "coverage_seconds": [
+          0,
+          61.301
+        ],
+        "file_sha256": "47e8bfb926d5dc77573fabd08c7a73358474519ecc5fbfcb92f2b1aa5afda1f7",
+        "width": 640,
+        "height": 360
+      },
+      "automated_analysis": {
+        "tool": "Higgsfield video_analysis",
+        "status": "completed",
+        "scene_count": 18,
+        "timestamps": "not_used_without_frame_review"
+      },
+      "audio_review": "tool_assisted_only"
     },
     "prompt": {
-      "status": "unknown",
-      "label": "提示词待补",
+      "status": "not_found_in_checked_sources",
+      "label": "原作者提示词 · 已查来源未发现",
       "text": null,
-      "url": null
+      "url": null,
+      "checked_at": "2026-11-06",
+      "checked_sources": [
+        "https://www.youtube.com/watch?v=szmzlH_AaFU",
+        "https://dailycommercials.com/oura-wear-your-best-life-commercial-review/"
+      ],
+      "check_scope": "已读当前作品的公开简介和所列剧情/制作来源；未把广告对白、广告脚本或本库改编建议当成生成提示词。"
     },
     "metrics": {
       "status": "unknown",
@@ -11000,7 +11238,18 @@
         "url": "https://dailycommercials.com/oura-wear-your-best-life-commercial-review/"
       }
     ],
-    "review_priority": "first_20"
+    "review_priority": "first_20",
+    "review": {
+      "status": "analyzed",
+      "date": "2026-11-06",
+      "report": "references/2026-11-06-priority-20-analysis.md#web-20261105-017",
+      "version_note": "与当前链接中的完整版本对应；时间码为约 1 秒精度的定位区间。",
+      "sound_dependencies": [
+        "本片无需依靠长对白，音乐与环境声辅助生活节奏；未独立连续听验。"
+      ],
+      "recommendation": "手部佩戴品优先参考；很适合跨到美甲，跨到大件商品需重构主角。",
+      "adaptation_basis": "editorial_hypothesis_not_generation_test"
+    }
   },
   {
     "schema_version": 1,
@@ -11621,14 +11870,14 @@
     "kind": "reference",
     "collection": "2026-11-05",
     "category": "家居与空间",
-    "metadata": "家居与空间 · 多款切换 · 品牌创意参考",
+    "metadata": "家居与空间 · 多款切换 · 约60秒 · 16:9 · 已补动作拆解",
     "source": {
       "url": "https://www.youtube.com/watch?v=FunDBGvsQE4",
       "platform": "YouTube",
       "creator": "Ruggable Washable Rugs",
-      "published_at": null,
-      "checked_at": "2026-11-05",
-      "availability": "oembed_available",
+      "published_at": "2026-09-21",
+      "checked_at": "2026-11-06",
+      "availability": "video_retrieved",
       "creator_role": "uploader",
       "description_url": "https://dailycommercials.com/ruggable-rugs-with-range-ad-review/",
       "description_published_at": "2026-09-30",
@@ -11638,62 +11887,173 @@
       "poster": "https://i.ytimg.com/vi/FunDBGvsQE4/hqdefault.jpg",
       "watch_url": "https://www.youtube.com/watch?v=FunDBGvsQE4",
       "direct_video_url": "https://www.youtube.com/watch?v=FunDBGvsQE4",
-      "duration_seconds": null,
-      "aspect_ratio": null,
-      "title": "Ruggable | :60 Campaign Film"
+      "duration_seconds": 60.116,
+      "aspect_ratio": "16:9",
+      "title": "Ruggable | :60 Campaign Film",
+      "duration_basis": "retrieved_media_ffprobe"
     },
     "creative": {
       "mechanisms": [
         "多款切换",
         "工序演绎"
       ],
-      "summary": "同一人物经历工作、带娃和聚会，场景角色变化时地毯花色随之切换，洒落物成为考验。",
-      "hook": null,
-      "payoff": null,
-      "strength": "not_reviewed"
+      "summary": "用进门、育儿、化妆、庆生和休息串起多款地毯；污渍和鞋步成为换款与节奏切点，结尾保留轻松情绪。",
+      "hook": "从门口地毯的低机位进入忙碌家庭，玩具立刻掉落。",
+      "payoff": "派对洒落与宠物脚印之后，俯拍人物躺卧，脚下地毯和造型切换，回到“生活继续”。",
+      "strength": "qualitative_review",
+      "assessment": "多款地垫和软装的选品价值高；先选几段核心动作，完整六十秒复刻较复杂。"
     },
     "actions": {
-      "original_prop": null,
+      "original_prop": "多花型地毯、玩具、口红、酒杯和宠物",
       "sequence": [
         {
-          "description": "同一人物经历工作、带娃和聚会，场景角色变化时地毯花色随之切换，洒落物成为考验。",
-          "basis": "source_description"
+          "start_seconds": 0,
+          "end_seconds": 8,
+          "description": "低机位拍进门、玩具落下、鞋踩过走廊地毯。",
+          "creative_role": "直接进入商品所在平面",
+          "basis": "full_duration_frames_with_automated_video_analysis"
+        },
+        {
+          "start_seconds": 8,
+          "end_seconds": 15,
+          "description": "口红从台面滑落、落到地毯并被手捡起。",
+          "creative_role": "用具体接触制造小危机",
+          "basis": "full_duration_frames_with_automated_video_analysis"
+        },
+        {
+          "start_seconds": 15,
+          "end_seconds": 28,
+          "description": "母女互动、化妆和对视，再转入派对。",
+          "creative_role": "把同一家庭的角色变化串起来",
+          "basis": "full_duration_frames_with_automated_video_analysis"
+        },
+        {
+          "start_seconds": 28,
+          "end_seconds": 44,
+          "description": "蛋糕、碰倒的杯子、红色液体和宾客反应交错，液体落向浅色地毯。",
+          "creative_role": "把生活失控升级",
+          "basis": "full_duration_frames_with_automated_video_analysis"
+        },
+        {
+          "start_seconds": 44,
+          "end_seconds": 53,
+          "description": "宠物、不同鞋步、卷起地毯和走廊奔跑连接。",
+          "creative_role": "给商品更换与使用动作",
+          "basis": "full_duration_frames_with_automated_video_analysis"
+        },
+        {
+          "start_seconds": 53,
+          "end_seconds": 60.116,
+          "description": "俯拍人物躺卧，纸屑与不同地毯/服装切换，品牌黑底收尾。",
+          "creative_role": "从混乱转到从容",
+          "basis": "full_duration_frames_with_automated_video_analysis"
         }
       ],
-      "observed_intervals": []
+      "observed_intervals": [
+        {
+          "start_seconds": 0,
+          "end_seconds": 60.116,
+          "mode": "automated_full_clip_analysis_and_1fps_visual_review"
+        }
+      ]
     },
     "transfer": {
       "hypotheses": [
-        "地毯或家纺多款色可按生活场景安排依次出现。"
+        "软装与地面织物：保持地面铺设与脚步关系；清洁展示必须符合本款说明。",
+        "可更换家居织物：可借同一位置多款切换，但人物和污渍落点要重拍，不能沿用地毯深度。"
       ],
       "constraints": [
-        "洗涤与耐污效果仅可采用真实商品依据。",
-        "本次商品的外观、尺寸、操作与款色仍需重新核对。"
+        "不要把“洒到上面”写成已证明一擦即净。",
+        "不把所有花型压成同一张随机变形地毯。"
       ],
-      "requires_product_review": true
+      "requires_product_review": true,
+      "suitable_products": [
+        {
+          "category": "软装与地面织物",
+          "examples": [
+            "可机洗地毯",
+            "玄关垫",
+            "浴室垫"
+          ],
+          "fit_reason": "保持地面铺设与脚步关系；清洁展示必须符合本款说明。"
+        },
+        {
+          "category": "可更换家居织物",
+          "examples": [
+            "沙发盖毯",
+            "桌布"
+          ],
+          "fit_reason": "可借同一位置多款切换，但人物和污渍落点要重拍，不能沿用地毯深度。"
+        }
+      ],
+      "replacement_steps": [
+        "先按实际商品尺寸固定画面中的铺设区域与透视。",
+        "将不同家庭场景分配给真实花型/款色，鞋步和落物作剪切点。",
+        "保留“物体掉落—旁人反应—生活继续”的节奏，决定本款能否出现液体。",
+        "卷起镜头按厚度、背面和柔软程度重做；不能凭空生成错误底部。",
+        "原片没有完整洗净过程；需要证明可洗时另外设计有依据的清洗段。"
+      ],
+      "example": {
+        "product": "玄关垫三款色",
+        "preserve": "保留低机位进门和同位置换款。",
+        "replace": "把远处地毯缩为真实尺寸玄关垫，分别接上班鞋、儿童鞋、宠物经过；无耐污依据时用纸屑代替酒渍。"
+      }
     },
     "depth": {
       "status": "not_reviewed",
-      "preserves": [],
-      "gaps": [],
-      "notes": "候选阶段未转换深度；核心动作、遮挡、接触及声音依赖待实际观看后评估。"
+      "preserves": [
+        "走入、踩踏、俯拍躺卧和卷起的运动方向"
+      ],
+      "gaps": [
+        "地毯图案与柔性变形",
+        "液体流动",
+        "大量转场中人物和款色连续性"
+      ],
+      "notes": "已从RGB画面提出动作保留项和缺口；尚未转换深度或试生成，以上是观察判断，不是适配验收。"
     },
     "observation": {
-      "method": "source_description",
+      "method": "frames",
       "scope": [
-        "读取公开案例说明并核对当前视频标题、上传者与封面元数据；尚未连续观看或听验原片。",
-        "替代版本可能与案例文中长短版本不同，正式选用前核对完整剧情与结尾。"
+        "Higgsfield 视频分镜工具对当前链接做全片分析；随后读取同一原片文件，以1fps从开场至片尾顺序复核图像。",
+        "时间码按实际文件和逐秒画面重排，约1秒精度；不是逐帧切点或接触时刻。",
+        "声音说明仅为工具辅助识别与制作依赖判断；未独立连续听验，不把转写当原作者脚本或提示词。",
+        "与当前链接中的完整版本对应；时间码为约 1 秒精度的定位区间。"
       ],
       "evidence_urls": [
         "https://dailycommercials.com/ruggable-rugs-with-range-ad-review/",
         "https://www.youtube.com/watch?v=FunDBGvsQE4"
-      ]
+      ],
+      "reviewed_at": "2026-11-06",
+      "visual_review": {
+        "sampling_fps": 1,
+        "sampled_frames": 60,
+        "coverage_seconds": [
+          0,
+          60.116
+        ],
+        "file_sha256": "214b3b50369ec0f002fa2f81d222f72b53836416a6288373c8460ea43d27ff0c",
+        "width": 640,
+        "height": 360
+      },
+      "automated_analysis": {
+        "tool": "Higgsfield video_analysis",
+        "status": "completed",
+        "scene_count": 30,
+        "timestamps": "not_used_without_frame_review"
+      },
+      "audio_review": "tool_assisted_only"
     },
     "prompt": {
-      "status": "unknown",
-      "label": "提示词待补",
+      "status": "not_found_in_checked_sources",
+      "label": "原作者提示词 · 已查来源未发现",
       "text": null,
-      "url": null
+      "url": null,
+      "checked_at": "2026-11-06",
+      "checked_sources": [
+        "https://www.youtube.com/watch?v=FunDBGvsQE4",
+        "https://dailycommercials.com/ruggable-rugs-with-range-ad-review/"
+      ],
+      "check_scope": "已读当前作品的公开简介和所列剧情/制作来源；未把广告对白、广告脚本或本库改编建议当成生成提示词。"
     },
     "metrics": {
       "status": "unknown",
@@ -11714,7 +12074,18 @@
         "url": "https://dailycommercials.com/ruggable-rugs-with-range-ad-review/"
       }
     ],
-    "review_priority": "first_20"
+    "review_priority": "first_20",
+    "review": {
+      "status": "analyzed",
+      "date": "2026-11-06",
+      "report": "references/2026-11-06-priority-20-analysis.md#web-20261105-024",
+      "version_note": "与当前链接中的完整版本对应；时间码为约 1 秒精度的定位区间。",
+      "sound_dependencies": [
+        "音乐节拍配合落物和脚步；具体歌词不作为功能证据。"
+      ],
+      "recommendation": "多款地垫和软装的选品价值高；先选几段核心动作，完整六十秒复刻较复杂。",
+      "adaptation_basis": "editorial_hypothesis_not_generation_test"
+    }
   },
   {
     "schema_version": 1,
@@ -12029,14 +12400,14 @@
     "kind": "reference",
     "collection": "2026-11-05",
     "category": "数码与小家电",
-    "metadata": "数码与小家电 · 角色复制 · 品牌创意参考",
+    "metadata": "数码与小家电 · 角色复制 · 约76秒 · 16:9 · 已补动作拆解",
     "source": {
       "url": "https://www.youtube.com/watch?v=WiDpX3w-KJE",
       "platform": "YouTube",
       "creator": "Beats by Dre",
-      "published_at": null,
-      "checked_at": "2026-11-05",
-      "availability": "oembed_available",
+      "published_at": "2026-09-22",
+      "checked_at": "2026-11-06",
+      "availability": "video_retrieved",
       "creator_role": "uploader",
       "description_url": "https://dailycommercials.com/beats-360-kendall-jenner-ad-review/",
       "description_published_at": "2026-09-23",
@@ -12046,62 +12417,174 @@
       "poster": "https://i.ytimg.com/vi/WiDpX3w-KJE/hqdefault.jpg",
       "watch_url": "https://www.youtube.com/watch?v=WiDpX3w-KJE",
       "direct_video_url": "https://www.youtube.com/watch?v=WiDpX3w-KJE",
-      "duration_seconds": null,
-      "aspect_ratio": null,
-      "title": "Beats 360 ft. Kendall Jenner, Kendall Jenner, Kendall Jenner, and Kendall Jenner"
+      "duration_seconds": 76.208,
+      "aspect_ratio": "16:9",
+      "title": "Beats 360 ft. Kendall Jenner, Kendall Jenner, Kendall Jenner, and Kendall Jenner",
+      "duration_basis": "retrieved_media_ffprobe"
     },
     "creative": {
       "mechanisms": [
         "角色复制",
         "多款切换"
       ],
-      "summary": "咖啡馆中的人物逐渐被揭晓为同一人的不同造型，耳机配色和耳垫随着身份变化。",
-      "hook": null,
-      "payoff": null,
-      "strength": "not_reviewed"
+      "summary": "先展示可拆换耳垫，再把同一人物变成运动者、通话者、读者和店员；多色商品与多身份一一对应，最终群像揭晓。",
+      "hook": "女主准备离开咖啡馆，却发现周围都是不同身份的自己。",
+      "payoff": "镜头拉开让多名分身同处一店，再用耳机款色展示回应“每一个版本的你”。",
+      "strength": "qualitative_review",
+      "assessment": "多款色或可换配件优先；对单一固定款商品，身份映射的卖点会弱一些。"
     },
     "actions": {
-      "original_prop": null,
+      "original_prop": "可更换耳垫的头戴耳机、咖啡馆桌椅和账单",
       "sequence": [
         {
-          "description": "咖啡馆中的人物逐渐被揭晓为同一人的不同造型，耳机配色和耳垫随着身份变化。",
-          "basis": "source_description"
+          "start_seconds": 0,
+          "end_seconds": 9,
+          "description": "桌边说话、起身前拿耳机并操作绿色耳垫。",
+          "creative_role": "产品真实可换部件先出场",
+          "basis": "full_duration_frames_with_automated_video_analysis"
+        },
+        {
+          "start_seconds": 9,
+          "end_seconds": 20,
+          "description": "电话分身与进门的风衣分身出现，主体连续侧目。",
+          "creative_role": "逐步发现异常",
+          "basis": "full_duration_frames_with_automated_video_analysis"
+        },
+        {
+          "start_seconds": 20,
+          "end_seconds": 35,
+          "description": "吧台服务员、座中人物和墙上肖像都指向同一张脸；耳机配色不同。",
+          "creative_role": "重复同一视觉规则",
+          "basis": "full_duration_frames_with_automated_video_analysis"
+        },
+        {
+          "start_seconds": 35,
+          "end_seconds": 51,
+          "description": "读书与通话等不同状态交叉，主体左右观察。",
+          "creative_role": "每个身份绑定一种商品状态",
+          "basis": "full_duration_frames_with_automated_video_analysis"
+        },
+        {
+          "start_seconds": 51,
+          "end_seconds": 69,
+          "description": "店员放账单，主体戴上绿色耳机，拉到多分身全景与店门。",
+          "creative_role": "将异常揭示完整交代",
+          "basis": "full_duration_frames_with_automated_video_analysis"
+        },
+        {
+          "start_seconds": 69,
+          "end_seconds": 76.208,
+          "description": "白底耳机与不同耳垫/款色轮换，品牌标识。",
+          "creative_role": "归回商品可选择性",
+          "basis": "full_duration_frames_with_automated_video_analysis"
         }
       ],
-      "observed_intervals": []
+      "observed_intervals": [
+        {
+          "start_seconds": 0,
+          "end_seconds": 76.208,
+          "mode": "automated_full_clip_analysis_and_1fps_visual_review"
+        }
+      ]
     },
     "transfer": {
       "hypotheses": [
-        "多色耳机可绑定人物穿搭版本逐一展示。"
+        "多款穿戴配件：每个身份只分配一个已核实款色；没有模块时改为换整件。",
+        "手机与随身配饰：能在通话、阅读或进出店的动作中自然露出；需新增适配手部近景。"
       ],
       "constraints": [
-        "角色连续性、耳垫结构和可拆换设计需依实物。",
-        "本次商品的外观、尺寸、操作与款色仍需重新核对。"
+        "多分身只是叙事手法，不要求沿用名人身份。",
+        "普通产品不表现磁吸拆装或其他未有的模块结构。"
       ],
-      "requires_product_review": true
+      "requires_product_review": true,
+      "suitable_products": [
+        {
+          "category": "多款穿戴配件",
+          "examples": [
+            "耳机",
+            "太阳镜",
+            "帽子"
+          ],
+          "fit_reason": "每个身份只分配一个已核实款色；没有模块时改为换整件。"
+        },
+        {
+          "category": "手机与随身配饰",
+          "examples": [
+            "手机壳",
+            "包挂",
+            "手提包"
+          ],
+          "fit_reason": "能在通话、阅读或进出店的动作中自然露出；需新增适配手部近景。"
+        }
+      ],
+      "replacement_steps": [
+        "做角色表：同一人物的运动、通勤、休闲版本各对应真实商品款色。",
+        "只有实物支持拆换时才保留 5–8 秒耳垫操作；手机壳等换成真实装卸步骤。",
+        "保留主体看向异常、反打分身、再次看向另一侧的递进，不一次性把分身全部摊开。",
+        "群像站位、视线与遮挡保持清楚；不同商品外形分镜固定。",
+        "最终展示本款实际SKU，不借原耳机的模块功能给其他商品加卖点。"
+      ],
+      "example": {
+        "product": "三色太阳镜",
+        "preserve": "保留咖啡馆分身发现与群像结尾。",
+        "replace": "运动分身戴黑色、读者分身戴棕色、店员分身戴透明框；拆耳垫改成取下/戴上整副眼镜。"
+      }
     },
     "depth": {
       "status": "not_reviewed",
-      "preserves": [],
-      "gaps": [],
-      "notes": "候选阶段未转换深度；核心动作、遮挡、接触及声音依赖待实际观看后评估。"
+      "preserves": [
+        "起身、转头、戴耳机和咖啡馆走位"
+      ],
+      "gaps": [
+        "同脸分身的一致性",
+        "手指装卸细节",
+        "反射、墙画和多人遮挡"
+      ],
+      "notes": "已从RGB画面提出动作保留项和缺口；尚未转换深度或试生成，以上是观察判断，不是适配验收。"
     },
     "observation": {
-      "method": "source_description",
+      "method": "frames",
       "scope": [
-        "读取公开案例说明并核对当前视频标题、上传者与封面元数据；尚未连续观看或听验原片。",
-        "替代版本可能与案例文中长短版本不同，正式选用前核对完整剧情与结尾。"
+        "Higgsfield 视频分镜工具对当前链接做全片分析；随后读取同一原片文件，以1fps从开场至片尾顺序复核图像。",
+        "时间码按实际文件和逐秒画面重排，约1秒精度；不是逐帧切点或接触时刻。",
+        "声音说明仅为工具辅助识别与制作依赖判断；未独立连续听验，不把转写当原作者脚本或提示词。",
+        "与当前链接中的完整版本对应；时间码为约 1 秒精度的定位区间。"
       ],
       "evidence_urls": [
         "https://dailycommercials.com/beats-360-kendall-jenner-ad-review/",
         "https://www.youtube.com/watch?v=WiDpX3w-KJE"
-      ]
+      ],
+      "reviewed_at": "2026-11-06",
+      "visual_review": {
+        "sampling_fps": 1,
+        "sampled_frames": 76,
+        "coverage_seconds": [
+          0,
+          76.208
+        ],
+        "file_sha256": "d951a5440fbfd664271fd87d22089da729647845f4794e958f020564d27f3ab6",
+        "width": 640,
+        "height": 360
+      },
+      "automated_analysis": {
+        "tool": "Higgsfield video_analysis",
+        "status": "completed",
+        "scene_count": 13,
+        "timestamps": "not_used_without_frame_review"
+      },
+      "audio_review": "tool_assisted_only"
     },
     "prompt": {
-      "status": "unknown",
-      "label": "提示词待补",
+      "status": "not_found_in_checked_sources",
+      "label": "原作者提示词 · 已查来源未发现",
       "text": null,
-      "url": null
+      "url": null,
+      "checked_at": "2026-11-06",
+      "checked_sources": [
+        "https://www.youtube.com/watch?v=WiDpX3w-KJE",
+        "https://dailycommercials.com/beats-360-kendall-jenner-ad-review/"
+      ],
+      "check_scope": "已读当前作品的公开简介和所列剧情/制作来源；未把广告对白、广告脚本或本库改编建议当成生成提示词。"
     },
     "metrics": {
       "status": "unknown",
@@ -12122,7 +12605,18 @@
         "url": "https://dailycommercials.com/beats-360-kendall-jenner-ad-review/"
       }
     ],
-    "review_priority": "first_20"
+    "review_priority": "first_20",
+    "review": {
+      "status": "analyzed",
+      "date": "2026-11-06",
+      "report": "references/2026-11-06-priority-20-analysis.md#web-20261105-028",
+      "version_note": "与当前链接中的完整版本对应；时间码为约 1 秒精度的定位区间。",
+      "sound_dependencies": [
+        "对白触发观察，音乐撑起分身蒙太奇；需要另配本次语言版本。"
+      ],
+      "recommendation": "多款色或可换配件优先；对单一固定款商品，身份映射的卖点会弱一些。",
+      "adaptation_basis": "editorial_hypothesis_not_generation_test"
+    }
   },
   {
     "schema_version": 1,
@@ -12233,14 +12727,14 @@
     "kind": "reference",
     "collection": "2026-11-05",
     "category": "数码与小家电",
-    "metadata": "数码与小家电 · 动物角色 · 品牌创意参考",
+    "metadata": "数码与小家电 · 动物角色 · 约107秒 · 16:9 · 已补动作拆解",
     "source": {
       "url": "https://www.youtube.com/watch?v=7K13bjG_kJ4",
       "platform": "YouTube",
       "creator": "De'Longhi Global",
-      "published_at": null,
-      "checked_at": "2026-11-05",
-      "availability": "oembed_available",
+      "published_at": "2026-09-08",
+      "checked_at": "2026-11-06",
+      "availability": "video_retrieved",
       "creator_role": "uploader",
       "description_url": "https://dailycommercials.com/delonghi-hot-or-cold-always-perfetto-brad-pitt-ad-review/",
       "description_published_at": "2026-09-18",
@@ -12250,62 +12744,173 @@
       "poster": "https://i.ytimg.com/vi/7K13bjG_kJ4/hqdefault.jpg",
       "watch_url": "https://www.youtube.com/watch?v=7K13bjG_kJ4",
       "direct_video_url": "https://www.youtube.com/watch?v=7K13bjG_kJ4",
-      "duration_seconds": null,
-      "aspect_ratio": null,
-      "title": "HOT OR COLD? BRAD PITT, 16 DOGS & PERFETTO COFFEE | New De’Longhi Ad | Spike Jonze Director’s Cut"
+      "duration_seconds": 106.974,
+      "aspect_ratio": "16:9",
+      "title": "HOT OR COLD? BRAD PITT, 16 DOGS & PERFETTO COFFEE | New De’Longhi Ad | Spike Jonze Director’s Cut",
+      "duration_basis": "retrieved_media_ffprobe"
     },
     "creative": {
       "mechanisms": [
         "动物角色",
         "角色错位"
       ],
-      "summary": "狗狗像室友和管理委员会一样对人提要求，喝咖啡前还要先完成家庭谈判。",
-      "hook": null,
-      "payoff": null,
-      "strength": "not_reviewed"
+      "summary": "狗占据室友与家长位置，人每次接近咖啡机都被挑剔；跨几个早晨累积重复笑点，最终真实出杯完成商品接入。",
+      "hook": "刚醒的人被沙发上一群穿衣服的狗以字幕盘问。",
+      "payoff": "终于拿到咖啡、到露台享用，狗还在纠正他的说法；人的私人时刻继续被管理。",
+      "strength": "qualitative_review",
+      "assessment": "饮品器具与宠物家庭用品都能接入，但对白编排比动作复刻更重要。"
     },
     "actions": {
-      "original_prop": null,
+      "original_prop": "咖啡机、玻璃杯、奶泡容器、穿衣犬群",
       "sequence": [
         {
-          "description": "狗狗像室友和管理委员会一样对人提要求，喝咖啡前还要先完成家庭谈判。",
-          "basis": "source_description"
+          "start_seconds": 0,
+          "end_seconds": 15,
+          "description": "人物揉眼进入客厅，犬群坐在沙发上，随后露出厨房咖啡机。",
+          "creative_role": "先建立谁掌控家庭",
+          "basis": "full_duration_frames_with_automated_video_analysis"
+        },
+        {
+          "start_seconds": 15,
+          "end_seconds": 32,
+          "description": "狗追问冷热与态度；人物按键，杯中出奶泡，却再次被打断。",
+          "creative_role": "把取咖啡变成小目标",
+          "basis": "full_duration_frames_with_automated_video_analysis"
+        },
+        {
+          "start_seconds": 32,
+          "end_seconds": 45,
+          "description": "换衣服表示另一天，犬群提起未清的碗碟，人物让步。",
+          "creative_role": "重复结构升级",
+          "basis": "full_duration_frames_with_automated_video_analysis"
+        },
+        {
+          "start_seconds": 45,
+          "end_seconds": 71,
+          "description": "第三套衣服，狗评价穿着、催按按钮并群体嘲笑，人物反驳也被回怼。",
+          "creative_role": "角色权力反转",
+          "basis": "full_duration_frames_with_automated_video_analysis"
+        },
+        {
+          "start_seconds": 71,
+          "end_seconds": 92,
+          "description": "真实出液和奶咖分层；回到白T早晨，取杯。",
+          "creative_role": "让机器实际参与结果",
+          "basis": "full_duration_frames_with_automated_video_analysis"
+        },
+        {
+          "start_seconds": 92,
+          "end_seconds": 106.97,
+          "description": "狗追问台词，人物到露台喝咖啡，仍遭吐槽；机器与饮品结束。",
+          "creative_role": "保持最后一句回击",
+          "basis": "full_duration_frames_with_automated_video_analysis"
         }
       ],
-      "observed_intervals": []
+      "observed_intervals": [
+        {
+          "start_seconds": 0,
+          "end_seconds": 106.974,
+          "mode": "automated_full_clip_analysis_and_1fps_visual_review"
+        }
+      ]
     },
     "transfer": {
       "hypotheses": [
-        "咖啡机可保留真实出液镜头，宠物表演承担喜剧。"
+        "咖啡与饮品器具：设备有真实准备/出杯动作，或杯子能在最后成为目标物。",
+        "宠物家庭用品：可让评委狗穿用商品；需重新建立商品在犬群上的展示，而非仅尾部加特写。"
       ],
       "constraints": [
-        "狗的表情、字幕和动作分别核实。",
-        "本次商品的外观、尺寸、操作与款色仍需重新核对。"
+        "普通咖啡机不继承原机的冷热奶泡或饮品能力。",
+        "狗不接触或饮用咖啡；动物字幕不当作真实行为证明。"
       ],
-      "requires_product_review": true
+      "requires_product_review": true,
+      "suitable_products": [
+        {
+          "category": "咖啡与饮品器具",
+          "examples": [
+            "咖啡机",
+            "奶泡机",
+            "马克杯"
+          ],
+          "fit_reason": "设备有真实准备/出杯动作，或杯子能在最后成为目标物。"
+        },
+        {
+          "category": "宠物家庭用品",
+          "examples": [
+            "宠物服饰",
+            "宠物沙发垫"
+          ],
+          "fit_reason": "可让评委狗穿用商品；需重新建立商品在犬群上的展示，而非仅尾部加特写。"
+        }
+      ],
+      "replacement_steps": [
+        "保留“想做一杯—被打断—退让—终于拿到”的重复链，短版可选两轮加尾声。",
+        "咖啡机按真实按钮、杯高、出液口和奶壶布局换入；不照搬其他机器结构。",
+        "只卖杯子时，把冲煮设备作为背景，核心改为取本款杯、被阻止、终于喝到。",
+        "宠物服饰版本给犬群逐只固定款色，不随镜头漂移。",
+        "保留结尾的二次吐槽，字幕独立设计，不能只靠深度带出笑点。"
+      ],
+      "example": {
+        "product": "玻璃咖啡杯",
+        "preserve": "保留狗室友审判和人争取一口咖啡。",
+        "replace": "用真实杯型接住咖啡，最后手持到露台；杯子的商品展示集中在取杯和喝一口，不暗示冷热制作能力来自杯子。"
+      }
     },
     "depth": {
       "status": "not_reviewed",
-      "preserves": [],
-      "gaps": [],
-      "notes": "候选阶段未转换深度；核心动作、遮挡、接触及声音依赖待实际观看后评估。"
+      "preserves": [
+        "走向机器、回头对视、按键、取杯和喝一口"
+      ],
+      "gaps": [
+        "犬群嘴部与字幕时序",
+        "液体奶泡和产品操作",
+        "多日服装连续性"
+      ],
+      "notes": "已从RGB画面提出动作保留项和缺口；尚未转换深度或试生成，以上是观察判断，不是适配验收。"
     },
     "observation": {
-      "method": "source_description",
+      "method": "frames",
       "scope": [
-        "读取公开案例说明并核对当前视频标题、上传者与封面元数据；尚未连续观看或听验原片。",
-        "替代版本可能与案例文中长短版本不同，正式选用前核对完整剧情与结尾。"
+        "Higgsfield 视频分镜工具对当前链接做全片分析；随后读取同一原片文件，以1fps从开场至片尾顺序复核图像。",
+        "时间码按实际文件和逐秒画面重排，约1秒精度；不是逐帧切点或接触时刻。",
+        "声音说明仅为工具辅助识别与制作依赖判断；未独立连续听验，不把转写当原作者脚本或提示词。",
+        "当前为约 107 秒导演剪辑版，包含多次早晨与重复出杯；不能按单次连续时间理解。"
       ],
       "evidence_urls": [
         "https://dailycommercials.com/delonghi-hot-or-cold-always-perfetto-brad-pitt-ad-review/",
         "https://www.youtube.com/watch?v=7K13bjG_kJ4"
-      ]
+      ],
+      "reviewed_at": "2026-11-06",
+      "visual_review": {
+        "sampling_fps": 1,
+        "sampled_frames": 107,
+        "coverage_seconds": [
+          0,
+          106.974
+        ],
+        "file_sha256": "5e0ad8e27787bfb6a8ec321e352c713bfc9a1a74a25d2adbb8ce4f1174f84b07",
+        "width": 640,
+        "height": 360
+      },
+      "automated_analysis": {
+        "tool": "Higgsfield video_analysis",
+        "status": "completed",
+        "scene_count": 53,
+        "timestamps": "not_used_without_frame_review"
+      },
+      "audio_review": "tool_assisted_only"
     },
     "prompt": {
-      "status": "unknown",
-      "label": "提示词待补",
+      "status": "not_found_in_checked_sources",
+      "label": "原作者提示词 · 已查来源未发现",
       "text": null,
-      "url": null
+      "url": null,
+      "checked_at": "2026-11-06",
+      "checked_sources": [
+        "https://www.youtube.com/watch?v=7K13bjG_kJ4",
+        "https://dailycommercials.com/delonghi-hot-or-cold-always-perfetto-brad-pitt-ad-review/"
+      ],
+      "check_scope": "已读当前作品的公开简介和所列剧情/制作来源；未把广告对白、广告脚本或本库改编建议当成生成提示词。"
     },
     "metrics": {
       "status": "unknown",
@@ -12326,7 +12931,18 @@
         "url": "https://dailycommercials.com/delonghi-hot-or-cold-always-perfetto-brad-pitt-ad-review/"
       }
     ],
-    "review_priority": "first_20"
+    "review_priority": "first_20",
+    "review": {
+      "status": "analyzed",
+      "date": "2026-11-06",
+      "report": "references/2026-11-06-priority-20-analysis.md#web-20261105-030",
+      "version_note": "当前为约 107 秒导演剪辑版，包含多次早晨与重复出杯；不能按单次连续时间理解。",
+      "sound_dependencies": [
+        "字幕与回嘴承担核心笑点，必须重写并单独核对；本轮音轨仅用分析工具辅助识别。"
+      ],
+      "recommendation": "饮品器具与宠物家庭用品都能接入，但对白编排比动作复刻更重要。",
+      "adaptation_basis": "editorial_hypothesis_not_generation_test"
+    }
   },
   {
     "schema_version": 1,
@@ -14901,18 +15517,18 @@
   {
     "schema_version": 1,
     "id": "web-20261105-056",
-    "title": "Schweppes · 火星外交用汽水换宝物",
+    "title": "Schweppes · 火星交换与姜味约会（双片拼接）",
     "kind": "reference",
     "collection": "2026-11-05",
     "category": "食品与饮料",
-    "metadata": "食品与饮料 · 角色错位 · 品牌创意参考 · 约48 秒",
+    "metadata": "食品与饮料 · 角色错位 · 约47秒 · 16:9 · 已补动作拆解",
     "source": {
       "url": "https://www.youtube.com/watch?v=QYAs3vnWqh8",
       "platform": "YouTube",
       "creator": "TBWA PARIS",
-      "published_at": null,
-      "checked_at": "2026-11-05",
-      "availability": "oembed_available",
+      "published_at": "2025-05-13",
+      "checked_at": "2026-11-06",
+      "availability": "video_retrieved",
       "creator_role": "uploader",
       "description_url": "https://dailycommercials.com/schweppes-when-citrus-diplomacy-meets-sci-fi-spectacle/",
       "description_published_at": "2025-05-16",
@@ -14922,63 +15538,173 @@
       "poster": "https://i.ytimg.com/vi/QYAs3vnWqh8/hqdefault.jpg",
       "watch_url": "https://www.youtube.com/watch?v=QYAs3vnWqh8",
       "direct_video_url": "https://www.youtube.com/watch?v=QYAs3vnWqh8",
-      "duration_seconds": 48,
-      "aspect_ratio": null,
+      "duration_seconds": 47.067,
+      "aspect_ratio": "16:9",
       "title": "SCHWEPPES “RENCONTRE MARTIENNE“",
-      "duration_basis": "search_card_rounded"
+      "duration_basis": "retrieved_media_ffprobe"
     },
     "creative": {
       "mechanisms": [
         "角色错位",
         "异常用途"
       ],
-      "summary": "太空使者与火星代表交换礼物，普通柑橘汽水被放到珍贵星际货物的位置。",
-      "hook": null,
-      "payoff": null,
-      "strength": "not_reviewed"
+      "summary": "第一条把日常汽水抬到星际礼物的价值级别；第二条延续同一人物与宫殿，以手部火焰和表情反打构成另一个短笑点。",
+      "hook": "地面控制室急于联系宇航员，她却在火星进行一场一本正经的饮料交换。",
+      "payoff": "珍贵的火星金液让位于汽水，外星人舍不得停下饮用；第二条用手中火焰回应姜味饮料。",
+      "strength": "qualitative_review",
+      "assessment": "第一条很适合小瓶饮料；非饮品只能借剧情骨架，不能直接换瓶。"
     },
     "actions": {
-      "original_prop": null,
+      "original_prop": "玻璃汽水瓶、白色小碗、金色液滴与外星人手部火焰",
       "sequence": [
         {
-          "description": "太空使者与火星代表交换礼物，普通柑橘汽水被放到珍贵星际货物的位置。",
-          "basis": "source_description"
+          "start_seconds": 0,
+          "end_seconds": 8,
+          "description": "控制室呼叫，切到火星宫殿里两人对坐。",
+          "creative_role": "两种紧迫程度产生反差",
+          "basis": "full_duration_frames_with_automated_video_analysis"
+        },
+        {
+          "start_seconds": 8,
+          "end_seconds": 14,
+          "description": "外星人示意碗中金液；宇航员开瓶，将汽水摆到桌上。",
+          "creative_role": "明确交换双方物件",
+          "basis": "full_duration_frames_with_automated_video_analysis"
+        },
+        {
+          "start_seconds": 14,
+          "end_seconds": 27,
+          "description": "外星人看瓶、举起长饮；宇航员微笑等待并反打。",
+          "creative_role": "用等待加长商品享受",
+          "basis": "full_duration_frames_with_automated_video_analysis"
+        },
+        {
+          "start_seconds": 27,
+          "end_seconds": 31,
+          "description": "外星人低头看瓶，品牌字卡后短黑场。",
+          "creative_role": "第一条独立收尾",
+          "basis": "full_duration_frames_with_automated_video_analysis"
+        },
+        {
+          "start_seconds": 31,
+          "end_seconds": 41,
+          "description": "第二条重新给宫殿远景；宇航员持另一瓶，外星人摊手生火，对方回应。",
+          "creative_role": "换一个围绕饮料的互动",
+          "basis": "full_duration_frames_with_automated_video_analysis"
+        },
+        {
+          "start_seconds": 41,
+          "end_seconds": 47.067,
+          "description": "外星人喝饮料并看向镜头，第二次品牌收尾。",
+          "creative_role": "第二条独立回报",
+          "basis": "full_duration_frames_with_automated_video_analysis"
         }
       ],
-      "observed_intervals": []
+      "observed_intervals": [
+        {
+          "start_seconds": 0,
+          "end_seconds": 47.067,
+          "mode": "automated_full_clip_analysis_and_1fps_visual_review"
+        }
+      ]
     },
     "transfer": {
       "hypotheses": [
-        "瓶装饮料可借正式交换礼物的动作。"
+        "即饮食品与饮料：可真实开封和饮用，瓶口、握持与容量要相容。",
+        "适合交换的小礼物：借“地球珍宝”交换结构；必须把饮用镜头改为闻香或拆礼，另找动作参考。"
       ],
       "constraints": [
-        "需看清瓶身握持与交接，不照搬外星功效。",
-        "本次商品的外观、尺寸、操作与款色仍需重新核对。"
+        "非食品不进入喝饮料的动作。",
+        "把第二条的姜味隐喻迁移到无关商品时需要重写。"
       ],
-      "requires_product_review": true
+      "requires_product_review": true,
+      "suitable_products": [
+        {
+          "category": "即饮食品与饮料",
+          "examples": [
+            "汽水",
+            "果汁",
+            "瓶装茶"
+          ],
+          "fit_reason": "可真实开封和饮用，瓶口、握持与容量要相容。"
+        },
+        {
+          "category": "适合交换的小礼物",
+          "examples": [
+            "香水",
+            "护手霜礼盒"
+          ],
+          "fit_reason": "借“地球珍宝”交换结构；必须把饮用镜头改为闻香或拆礼，另找动作参考。"
+        }
+      ],
+      "replacement_steps": [
+        "先选第一条或第二条，不能把 47 秒拼接当成一段不断档的故事。",
+        "饮料保留拿出、开封、递放、举瓶喝的顺序，按实物重做瓶盖结构。",
+        "换成香水等非饮品时保留交换与表情，删除喝瓶动作，补闻香新镜头。",
+        "让接礼者的等待和满足成为回报，不用凭空新增功效字幕。",
+        "第二条的火焰若保留，明确是外星角色幻想表演，不让普通商品显得会喷火。"
+      ],
+      "example": {
+        "product": "瓶装果汁",
+        "preserve": "保留金色礼物与普通饮料交换。",
+        "replace": "换成真实瓶身，按真实旋盖方式开封，外星人长饮后仍低头回味；不继承原品牌口味表述。"
+      }
     },
     "depth": {
       "status": "not_reviewed",
-      "preserves": [],
-      "gaps": [],
-      "notes": "候选阶段未转换深度；核心动作、遮挡、接触及声音依赖待实际观看后评估。"
+      "preserves": [
+        "对坐、摆物、抬瓶、喝与反应镜头"
+      ],
+      "gaps": [
+        "瓶口接触和标签",
+        "金液、气泡与火焰",
+        "两个短片之间的黑场"
+      ],
+      "notes": "已从RGB画面提出动作保留项和缺口；尚未转换深度或试生成，以上是观察判断，不是适配验收。"
     },
     "observation": {
-      "method": "source_description",
+      "method": "frames",
       "scope": [
-        "读取公开案例说明并核对当前视频标题、上传者与封面元数据；尚未连续观看或听验原片。",
-        "替代版本可能与案例文中长短版本不同，正式选用前核对完整剧情与结尾。"
+        "Higgsfield 视频分镜工具对当前链接做全片分析；随后读取同一原片文件，以1fps从开场至片尾顺序复核图像。",
+        "时间码按实际文件和逐秒画面重排，约1秒精度；不是逐帧切点或接触时刻。",
+        "声音说明仅为工具辅助识别与制作依赖判断；未独立连续听验，不把转写当原作者脚本或提示词。",
+        "47.07 秒入口包含约 0–30 秒 Agrumes 与约 31–47 秒 Ginger Beer 两条短片，均已覆盖；不是幕后花絮。"
       ],
       "evidence_urls": [
         "https://dailycommercials.com/schweppes-when-citrus-diplomacy-meets-sci-fi-spectacle/",
         "https://www.youtube.com/watch?v=QYAs3vnWqh8"
-      ]
+      ],
+      "reviewed_at": "2026-11-06",
+      "visual_review": {
+        "sampling_fps": 1,
+        "sampled_frames": 47,
+        "coverage_seconds": [
+          0,
+          47.067
+        ],
+        "file_sha256": "c88d7ee63449e0946c9d609b318e778b812daeff1b8e7652d7eea92f846deaa9",
+        "width": 640,
+        "height": 360
+      },
+      "automated_analysis": {
+        "tool": "Higgsfield video_analysis",
+        "status": "completed",
+        "scene_count": 25,
+        "timestamps": "not_used_without_frame_review"
+      },
+      "audio_review": "tool_assisted_only"
     },
     "prompt": {
-      "status": "unknown",
-      "label": "提示词待补",
+      "status": "not_found_in_checked_sources",
+      "label": "原作者提示词 · 已查来源未发现",
       "text": null,
-      "url": null
+      "url": null,
+      "checked_at": "2026-11-06",
+      "checked_sources": [
+        "https://www.youtube.com/watch?v=QYAs3vnWqh8",
+        "https://dailycommercials.com/schweppes-when-citrus-diplomacy-meets-sci-fi-spectacle/"
+      ],
+      "check_scope": "已读当前作品的公开简介和所列剧情/制作来源；未把广告对白、广告脚本或本库改编建议当成生成提示词。"
     },
     "metrics": {
       "status": "unknown",
@@ -14999,7 +15725,18 @@
         "url": "https://dailycommercials.com/schweppes-when-citrus-diplomacy-meets-sci-fi-spectacle/"
       }
     ],
-    "review_priority": "first_20"
+    "review_priority": "first_20",
+    "review": {
+      "status": "analyzed",
+      "date": "2026-11-06",
+      "report": "references/2026-11-06-priority-20-analysis.md#web-20261105-056",
+      "version_note": "47.07 秒入口包含约 0–30 秒 Agrumes 与约 31–47 秒 Ginger Beer 两条短片，均已覆盖；不是幕后花絮。",
+      "sound_dependencies": [
+        "对白说明交换价值，停顿与开瓶声帮助节奏；语言内容需要独立核对。"
+      ],
+      "recommendation": "第一条很适合小瓶饮料；非饮品只能借剧情骨架，不能直接换瓶。",
+      "adaptation_basis": "editorial_hypothesis_not_generation_test"
+    }
   },
   {
     "schema_version": 1,
@@ -15317,14 +16054,14 @@
     "kind": "reference",
     "collection": "2026-11-05",
     "category": "美妆与香氛",
-    "metadata": "美妆与香氛 · 角色错位 · 品牌创意参考 · 约97 秒",
+    "metadata": "美妆与香氛 · 角色错位 · 约97秒 · 16:9 · 已补动作拆解",
     "source": {
       "url": "https://www.youtube.com/watch?v=9lYHGsXLVD0",
       "platform": "YouTube",
       "creator": "Old Spice Europe",
-      "published_at": null,
-      "checked_at": "2026-11-05",
-      "availability": "oembed_available",
+      "published_at": "2025-03-04",
+      "checked_at": "2026-11-06",
+      "availability": "video_retrieved",
       "creator_role": "uploader",
       "description_url": "https://dailycommercials.com/old-spices-unbelievably-long-lasting-campaign-sets-sail-with-pirate-themed-humor/",
       "description_published_at": "2025-03-19",
@@ -15334,63 +16071,173 @@
       "poster": "https://i.ytimg.com/vi/9lYHGsXLVD0/hqdefault.jpg",
       "watch_url": "https://www.youtube.com/watch?v=9lYHGsXLVD0",
       "direct_video_url": "https://www.youtube.com/watch?v=9lYHGsXLVD0",
-      "duration_seconds": 97,
-      "aspect_ratio": null,
+      "duration_seconds": 96.688,
+      "aspect_ratio": "16:9",
       "title": "Unbelievably Long Lasting I Old Spice",
-      "duration_basis": "search_card_rounded"
+      "duration_basis": "retrieved_media_ffprobe"
     },
     "creative": {
       "mechanisms": [
         "角色错位",
         "情节反转"
       ],
-      "summary": "海盗船员因主人公气味太好怀疑其身份，把他赶下船后又迎来骑海马的反转。",
-      "hook": null,
-      "payoff": null,
-      "strength": "not_reviewed"
+      "summary": "嗅到不合群的香味后，船员被怀疑是冒牌海盗；拿出宝箱里的除臭产品仍无法说服众人，跳海后用海马反转收场。",
+      "hook": "海盗船上的脏乱生活与一个过分清爽的船员冲突。",
+      "payoff": "被逼跳海的清爽船员骑着巨大海马回归，呼应品牌旧作的骑马结尾。",
+      "strength": "qualitative_review",
+      "assessment": "香氛类关联明确；整片制作成本高，宜先保存完整故事再选核心段。"
     },
     "actions": {
-      "original_prop": null,
+      "original_prop": "除臭棒与喷雾、宝箱、船舷跳板、海马",
       "sequence": [
         {
-          "description": "海盗船员因主人公气味太好怀疑其身份，把他赶下船后又迎来骑海马的反转。",
-          "basis": "source_description"
+          "start_seconds": 0,
+          "end_seconds": 21,
+          "description": "远船、海盗旗、脏脚和拥挤生活铺陈。",
+          "creative_role": "先立“这里不该香”的规则",
+          "basis": "full_duration_frames_with_automated_video_analysis"
+        },
+        {
+          "start_seconds": 21,
+          "end_seconds": 32,
+          "description": "海盗贴近清爽船员闻嗅并疑惑。",
+          "creative_role": "以身体反应发现异常",
+          "basis": "full_duration_frames_with_automated_video_analysis"
+        },
+        {
+          "start_seconds": 32,
+          "end_seconds": 56,
+          "description": "多人指认，清爽船员辩解，最终站上船边跳板。",
+          "creative_role": "让社会冲突升级",
+          "basis": "full_duration_frames_with_automated_video_analysis"
+        },
+        {
+          "start_seconds": 56,
+          "end_seconds": 70,
+          "description": "宝箱打开，红色包装产品出现；海盗拿起闻嗅，连美人鱼也加入反应。",
+          "creative_role": "产品解释异常来源",
+          "basis": "full_duration_frames_with_automated_video_analysis"
+        },
+        {
+          "start_seconds": 70,
+          "end_seconds": 83,
+          "description": "众人仍不相信，船员跳下，海盗们探头看海。",
+          "creative_role": "先制造失去主角的短暂停顿",
+          "basis": "full_duration_frames_with_automated_video_analysis"
+        },
+        {
+          "start_seconds": 83,
+          "end_seconds": 96.688,
+          "description": "主角从水面骑海马出现，远景与产品陈列收尾。",
+          "creative_role": "必须保留的意外回归",
+          "basis": "full_duration_frames_with_automated_video_analysis"
         }
       ],
-      "observed_intervals": []
+      "observed_intervals": [
+        {
+          "start_seconds": 0,
+          "end_seconds": 96.688,
+          "mode": "automated_full_clip_analysis_and_1fps_visual_review"
+        }
+      ]
     },
     "transfer": {
       "hypotheses": [
-        "除臭或香氛商品可接入气味争论与亮出包装的镜头。"
+        "气味护理：商品的气味属性能成为被发现的原因；功效时长另核。",
+        "衣物与家居香氛：宝箱可放商品，但需补实际使用在衣物上的新镜头。"
       ],
       "constraints": [
-        "气味隐喻与持久功效应分开核实。",
-        "本次商品的外观、尺寸、操作与款色仍需重新核对。"
+        "不沿用原产品的 24/7 时长宣称。",
+        "不同给香方式不能全部套成腋下涂抹。"
       ],
-      "requires_product_review": true
+      "requires_product_review": true,
+      "suitable_products": [
+        {
+          "category": "气味护理",
+          "examples": [
+            "体香膏",
+            "香水",
+            "香氛喷雾"
+          ],
+          "fit_reason": "商品的气味属性能成为被发现的原因；功效时长另核。"
+        },
+        {
+          "category": "衣物与家居香氛",
+          "examples": [
+            "衣物香氛袋",
+            "织物喷雾"
+          ],
+          "fit_reason": "宝箱可放商品，但需补实际使用在衣物上的新镜头。"
+        }
+      ],
+      "replacement_steps": [
+        "保留脏乱群体与异常清爽人物的对照，不只借宝箱陈列。",
+        "宝箱内按实物陈列本款；拿起闻的手型与开盖动作重做。",
+        "若商品不是身体用，改为闻衣领/布料并补对应使用镜头，不能直接抹皮肤。",
+        "高潮需要“被排斥—离开—意外回归”，短版仍保留最后回报。",
+        "海马和美人鱼属于幻想段，列为需另处理的特效，不把深度当作完整场景来源。"
+      ],
+      "example": {
+        "product": "衣物香氛袋",
+        "preserve": "保留船员闻到衬衫香味而怀疑身份。",
+        "replace": "宝箱里换成真实香氛袋，增加放入衣柜/衣物附近的原创片段；回归镜头保持幻想海上节奏。"
+      }
     },
     "depth": {
       "status": "not_reviewed",
-      "preserves": [],
-      "gaps": [],
-      "notes": "候选阶段未转换深度；核心动作、遮挡、接触及声音依赖待实际观看后评估。"
+      "preserves": [
+        "闻嗅、辩解、开箱、探身和跳离的动作轮廓"
+      ],
+      "gaps": [
+        "多人遮挡",
+        "海水/海马/美人鱼",
+        "长片对白与气味信息"
+      ],
+      "notes": "已从RGB画面提出动作保留项和缺口；尚未转换深度或试生成，以上是观察判断，不是适配验收。"
     },
     "observation": {
-      "method": "source_description",
+      "method": "frames",
       "scope": [
-        "读取公开案例说明并核对当前视频标题、上传者与封面元数据；尚未连续观看或听验原片。",
-        "替代版本可能与案例文中长短版本不同，正式选用前核对完整剧情与结尾。"
+        "Higgsfield 视频分镜工具对当前链接做全片分析；随后读取同一原片文件，以1fps从开场至片尾顺序复核图像。",
+        "时间码按实际文件和逐秒画面重排，约1秒精度；不是逐帧切点或接触时刻。",
+        "声音说明仅为工具辅助识别与制作依赖判断；未独立连续听验，不把转写当原作者脚本或提示词。",
+        "与当前链接中的完整版本对应；时间码为约 1 秒精度的定位区间。"
       ],
       "evidence_urls": [
         "https://dailycommercials.com/old-spices-unbelievably-long-lasting-campaign-sets-sail-with-pirate-themed-humor/",
         "https://www.youtube.com/watch?v=9lYHGsXLVD0"
-      ]
+      ],
+      "reviewed_at": "2026-11-06",
+      "visual_review": {
+        "sampling_fps": 1,
+        "sampled_frames": 97,
+        "coverage_seconds": [
+          0,
+          96.688
+        ],
+        "file_sha256": "abfa64db737d80d36ec3c31a072de4dad5ee8f8065eb36b6effe73f26da9ff6e",
+        "width": 640,
+        "height": 360
+      },
+      "automated_analysis": {
+        "tool": "Higgsfield video_analysis",
+        "status": "completed",
+        "scene_count": 43,
+        "timestamps": "not_used_without_frame_review"
+      },
+      "audio_review": "tool_assisted_only"
     },
     "prompt": {
-      "status": "unknown",
-      "label": "提示词待补",
+      "status": "not_found_in_checked_sources",
+      "label": "原作者提示词 · 已查来源未发现",
       "text": null,
-      "url": null
+      "url": null,
+      "checked_at": "2026-11-06",
+      "checked_sources": [
+        "https://www.youtube.com/watch?v=9lYHGsXLVD0",
+        "https://dailycommercials.com/old-spices-unbelievably-long-lasting-campaign-sets-sail-with-pirate-themed-humor/"
+      ],
+      "check_scope": "已读当前作品的公开简介和所列剧情/制作来源；未把广告对白、广告脚本或本库改编建议当成生成提示词。"
     },
     "metrics": {
       "status": "unknown",
@@ -15411,7 +16258,18 @@
         "url": "https://dailycommercials.com/old-spices-unbelievably-long-lasting-campaign-sets-sail-with-pirate-themed-humor/"
       }
     ],
-    "review_priority": "first_20"
+    "review_priority": "first_20",
+    "review": {
+      "status": "analyzed",
+      "date": "2026-11-06",
+      "report": "references/2026-11-06-priority-20-analysis.md#web-20261105-060",
+      "version_note": "与当前链接中的完整版本对应；时间码为约 1 秒精度的定位区间。",
+      "sound_dependencies": [
+        "群体指认、辩解与骑海马的口头回扣是重要补充，不能仅复制动作。"
+      ],
+      "recommendation": "香氛类关联明确；整片制作成本高，宜先保存完整故事再选核心段。",
+      "adaptation_basis": "editorial_hypothesis_not_generation_test"
+    }
   },
   {
     "schema_version": 1,
@@ -15420,14 +16278,14 @@
     "kind": "reference",
     "collection": "2026-11-05",
     "category": "家居与空间",
-    "metadata": "家居与空间 · 巨物反差 · 品牌创意参考 · 约120 秒",
+    "metadata": "家居与空间 · 巨物反差 · 约120秒 · 16:9 · 已补动作拆解",
     "source": {
       "url": "https://www.youtube.com/watch?v=c1KxkRyPU4E",
       "platform": "YouTube",
       "creator": "HORNBACH Österreich",
-      "published_at": null,
-      "checked_at": "2026-11-05",
-      "availability": "oembed_available",
+      "published_at": "2025-03-14",
+      "checked_at": "2026-11-06",
+      "availability": "video_retrieved",
       "creator_role": "uploader",
       "description_url": "https://dailycommercials.com/hornbachs-spring-2025-commericial-is-crazy/",
       "description_published_at": "2025-03-17",
@@ -15437,63 +16295,177 @@
       "poster": "https://i.ytimg.com/vi/c1KxkRyPU4E/hqdefault.jpg",
       "watch_url": "https://www.youtube.com/watch?v=c1KxkRyPU4E",
       "direct_video_url": "https://www.youtube.com/watch?v=c1KxkRyPU4E",
-      "duration_seconds": 120,
-      "aspect_ratio": null,
+      "duration_seconds": 120.001,
+      "aspect_ratio": "16:9",
       "title": "Freu Dich wie ein Kind | HORNBACH",
-      "duration_basis": "search_card_rounded"
+      "duration_basis": "retrieved_media_ffprobe"
     },
     "creative": {
       "mechanisms": [
         "巨物反差",
         "群体反应"
       ],
-      "summary": "沉闷的成年人听到卡车旋律后像孩子追冰淇淋车一样冲出去，领取自己的工具。",
-      "hook": null,
-      "payoff": null,
-      "strength": "not_reviewed"
+      "summary": "先压住情绪，再用熟悉的召唤声唤醒成人；误导观众以为是冰淇淋车，最后揭示追逐目标是装满DIY物件的巨型玩具车。",
+      "hook": "一群困在冬日室内的成年人做着无聊又古怪的事。",
+      "payoff": "他们像追冰淇淋车的孩子那样奔向满载园艺工具的巨型玩具车，拿到工具后失态欢呼。",
+      "strength": "qualitative_review",
+      "assessment": "园艺、手作用品的机制参考价值高；整片属于复杂群戏，宜以小规模版本重构。"
     },
     "actions": {
-      "original_prop": null,
+      "original_prop": "园艺铲、刷具、工具、花木和巨型玩具翻斗车",
       "sequence": [
         {
-          "description": "沉闷的成年人听到卡车旋律后像孩子追冰淇淋车一样冲出去，领取自己的工具。",
-          "basis": "source_description"
+          "start_seconds": 0,
+          "end_seconds": 29,
+          "description": "昏暗室内的枯花、趴钢琴、撕书、撕墙纸、夹子和涂满脸等古怪无聊切片。",
+          "creative_role": "先积累停滞感",
+          "basis": "full_duration_frames_with_automated_video_analysis"
+        },
+        {
+          "start_seconds": 29,
+          "end_seconds": 43,
+          "description": "人物依次抬头、张望、走向亮处，车库门打开。",
+          "creative_role": "外部召唤改变状态",
+          "basis": "full_duration_frames_with_automated_video_analysis"
+        },
+        {
+          "start_seconds": 43,
+          "end_seconds": 60,
+          "description": "人群跑过真正的冰淇淋车，老板困惑；有人越窗、越篱笆、骑小车加入。",
+          "creative_role": "误导再澄清目标",
+          "basis": "full_duration_frames_with_automated_video_analysis"
+        },
+        {
+          "start_seconds": 60,
+          "end_seconds": 82,
+          "description": "成人持续狂奔，孩子被这种热情惊住，目标车体开始露出。",
+          "creative_role": "把童年行为放大给成人",
+          "basis": "full_duration_frames_with_automated_video_analysis"
+        },
+        {
+          "start_seconds": 82,
+          "end_seconds": 99,
+          "description": "巨型玩具车停满花木，人群扑向车旁并攀上，人物举起铲子。",
+          "creative_role": "揭晓追逐的是工具",
+          "basis": "full_duration_frames_with_automated_video_analysis"
+        },
+        {
+          "start_seconds": 99,
+          "end_seconds": 120,
+          "description": "触摸工具、狂喜表情、集体举物与俯拍群像，品牌收尾。",
+          "creative_role": "将占有工具当成情绪奖励",
+          "basis": "full_duration_frames_with_automated_video_analysis"
         }
       ],
-      "observed_intervals": []
+      "observed_intervals": [
+        {
+          "start_seconds": 0,
+          "end_seconds": 120.001,
+          "mode": "automated_full_clip_analysis_and_1fps_visual_review"
+        }
+      ]
     },
     "transfer": {
       "hypotheses": [
-        "手工具可接进领取、举起和跟随动作。"
+        "园艺与DIY：适合成为被领取和高举的“新玩具”；需有明确外形。",
+        "兴趣手作：可改成玩具车派发兴趣用品；不继承原工具操作。"
       ],
       "constraints": [
-        "大车尺度与人群遮挡需要实际观察。",
-        "本次商品的外观、尺寸、操作与款色仍需重新核对。"
+        "单纯放大普通商品不能代替最后拿到手的情绪回报。",
+        "长群戏和危险动作不属于低成本直接换品。"
       ],
-      "requires_product_review": true
+      "requires_product_review": true,
+      "suitable_products": [
+        {
+          "category": "园艺与DIY",
+          "examples": [
+            "手铲",
+            "园艺手套",
+            "画刷",
+            "小型工具套装"
+          ],
+          "fit_reason": "适合成为被领取和高举的“新玩具”；需有明确外形。"
+        },
+        {
+          "category": "兴趣手作",
+          "examples": [
+            "画材套装",
+            "手工材料包"
+          ],
+          "fit_reason": "可改成玩具车派发兴趣用品；不继承原工具操作。"
+        }
+      ],
+      "replacement_steps": [
+        "保留无聊、听见召唤、冲出门、误认目标、领到商品的完整因果。",
+        "把车上的货分配成真实SKU，明确哪个人拿哪一款。",
+        "小商品要补一次握在手里看清外观的停顿，不只放在巨大车上。",
+        "可做成人抱着画材像孩子抢玩具的跨品类版；举物重量与把手要符合实物。",
+        "追车、攀爬和破窗是电影表演，改编时可换为走向停好的派发车，保留童心而降低复杂动作。"
+      ],
+      "example": {
+        "product": "园艺手工具套装",
+        "preserve": "保留人群被召唤和工具当玩具的回报。",
+        "replace": "停好的玩具车打开，成人按款领取小铲和手套；最后抱紧或高举真实工具，近景补清形状。"
+      }
     },
     "depth": {
       "status": "not_reviewed",
-      "preserves": [],
-      "gaps": [],
-      "notes": "候选阶段未转换深度；核心动作、遮挡、接触及声音依赖待实际观看后评估。"
+      "preserves": [
+        "抬头、从室内走向亮处、奔跑和举工具的节奏"
+      ],
+      "gaps": [
+        "大规模人群",
+        "巨车尺度",
+        "镜头切换与道具重量",
+        "配乐的触发信息"
+      ],
+      "notes": "已从RGB画面提出动作保留项和缺口；尚未转换深度或试生成，以上是观察判断，不是适配验收。"
     },
     "observation": {
-      "method": "source_description",
+      "method": "frames",
       "scope": [
-        "读取公开案例说明并核对当前视频标题、上传者与封面元数据；尚未连续观看或听验原片。",
-        "替代版本可能与案例文中长短版本不同，正式选用前核对完整剧情与结尾。"
+        "Higgsfield 视频分镜工具对当前链接做全片分析；随后读取同一原片文件，以1fps从开场至片尾顺序复核图像。",
+        "时间码按实际文件和逐秒画面重排，约1秒精度；不是逐帧切点或接触时刻。",
+        "声音说明仅为工具辅助识别与制作依赖判断；未独立连续听验，不把转写当原作者脚本或提示词。",
+        "与当前链接中的完整版本对应；时间码为约 1 秒精度的定位区间。"
       ],
       "evidence_urls": [
         "https://dailycommercials.com/hornbachs-spring-2025-commericial-is-crazy/",
         "https://www.youtube.com/watch?v=c1KxkRyPU4E"
-      ]
+      ],
+      "reviewed_at": "2026-11-06",
+      "visual_review": {
+        "sampling_fps": 1,
+        "sampled_frames": 120,
+        "coverage_seconds": [
+          0,
+          120.001
+        ],
+        "file_sha256": "49fba0f1e0babdf1a5689b59416de541b6cabd0734982645277d6cd8ecb1b1df",
+        "width": 640,
+        "height": 360
+      },
+      "automated_analysis": {
+        "tool": "Higgsfield video_analysis",
+        "status": "completed",
+        "scene_count": 49,
+        "timestamps": "not_used_without_frame_review"
+      },
+      "audio_review": "tool_assisted_only"
     },
     "prompt": {
-      "status": "unknown",
-      "label": "提示词待补",
+      "status": "not_found_in_checked_sources",
+      "label": "原作者提示词 · 已查来源未发现",
       "text": null,
-      "url": null
+      "url": null,
+      "checked_at": "2026-11-06",
+      "checked_sources": [
+        "https://www.youtube.com/watch?v=c1KxkRyPU4E",
+        "https://dailycommercials.com/hornbachs-spring-2025-commericial-is-crazy/",
+        "https://www.company3.com/videos/feel-like-a-kid-again/",
+        "https://lbbonline.com/news/hornbach-kicks-off-the-diy-season-encouraging-you-to-feel-like-a-kid-again?edition=latam"
+      ],
+      "check_scope": "已读当前作品的公开简介和所列剧情/制作来源；未把广告对白、广告脚本或本库改编建议当成生成提示词。"
     },
     "metrics": {
       "status": "unknown",
@@ -15514,7 +16486,18 @@
         "url": "https://dailycommercials.com/hornbachs-spring-2025-commericial-is-crazy/"
       }
     ],
-    "review_priority": "first_20"
+    "review_priority": "first_20",
+    "review": {
+      "status": "analyzed",
+      "date": "2026-11-06",
+      "report": "references/2026-11-06-priority-20-analysis.md#web-20261105-061",
+      "version_note": "与当前链接中的完整版本对应；时间码为约 1 秒精度的定位区间。",
+      "sound_dependencies": [
+        "召唤旋律触发全片情绪变化，不能删除后还指望观众理解奔跑缘由。"
+      ],
+      "recommendation": "园艺、手作用品的机制参考价值高；整片属于复杂群戏，宜以小规模版本重构。",
+      "adaptation_basis": "editorial_hypothesis_not_generation_test"
+    }
   },
   {
     "schema_version": 1,
@@ -15832,14 +16815,14 @@
     "kind": "reference",
     "collection": "2026-11-05",
     "category": "食品与饮料",
-    "metadata": "食品与饮料 · 物件拟人 · 品牌创意参考 · 约91 秒",
+    "metadata": "食品与饮料 · 物件拟人 · 约90秒 · 16:9 · 已补动作拆解",
     "source": {
       "url": "https://www.youtube.com/watch?v=LYt04t_6XMs",
       "platform": "YouTube",
       "creator": "Retro Ad Rewind",
-      "published_at": null,
-      "checked_at": "2026-11-05",
-      "availability": "oembed_available",
+      "published_at": "2025-11-13",
+      "checked_at": "2026-11-06",
+      "availability": "video_retrieved",
       "creator_role": "uploader",
       "description_url": "https://dailycommercials.com/aldi-christmas-ad-2024-watch-kevin-the-carrot-saving-christmas/",
       "description_published_at": "2024-11-07",
@@ -15849,63 +16832,174 @@
       "poster": "https://i.ytimg.com/vi/LYt04t_6XMs/hqdefault.jpg",
       "watch_url": "https://www.youtube.com/watch?v=LYt04t_6XMs",
       "direct_video_url": "https://www.youtube.com/watch?v=LYt04t_6XMs",
-      "duration_seconds": 91,
-      "aspect_ratio": null,
+      "duration_seconds": 90.186,
+      "aspect_ratio": "16:9",
       "title": "Aldi Christmas Advert 2024: Kevin the Carrot’s Impossible Christmas Mission!",
-      "duration_basis": "search_card_rounded"
+      "duration_basis": "retrieved_media_ffprobe"
     },
     "creative": {
       "mechanisms": [
         "物件拟人",
         "追逐升级"
       ],
-      "summary": "胡萝卜角色进入坏人的总部，闯过机关找回被偷走的节日精神。",
-      "hook": null,
-      "payoff": null,
-      "strength": "not_reviewed"
+      "summary": "用胡萝卜扮特工闯入反派基地，穿过烤炉、布丁和点心机关，救出发光精灵；节日食品不是摆盘背景，而是闯关空间。",
+      "hook": "圣诞村的光突然被夺走，胡萝卜主角收到一项特工任务。",
+      "payoff": "救出的节日精灵释放光芒，宴席重新亮起，最后以手机回电和庆祝收尾。",
+      "strength": "qualitative_review",
+      "assessment": "适合节日主题的剧情结构参考；不是可以把实物直接换成胡萝卜的稳定深度模板。"
     },
     "actions": {
-      "original_prop": null,
+      "original_prop": "拟人胡萝卜、箱包机关、圣诞灯串、烤鸡与甜点、发光精灵容器",
       "sequence": [
         {
-          "description": "胡萝卜角色进入坏人的总部，闯过机关找回被偷走的节日精神。",
-          "basis": "source_description"
+          "start_seconds": 0,
+          "end_seconds": 13,
+          "description": "村庄熄灯、餐桌与来电定位，交代节日精灵被夺。",
+          "creative_role": "建立要救回什么",
+          "basis": "full_duration_frames_with_automated_video_analysis"
+        },
+        {
+          "start_seconds": 13,
+          "end_seconds": 24,
+          "description": "反派基地与受困精灵揭示，主角抵达。",
+          "creative_role": "明确任务目标",
+          "basis": "full_duration_frames_with_automated_video_analysis"
+        },
+        {
+          "start_seconds": 24,
+          "end_seconds": 41,
+          "description": "胡萝卜潜行、误入烤箱、避火焰、跨越点心平台。",
+          "creative_role": "把食物变成关卡",
+          "basis": "full_duration_frames_with_automated_video_analysis"
+        },
+        {
+          "start_seconds": 41,
+          "end_seconds": 58,
+          "description": "手提箱机关、灯串悬吊，主角在激光间够取精灵容器。",
+          "creative_role": "核心夺回动作",
+          "basis": "full_duration_frames_with_automated_video_analysis"
+        },
+        {
+          "start_seconds": 58,
+          "end_seconds": 74,
+          "description": "基地爆炸，雪地追逐与飞越，容器打开后精灵飞走。",
+          "creative_role": "完成逃离并释放目标",
+          "basis": "full_duration_frames_with_automated_video_analysis"
+        },
+        {
+          "start_seconds": 74,
+          "end_seconds": 90.186,
+          "description": "宴席逐个亮起，主角接到电话并与众人庆祝。",
+          "creative_role": "救援成果变为可见食物与节日场景",
+          "basis": "full_duration_frames_with_automated_video_analysis"
         }
       ],
-      "observed_intervals": []
+      "observed_intervals": [
+        {
+          "start_seconds": 0,
+          "end_seconds": 90.186,
+          "mode": "automated_full_clip_analysis_and_1fps_visual_review"
+        }
+      ]
     },
     "transfer": {
       "hypotheses": [
-        "蔬果或零食可借拟人角色执行小型任务。"
+        "节日食品与礼盒：食品形状适合变成关卡，包装可做宝物；食品不能虚构原料。",
+        "节日装饰：商品可接入救出光源或点亮宴席的结果；与食品关卡需重新连接。"
       ],
       "constraints": [
-        "机关与角色连续动作属于复杂参考。",
-        "本次商品的外观、尺寸、操作与款色仍需重新核对。"
+        "原胡萝卜与Humbug角色属于现成品牌故事，不作为本次人物素材。",
+        "普通商品更换成长角色会改变商品结构，需将角色与真实商品分开。"
       ],
-      "requires_product_review": true
+      "requires_product_review": true,
+      "suitable_products": [
+        {
+          "category": "节日食品与礼盒",
+          "examples": [
+            "圣诞饼干",
+            "巧克力礼盒",
+            "节日甜点"
+          ],
+          "fit_reason": "食品形状适合变成关卡，包装可做宝物；食品不能虚构原料。"
+        },
+        {
+          "category": "节日装饰",
+          "examples": [
+            "串灯",
+            "圣诞摆件"
+          ],
+          "fit_reason": "商品可接入救出光源或点亮宴席的结果；与食品关卡需重新连接。"
+        }
+      ],
+      "replacement_steps": [
+        "保留“节日失去某物—潜入—取回—全场恢复”的结构。",
+        "用自有虚构角色接替胡萝卜特工；不要直接让带包装商品长出人手人脚后还当实物展示。",
+        "食品可布成踏脚平台或视觉关卡，本款包装至少在夺取目标或结尾清楚出现。",
+        "串灯类可把夺回目标改成灯串控制盒，最后按真实灯效点亮宴席。",
+        "短版缩减关卡数量，但保留取回目标和结尾恢复，避免只剩随机食物飞跃。"
+      ],
+      "example": {
+        "product": "圣诞串灯",
+        "preserve": "保留节日熄灭、潜入取回、恢复光芒。",
+        "replace": "改为虚构小精灵救回真实款式的灯串；手持与悬吊另拍动作，结尾展示本款实有灯珠和颜色。"
+      }
     },
     "depth": {
       "status": "not_reviewed",
-      "preserves": [],
-      "gaps": [],
-      "notes": "候选阶段未转换深度；核心动作、遮挡、接触及声音依赖待实际观看后评估。"
+      "preserves": [
+        "潜行、跨越、悬吊取物和逃离的整体节奏"
+      ],
+      "gaps": [
+        "非人形拓扑",
+        "动画表情",
+        "激光与爆炸",
+        "多段空间连续性"
+      ],
+      "notes": "已从RGB画面提出动作保留项和缺口；尚未转换深度或试生成，以上是观察判断，不是适配验收。"
     },
     "observation": {
-      "method": "source_description",
+      "method": "frames",
       "scope": [
-        "读取公开案例说明并核对当前视频标题、上传者与封面元数据；尚未连续观看或听验原片。",
-        "替代版本可能与案例文中长短版本不同，正式选用前核对完整剧情与结尾。"
+        "Higgsfield 视频分镜工具对当前链接做全片分析；随后读取同一原片文件，以1fps从开场至片尾顺序复核图像。",
+        "时间码按实际文件和逐秒画面重排，约1秒精度；不是逐帧切点或接触时刻。",
+        "声音说明仅为工具辅助识别与制作依赖判断；未独立连续听验，不把转写当原作者脚本或提示词。",
+        "当前是 90 秒字幕转载版，上传于 2025-11-13；活动年份是 2024，不能把转载日期当首发日期。"
       ],
       "evidence_urls": [
         "https://dailycommercials.com/aldi-christmas-ad-2024-watch-kevin-the-carrot-saving-christmas/",
         "https://www.youtube.com/watch?v=LYt04t_6XMs"
-      ]
+      ],
+      "reviewed_at": "2026-11-06",
+      "visual_review": {
+        "sampling_fps": 1,
+        "sampled_frames": 90,
+        "coverage_seconds": [
+          0,
+          90.186
+        ],
+        "file_sha256": "71f085e90244fd4cc1e58bd1c2ddb2cd8d5967ac3d628e12c87eb9904d68d154",
+        "width": 640,
+        "height": 360
+      },
+      "automated_analysis": {
+        "tool": "Higgsfield video_analysis",
+        "status": "completed",
+        "scene_count": 24,
+        "timestamps": "not_used_without_frame_review"
+      },
+      "audio_review": "tool_assisted_only"
     },
     "prompt": {
-      "status": "unknown",
-      "label": "提示词待补",
+      "status": "not_found_in_checked_sources",
+      "label": "原作者提示词 · 已查来源未发现",
       "text": null,
-      "url": null
+      "url": null,
+      "checked_at": "2026-11-06",
+      "checked_sources": [
+        "https://www.youtube.com/watch?v=LYt04t_6XMs",
+        "https://dailycommercials.com/aldi-christmas-ad-2024-watch-kevin-the-carrot-saving-christmas/"
+      ],
+      "check_scope": "已读当前作品的公开简介和所列剧情/制作来源；未把广告对白、广告脚本或本库改编建议当成生成提示词。"
     },
     "metrics": {
       "status": "unknown",
@@ -15926,7 +17020,18 @@
         "url": "https://dailycommercials.com/aldi-christmas-ad-2024-watch-kevin-the-carrot-saving-christmas/"
       }
     ],
-    "review_priority": "first_20"
+    "review_priority": "first_20",
+    "review": {
+      "status": "analyzed",
+      "date": "2026-11-06",
+      "report": "references/2026-11-06-priority-20-analysis.md#web-20261105-065",
+      "version_note": "当前是 90 秒字幕转载版，上传于 2025-11-13；活动年份是 2024，不能把转载日期当首发日期。",
+      "sound_dependencies": [
+        "旁白/字幕负责解释任务；本轮未独立连续听验，词句需选用时另核。"
+      ],
+      "recommendation": "适合节日主题的剧情结构参考；不是可以把实物直接换成胡萝卜的稳定深度模板。",
+      "adaptation_basis": "editorial_hypothesis_not_generation_test"
+    }
   },
   {
     "schema_version": 1,
@@ -16244,14 +17349,14 @@
     "kind": "reference",
     "collection": "2026-11-05",
     "category": "美妆与香氛",
-    "metadata": "美妆与香氛 · 角色复制 · 品牌创意参考 · 约89 秒",
+    "metadata": "美妆与香氛 · 角色复制 · 约89秒 · 16:9 · 已补动作拆解",
     "source": {
       "url": "https://www.youtube.com/watch?v=2MWAexV3MUU",
       "platform": "YouTube",
       "creator": "e.l.f. Cosmetics",
-      "published_at": null,
-      "checked_at": "2026-11-05",
-      "availability": "oembed_available",
+      "published_at": "2024-09-09",
+      "checked_at": "2026-11-06",
+      "availability": "video_retrieved",
       "creator_role": "uploader",
       "description_url": "https://dailycommercials.com/tinder-x-e-l-f-cosmetics-ad-dating-disasters-and-lip-oil/",
       "description_published_at": "2024-09-11",
@@ -16261,63 +17366,175 @@
       "poster": "https://i.ytimg.com/vi/2MWAexV3MUU/hqdefault.jpg",
       "watch_url": "https://www.youtube.com/watch?v=2MWAexV3MUU",
       "direct_video_url": "https://www.youtube.com/watch?v=2MWAexV3MUU",
-      "duration_seconds": 89,
-      "aspect_ratio": null,
+      "duration_seconds": 88.863,
+      "aspect_ratio": "16:9",
       "title": "Face the First Date | e.l.f. x Tinder ❤️‍🔥",
-      "duration_basis": "search_card_rounded"
+      "duration_basis": "retrieved_media_ffprobe"
     },
     "creative": {
       "mechanisms": [
         "角色复制",
         "情绪转折"
       ],
-      "summary": "镜中分身不断设想糟糕约会，主角用上妆准备重新找回出门的信心。",
-      "hook": null,
-      "payoff": null,
-      "strength": "not_reviewed"
+      "summary": "镜子里的自己不再同步，而是不断提出糟糕约会假设；餐厅小剧场逐个兑现想象，最后回到梳妆台，由本人接管决定。",
+      "hook": "约会确认消息出现后，镜中分身开始替本人设想各种灾难。",
+      "payoff": "本人打断脑内排练，完成出门准备并回复约会消息，镜中分身也只能接受。",
+      "strength": "qualitative_review",
+      "assessment": "适合美妆、穿搭的情境借鉴；完整片对白密度高，可先做两轮假设加完整结尾。"
     },
     "actions": {
-      "original_prop": null,
+      "original_prop": "梳妆镜、手机、定妆喷雾与联名化妆品",
       "sequence": [
         {
-          "description": "镜中分身不断设想糟糕约会，主角用上妆准备重新找回出门的信心。",
-          "basis": "source_description"
+          "start_seconds": 0,
+          "end_seconds": 19,
+          "description": "化妆、手机收到消息，本人与镜中分身交替说话。",
+          "creative_role": "让镜子承担内心反对者",
+          "basis": "full_duration_frames_with_automated_video_analysis"
+        },
+        {
+          "start_seconds": 19,
+          "end_seconds": 41,
+          "description": "餐厅里先出现卖弄海外经历和带母亲共享约会的对象，间插镜前反应。",
+          "creative_role": "用具体事件而非抽象焦虑",
+          "basis": "full_duration_frames_with_automated_video_analysis"
+        },
+        {
+          "start_seconds": 41,
+          "end_seconds": 63,
+          "description": "网红对着手机推销、另一对象喋喋不休，女主反应由疑惑变疲惫。",
+          "creative_role": "逐级增加荒诞程度",
+          "basis": "full_duration_frames_with_automated_video_analysis"
+        },
+        {
+          "start_seconds": 63,
+          "end_seconds": 74,
+          "description": "换不同约会对象，最后认出前任；回到镜前争论。",
+          "creative_role": "把最不愿遇到的情形放最后",
+          "basis": "full_duration_frames_with_automated_video_analysis"
+        },
+        {
+          "start_seconds": 74,
+          "end_seconds": 85,
+          "description": "本人打断想象，取喷雾使用，整理头发，回复消息。",
+          "creative_role": "用准备动作让决定落地",
+          "basis": "full_duration_frames_with_automated_video_analysis"
+        },
+        {
+          "start_seconds": 85,
+          "end_seconds": 88.86,
+          "description": "联名化妆包与产品全套陈列。",
+          "creative_role": "交代所卖系列",
+          "basis": "full_duration_frames_with_automated_video_analysis"
         }
       ],
-      "observed_intervals": []
+      "observed_intervals": [
+        {
+          "start_seconds": 0,
+          "end_seconds": 88.863,
+          "mode": "automated_full_clip_analysis_and_1fps_visual_review"
+        }
+      ]
     },
     "transfer": {
       "hypotheses": [
-        "唇油或彩妆可接入镜前准备动作。"
+        "出门准备类美妆：商品本来就在梳妆台动作中；具体使用顺序依实物。",
+        "穿搭与随身配饰：将喷雾替换为真实佩戴/拿包的新动作，保留镜前决定。"
       ],
       "constraints": [
-        "镜像动作、对白和产品接触都要分别核对。",
-        "本次商品的外观、尺寸、操作与款色仍需重新核对。"
+        "商品只能是准备仪式的一部分，不作消除焦虑的疗效承诺。",
+        "镜中分身、真人和餐厅想象三层不能剪成实际同时发生。"
       ],
-      "requires_product_review": true
+      "requires_product_review": true,
+      "suitable_products": [
+        {
+          "category": "出门准备类美妆",
+          "examples": [
+            "定妆喷雾",
+            "唇釉",
+            "底妆产品"
+          ],
+          "fit_reason": "商品本来就在梳妆台动作中；具体使用顺序依实物。"
+        },
+        {
+          "category": "穿搭与随身配饰",
+          "examples": [
+            "耳饰",
+            "发夹",
+            "小手袋"
+          ],
+          "fit_reason": "将喷雾替换为真实佩戴/拿包的新动作，保留镜前决定。"
+        }
+      ],
+      "replacement_steps": [
+        "保留手机触发、镜中反对者、至少两个假设小剧场和本人最终决定。",
+        "不要把餐厅网红手里的紫瓶误认成被推广的女主化妆品。",
+        "根据实物把结尾准备动作改为喷、涂、戴或拿，动作类型改变时另写镜头。",
+        "商品在本人的准备动作里可辨认出现，避免只在最后排一堆包装。",
+        "镜中分身要有独立表情与台词时序；不是普通同步镜像。"
+      ],
+      "example": {
+        "product": "耳饰",
+        "preserve": "保留本人与镜中自己争论是否赴约。",
+        "replace": "在最终打断想象后，增加戴上本款耳饰并看镜子的原创近景，再回复赴约；不把耳饰表现为治疗焦虑。"
+      }
     },
     "depth": {
       "status": "not_reviewed",
-      "preserves": [],
-      "gaps": [],
-      "notes": "候选阶段未转换深度；核心动作、遮挡、接触及声音依赖待实际观看后评估。"
+      "preserves": [
+        "梳妆台取物、身体转向和餐厅反应姿态"
+      ],
+      "gaps": [
+        "镜中独立人物与视线",
+        "嘴型对白",
+        "小商品手部接触",
+        "三层叙事切换"
+      ],
+      "notes": "已从RGB画面提出动作保留项和缺口；尚未转换深度或试生成，以上是观察判断，不是适配验收。"
     },
     "observation": {
-      "method": "source_description",
+      "method": "frames",
       "scope": [
-        "读取公开案例说明并核对当前视频标题、上传者与封面元数据；尚未连续观看或听验原片。",
-        "替代版本可能与案例文中长短版本不同，正式选用前核对完整剧情与结尾。"
+        "Higgsfield 视频分镜工具对当前链接做全片分析；随后读取同一原片文件，以1fps从开场至片尾顺序复核图像。",
+        "时间码按实际文件和逐秒画面重排，约1秒精度；不是逐帧切点或接触时刻。",
+        "声音说明仅为工具辅助识别与制作依赖判断；未独立连续听验，不把转写当原作者脚本或提示词。",
+        "与当前链接中的完整版本对应；时间码为约 1 秒精度的定位区间。"
       ],
       "evidence_urls": [
         "https://dailycommercials.com/tinder-x-e-l-f-cosmetics-ad-dating-disasters-and-lip-oil/",
         "https://www.youtube.com/watch?v=2MWAexV3MUU"
-      ]
+      ],
+      "reviewed_at": "2026-11-06",
+      "visual_review": {
+        "sampling_fps": 1,
+        "sampled_frames": 89,
+        "coverage_seconds": [
+          0,
+          88.863
+        ],
+        "file_sha256": "c011ce72e171e0e9f63b74675de75fbf2e588ed9b96f518411127032d05be698",
+        "width": 640,
+        "height": 360
+      },
+      "automated_analysis": {
+        "tool": "Higgsfield video_analysis",
+        "status": "completed",
+        "scene_count": 43,
+        "timestamps": "not_used_without_frame_review"
+      },
+      "audio_review": "tool_assisted_only"
     },
     "prompt": {
-      "status": "unknown",
-      "label": "提示词待补",
+      "status": "not_found_in_checked_sources",
+      "label": "原作者提示词 · 已查来源未发现",
       "text": null,
-      "url": null
+      "url": null,
+      "checked_at": "2026-11-06",
+      "checked_sources": [
+        "https://www.youtube.com/watch?v=2MWAexV3MUU",
+        "https://dailycommercials.com/tinder-x-e-l-f-cosmetics-ad-dating-disasters-and-lip-oil/"
+      ],
+      "check_scope": "已读当前作品的公开简介和所列剧情/制作来源；未把广告对白、广告脚本或本库改编建议当成生成提示词。"
     },
     "metrics": {
       "status": "unknown",
@@ -16338,7 +17555,18 @@
         "url": "https://dailycommercials.com/tinder-x-e-l-f-cosmetics-ad-dating-disasters-and-lip-oil/"
       }
     ],
-    "review_priority": "first_20"
+    "review_priority": "first_20",
+    "review": {
+      "status": "analyzed",
+      "date": "2026-11-06",
+      "report": "references/2026-11-06-priority-20-analysis.md#web-20261105-069",
+      "version_note": "与当前链接中的完整版本对应；时间码为约 1 秒精度的定位区间。",
+      "sound_dependencies": [
+        "连串假设与最后打断依赖对白；需要本次语言重写，深度只提供动作。"
+      ],
+      "recommendation": "适合美妆、穿搭的情境借鉴；完整片对白密度高，可先做两轮假设加完整结尾。",
+      "adaptation_basis": "editorial_hypothesis_not_generation_test"
+    }
   },
   {
     "schema_version": 1,
@@ -16450,14 +17678,14 @@
     "kind": "reference",
     "collection": "2026-11-05",
     "category": "美妆与香氛",
-    "metadata": "美妆与香氛 · 类型错位 · 品牌创意参考 · 约41 秒",
+    "metadata": "美妆与香氛 · 类型错位 · 约40秒 · 16:9 · 已补动作拆解",
     "source": {
       "url": "https://www.youtube.com/watch?v=TPRTAcFIFQ8",
       "platform": "YouTube",
       "creator": "Hellmann's",
-      "published_at": null,
-      "checked_at": "2026-11-05",
-      "availability": "oembed_available",
+      "published_at": "2024-08-13",
+      "checked_at": "2026-11-06",
+      "availability": "video_retrieved",
       "creator_role": "uploader",
       "description_url": "https://dailycommercials.com/would-you-wear-mayo-hellmanns-thinks-you-should/",
       "description_published_at": "2024-08-14",
@@ -16467,63 +17695,174 @@
       "poster": "https://i.ytimg.com/vi/TPRTAcFIFQ8/hqdefault.jpg",
       "watch_url": "https://www.youtube.com/watch?v=TPRTAcFIFQ8",
       "direct_video_url": "https://www.youtube.com/watch?v=TPRTAcFIFQ8",
-      "duration_seconds": 41,
-      "aspect_ratio": null,
+      "duration_seconds": 40.101,
+      "aspect_ratio": "16:9",
       "title": "Will Levis No. 8",
-      "duration_basis": "search_card_rounded"
+      "duration_basis": "retrieved_media_ffprobe"
     },
     "creative": {
       "mechanisms": [
         "类型错位",
         "异常用途"
       ],
-      "summary": "调味酱与香水联名被用高端香氛大片的严肃语气介绍，制造品类错位。",
-      "hook": null,
-      "payoff": null,
-      "strength": "not_reviewed"
+      "summary": "用跑雾、敞衫、凝视等香水片语法包装食物，吃面包与舔手指打破高冷，再用真实香氛瓶完成跨品类笑点。",
+      "hook": "标准高级香水广告的冷蓝雾气与严肃男模，逐步露出荒诞的蛋黄酱。",
+      "payoff": "真正的香水瓶亮相，原来整套高级视觉是在推一款蛋黄酱主题香氛。",
+      "strength": "qualitative_review",
+      "assessment": "适合“日常食品拍成奢侈品”的表达参考；跨品类时先分清真正出售的物件。"
     },
     "actions": {
-      "original_prop": null,
+      "original_prop": "蛋黄酱罐、涂酱面包、Will Levis No.8 香氛瓶",
       "sequence": [
         {
-          "description": "调味酱与香水联名被用高端香氛大片的严肃语气介绍，制造品类错位。",
-          "basis": "source_description"
+          "start_seconds": 0,
+          "end_seconds": 11,
+          "description": "雾中回头、跑向镜头、露台敞衫和凝视。",
+          "creative_role": "把高级香水广告的期待立住",
+          "basis": "full_duration_frames_with_automated_video_analysis"
+        },
+        {
+          "start_seconds": 11,
+          "end_seconds": 16,
+          "description": "人物持蛋黄酱罐在雾气前进食；叠入严肃脸部近景。",
+          "creative_role": "揭示画风与食物的冲突",
+          "basis": "full_duration_frames_with_automated_video_analysis"
+        },
+        {
+          "start_seconds": 16,
+          "end_seconds": 22,
+          "description": "沙发上手持涂酱面包、咬下，仍保持模特式姿态。",
+          "creative_role": "认真地做荒诞动作",
+          "basis": "full_duration_frames_with_automated_video_analysis"
+        },
+        {
+          "start_seconds": 22,
+          "end_seconds": 27,
+          "description": "球场中趴卧，酱罐放在面前，手指触口。",
+          "creative_role": "继续错位而不眨眼解释",
+          "basis": "full_duration_frames_with_automated_video_analysis"
+        },
+        {
+          "start_seconds": 27,
+          "end_seconds": 33,
+          "description": "人物持小瓶并做手势，回到雾中动作。",
+          "creative_role": "从食品过渡到主题香氛",
+          "basis": "full_duration_frames_with_automated_video_analysis"
+        },
+        {
+          "start_seconds": 33,
+          "end_seconds": 40.1,
+          "description": "No.8 香氛瓶在蓝色光线和雾中定版。",
+          "creative_role": "揭示实际联名商品",
+          "basis": "full_duration_frames_with_automated_video_analysis"
         }
       ],
-      "observed_intervals": []
+      "observed_intervals": [
+        {
+          "start_seconds": 0,
+          "end_seconds": 40.101,
+          "mode": "automated_full_clip_analysis_and_1fps_visual_review"
+        }
+      ]
     },
     "transfer": {
       "hypotheses": [
-        "香氛或酱料可借相反品类的摄影语法寻找相似镜头。"
+        "可直接食用的调味与零食：可借高定广告语法与实际吃法反差，食用动作要符合商品。",
+        "香氛与沐浴护理：保留高冷表演与主题反差；使用动作按香氛/清洁品分别设计。"
       ],
       "constraints": [
-        "不能把不可穿戴的食品直接编成真实香水用途。",
-        "本次商品的外观、尺寸、操作与款色仍需重新核对。"
+        "原片确有食品和香氛两个不同产品，不能把它们混成同一可吃可喷物。",
+        "喷雾、烟和瓶身材质不是深度可保存的信息。"
       ],
-      "requires_product_review": true
+      "requires_product_review": true,
+      "suitable_products": [
+        {
+          "category": "可直接食用的调味与零食",
+          "examples": [
+            "花生酱",
+            "果酱",
+            "巧克力酱"
+          ],
+          "fit_reason": "可借高定广告语法与实际吃法反差，食用动作要符合商品。"
+        },
+        {
+          "category": "香氛与沐浴护理",
+          "examples": [
+            "香水",
+            "沐浴露"
+          ],
+          "fit_reason": "保留高冷表演与主题反差；使用动作按香氛/清洁品分别设计。"
+        }
+      ],
+      "replacement_steps": [
+        "先决定卖的是食品还是香氛，不能沿原片同时换掉两种道具却不说明。",
+        "食品版本保留严肃跑雾与沙发吃一口，把真实包装和实际吃法接上。",
+        "香氛版本把食品当视觉主题或删掉进食，不让香水进入嘴里。",
+        "结尾定版始终回到真正出售的那一款，而不是生成一个不存在的联名瓶。",
+        "可以把高级摄影语法迁移到日常廉价小物，但需另建一个合理使用动作。"
+      ],
+      "example": {
+        "product": "花生酱",
+        "preserve": "保留香水式人物表演和沙发吃面包的反差。",
+        "replace": "换成真实酱罐与涂抹面包，结尾展示同一酱罐；不生成名为花生酱香水的虚构商品。"
+      }
     },
     "depth": {
       "status": "not_reviewed",
-      "preserves": [],
-      "gaps": [],
-      "notes": "候选阶段未转换深度；核心动作、遮挡、接触及声音依赖待实际观看后评估。"
+      "preserves": [
+        "回头、奔跑、持罐和吃一口的姿势"
+      ],
+      "gaps": [
+        "冷蓝色调与雾",
+        "食品质感",
+        "产品与人物重叠的画面",
+        "不同道具的身份区分"
+      ],
+      "notes": "已从RGB画面提出动作保留项和缺口；尚未转换深度或试生成，以上是观察判断，不是适配验收。"
     },
     "observation": {
-      "method": "source_description",
+      "method": "frames",
       "scope": [
-        "读取公开案例说明并核对当前视频标题、上传者与封面元数据；尚未连续观看或听验原片。",
-        "替代版本可能与案例文中长短版本不同，正式选用前核对完整剧情与结尾。"
+        "Higgsfield 视频分镜工具对当前链接做全片分析；随后读取同一原片文件，以1fps从开场至片尾顺序复核图像。",
+        "时间码按实际文件和逐秒画面重排，约1秒精度；不是逐帧切点或接触时刻。",
+        "声音说明仅为工具辅助识别与制作依赖判断；未独立连续听验，不把转写当原作者脚本或提示词。",
+        "当前 40.10 秒版结尾是 Will Levis No.8 香氛，前段食品罐和最终香水瓶需分别标注。"
       ],
       "evidence_urls": [
         "https://dailycommercials.com/would-you-wear-mayo-hellmanns-thinks-you-should/",
         "https://www.youtube.com/watch?v=TPRTAcFIFQ8"
-      ]
+      ],
+      "reviewed_at": "2026-11-06",
+      "visual_review": {
+        "sampling_fps": 1,
+        "sampled_frames": 40,
+        "coverage_seconds": [
+          0,
+          40.101
+        ],
+        "file_sha256": "223db9f7e79d621052214ee64803b2647c65357f0f0325b0892715180587777a",
+        "width": 640,
+        "height": 360
+      },
+      "automated_analysis": {
+        "tool": "Higgsfield video_analysis",
+        "status": "completed",
+        "scene_count": 8,
+        "timestamps": "not_used_without_frame_review"
+      },
+      "audio_review": "tool_assisted_only"
     },
     "prompt": {
-      "status": "unknown",
-      "label": "提示词待补",
+      "status": "not_found_in_checked_sources",
+      "label": "原作者提示词 · 已查来源未发现",
       "text": null,
-      "url": null
+      "url": null,
+      "checked_at": "2026-11-06",
+      "checked_sources": [
+        "https://www.youtube.com/watch?v=TPRTAcFIFQ8",
+        "https://dailycommercials.com/would-you-wear-mayo-hellmanns-thinks-you-should/"
+      ],
+      "check_scope": "已读当前作品的公开简介和所列剧情/制作来源；未把广告对白、广告脚本或本库改编建议当成生成提示词。"
     },
     "metrics": {
       "status": "unknown",
@@ -16544,7 +17883,18 @@
         "url": "https://dailycommercials.com/would-you-wear-mayo-hellmanns-thinks-you-should/"
       }
     ],
-    "review_priority": "first_20"
+    "review_priority": "first_20",
+    "review": {
+      "status": "analyzed",
+      "date": "2026-11-06",
+      "report": "references/2026-11-06-priority-20-analysis.md#web-20261105-071",
+      "version_note": "当前 40.10 秒版结尾是 Will Levis No.8 香氛，前段食品罐和最终香水瓶需分别标注。",
+      "sound_dependencies": [
+        "严肃旁白与不合语境的词语增强模仿感；不照抄整段原台词。"
+      ],
+      "recommendation": "适合“日常食品拍成奢侈品”的表达参考；跨品类时先分清真正出售的物件。",
+      "adaptation_basis": "editorial_hypothesis_not_generation_test"
+    }
   },
   {
     "schema_version": 1,
@@ -16656,14 +18006,14 @@
     "kind": "reference",
     "collection": "2026-11-05",
     "category": "数码与小家电",
-    "metadata": "数码与小家电 · 物件拟人 · 品牌创意参考 · 约31 秒",
+    "metadata": "数码与小家电 · 物件拟人 · 约30秒 · 16:9 · 已补动作拆解",
     "source": {
       "url": "https://www.youtube.com/watch?v=huRFGYDWvXA",
       "platform": "YouTube",
       "creator": "Duracell",
-      "published_at": null,
-      "checked_at": "2026-11-05",
-      "availability": "oembed_available",
+      "published_at": "2026-04-15",
+      "checked_at": "2026-11-06",
+      "availability": "video_retrieved",
       "creator_role": "uploader",
       "description_url": "https://dailycommercials.com/duracell-and-messi-reboot-the-battery-ad/",
       "description_published_at": "2026-04-17",
@@ -16673,63 +18023,173 @@
       "poster": "https://i.ytimg.com/vi/huRFGYDWvXA/hqdefault.jpg",
       "watch_url": "https://www.youtube.com/watch?v=huRFGYDWvXA",
       "direct_video_url": "https://www.youtube.com/watch?v=huRFGYDWvXA",
-      "duration_seconds": 31,
-      "aspect_ratio": null,
+      "duration_seconds": 30.093,
+      "aspect_ratio": "16:9",
       "title": "Duracell x Messi Reboot",
-      "duration_basis": "search_card_rounded"
+      "duration_basis": "retrieved_media_ffprobe"
     },
     "creative": {
       "mechanisms": [
         "物件拟人",
         "情节反转"
       ],
-      "summary": "球星突然表现失常，科学家把原因解释为装错电池，再以重启结构回扣电池。",
-      "hook": null,
-      "payoff": null,
-      "strength": "not_reviewed"
+      "summary": "把运动员暂时拟成电器，利用故障、检查、替换电源、恢复表现的演示链，把一个小电池变成故事转折点。",
+      "hook": "球星在比赛中突然动作卡顿，像电量不足的机器。",
+      "payoff": "科学家角色打开小腿电池仓，换回电池，球星恢复运球射门。",
+      "strength": "qualitative_review",
+      "assessment": "电池类商品关联很强；其他电器宜借维修结构，重做真实操作段。"
     },
     "actions": {
-      "original_prop": null,
+      "original_prop": "AA电池与包装、幻想小腿电池仓、足球",
       "sequence": [
         {
-          "description": "球星突然表现失常，科学家把原因解释为装错电池，再以重启结构回扣电池。",
-          "basis": "source_description"
+          "start_seconds": 0,
+          "end_seconds": 8,
+          "description": "球星接近足球却动作不顺，拍腿、停顿、看向场边。",
+          "creative_role": "让故障可见",
+          "basis": "full_duration_frames_with_automated_video_analysis"
+        },
+        {
+          "start_seconds": 8,
+          "end_seconds": 12,
+          "description": "科学家角色跑入并滑跪，移到球员小腿旁检查。",
+          "creative_role": "夸张但明确的介入",
+          "basis": "full_duration_frames_with_automated_video_analysis"
+        },
+        {
+          "start_seconds": 12,
+          "end_seconds": 20,
+          "description": "电池仓打开，检查旧电池、举出产品和包装，再展示仓内新电池。",
+          "creative_role": "商品承担解决动作",
+          "basis": "full_duration_frames_with_automated_video_analysis"
+        },
+        {
+          "start_seconds": 20,
+          "end_seconds": 24,
+          "description": "小腿电池仓收回，球星抬头恢复状态。",
+          "creative_role": "从处理过渡到结果",
+          "basis": "full_duration_frames_with_automated_video_analysis"
+        },
+        {
+          "start_seconds": 24,
+          "end_seconds": 28,
+          "description": "运球、射门与球网反应，球员庆祝。",
+          "creative_role": "给出恢复后的回报",
+          "basis": "full_duration_frames_with_automated_video_analysis"
+        },
+        {
+          "start_seconds": 28,
+          "end_seconds": 30.09,
+          "description": "电池与品牌字卡结束。",
+          "creative_role": "把故事归因到商品",
+          "basis": "full_duration_frames_with_automated_video_analysis"
         }
       ],
-      "observed_intervals": []
+      "observed_intervals": [
+        {
+          "start_seconds": 0,
+          "end_seconds": 30.093,
+          "mode": "automated_full_clip_analysis_and_1fps_visual_review"
+        }
+      ]
     },
     "transfer": {
       "hypotheses": [
-        "电池或供电配件可借机器故障与恢复的叙事隐喻。"
+        "可更换电源：型号与仓位必须按目标商品重建，不把不同规格混装。",
+        "电池驱动小电器：改成人拿真实设备做检查，保留故障恢复结构；不用在人体上造仓。"
       ],
       "constraints": [
-        "人体装电池为幻想，性能仍以本款资料为准。",
-        "本次商品的外观、尺寸、操作与款色仍需重新核对。"
+        "充电宝不能硬塞进AA小腿仓。",
+        "不暗示电池能够直接给真人补充体能。"
       ],
-      "requires_product_review": true
+      "requires_product_review": true,
+      "suitable_products": [
+        {
+          "category": "可更换电源",
+          "examples": [
+            "AA电池",
+            "AAA电池"
+          ],
+          "fit_reason": "型号与仓位必须按目标商品重建，不把不同规格混装。"
+        },
+        {
+          "category": "电池驱动小电器",
+          "examples": [
+            "遥控玩具",
+            "迷你风扇",
+            "手电筒"
+          ],
+          "fit_reason": "改成人拿真实设备做检查，保留故障恢复结构；不用在人体上造仓。"
+        }
+      ],
+      "replacement_steps": [
+        "保留故障—检查—换电池—恢复动作的可见因果，不仅让角色突然有精神。",
+        "按真实型号重做电池外形、数量、极性和仓盖。",
+        "非电池商品最好把故障转移到实物设备，重新找开仓/操作动作参考。",
+        "换电后的结果只表现有依据的功能，不照搬对品牌性能优越性的断言。",
+        "人物与足球能力是幻想叙事，不作为商品能提升人体表现的证据。"
+      ],
+      "example": {
+        "product": "遥控车用AA电池",
+        "preserve": "保留紧急维修与重新启动的节奏。",
+        "replace": "把球星卡顿改成遥控车停下，成人滑到旁边换真实电池，车再沿原路线出发；开仓动作另拍。"
+      }
     },
     "depth": {
       "status": "not_reviewed",
-      "preserves": [],
-      "gaps": [],
-      "notes": "候选阶段未转换深度；核心动作、遮挡、接触及声音依赖待实际观看后评估。"
+      "preserves": [
+        "停顿、跑入、滑跪、蹲身和恢复运动的时序"
+      ],
+      "gaps": [
+        "电池仓机械结构",
+        "小电池手部细节与极性",
+        "足球接触与球网"
+      ],
+      "notes": "已从RGB画面提出动作保留项和缺口；尚未转换深度或试生成，以上是观察判断，不是适配验收。"
     },
     "observation": {
-      "method": "source_description",
+      "method": "frames",
       "scope": [
-        "读取公开案例说明并核对当前视频标题、上传者与封面元数据；尚未连续观看或听验原片。",
-        "替代版本可能与案例文中长短版本不同，正式选用前核对完整剧情与结尾。"
+        "Higgsfield 视频分镜工具对当前链接做全片分析；随后读取同一原片文件，以1fps从开场至片尾顺序复核图像。",
+        "时间码按实际文件和逐秒画面重排，约1秒精度；不是逐帧切点或接触时刻。",
+        "声音说明仅为工具辅助识别与制作依赖判断；未独立连续听验，不把转写当原作者脚本或提示词。",
+        "与当前链接中的完整版本对应；时间码为约 1 秒精度的定位区间。"
       ],
       "evidence_urls": [
         "https://dailycommercials.com/duracell-and-messi-reboot-the-battery-ad/",
         "https://www.youtube.com/watch?v=huRFGYDWvXA"
-      ]
+      ],
+      "reviewed_at": "2026-11-06",
+      "visual_review": {
+        "sampling_fps": 1,
+        "sampled_frames": 30,
+        "coverage_seconds": [
+          0,
+          30.093
+        ],
+        "file_sha256": "c6649f913428ce71ecc29276833701d70f16d58d158391b82bfad598a36d921c",
+        "width": 640,
+        "height": 360
+      },
+      "automated_analysis": {
+        "tool": "Higgsfield video_analysis",
+        "status": "completed",
+        "scene_count": 16,
+        "timestamps": "not_used_without_frame_review"
+      },
+      "audio_review": "tool_assisted_only"
     },
     "prompt": {
-      "status": "unknown",
-      "label": "提示词待补",
+      "status": "not_found_in_checked_sources",
+      "label": "原作者提示词 · 已查来源未发现",
       "text": null,
-      "url": null
+      "url": null,
+      "checked_at": "2026-11-06",
+      "checked_sources": [
+        "https://www.youtube.com/watch?v=huRFGYDWvXA",
+        "https://dailycommercials.com/duracell-and-messi-reboot-the-battery-ad/"
+      ],
+      "check_scope": "已读当前作品的公开简介和所列剧情/制作来源；未把广告对白、广告脚本或本库改编建议当成生成提示词。"
     },
     "metrics": {
       "status": "unknown",
@@ -16750,7 +18210,18 @@
         "url": "https://dailycommercials.com/duracell-and-messi-reboot-the-battery-ad/"
       }
     ],
-    "review_priority": "first_20"
+    "review_priority": "first_20",
+    "review": {
+      "status": "analyzed",
+      "date": "2026-11-06",
+      "report": "references/2026-11-06-priority-20-analysis.md#web-20261105-073",
+      "version_note": "与当前链接中的完整版本对应；时间码为约 1 秒精度的定位区间。",
+      "sound_dependencies": [
+        "机械故障声和恢复声辅助状态变化，品牌性能文案需独立核实。"
+      ],
+      "recommendation": "电池类商品关联很强；其他电器宜借维修结构，重做真实操作段。",
+      "adaptation_basis": "editorial_hypothesis_not_generation_test"
+    }
   },
   {
     "schema_version": 1,
@@ -16759,14 +18230,14 @@
     "kind": "reference",
     "collection": "2026-11-05",
     "category": "食品与饮料",
-    "metadata": "食品与饮料 · 动物角色 · 品牌创意参考 · 约31 秒",
+    "metadata": "食品与饮料 · 动物角色 · 约30秒 · 16:9 · 已补动作拆解",
     "source": {
       "url": "https://www.youtube.com/watch?v=8J4eb_lzjHs",
       "platform": "YouTube",
       "creator": "QuirkyFilms",
-      "published_at": null,
-      "checked_at": "2026-11-05",
-      "availability": "oembed_available",
+      "published_at": "2026-02-10",
+      "checked_at": "2026-11-06",
+      "availability": "video_retrieved",
       "creator_role": "uploader",
       "description_url": "https://dailycommercials.com/red-bull-dog-date-super-bowl-2026-ad-review-energetic-animated-and-playfully-canine/",
       "description_published_at": "2026-02-11",
@@ -16776,63 +18247,172 @@
       "poster": "https://i.ytimg.com/vi/8J4eb_lzjHs/hqdefault.jpg",
       "watch_url": "https://www.youtube.com/watch?v=8J4eb_lzjHs",
       "direct_video_url": "https://www.youtube.com/watch?v=8J4eb_lzjHs",
-      "duration_seconds": 31,
-      "aspect_ratio": null,
+      "duration_seconds": 30.372,
+      "aspect_ratio": "16:9",
       "title": "Red Bull  (Super Bowl 2026)  'Dog Date'",
-      "duration_basis": "search_card_rounded"
+      "duration_basis": "retrieved_media_ffprobe"
     },
     "creative": {
       "mechanisms": [
         "动物角色",
         "异常用途"
       ],
-      "summary": "两只狗相遇后不愿分开，喝饮料的动画狗用牵引绳与树延长约会时间。",
-      "hook": null,
-      "payoff": null,
-      "strength": "not_reviewed"
+      "summary": "先给狗一个想留下的目标，随后饮用动作、套上牵引绳、快速绕圈，利用绳子与树形成因果明确的反客为主。",
+      "hook": "两只狗正互相示好，主人却准备把其中一只叫回家。",
+      "payoff": "狗借牵引绳绕树把主人固定住，自己回去继续约会。",
+      "strength": "qualitative_review",
+      "assessment": "宠物绳具可直接成为剧情道具；对非宠物商品仅作为反客为主机制备选。"
     },
     "actions": {
-      "original_prop": null,
+      "original_prop": "能量饮料罐、狗项圈、牵引绳与树",
       "sequence": [
         {
-          "description": "两只狗相遇后不愿分开，喝饮料的动画狗用牵引绳与树延长约会时间。",
-          "basis": "source_description"
+          "start_seconds": 0,
+          "end_seconds": 6,
+          "description": "两只狗互动，主人在树旁召唤，狗回头。",
+          "creative_role": "目标与阻碍同时出现",
+          "basis": "full_duration_frames_with_automated_video_analysis"
+        },
+        {
+          "start_seconds": 6,
+          "end_seconds": 12,
+          "description": "狗取出饮料罐、饮用并向主人跑去。",
+          "creative_role": "商品在行动前出现",
+          "basis": "full_duration_frames_with_automated_video_analysis"
+        },
+        {
+          "start_seconds": 12,
+          "end_seconds": 16,
+          "description": "主人弯腰连接项圈/牵引绳，准备离开。",
+          "creative_role": "给绕圈动作布置必要道具",
+          "basis": "full_duration_frames_with_automated_video_analysis"
+        },
+        {
+          "start_seconds": 16,
+          "end_seconds": 21,
+          "description": "狗高速绕树与主人，绳子一圈圈把人固定。",
+          "creative_role": "核心动作机制",
+          "basis": "full_duration_frames_with_automated_video_analysis"
+        },
+        {
+          "start_seconds": 21,
+          "end_seconds": 28,
+          "description": "狗离开被绑住的主人，回到另一只狗身边继续亲昵。",
+          "creative_role": "完成留下来的目标",
+          "basis": "full_duration_frames_with_automated_video_analysis"
+        },
+        {
+          "start_seconds": 28,
+          "end_seconds": 30.37,
+          "description": "饮料罐与品牌字卡。",
+          "creative_role": "商品落版",
+          "basis": "full_duration_frames_with_automated_video_analysis"
         }
       ],
-      "observed_intervals": []
+      "observed_intervals": [
+        {
+          "start_seconds": 0,
+          "end_seconds": 30.372,
+          "mode": "automated_full_clip_analysis_and_1fps_visual_review"
+        }
+      ]
     },
     "transfer": {
       "hypotheses": [
-        "宠物牵引用品可沿已有绳路寻找展示参考。"
+        "宠物出行用品：真正参与连接、绕行和主人反应；绳长和连接位置须匹配。",
+        "成人即饮商品：只借“喝一口再解决难题”的真人幻想结构，需换成成人角色和安全动作。"
       ],
       "constraints": [
-        "这是跨品类假设，需核实绳结与安全表达。",
-        "本次商品的外观、尺寸、操作与款色仍需重新核对。"
+        "2D线稿不是现成写实人物/犬体深度。",
+        "不把宠物饮用成人饮品当成用法展示。"
       ],
-      "requires_product_review": true
+      "requires_product_review": true,
+      "suitable_products": [
+        {
+          "category": "宠物出行用品",
+          "examples": [
+            "牵引绳",
+            "项圈",
+            "胸背带"
+          ],
+          "fit_reason": "真正参与连接、绕行和主人反应；绳长和连接位置须匹配。"
+        },
+        {
+          "category": "成人即饮商品",
+          "examples": [
+            "罐装饮料"
+          ],
+          "fit_reason": "只借“喝一口再解决难题”的真人幻想结构，需换成成人角色和安全动作。"
+        }
+      ],
+      "replacement_steps": [
+        "宠物用品版本把待售绳/项圈作为核心道具，按实物扣具与长度重新画出路径。",
+        "保留狗想留下、主人叫走、绳子限制主人、狗回去的顺序。",
+        "实拍/写实方案可改为绳子绕凳脚让主人停步，避免真实勒绑；动画仍要路径清楚。",
+        "饮料商品移到成人虚构角色，不沿用宠物喝能量饮料。",
+        "保留最后回到同伴的镜头，否则绕树只剩无目的运动。"
+      ],
+      "example": {
+        "product": "宠物牵引绳",
+        "preserve": "保留狗用主人的规则反过来留住主人。",
+        "replace": "删除喝饮料，把主角发现绳子可绕行作为灵机一动；本款扣具和绳身在连接镜头里看清。"
+      }
     },
     "depth": {
       "status": "not_reviewed",
-      "preserves": [],
-      "gaps": [],
-      "notes": "候选阶段未转换深度；核心动作、遮挡、接触及声音依赖待实际观看后评估。"
+      "preserves": [
+        "接近、弯腰连接、绕圈与返回的相对时序"
+      ],
+      "gaps": [
+        "绳子细线及绕行拓扑",
+        "2D到3D的体型差异",
+        "宠物拟人表情"
+      ],
+      "notes": "已从RGB画面提出动作保留项和缺口；尚未转换深度或试生成，以上是观察判断，不是适配验收。"
     },
     "observation": {
-      "method": "source_description",
+      "method": "frames",
       "scope": [
-        "读取公开案例说明并核对当前视频标题、上传者与封面元数据；尚未连续观看或听验原片。",
-        "替代版本可能与案例文中长短版本不同，正式选用前核对完整剧情与结尾。"
+        "Higgsfield 视频分镜工具对当前链接做全片分析；随后读取同一原片文件，以1fps从开场至片尾顺序复核图像。",
+        "时间码按实际文件和逐秒画面重排，约1秒精度；不是逐帧切点或接触时刻。",
+        "声音说明仅为工具辅助识别与制作依赖判断；未独立连续听验，不把转写当原作者脚本或提示词。",
+        "与当前链接中的完整版本对应；时间码为约 1 秒精度的定位区间。"
       ],
       "evidence_urls": [
         "https://dailycommercials.com/red-bull-dog-date-super-bowl-2026-ad-review-energetic-animated-and-playfully-canine/",
         "https://www.youtube.com/watch?v=8J4eb_lzjHs"
-      ]
+      ],
+      "reviewed_at": "2026-11-06",
+      "visual_review": {
+        "sampling_fps": 1,
+        "sampled_frames": 30,
+        "coverage_seconds": [
+          0,
+          30.372
+        ],
+        "file_sha256": "352f76e43310bb440c7c580a8c8a884ac438129ed7eb20abb64695ce7569f5fc",
+        "width": 640,
+        "height": 360
+      },
+      "automated_analysis": {
+        "tool": "Higgsfield video_analysis",
+        "status": "completed",
+        "scene_count": 6,
+        "timestamps": "not_used_without_frame_review"
+      },
+      "audio_review": "tool_assisted_only"
     },
     "prompt": {
-      "status": "unknown",
-      "label": "提示词待补",
+      "status": "not_found_in_checked_sources",
+      "label": "原作者提示词 · 已查来源未发现",
       "text": null,
-      "url": null
+      "url": null,
+      "checked_at": "2026-11-06",
+      "checked_sources": [
+        "https://www.youtube.com/watch?v=8J4eb_lzjHs",
+        "https://dailycommercials.com/red-bull-dog-date-super-bowl-2026-ad-review-energetic-animated-and-playfully-canine/"
+      ],
+      "check_scope": "已读当前作品的公开简介和所列剧情/制作来源；未把广告对白、广告脚本或本库改编建议当成生成提示词。"
     },
     "metrics": {
       "status": "unknown",
@@ -16853,7 +18433,18 @@
         "url": "https://dailycommercials.com/red-bull-dog-date-super-bowl-2026-ad-review-energetic-animated-and-playfully-canine/"
       }
     ],
-    "review_priority": "first_20"
+    "review_priority": "first_20",
+    "review": {
+      "status": "analyzed",
+      "date": "2026-11-06",
+      "report": "references/2026-11-06-priority-20-analysis.md#web-20261105-074",
+      "version_note": "与当前链接中的完整版本对应；时间码为约 1 秒精度的定位区间。",
+      "sound_dependencies": [
+        "呼唤和最后回到约会的对答帮助交代动机，可用新字幕重写。"
+      ],
+      "recommendation": "宠物绳具可直接成为剧情道具；对非宠物商品仅作为反客为主机制备选。",
+      "adaptation_basis": "editorial_hypothesis_not_generation_test"
+    }
   },
   {
     "schema_version": 1,
@@ -16965,14 +18556,14 @@
     "kind": "reference",
     "collection": "2026-11-05",
     "category": "食品与饮料",
-    "metadata": "食品与饮料 · 冷面反应 · 品牌创意参考 · 约31 秒",
+    "metadata": "食品与饮料 · 冷面反应 · 约30秒 · 16:9 · 已补动作拆解",
     "source": {
       "url": "https://www.youtube.com/watch?v=T1z-xbTkJNM",
       "platform": "YouTube",
       "creator": "Kinder Bueno USA",
-      "published_at": null,
-      "checked_at": "2026-11-05",
-      "availability": "oembed_available",
+      "published_at": "2026-02-02",
+      "checked_at": "2026-11-06",
+      "availability": "video_retrieved",
       "creator_role": "uploader",
       "description_url": "https://dailycommercials.com/kinder-bueno-yes-bueno-super-bowl-2026-ad-review-a-sci-fi-chocolate-odyssey/",
       "description_published_at": "2026-02-10",
@@ -16982,63 +18573,174 @@
       "poster": "https://i.ytimg.com/vi/T1z-xbTkJNM/hqdefault.jpg",
       "watch_url": "https://www.youtube.com/watch?v=T1z-xbTkJNM",
       "direct_video_url": "https://www.youtube.com/watch?v=T1z-xbTkJNM",
-      "duration_seconds": 31,
-      "aspect_ratio": null,
+      "duration_seconds": 30.08,
+      "aspect_ratio": "16:9",
       "title": "YES BUENO 2026",
-      "duration_basis": "search_card_rounded"
+      "duration_basis": "retrieved_media_ffprobe"
     },
     "creative": {
       "mechanisms": [
         "冷面反应",
         "类型错位"
       ],
-      "summary": "宇航员面临黑洞危险，一块巧克力和淡定应答把科幻危机转成零食笑点。",
-      "hook": null,
-      "payoff": null,
-      "strength": "not_reviewed"
+      "summary": "用灾难电影的巨大危机反衬一根零食；船舱、控制室、外星人三处重复“担忧—递出零食—态度转变”，再以滑稽变装和幼儿形象加码。",
+      "hook": "飞船被黑洞牵引，紧张角色却被同伴递来巧克力。",
+      "payoff": "同一零食让外星人暂缓毁灭地球；飞船继续出现荒诞变化，最后回到零食断面。",
+      "strength": "qualitative_review",
+      "assessment": "便携零食与小型解压品有清楚接入口；科幻全景和变身段需另制作。"
     },
     "actions": {
-      "original_prop": null,
+      "original_prop": "独立包装巧克力棒、飞船、控制台和外星人",
       "sequence": [
         {
-          "description": "宇航员面临黑洞危险，一块巧克力和淡定应答把科幻危机转成零食笑点。",
-          "basis": "source_description"
+          "start_seconds": 0,
+          "end_seconds": 6,
+          "description": "飞船与黑洞建立危机，宇航员反应，另一人把零食举到其面前。",
+          "creative_role": "用小满足打断大恐慌",
+          "basis": "full_duration_frames_with_automated_video_analysis"
+        },
+        {
+          "start_seconds": 6,
+          "end_seconds": 13,
+          "description": "地面控制室担忧，主管同样递零食；外景飞船继续移动。",
+          "creative_role": "重复相同结构",
+          "basis": "full_duration_frames_with_automated_video_analysis"
+        },
+        {
+          "start_seconds": 13,
+          "end_seconds": 19,
+          "description": "外星人看飞船、持巧克力说话并咬食。",
+          "creative_role": "把零食价值升级到地球命运",
+          "basis": "full_duration_frames_with_automated_video_analysis"
+        },
+        {
+          "start_seconds": 19,
+          "end_seconds": 26,
+          "description": "船舱人物变装为小丑/礼服，再变成幼儿形象与漂浮包装。",
+          "creative_role": "荒诞升级而非真实功能演示",
+          "basis": "full_duration_frames_with_automated_video_analysis"
+        },
+        {
+          "start_seconds": 26,
+          "end_seconds": 28,
+          "description": "宇宙转场、巧克力碎屑与断面。",
+          "creative_role": "回到可感的食物材质",
+          "basis": "full_duration_frames_with_automated_video_analysis"
+        },
+        {
+          "start_seconds": 28,
+          "end_seconds": 30.08,
+          "description": "包装与发光标语收尾。",
+          "creative_role": "实际商品确认",
+          "basis": "full_duration_frames_with_automated_video_analysis"
         }
       ],
-      "observed_intervals": []
+      "observed_intervals": [
+        {
+          "start_seconds": 0,
+          "end_seconds": 30.08,
+          "mode": "automated_full_clip_analysis_and_1fps_visual_review"
+        }
+      ]
     },
     "transfer": {
       "hypotheses": [
-        "条状零食可接入危机中仍坚持吃一口的动作。"
+        "便携零食：能被单手递出并安全食用，真实断面与包装另核。",
+        "随身解压物件：可借打断紧张的桥段，但把吃改成握捏/转动，效果只作角色反应。"
       ],
       "constraints": [
-        "台词双关与太空运动需单独处理。",
-        "本次商品的外观、尺寸、操作与款色仍需重新核对。"
+        "零食缓解角色情绪是戏剧反应，不等于具备治疗或性能功效。",
+        "捏捏玩具等非食品不能沿用咬食。"
       ],
-      "requires_product_review": true
+      "requires_product_review": true,
+      "suitable_products": [
+        {
+          "category": "便携零食",
+          "examples": [
+            "巧克力棒",
+            "威化饼",
+            "能量棒"
+          ],
+          "fit_reason": "能被单手递出并安全食用，真实断面与包装另核。"
+        },
+        {
+          "category": "随身解压物件",
+          "examples": [
+            "捏捏玩具",
+            "指尖玩具"
+          ],
+          "fit_reason": "可借打断紧张的桥段，但把吃改成握捏/转动，效果只作角色反应。"
+        }
+      ],
+      "replacement_steps": [
+        "选择两处危机重复加一个结尾，保留每轮“担忧—商品介入—情绪改变”。",
+        "食品按实际独立包装、开封和一口大小重做，不能复制巧克力断面到其他零食。",
+        "非食品把递到嘴边改成递到手里并操作，需原创或另找动作参考。",
+        "外星人和黑洞只是幻想背景，商品不要表现为实际航天工具。",
+        "原片幼儿变身段可以改成成年人的滑稽服装变化，让受众和食用动作更清楚。"
+      ],
+      "example": {
+        "product": "独立包装威化饼",
+        "preserve": "保留机舱与控制室重复递零食的结构。",
+        "replace": "换成真实包装和可见威化断面；删去幼儿食用，最后让成人宇航员一起享用。"
+      }
     },
     "depth": {
       "status": "not_reviewed",
-      "preserves": [],
-      "gaps": [],
-      "notes": "候选阶段未转换深度；核心动作、遮挡、接触及声音依赖待实际观看后评估。"
+      "preserves": [
+        "转头惊讶、递物、接物和反应的节奏"
+      ],
+      "gaps": [
+        "外星人/幼儿体型",
+        "黑洞与飞船特效",
+        "包装漂浮",
+        "食品断面与唇齿接触"
+      ],
+      "notes": "已从RGB画面提出动作保留项和缺口；尚未转换深度或试生成，以上是观察判断，不是适配验收。"
     },
     "observation": {
-      "method": "source_description",
+      "method": "frames",
       "scope": [
-        "读取公开案例说明并核对当前视频标题、上传者与封面元数据；尚未连续观看或听验原片。",
-        "替代版本可能与案例文中长短版本不同，正式选用前核对完整剧情与结尾。"
+        "Higgsfield 视频分镜工具对当前链接做全片分析；随后读取同一原片文件，以1fps从开场至片尾顺序复核图像。",
+        "时间码按实际文件和逐秒画面重排，约1秒精度；不是逐帧切点或接触时刻。",
+        "声音说明仅为工具辅助识别与制作依赖判断；未独立连续听验，不把转写当原作者脚本或提示词。",
+        "与当前链接中的完整版本对应；时间码为约 1 秒精度的定位区间。"
       ],
       "evidence_urls": [
         "https://dailycommercials.com/kinder-bueno-yes-bueno-super-bowl-2026-ad-review-a-sci-fi-chocolate-odyssey/",
         "https://www.youtube.com/watch?v=T1z-xbTkJNM"
-      ]
+      ],
+      "reviewed_at": "2026-11-06",
+      "visual_review": {
+        "sampling_fps": 1,
+        "sampled_frames": 30,
+        "coverage_seconds": [
+          0,
+          30.08
+        ],
+        "file_sha256": "7fc2b01793e2b7cb0403fb1ae850feaecd3f0a255cfd6bbca88b367af1bf35dc",
+        "width": 640,
+        "height": 360
+      },
+      "automated_analysis": {
+        "tool": "Higgsfield video_analysis",
+        "status": "completed",
+        "scene_count": 17,
+        "timestamps": "not_used_without_frame_review"
+      },
+      "audio_review": "tool_assisted_only"
     },
     "prompt": {
-      "status": "unknown",
-      "label": "提示词待补",
+      "status": "not_found_in_checked_sources",
+      "label": "原作者提示词 · 已查来源未发现",
       "text": null,
-      "url": null
+      "url": null,
+      "checked_at": "2026-11-06",
+      "checked_sources": [
+        "https://www.youtube.com/watch?v=T1z-xbTkJNM",
+        "https://dailycommercials.com/kinder-bueno-yes-bueno-super-bowl-2026-ad-review-a-sci-fi-chocolate-odyssey/"
+      ],
+      "check_scope": "已读当前作品的公开简介和所列剧情/制作来源；未把广告对白、广告脚本或本库改编建议当成生成提示词。"
     },
     "metrics": {
       "status": "unknown",
@@ -17059,7 +18761,18 @@
         "url": "https://dailycommercials.com/kinder-bueno-yes-bueno-super-bowl-2026-ad-review-a-sci-fi-chocolate-odyssey/"
       }
     ],
-    "review_priority": "first_20"
+    "review_priority": "first_20",
+    "review": {
+      "status": "analyzed",
+      "date": "2026-11-06",
+      "report": "references/2026-11-06-priority-20-analysis.md#web-20261105-076",
+      "version_note": "与当前链接中的完整版本对应；时间码为约 1 秒精度的定位区间。",
+      "sound_dependencies": [
+        "反复的否定/肯定对白是结构支点，换品后需要对应的新语言梗。"
+      ],
+      "recommendation": "便携零食与小型解压品有清楚接入口；科幻全景和变身段需另制作。",
+      "adaptation_basis": "editorial_hypothesis_not_generation_test"
+    }
   },
   {
     "schema_version": 1,
@@ -17377,14 +19090,14 @@
     "kind": "reference",
     "collection": "2026-11-05",
     "category": "美妆与香氛",
-    "metadata": "美妆与香氛 · 节奏同步 · 品牌创意参考 · 约60 秒",
+    "metadata": "美妆与香氛 · 节奏同步 · 约60秒 · 320:213 · 已补动作拆解",
     "source": {
       "url": "https://www.youtube.com/watch?v=wd1XfPtRVGc",
       "platform": "YouTube",
       "creator": "H&M",
-      "published_at": null,
-      "checked_at": "2026-11-05",
-      "availability": "oembed_available",
+      "published_at": "2026-01-22",
+      "checked_at": "2026-11-06",
+      "availability": "video_retrieved",
       "creator_role": "uploader",
       "description_url": "https://dailycommercials.com/e-l-f-x-hm-make-it-make-scents-campaign-high-energy-fragrance-collab/",
       "description_published_at": "2026-01-29",
@@ -17394,63 +19107,174 @@
       "poster": "https://i.ytimg.com/vi/wd1XfPtRVGc/hqdefault.jpg",
       "watch_url": "https://www.youtube.com/watch?v=wd1XfPtRVGc",
       "direct_video_url": "https://www.youtube.com/watch?v=wd1XfPtRVGc",
-      "duration_seconds": 60,
-      "aspect_ratio": null,
+      "duration_seconds": 60.053,
+      "aspect_ratio": "320:213",
       "title": "e.l.f. H&M",
-      "duration_basis": "search_card_rounded"
+      "duration_basis": "retrieved_media_ffprobe"
     },
     "creative": {
       "mechanisms": [
         "节奏同步",
         "多款切换"
       ],
-      "summary": "喷洒、走动、散香和摆姿势被编成音乐录像式动作序列，香水款式随之展示。",
-      "hook": null,
-      "payoff": null,
-      "strength": "not_reviewed"
+      "summary": "把喷、走、挥臂散香与摆姿势编成可重复动作；青绿、粉色和棕色三组人物/材质分别承接不同产品风格。",
+      "hook": "三种色系与人物姿态快速交错，手里香水接上音乐节奏。",
+      "payoff": "三条不同气味/色彩路线在白棚合成群舞，以同一套动作和品牌标识收束。",
+      "strength": "qualitative_review",
+      "assessment": "多款香氛和穿搭系列的动作组织价值高；与其逐个照搬特效，更应保留款色与舞句对应。"
     },
     "actions": {
-      "original_prop": null,
+      "original_prop": "三色香水瓶、青绿软性装置、粉色服装、树木落叶和拟人手袋",
       "sequence": [
         {
-          "description": "喷洒、走动、散香和摆姿势被编成音乐录像式动作序列，香水款式随之展示。",
-          "basis": "source_description"
+          "start_seconds": 0,
+          "end_seconds": 10,
+          "description": "林地倒置视角、青绿与粉色人物切换，三人持瓶指向镜头并开始群舞。",
+          "creative_role": "先建立多款视觉身份",
+          "basis": "full_duration_frames_with_automated_video_analysis"
+        },
+        {
+          "start_seconds": 10,
+          "end_seconds": 17,
+          "description": "青绿稠液与瓶身定版，黑衣人物倚靠装置、伸展并跳跃。",
+          "creative_role": "商品色彩对应动作环境",
+          "basis": "full_duration_frames_with_automated_video_analysis"
+        },
+        {
+          "start_seconds": 17,
+          "end_seconds": 25,
+          "description": "紫色花与瓶身，粉色人物躺卧、头发散开、喷洒与摆姿。",
+          "creative_role": "第二种气味路线",
+          "basis": "full_duration_frames_with_automated_video_analysis"
+        },
+        {
+          "start_seconds": 25,
+          "end_seconds": 32,
+          "description": "树间出现棕色瓶，人物持瓶、喷洒；长腿小手袋出现在落叶上。",
+          "creative_role": "第三条路线加入超现实",
+          "basis": "full_duration_frames_with_automated_video_analysis"
+        },
+        {
+          "start_seconds": 32,
+          "end_seconds": 46,
+          "description": "落叶林地群舞回到白棚，三位主体重新同框完成挥臂、弯身和定姿。",
+          "creative_role": "多款路线归一",
+          "basis": "full_duration_frames_with_automated_video_analysis"
+        },
+        {
+          "start_seconds": 46,
+          "end_seconds": 60.05,
+          "description": "姿态上叠标识，约50秒起为持续的黑底品牌尾卡。",
+          "creative_role": "后十秒不是新的动作段",
+          "basis": "full_duration_frames_with_automated_video_analysis"
         }
       ],
-      "observed_intervals": []
+      "observed_intervals": [
+        {
+          "start_seconds": 0,
+          "end_seconds": 60.053,
+          "mode": "automated_full_clip_analysis_and_1fps_visual_review"
+        }
+      ]
     },
     "transfer": {
       "hypotheses": [
-        "多款香氛可按同一套喷洒与展示动作分配。"
+        "多款香氛：喷头结构和使用部位真实，不同款色与角色固定对应。",
+        "服装与配饰系列：可借人物/色系/动作三组对应关系；喷香改成穿戴动作。"
       ],
       "constraints": [
-        "香雾方向和音乐节拍需单独核对。",
-        "本次商品的外观、尺寸、操作与款色仍需重新核对。"
+        "原曲节拍与舞句需要另处理，深度不自带声音节奏。",
+        "发光口气、稠液和拟人包不能当作真实产品功能。"
       ],
-      "requires_product_review": true
+      "requires_product_review": true,
+      "suitable_products": [
+        {
+          "category": "多款香氛",
+          "examples": [
+            "三款香水",
+            "身体喷雾"
+          ],
+          "fit_reason": "喷头结构和使用部位真实，不同款色与角色固定对应。"
+        },
+        {
+          "category": "服装与配饰系列",
+          "examples": [
+            "运动套装",
+            "手提包",
+            "首饰套组"
+          ],
+          "fit_reason": "可借人物/色系/动作三组对应关系；喷香改成穿戴动作。"
+        }
+      ],
+      "replacement_steps": [
+        "为每款商品指定一位角色、一套颜色与一种动作，不在随机快切里混款。",
+        "香氛按实物喷头、尺寸和握法换瓶，保留喷后挥臂、走动、定姿的顺序。",
+        "服装版让抬臂与伸展服务于真实版型；把瓶身特写改为衣料或佩戴细节。",
+        "拟人手袋是独立特效；卖真实包时需在正常包身展示与幻想角色之间分开。",
+        "剪为短片时去掉冗长尾卡，但完成三款各自出镜与最终合舞。"
+      ],
+      "example": {
+        "product": "三款身体喷雾",
+        "preserve": "保留三色人物和喷—走—摆姿的舞句。",
+        "replace": "换成本款不同包装，逐个核对喷嘴与使用部位；背景色呼应包装，删去与商品无关的长腿手袋。"
+      }
     },
     "depth": {
       "status": "not_reviewed",
-      "preserves": [],
-      "gaps": [],
-      "notes": "候选阶段未转换深度；核心动作、遮挡、接触及声音依赖待实际观看后评估。"
+      "preserves": [
+        "挥臂、迈步、弯身、跳跃和群舞站位"
+      ],
+      "gaps": [
+        "柔性装置、材质和气味隐喻",
+        "握瓶与喷雾",
+        "倒置镜头与快切",
+        "音乐同步"
+      ],
+      "notes": "已从RGB画面提出动作保留项和缺口；尚未转换深度或试生成，以上是观察判断，不是适配验收。"
     },
     "observation": {
-      "method": "source_description",
+      "method": "frames",
       "scope": [
-        "读取公开案例说明并核对当前视频标题、上传者与封面元数据；尚未连续观看或听验原片。",
-        "替代版本可能与案例文中长短版本不同，正式选用前核对完整剧情与结尾。"
+        "Higgsfield 视频分镜工具对当前链接做全片分析；随后读取同一原片文件，以1fps从开场至片尾顺序复核图像。",
+        "时间码按实际文件和逐秒画面重排，约1秒精度；不是逐帧切点或接触时刻。",
+        "声音说明仅为工具辅助识别与制作依赖判断；未独立连续听验，不把转写当原作者脚本或提示词。",
+        "60.05 秒版约 0–50 秒有内容，50–60 秒主要为重复标识尾卡；先前工具把末段算到50秒，已按实际片长记录。"
       ],
       "evidence_urls": [
         "https://dailycommercials.com/e-l-f-x-hm-make-it-make-scents-campaign-high-energy-fragrance-collab/",
         "https://www.youtube.com/watch?v=wd1XfPtRVGc"
-      ]
+      ],
+      "reviewed_at": "2026-11-06",
+      "visual_review": {
+        "sampling_fps": 1,
+        "sampled_frames": 60,
+        "coverage_seconds": [
+          0,
+          60.053
+        ],
+        "file_sha256": "dc9fe94e1e91d00694e9fb5d47e1f4c65a9030c7cf74529591c8e4e81e05649c",
+        "width": 640,
+        "height": 426
+      },
+      "automated_analysis": {
+        "tool": "Higgsfield video_analysis",
+        "status": "completed",
+        "scene_count": 22,
+        "timestamps": "not_used_without_frame_review"
+      },
+      "audio_review": "tool_assisted_only"
     },
     "prompt": {
-      "status": "unknown",
-      "label": "提示词待补",
+      "status": "not_found_in_checked_sources",
+      "label": "原作者提示词 · 已查来源未发现",
       "text": null,
-      "url": null
+      "url": null,
+      "checked_at": "2026-11-06",
+      "checked_sources": [
+        "https://www.youtube.com/watch?v=wd1XfPtRVGc",
+        "https://dailycommercials.com/e-l-f-x-hm-make-it-make-scents-campaign-high-energy-fragrance-collab/"
+      ],
+      "check_scope": "已读当前作品的公开简介和所列剧情/制作来源；未把广告对白、广告脚本或本库改编建议当成生成提示词。"
     },
     "metrics": {
       "status": "unknown",
@@ -17471,7 +19295,18 @@
         "url": "https://dailycommercials.com/e-l-f-x-hm-make-it-make-scents-campaign-high-energy-fragrance-collab/"
       }
     ],
-    "review_priority": "first_20"
+    "review_priority": "first_20",
+    "review": {
+      "status": "analyzed",
+      "date": "2026-11-06",
+      "report": "references/2026-11-06-priority-20-analysis.md#web-20261105-080",
+      "version_note": "60.05 秒版约 0–50 秒有内容，50–60 秒主要为重复标识尾卡；先前工具把末段算到50秒，已按实际片长记录。",
+      "sound_dependencies": [
+        "短口令与动作同步承担辨识度；原曲不复制，选用时另做对应节奏。"
+      ],
+      "recommendation": "多款香氛和穿搭系列的动作组织价值高；与其逐个照搬特效，更应保留款色与舞句对应。",
+      "adaptation_basis": "editorial_hypothesis_not_generation_test"
+    }
   },
   {
     "schema_version": 1,
@@ -18304,14 +20139,14 @@
     "kind": "reference",
     "collection": "2026-11-05",
     "category": "服装与鞋履",
-    "metadata": "服装与鞋履 · 动物角色 · 品牌创意参考 · 约33 秒",
+    "metadata": "服装与鞋履 · 动物角色 · 约33秒 · 16:9 · 已补动作拆解",
     "source": {
       "url": "https://www.youtube.com/watch?v=p18xGXWatrI",
       "platform": "YouTube",
       "creator": "Dolce&Gabbana",
-      "published_at": null,
-      "checked_at": "2026-11-05",
-      "availability": "oembed_available",
+      "published_at": "2024-10-02",
+      "checked_at": "2026-11-06",
+      "availability": "video_retrieved",
       "creator_role": "uploader",
       "description_url": "https://dailycommercials.com/dolce-gabbanas-posh-pet-collection-is-cute/",
       "description_published_at": "2024-10-10",
@@ -18321,63 +20156,166 @@
       "poster": "https://i.ytimg.com/vi/p18xGXWatrI/hqdefault.jpg",
       "watch_url": "https://www.youtube.com/watch?v=p18xGXWatrI",
       "direct_video_url": "https://www.youtube.com/watch?v=p18xGXWatrI",
-      "duration_seconds": 33,
-      "aspect_ratio": null,
+      "duration_seconds": 32.74,
+      "aspect_ratio": "16:9",
       "title": "Dolce&Gabbana's new Petwear collection",
-      "duration_basis": "search_card_rounded"
+      "duration_basis": "retrieved_media_ffprobe"
     },
     "creative": {
       "mechanisms": [
         "动物角色",
-        "类型错位"
+        "穿搭展示"
       ],
-      "summary": "狗狗穿戴精致项圈、背带和针织衣物，以时装广告语气呈现普通宠物活动。",
-      "hook": null,
-      "payoff": null,
-      "strength": "not_reviewed"
+      "summary": "把宠物出门、抱起、牵行和对视拍成时装街拍，交叉展示针织衣物、项圈与宠物包；主要是造型与亲密互动，剧情反转较弱。",
+      "hook": "宠物被当成时装主角，主人穿正装，狗也穿针织或精致配件。",
+      "payoff": "多个宠物/主人组合结束后，绿色宠物包独立定版。",
+      "strength": "qualitative_review",
+      "assessment": "宠物服饰的展示型备选，产品匹配明确，优先级低于有完整反转的剧情参考。"
     },
     "actions": {
-      "original_prop": null,
+      "original_prop": "宠物针织衣、项圈/牵引绳、花纹宠物包、单车篮",
       "sequence": [
         {
-          "description": "狗狗穿戴精致项圈、背带和针织衣物，以时装广告语气呈现普通宠物活动。",
-          "basis": "source_description"
+          "start_seconds": 0,
+          "end_seconds": 6,
+          "description": "不同主人抱着穿衣小狗在街道出现，穿插单车篮视角。",
+          "creative_role": "先把宠物与穿搭连在一起",
+          "basis": "full_duration_frames_with_automated_video_analysis"
+        },
+        {
+          "start_seconds": 6,
+          "end_seconds": 11,
+          "description": "大厅牵狗走动，宠物包与小狗面部特写，主人亲近宠物。",
+          "creative_role": "配件与互动交替",
+          "basis": "full_duration_frames_with_automated_video_analysis"
+        },
+        {
+          "start_seconds": 11,
+          "end_seconds": 18,
+          "description": "衣物、浅蓝配件、绿色宠物包、小狗穿衣等多款切换。",
+          "creative_role": "实际商品不只一种",
+          "basis": "full_duration_frames_with_automated_video_analysis"
+        },
+        {
+          "start_seconds": 18,
+          "end_seconds": 27,
+          "description": "单车篮反打、衣上金属牌、狗嗅旁边小物与牵行全景。",
+          "creative_role": "细节与生活场景交替",
+          "basis": "full_duration_frames_with_automated_video_analysis"
+        },
+        {
+          "start_seconds": 27,
+          "end_seconds": 32.74,
+          "description": "主人抱犬，宠物经过，最后绿色宠物包留在画面中。",
+          "creative_role": "归回可识别商品",
+          "basis": "full_duration_frames_with_automated_video_analysis"
         }
       ],
-      "observed_intervals": []
+      "observed_intervals": [
+        {
+          "start_seconds": 0,
+          "end_seconds": 32.74,
+          "mode": "automated_full_clip_analysis_and_1fps_visual_review"
+        }
+      ]
     },
     "transfer": {
       "hypotheses": [
-        "宠物服饰可接入真实穿戴镜头。"
+        "宠物服装：犬体尺寸和开口匹配，动作不妨碍正常行走。",
+        "宠物出行配件：按真实扣具、牵引连接点及承重方式重做。"
       ],
       "constraints": [
-        "不同犬体型与用品结构必须单独核实。",
-        "本次商品的外观、尺寸、操作与款色仍需重新核对。"
+        "这条偏高质感穿搭展示，不标成强剧情或爆笑反转。",
+        "不能从模特犬穿戴顺利推导任意犬种都适配。"
       ],
-      "requires_product_review": true
+      "requires_product_review": true,
+      "suitable_products": [
+        {
+          "category": "宠物服装",
+          "examples": [
+            "宠物针织衫",
+            "宠物外套"
+          ],
+          "fit_reason": "犬体尺寸和开口匹配，动作不妨碍正常行走。"
+        },
+        {
+          "category": "宠物出行配件",
+          "examples": [
+            "胸背带",
+            "项圈",
+            "宠物便携包"
+          ],
+          "fit_reason": "按真实扣具、牵引连接点及承重方式重做。"
+        }
+      ],
+      "replacement_steps": [
+        "先把每套宠物衣服分给体型合适的一只狗，固定款色。",
+        "保留抱起、走过、停下回头或与主人对视的自然动作。",
+        "服饰替换时保持领口、前腿开口、背部与腹部结构真实；不能套成人衣服版型。",
+        "包类只保留实际支持的装载姿态，不照搬单车篮当本款宠物包。",
+        "插入真实扣具/面料近景，最后展示正在卖的同一款，减少无关SKU。"
+      ],
+      "example": {
+        "product": "宠物针织衫两色",
+        "preserve": "保留街拍抱犬与牵行。",
+        "replace": "分别选两只合适体型的虚构犬穿本款，领口开口按实物，结尾以犬只回头展示背面已知部分。"
+      }
     },
     "depth": {
       "status": "not_reviewed",
-      "preserves": [],
-      "gaps": [],
-      "notes": "候选阶段未转换深度；核心动作、遮挡、接触及声音依赖待实际观看后评估。"
+      "preserves": [
+        "抱犬、低机位牵行与主人宠物对视"
+      ],
+      "gaps": [
+        "犬体毛发和衣物贴合",
+        "细绳与扣具",
+        "宠物动作连续性"
+      ],
+      "notes": "已从RGB画面提出动作保留项和缺口；尚未转换深度或试生成，以上是观察判断，不是适配验收。"
     },
     "observation": {
-      "method": "source_description",
+      "method": "frames",
       "scope": [
-        "读取公开案例说明并核对当前视频标题、上传者与封面元数据；尚未连续观看或听验原片。",
-        "替代版本可能与案例文中长短版本不同，正式选用前核对完整剧情与结尾。"
+        "Higgsfield 视频分镜工具对当前链接做全片分析；随后读取同一原片文件，以1fps从开场至片尾顺序复核图像。",
+        "时间码按实际文件和逐秒画面重排，约1秒精度；不是逐帧切点或接触时刻。",
+        "声音说明仅为工具辅助识别与制作依赖判断；未独立连续听验，不把转写当原作者脚本或提示词。",
+        "与当前链接中的完整版本对应；时间码为约 1 秒精度的定位区间。"
       ],
       "evidence_urls": [
         "https://dailycommercials.com/dolce-gabbanas-posh-pet-collection-is-cute/",
         "https://www.youtube.com/watch?v=p18xGXWatrI"
-      ]
+      ],
+      "reviewed_at": "2026-11-06",
+      "visual_review": {
+        "sampling_fps": 1,
+        "sampled_frames": 33,
+        "coverage_seconds": [
+          0,
+          32.74
+        ],
+        "file_sha256": "450328d88b944dc70a253ffcf1e770421776ae170f7d39785c056398eace9f7a",
+        "width": 640,
+        "height": 360
+      },
+      "automated_analysis": {
+        "tool": "Higgsfield video_analysis",
+        "status": "completed",
+        "scene_count": 28,
+        "timestamps": "not_used_without_frame_review"
+      },
+      "audio_review": "tool_assisted_only"
     },
     "prompt": {
-      "status": "unknown",
-      "label": "提示词待补",
+      "status": "not_found_in_checked_sources",
+      "label": "原作者提示词 · 已查来源未发现",
       "text": null,
-      "url": null
+      "url": null,
+      "checked_at": "2026-11-06",
+      "checked_sources": [
+        "https://www.youtube.com/watch?v=p18xGXWatrI",
+        "https://dailycommercials.com/dolce-gabbanas-posh-pet-collection-is-cute/"
+      ],
+      "check_scope": "已读当前作品的公开简介和所列剧情/制作来源；未把广告对白、广告脚本或本库改编建议当成生成提示词。"
     },
     "metrics": {
       "status": "unknown",
@@ -18398,7 +20336,18 @@
         "url": "https://dailycommercials.com/dolce-gabbanas-posh-pet-collection-is-cute/"
       }
     ],
-    "review_priority": "first_20"
+    "review_priority": "first_20",
+    "review": {
+      "status": "analyzed",
+      "date": "2026-11-06",
+      "report": "references/2026-11-06-priority-20-analysis.md#web-20261105-089",
+      "version_note": "与当前链接中的完整版本对应；时间码为约 1 秒精度的定位区间。",
+      "sound_dependencies": [
+        "音乐统领切换，叙事无需大量对白；声音未独立连续听验。"
+      ],
+      "recommendation": "宠物服饰的展示型备选，产品匹配明确，优先级低于有完整反转的剧情参考。",
+      "adaptation_basis": "editorial_hypothesis_not_generation_test"
+    }
   },
   {
     "schema_version": 1,
@@ -18407,14 +20356,14 @@
     "kind": "reference",
     "collection": "2026-11-05",
     "category": "美妆与香氛",
-    "metadata": "美妆与香氛 · 感官隐喻 · 品牌创意参考 · 约20 秒",
+    "metadata": "美妆与香氛 · 感官隐喻 · 约20秒 · 16:9 · 已补动作拆解",
     "source": {
       "url": "https://www.youtube.com/watch?v=GuFMb9EAvEM",
       "platform": "YouTube",
       "creator": "Armani beauty",
-      "published_at": null,
-      "checked_at": "2026-11-05",
-      "availability": "oembed_available",
+      "published_at": "2024-09-30",
+      "checked_at": "2026-11-06",
+      "availability": "video_retrieved",
       "creator_role": "uploader",
       "description_url": "https://dailycommercials.com/can-you-smell-this-ad/",
       "description_published_at": "2024-10-03",
@@ -18424,63 +20373,176 @@
       "poster": "https://i.ytimg.com/vi/GuFMb9EAvEM/hqdefault.jpg",
       "watch_url": "https://www.youtube.com/watch?v=GuFMb9EAvEM",
       "direct_video_url": "https://www.youtube.com/watch?v=GuFMb9EAvEM",
-      "duration_seconds": 20,
-      "aspect_ratio": null,
+      "duration_seconds": 20.053,
+      "aspect_ratio": "16:9",
       "title": "MY WAY EAU DE PARFUM NECTAR, the new floral fruity fragrance by Giorgio Armani",
-      "duration_basis": "search_card_rounded"
+      "duration_basis": "retrieved_media_ffprobe"
     },
     "creative": {
       "mechanisms": [
         "感官隐喻",
         "工序演绎"
       ],
-      "summary": "香水瓶与花果、露珠近景交替，柑橘切面被拉开以表现气味层次。",
-      "hook": null,
-      "payoff": null,
-      "strength": "not_reviewed"
+      "summary": "用花瓣、果肉、琥珀色液滴、皮肤与瓶身的微距交替，让看不见的香味变成可见材质；眼睛与植物形状的相似性构成视觉转场。",
+      "hook": "从花丛直接切入粉色玻璃瓶的微距细节。",
+      "payoff": "果肉纹理与眼睛形状相接，再回到花和完整香水瓶定版。",
+      "strength": "qualitative_review",
+      "assessment": "适合感官产品的微距镜头参考；对依赖深度动作的工作流属于材质补充片。"
     },
     "actions": {
-      "original_prop": null,
+      "original_prop": "粉色香水瓶、花、果肉、液滴和皮肤",
       "sequence": [
         {
-          "description": "香水瓶与花果、露珠近景交替，柑橘切面被拉开以表现气味层次。",
-          "basis": "source_description"
+          "start_seconds": 0,
+          "end_seconds": 3,
+          "description": "花与瓶颈/盖的微距快速交错。",
+          "creative_role": "色彩和材质先建立",
+          "basis": "full_duration_frames_with_automated_video_analysis"
+        },
+        {
+          "start_seconds": 3,
+          "end_seconds": 6,
+          "description": "果肉纤维和瓶身文字换切。",
+          "creative_role": "把可闻联想转成可见纹理",
+          "basis": "full_duration_frames_with_automated_video_analysis"
+        },
+        {
+          "start_seconds": 6,
+          "end_seconds": 11,
+          "description": "花瓣与瓶盖、金色液滴、肩颈及瓶身，液滴方向形成连接。",
+          "creative_role": "连续的触觉隐喻",
+          "basis": "full_duration_frames_with_automated_video_analysis"
+        },
+        {
+          "start_seconds": 11,
+          "end_seconds": 15,
+          "description": "果肉、皮肤水滴与金色黏液的近景交替。",
+          "creative_role": "延续湿润与柔软感",
+          "basis": "full_duration_frames_with_automated_video_analysis"
+        },
+        {
+          "start_seconds": 15,
+          "end_seconds": 18,
+          "description": "植物中心纹理接蓝色眼睛，再回花丛。",
+          "creative_role": "用形状相似作视觉回报",
+          "basis": "full_duration_frames_with_automated_video_analysis"
+        },
+        {
+          "start_seconds": 18,
+          "end_seconds": 20.05,
+          "description": "完整粉色瓶和品牌字卡。",
+          "creative_role": "明确实际商品",
+          "basis": "full_duration_frames_with_automated_video_analysis"
         }
       ],
-      "observed_intervals": []
+      "observed_intervals": [
+        {
+          "start_seconds": 0,
+          "end_seconds": 20.053,
+          "mode": "automated_full_clip_analysis_and_1fps_visual_review"
+        }
+      ]
     },
     "transfer": {
       "hypotheses": [
-        "香氛可沿原料、瓶身与材质近景组成短片。"
+        "感官类护理：原料/香调联想必须依据商品资料；肤感不能凭视觉杜撰。",
+        "有真实原料或质地的食品：可保留原料与包装的微距呼应，但删除香水滴皮肤等用法。"
       ],
       "constraints": [
-        "核心偏材质与细节，深度适配需另评估。",
-        "本次商品的外观、尺寸、操作与款色仍需重新核对。"
+        "画面中的花果不等于全部是配方成分。",
+        "本片主要靠材质和微距，单靠深度难保住核心美感。"
       ],
-      "requires_product_review": true
+      "requires_product_review": true,
+      "suitable_products": [
+        {
+          "category": "感官类护理",
+          "examples": [
+            "香水",
+            "身体乳",
+            "香氛洗护"
+          ],
+          "fit_reason": "原料/香调联想必须依据商品资料；肤感不能凭视觉杜撰。"
+        },
+        {
+          "category": "有真实原料或质地的食品",
+          "examples": [
+            "果酱",
+            "蜂蜜",
+            "果汁"
+          ],
+          "fit_reason": "可保留原料与包装的微距呼应，但删除香水滴皮肤等用法。"
+        }
+      ],
+      "replacement_steps": [
+        "从商品资料选2–3种已知香调/成分或真实质地，替换花果素材。",
+        "瓶身必须独立按本款结构重建，微距雕字和瓶盖不能由原片继承。",
+        "保留“材质细节—产品细节—使用感受—产品全貌”的交替，不简单堆漂亮花。",
+        "食品改为真实可食材质/餐具接触，护肤品改为本款允许的皮肤使用。",
+        "形状匹配转场依据实际物体轮廓重新设计，时间码只作定位。"
+      ],
+      "example": {
+        "product": "柑橘香身体乳",
+        "preserve": "保留果肉、肤感、包装交替。",
+        "replace": "用已核实柑橘香调和真实乳霜质地，补真实涂抹动作，结尾展示本款泵瓶；不把香水瓶改成漂移外形。"
+      }
     },
     "depth": {
       "status": "not_reviewed",
-      "preserves": [],
-      "gaps": [],
-      "notes": "候选阶段未转换深度；核心动作、遮挡、接触及声音依赖待实际观看后评估。"
+      "preserves": [
+        "少量镜头移动和物体的大轮廓"
+      ],
+      "gaps": [
+        "透明玻璃折射",
+        "液滴与纤维",
+        "文字雕刻",
+        "肤感与色彩",
+        "形状匹配剪辑"
+      ],
+      "notes": "已从RGB画面提出动作保留项和缺口；尚未转换深度或试生成，以上是观察判断，不是适配验收。"
     },
     "observation": {
-      "method": "source_description",
+      "method": "frames",
       "scope": [
-        "读取公开案例说明并核对当前视频标题、上传者与封面元数据；尚未连续观看或听验原片。",
-        "替代版本可能与案例文中长短版本不同，正式选用前核对完整剧情与结尾。"
+        "Higgsfield 视频分镜工具对当前链接做全片分析；随后读取同一原片文件，以1fps从开场至片尾顺序复核图像。",
+        "时间码按实际文件和逐秒画面重排，约1秒精度；不是逐帧切点或接触时刻。",
+        "声音说明仅为工具辅助识别与制作依赖判断；未独立连续听验，不把转写当原作者脚本或提示词。",
+        "原链接完整文件为20.05秒；工具分镜错误压缩到12秒，本记录以逐秒画面重新定位全部20秒。"
       ],
       "evidence_urls": [
         "https://dailycommercials.com/can-you-smell-this-ad/",
         "https://www.youtube.com/watch?v=GuFMb9EAvEM"
-      ]
+      ],
+      "reviewed_at": "2026-11-06",
+      "visual_review": {
+        "sampling_fps": 1,
+        "sampled_frames": 20,
+        "coverage_seconds": [
+          0,
+          20.053
+        ],
+        "file_sha256": "420703cd25134930d370f24f3c1c155c0c2568d0784bc7ef0429fc8c21637cb1",
+        "width": 640,
+        "height": 360
+      },
+      "automated_analysis": {
+        "tool": "Higgsfield video_analysis",
+        "status": "completed",
+        "scene_count": 9,
+        "timestamps": "not_used_without_frame_review"
+      },
+      "audio_review": "tool_assisted_only"
     },
     "prompt": {
-      "status": "unknown",
-      "label": "提示词待补",
+      "status": "not_found_in_checked_sources",
+      "label": "原作者提示词 · 已查来源未发现",
       "text": null,
-      "url": null
+      "url": null,
+      "checked_at": "2026-11-06",
+      "checked_sources": [
+        "https://www.youtube.com/watch?v=GuFMb9EAvEM",
+        "https://dailycommercials.com/can-you-smell-this-ad/"
+      ],
+      "check_scope": "已读当前作品的公开简介和所列剧情/制作来源；未把广告对白、广告脚本或本库改编建议当成生成提示词。"
     },
     "metrics": {
       "status": "unknown",
@@ -18501,7 +20563,18 @@
         "url": "https://dailycommercials.com/can-you-smell-this-ad/"
       }
     ],
-    "review_priority": "first_20"
+    "review_priority": "first_20",
+    "review": {
+      "status": "analyzed",
+      "date": "2026-11-06",
+      "report": "references/2026-11-06-priority-20-analysis.md#web-20261105-090",
+      "version_note": "原链接完整文件为20.05秒；工具分镜错误压缩到12秒，本记录以逐秒画面重新定位全部20秒。",
+      "sound_dependencies": [
+        "音乐撑起情绪，不能从音轨反推香调或使用功效。"
+      ],
+      "recommendation": "适合感官产品的微距镜头参考；对依赖深度动作的工作流属于材质补充片。",
+      "adaptation_basis": "editorial_hypothesis_not_generation_test"
+    }
   },
   {
     "schema_version": 1,
@@ -18510,14 +20583,14 @@
     "kind": "reference",
     "collection": "2026-11-05",
     "category": "食品与饮料",
-    "metadata": "食品与饮料 · 节奏同步 · 品牌创意参考 · 约30 秒",
+    "metadata": "食品与饮料 · 节奏同步 · 约30秒 · 16:9 · 已补动作拆解",
     "source": {
       "url": "https://www.youtube.com/watch?v=KUPXAGPqoZk",
       "platform": "YouTube",
       "creator": "CHRISTIAN LOBO",
-      "published_at": null,
-      "checked_at": "2026-11-05",
-      "availability": "oembed_available",
+      "published_at": "2024-09-12",
+      "checked_at": "2026-11-06",
+      "availability": "video_retrieved",
       "creator_role": "uploader",
       "description_url": "https://dailycommercials.com/lurpak-ad-goes-heavy-metal/",
       "description_published_at": "2024-09-03",
@@ -18527,63 +20600,175 @@
       "poster": "https://i.ytimg.com/vi/KUPXAGPqoZk/hqdefault.jpg",
       "watch_url": "https://www.youtube.com/watch?v=KUPXAGPqoZk",
       "direct_video_url": "https://www.youtube.com/watch?v=KUPXAGPqoZk",
-      "duration_seconds": 30,
-      "aspect_ratio": null,
+      "duration_seconds": 30.0,
+      "aspect_ratio": "16:9",
       "title": "Lurpak 'Crush expectations'",
-      "duration_basis": "search_card_rounded"
+      "duration_basis": "retrieved_media_ffprobe"
     },
     "creative": {
       "mechanisms": [
         "节奏同步",
         "类型错位"
       ],
-      "summary": "蔬菜被切碎、击破和慢动作展示，烹饪动作跟随重金属音乐形成强烈反差。",
-      "hook": null,
-      "payoff": null,
-      "strength": "not_reviewed"
+      "summary": "磨、切、抛、烤、冲洗、撒与压按都按强节奏组织，让植物烹饪摆脱柔和田园语气；真实商品在融化、放置与落版中出现。",
+      "hook": "厨房里的刀具动作与火星，把下厨拍成重型音乐表演。",
+      "payoff": "密集烹饪动作最后落回涂抹脂产品和完成的料理。",
+      "strength": "qualitative_review",
+      "assessment": "厨具与食材都可借用，动作适配强；需要按本款操作重选核心段。"
     },
     "actions": {
-      "original_prop": null,
+      "original_prop": "植物基涂抹脂、刀具、蔬菜、烤盘、锅和料理台",
       "sequence": [
         {
-          "description": "蔬菜被切碎、击破和慢动作展示，烹饪动作跟随重金属音乐形成强烈反差。",
-          "basis": "source_description"
+          "start_seconds": 0,
+          "end_seconds": 5,
+          "description": "人物持刀站厨房，刀具火星，块状涂抹脂落到热面。",
+          "creative_role": "用重型动势开场",
+          "basis": "full_duration_frames_with_automated_video_analysis"
+        },
+        {
+          "start_seconds": 5,
+          "end_seconds": 10,
+          "description": "切洋葱、抓食材、刀落下，与厨房器具掠过镜头交错。",
+          "creative_role": "建立强节奏工序",
+          "basis": "full_duration_frames_with_automated_video_analysis"
+        },
+        {
+          "start_seconds": 10,
+          "end_seconds": 17,
+          "description": "蔬菜腾起、烘烤、冲洗、旋转、烤蔬菜与融化涂抹脂。",
+          "creative_role": "让原料变化可见",
+          "basis": "full_duration_frames_with_automated_video_analysis"
+        },
+        {
+          "start_seconds": 17,
+          "end_seconds": 21,
+          "description": "手把产品盒拍在台面，接烤盘、碎屑与厨房动作。",
+          "creative_role": "在节奏重拍识别商品",
+          "basis": "full_duration_frames_with_automated_video_analysis"
+        },
+        {
+          "start_seconds": 21,
+          "end_seconds": 27,
+          "description": "摘取香草、锅中抛食材、烤制与装盘。",
+          "creative_role": "回到真正的料理结果",
+          "basis": "full_duration_frames_with_automated_video_analysis"
+        },
+        {
+          "start_seconds": 27,
+          "end_seconds": 30,
+          "description": "完成的食物与产品盒收尾。",
+          "creative_role": "商品和食物同处",
+          "basis": "full_duration_frames_with_automated_video_analysis"
         }
       ],
-      "observed_intervals": []
+      "observed_intervals": [
+        {
+          "start_seconds": 0,
+          "end_seconds": 30.0,
+          "mode": "automated_full_clip_analysis_and_1fps_visual_review"
+        }
+      ]
     },
     "transfer": {
       "hypotheses": [
-        "黄油或调味品可进入真实烹饪工序。"
+        "烹饪食材：商品能进入对应工序，熔化/加热方式符合本款。",
+        "厨房工具：把节奏动作分配到真实工具，形状、手部和接触点需重做。"
       ],
       "constraints": [
-        "碎屑、刀具接触和声音需单独核对。",
-        "本次商品的外观、尺寸、操作与款色仍需重新核对。"
+        "不让单一刀具或切菜器做它不支持的工序。",
+        "原片快速动作不等于已经验收新商品的手部接触。"
       ],
-      "requires_product_review": true
+      "requires_product_review": true,
+      "suitable_products": [
+        {
+          "category": "烹饪食材",
+          "examples": [
+            "黄油",
+            "植物基涂抹脂",
+            "食用油",
+            "调味料"
+          ],
+          "fit_reason": "商品能进入对应工序，熔化/加热方式符合本款。"
+        },
+        {
+          "category": "厨房工具",
+          "examples": [
+            "厨刀",
+            "切菜器",
+            "平底锅"
+          ],
+          "fit_reason": "把节奏动作分配到真实工具，形状、手部和接触点需重做。"
+        }
+      ],
+      "replacement_steps": [
+        "选出本款能参与的工序：抓取、切、入锅、翻动或撒料，不照搬全部。",
+        "调味料替换时，把涂抹脂融化镜头改为实际撒/倒动作；厨具版则拍真实刀口/锅体。",
+        "保留一组重复击打或切割节奏，剪辑与声音单独对齐。",
+        "产品在关键工序中可辨认出现，结尾与真实完成菜同框。",
+        "无需沿用火星和夸张飞屑；保留强硬音乐语法与认真烹饪的反差即可。"
+      ],
+      "example": {
+        "product": "家用切菜器",
+        "preserve": "保留准备食材和重拍切割的结构。",
+        "replace": "以实物投料、压柄或滑切替换原手持刀动作，增加正确护手姿态，最后真实蔬菜与切菜器同框。"
+      }
     },
     "depth": {
       "status": "not_reviewed",
-      "preserves": [],
-      "gaps": [],
-      "notes": "候选阶段未转换深度；核心动作、遮挡、接触及声音依赖待实际观看后评估。"
+      "preserves": [
+        "手臂速度、抛物大轨迹与操作节奏"
+      ],
+      "gaps": [
+        "刀具接触",
+        "蔬菜碎屑、融化和油水",
+        "快切与声音同步"
+      ],
+      "notes": "已从RGB画面提出动作保留项和缺口；尚未转换深度或试生成，以上是观察判断，不是适配验收。"
     },
     "observation": {
-      "method": "source_description",
+      "method": "frames",
       "scope": [
-        "读取公开案例说明并核对当前视频标题、上传者与封面元数据；尚未连续观看或听验原片。",
-        "替代版本可能与案例文中长短版本不同，正式选用前核对完整剧情与结尾。"
+        "Higgsfield 视频分镜工具对当前链接做全片分析；随后读取同一原片文件，以1fps从开场至片尾顺序复核图像。",
+        "时间码按实际文件和逐秒画面重排，约1秒精度；不是逐帧切点或接触时刻。",
+        "声音说明仅为工具辅助识别与制作依赖判断；未独立连续听验，不把转写当原作者脚本或提示词。",
+        "与当前链接中的完整版本对应；时间码为约 1 秒精度的定位区间。"
       ],
       "evidence_urls": [
         "https://dailycommercials.com/lurpak-ad-goes-heavy-metal/",
         "https://www.youtube.com/watch?v=KUPXAGPqoZk"
-      ]
+      ],
+      "reviewed_at": "2026-11-06",
+      "visual_review": {
+        "sampling_fps": 1,
+        "sampled_frames": 30,
+        "coverage_seconds": [
+          0,
+          30.0
+        ],
+        "file_sha256": "a75e70044a5e2db2cfd12c37bd3da8adf123ad1d0c51b13b5e90c5108e9c1c1d",
+        "width": 640,
+        "height": 360
+      },
+      "automated_analysis": {
+        "tool": "Higgsfield video_analysis",
+        "status": "completed",
+        "scene_count": 21,
+        "timestamps": "not_used_without_frame_review"
+      },
+      "audio_review": "tool_assisted_only"
     },
     "prompt": {
-      "status": "unknown",
-      "label": "提示词待补",
+      "status": "not_found_in_checked_sources",
+      "label": "原作者提示词 · 已查来源未发现",
       "text": null,
-      "url": null
+      "url": null,
+      "checked_at": "2026-11-06",
+      "checked_sources": [
+        "https://www.youtube.com/watch?v=KUPXAGPqoZk",
+        "https://dailycommercials.com/lurpak-ad-goes-heavy-metal/"
+      ],
+      "check_scope": "已读当前作品的公开简介和所列剧情/制作来源；未把广告对白、广告脚本或本库改编建议当成生成提示词。"
     },
     "metrics": {
       "status": "unknown",
@@ -18604,7 +20789,18 @@
         "url": "https://dailycommercials.com/lurpak-ad-goes-heavy-metal/"
       }
     ],
-    "review_priority": "first_20"
+    "review_priority": "first_20",
+    "review": {
+      "status": "analyzed",
+      "date": "2026-11-06",
+      "report": "references/2026-11-06-priority-20-analysis.md#web-20261105-091",
+      "version_note": "与当前链接中的完整版本对应；时间码为约 1 秒精度的定位区间。",
+      "sound_dependencies": [
+        "重音乐与切/落/抛节拍共同构成看点，本轮未单独确认逐拍对齐，制作前需再标拍点。"
+      ],
+      "recommendation": "厨具与食材都可借用，动作适配强；需要按本款操作重选核心段。",
+      "adaptation_basis": "editorial_hypothesis_not_generation_test"
+    }
   },
   {
     "schema_version": 1,
@@ -18922,14 +21118,14 @@
     "kind": "reference",
     "collection": "2026-11-05",
     "category": "美妆与香氛",
-    "metadata": "美妆与香氛 · 场景变换 · 品牌创意参考 · 约31 秒",
+    "metadata": "美妆与香氛 · 场景变换 · 约30秒 · 16:9 · 已补动作拆解",
     "source": {
       "url": "https://www.youtube.com/watch?v=CaT_oieImqw",
       "platform": "YouTube",
       "creator": "Old Spice",
-      "published_at": null,
-      "checked_at": "2026-11-05",
-      "availability": "oembed_available",
+      "published_at": "2019-05-07",
+      "checked_at": "2026-11-06",
+      "availability": "video_retrieved",
       "creator_role": "uploader",
       "description_url": "https://www.commarts.com/project/15087/old-spice",
       "description_published_at": null,
@@ -18939,63 +21135,175 @@
       "poster": "https://i.ytimg.com/vi/CaT_oieImqw/hqdefault.jpg",
       "watch_url": "https://www.youtube.com/watch?v=CaT_oieImqw",
       "direct_video_url": "https://www.youtube.com/watch?v=CaT_oieImqw",
-      "duration_seconds": 31,
-      "aspect_ratio": null,
+      "duration_seconds": 30.0,
+      "aspect_ratio": "16:9",
       "title": "The Man Your Man Could Smell Like",
-      "duration_basis": "search_card_rounded"
+      "duration_basis": "retrieved_media_ffprobe"
     },
     "creative": {
       "mechanisms": [
         "场景变换",
         "冷面反应"
       ],
-      "summary": "人物对镜头持续讲话，场景与手中物件接连变化，最后落在骑马的意外画面。",
-      "hook": null,
-      "payoff": null,
-      "strength": "not_reviewed"
+      "summary": "用持续的正面直视、口头指令和遮挡掩护，让场景与手中物件接连升级；人物看似镇定，世界却不断变化。",
+      "hook": "浴室中对镜头直视的人，强迫观众不断切换注意力。",
+      "payoff": "浴室变船、贝壳里的票变钻石再出现沐浴露，最后才发现他已骑在白马上。",
+      "strength": "qualitative_review",
+      "assessment": "适合单手可拿的小瓶产品；完整复刻是多项转场组合，不宜标成一次提示词即可稳定生成。"
     },
     "actions": {
-      "original_prop": null,
+      "original_prop": "红色沐浴露瓶、浴巾、肩上针织衫、贝壳、票券、钻石与白马",
       "sequence": [
         {
-          "description": "人物对镜头持续讲话，场景与手中物件接连变化，最后落在骑马的意外画面。",
-          "basis": "source_description"
+          "start_seconds": 0,
+          "end_seconds": 9,
+          "description": "浴室正面中景，人物直视镜头说话，轻微靠近。",
+          "creative_role": "先建立稳定人物锚点",
+          "basis": "full_duration_frames_with_automated_video_analysis"
+        },
+        {
+          "start_seconds": 9,
+          "end_seconds": 12,
+          "description": "红瓶进入画面，低头/遮挡后环境迅速转换。",
+          "creative_role": "商品与第一处转场相接",
+          "basis": "full_duration_frames_with_automated_video_analysis"
+        },
+        {
+          "start_seconds": 12,
+          "end_seconds": 18,
+          "description": "船上人物继续直视，衣着和道具变化，手中瓶随后收走。",
+          "creative_role": "注意力仍被人物固定",
+          "basis": "full_duration_frames_with_automated_video_analysis"
+        },
+        {
+          "start_seconds": 18,
+          "end_seconds": 22,
+          "description": "举起贝壳打开，票券可见，手中物向下变成亮晶晶的颗粒。",
+          "creative_role": "让道具变化逐级升级",
+          "basis": "full_duration_frames_with_automated_video_analysis"
+        },
+        {
+          "start_seconds": 22,
+          "end_seconds": 27,
+          "description": "颗粒中重新出现红色产品，镜头向外揭示人物位置。",
+          "creative_role": "将魔术回扣商品",
+          "basis": "full_duration_frames_with_automated_video_analysis"
+        },
+        {
+          "start_seconds": 27,
+          "end_seconds": 30,
+          "description": "全景揭示骑在白马上，沙滩与产品定版。",
+          "creative_role": "必须保留的最终反转",
+          "basis": "full_duration_frames_with_automated_video_analysis"
         }
       ],
-      "observed_intervals": []
+      "observed_intervals": [
+        {
+          "start_seconds": 0,
+          "end_seconds": 30.0,
+          "mode": "automated_full_clip_analysis_and_1fps_visual_review"
+        }
+      ]
     },
     "transfer": {
       "hypotheses": [
-        "香氛可借手持包装与人物站位连续变化的结构。"
+        "小瓶个护：能单手稳定拿住；台词只描述本款已核实属性。",
+        "便携礼品：可借手中物件升级，需按真实尺寸重做手部与开盒动作。"
       ],
       "constraints": [
-        "连续变景和物件替换很复杂，需核对真正切点。",
-        "本次商品的外观、尺寸、操作与款色仍需重新核对。"
+        "公开广告脚本不是AI生成提示词。",
+        "深度无法保住票变钻石、反射和瓶身小字。"
       ],
-      "requires_product_review": true
+      "requires_product_review": true,
+      "suitable_products": [
+        {
+          "category": "小瓶个护",
+          "examples": [
+            "沐浴露",
+            "洗发水",
+            "香水"
+          ],
+          "fit_reason": "能单手稳定拿住；台词只描述本款已核实属性。"
+        },
+        {
+          "category": "便携礼品",
+          "examples": [
+            "小型礼盒",
+            "首饰盒"
+          ],
+          "fit_reason": "可借手中物件升级，需按真实尺寸重做手部与开盒动作。"
+        }
+      ],
+      "replacement_steps": [
+        "先固定正面人物、镜头高度与眼神方向，再替换瓶身。",
+        "保留浴室到船到骑马的递进，技术上可分段，但不能误称单镜无剪切实拍。",
+        "不透明遮挡是换场与换物的机会，商品出现的手和朝向逐段记录。",
+        "贝壳/票/钻石可以改成与商品有关的礼物链，但它们的变化需要独立特效。",
+        "最后重新出现本款并交代骑乘/站位反转，不用无关特写替代回报。"
+      ],
+      "example": {
+        "product": "小瓶香水",
+        "preserve": "保留正面直视和连续世界变化。",
+        "replace": "从浴室拿本款瓶，船上把礼盒打开，最终瓶子从礼物中出现；台词改成符合本款香调的原创内容。"
+      }
     },
     "depth": {
       "status": "not_reviewed",
-      "preserves": [],
-      "gaps": [],
-      "notes": "候选阶段未转换深度；核心动作、遮挡、接触及声音依赖待实际观看后评估。"
+      "preserves": [
+        "正面身体姿态、直视与手臂抬放节奏"
+      ],
+      "gaps": [
+        "多场景连续变换",
+        "贝壳/票/钻石替换",
+        "小瓶身份",
+        "对白和转场同步"
+      ],
+      "notes": "已从RGB画面提出动作保留项和缺口；尚未转换深度或试生成，以上是观察判断，不是适配验收。"
     },
     "observation": {
-      "method": "source_description",
+      "method": "frames",
       "scope": [
-        "读取公开案例说明并核对当前视频标题、上传者与封面元数据；尚未连续观看或听验原片。",
-        "替代版本可能与案例文中长短版本不同，正式选用前核对完整剧情与结尾。"
+        "Higgsfield 视频分镜工具对当前链接做全片分析；随后读取同一原片文件，以1fps从开场至片尾顺序复核图像。",
+        "时间码按实际文件和逐秒画面重排，约1秒精度；不是逐帧切点或接触时刻。",
+        "声音说明仅为工具辅助识别与制作依赖判断；未独立连续听验，不把转写当原作者脚本或提示词。",
+        "当前官方转载是30.00秒，上传日期2019-05-07；创意为更早经典案例，上传日期不代表原始首发。"
       ],
       "evidence_urls": [
         "https://www.commarts.com/project/15087/old-spice",
         "https://www.youtube.com/watch?v=CaT_oieImqw"
-      ]
+      ],
+      "reviewed_at": "2026-11-06",
+      "visual_review": {
+        "sampling_fps": 1,
+        "sampled_frames": 30,
+        "coverage_seconds": [
+          0,
+          30.0
+        ],
+        "file_sha256": "4ea76591287364ac044aaa08877e32e7b4fe7e200e4a62edd1ad54fe22248895",
+        "width": 640,
+        "height": 360
+      },
+      "automated_analysis": {
+        "tool": "Higgsfield video_analysis",
+        "status": "completed",
+        "scene_count": 6,
+        "timestamps": "not_used_without_frame_review"
+      },
+      "audio_review": "tool_assisted_only"
     },
     "prompt": {
-      "status": "unknown",
-      "label": "提示词待补",
+      "status": "not_found_in_checked_sources",
+      "label": "原作者提示词 · 已查来源未发现",
       "text": null,
-      "url": null
+      "url": null,
+      "checked_at": "2026-11-06",
+      "checked_sources": [
+        "https://www.youtube.com/watch?v=CaT_oieImqw",
+        "https://www.commarts.com/project/15087/old-spice"
+      ],
+      "check_scope": "已读当前作品的公开简介和所列剧情/制作来源；未把广告对白、广告脚本或本库改编建议当成生成提示词。",
+      "related_script_url": "https://www.commarts.com/project/15087/old-spice"
     },
     "metrics": {
       "status": "unknown",
@@ -19016,7 +21324,18 @@
         "url": "https://www.commarts.com/project/15087/old-spice"
       }
     ],
-    "review_priority": "first_20"
+    "review_priority": "first_20",
+    "review": {
+      "status": "analyzed",
+      "date": "2026-11-06",
+      "report": "references/2026-11-06-priority-20-analysis.md#web-20261105-095",
+      "version_note": "当前官方转载是30.00秒，上传日期2019-05-07；创意为更早经典案例，上传日期不代表原始首发。",
+      "sound_dependencies": [
+        "口头注意力指令是核心机制，需要原创重写并对齐转场；公开脚本只作来源参考。"
+      ],
+      "recommendation": "适合单手可拿的小瓶产品；完整复刻是多项转场组合，不宜标成一次提示词即可稳定生成。",
+      "adaptation_basis": "editorial_hypothesis_not_generation_test"
+    }
   },
   {
     "schema_version": 1,
@@ -19334,14 +21653,14 @@
     "kind": "reference",
     "collection": "2026-11-05",
     "category": "食品与饮料",
-    "metadata": "食品与饮料 · 情节反转 · 品牌创意参考 · 约31 秒",
+    "metadata": "食品与饮料 · 情节反转 · 约30秒 · 16:9 · 已补动作拆解",
     "source": {
       "url": "https://www.youtube.com/watch?v=2JqRXLQYF9o",
       "platform": "YouTube",
       "creator": "Scott Zabielski",
-      "published_at": null,
-      "checked_at": "2026-11-05",
-      "availability": "oembed_available",
+      "published_at": "2014-11-07",
+      "checked_at": "2026-11-06",
+      "availability": "video_retrieved",
       "creator_role": "uploader",
       "description_url": "https://www.ispot.tv/ad/7xYj/doritos-super-bowl-2015-middle-seat",
       "description_published_at": null,
@@ -19351,63 +21670,173 @@
       "poster": "https://i.ytimg.com/vi/2JqRXLQYF9o/hqdefault.jpg",
       "watch_url": "https://www.youtube.com/watch?v=2JqRXLQYF9o",
       "direct_video_url": "https://www.youtube.com/watch?v=2JqRXLQYF9o",
-      "duration_seconds": 31,
-      "aspect_ratio": null,
+      "duration_seconds": 30.047,
+      "aspect_ratio": "16:9",
       "title": "Middle Seat - Doritos Crash the Super Bowl 2015 WINNER OFFICIAL",
-      "duration_basis": "search_card_rounded"
+      "duration_basis": "retrieved_media_ffprobe"
     },
     "creative": {
       "mechanisms": [
         "情节反转",
         "冷面反应"
       ],
-      "summary": "乘客不断阻止别人坐身边，又用零食吸引心仪乘客，最后发现对方带着婴儿。",
-      "hook": null,
-      "payoff": null,
-      "strength": "not_reviewed"
+      "summary": "用咳嗽、吹小乐器、剪趾甲和读书等假装不受欢迎的行为劝退旁人，再以举出零食反向吸引想要的邻座，婴儿揭晓反噬选择。",
+      "hook": "飞机允许自由找空座，男乘客开始想尽办法守住身边的中间座位。",
+      "payoff": "他改用零食邀请一位女士，等她靠近才发现带着婴儿；最后仍与母婴同坐。",
+      "strength": "qualitative_review",
+      "assessment": "可分享零食优先参考；商品直接改变邀请行为，因果比单独加商品特写更强。"
     },
     "actions": {
-      "original_prop": null,
+      "original_prop": "袋装玉米片、飞机座椅、小乐器、书和婴儿背带",
       "sequence": [
         {
-          "description": "乘客不断阻止别人坐身边，又用零食吸引心仪乘客，最后发现对方带着婴儿。",
-          "basis": "source_description"
+          "start_seconds": 0,
+          "end_seconds": 5,
+          "description": "机舱与找座乘客出现，男主观察空位和过道。",
+          "creative_role": "先交代想保住空座",
+          "basis": "full_duration_frames_with_automated_video_analysis"
+        },
+        {
+          "start_seconds": 5,
+          "end_seconds": 15,
+          "description": "咳嗽、吹小乐器、剪趾甲、看书和牙线等行为交错，乘客反应接上。",
+          "creative_role": "重复劝退且逐次加码",
+          "basis": "full_duration_frames_with_automated_video_analysis"
+        },
+        {
+          "start_seconds": 15,
+          "end_seconds": 20,
+          "description": "女士出现，男主态度变友善，表情与视线反打。",
+          "creative_role": "目标发生改变",
+          "basis": "full_duration_frames_with_automated_video_analysis"
+        },
+        {
+          "start_seconds": 20,
+          "end_seconds": 24,
+          "description": "男主举起袋装零食邀请，对方靠近，镜头露出胸前婴儿。",
+          "creative_role": "商品触发邀约并带来反转",
+          "basis": "full_duration_frames_with_automated_video_analysis"
+        },
+        {
+          "start_seconds": 24,
+          "end_seconds": 28,
+          "description": "男主吃一口并接受结果，品牌字卡。",
+          "creative_role": "先留反应停顿",
+          "basis": "full_duration_frames_with_automated_video_analysis"
+        },
+        {
+          "start_seconds": 28,
+          "end_seconds": 30.047,
+          "description": "回到机舱，母亲休息，男主与婴儿互动。",
+          "creative_role": "补全反转后的生活尾声",
+          "basis": "full_duration_frames_with_automated_video_analysis"
         }
       ],
-      "observed_intervals": []
+      "observed_intervals": [
+        {
+          "start_seconds": 0,
+          "end_seconds": 30.047,
+          "mode": "automated_full_clip_analysis_and_1fps_visual_review"
+        }
+      ]
     },
     "transfer": {
       "hypotheses": [
-        "袋装零食可接进藏起、举出和分享的动作。"
+        "可分享的便携零食：包装能被单手展示，且剧情里有合理分享动机。",
+        "随身娱乐物品：可改成邀请同玩，必须重写递食与婴儿尾声。"
       ],
       "constraints": [
-        "必须保留最终邻座揭晓，不能只借前半段。",
-        "本次商品的外观、尺寸、操作与款色仍需重新核对。"
+        "不照搬给婴儿吃零食的尾声。",
+        "自由选座只是原剧情条件，不作为任何航空公司的现实规则说明。"
       ],
-      "requires_product_review": true
+      "requires_product_review": true,
+      "suitable_products": [
+        {
+          "category": "可分享的便携零食",
+          "examples": [
+            "薯片",
+            "饼干",
+            "独立包装糖果"
+          ],
+          "fit_reason": "包装能被单手展示，且剧情里有合理分享动机。"
+        },
+        {
+          "category": "随身娱乐物品",
+          "examples": [
+            "便携游戏机",
+            "卡牌套装"
+          ],
+          "fit_reason": "可改成邀请同玩，必须重写递食与婴儿尾声。"
+        }
+      ],
+      "replacement_steps": [
+        "保留“先劝退—看到想邀请的人—举商品—意外同行者”的目标反转。",
+        "换品时让袋/盒正面朝向过道人，尺寸和开口要符合实物。",
+        "零食版本以成人分享为主，真实咬食和手抓方式对应商品。",
+        "非食品用邀请同玩替代分享吃一口，并重新设计尾声互动。",
+        "保留婴儿/意外同行者的揭晓，不能在商品举出后立刻落版。"
+      ],
+      "example": {
+        "product": "袋装饼干",
+        "preserve": "保留守空位和举出零食邀请的因果。",
+        "replace": "将玉米片包装换为本款袋装饼干，男主成人试吃，尾声改成给母亲递一包未拆封饼干，婴儿只做表情互动。"
+      }
     },
     "depth": {
       "status": "not_reviewed",
-      "preserves": [],
-      "gaps": [],
-      "notes": "候选阶段未转换深度；核心动作、遮挡、接触及声音依赖待实际观看后评估。"
+      "preserves": [
+        "观察过道、表情变化、举袋邀请和揭晓后的停顿"
+      ],
+      "gaps": [
+        "小包装与手抓食物",
+        "婴儿与成人体型",
+        "多轮反应剪辑"
+      ],
+      "notes": "已从RGB画面提出动作保留项和缺口；尚未转换深度或试生成，以上是观察判断，不是适配验收。"
     },
     "observation": {
-      "method": "source_description",
+      "method": "frames",
       "scope": [
-        "读取公开案例说明并核对当前视频标题、上传者与封面元数据；尚未连续观看或听验原片。",
-        "替代版本可能与案例文中长短版本不同，正式选用前核对完整剧情与结尾。"
+        "Higgsfield 视频分镜工具对当前链接做全片分析；随后读取同一原片文件，以1fps从开场至片尾顺序复核图像。",
+        "时间码按实际文件和逐秒画面重排，约1秒精度；不是逐帧切点或接触时刻。",
+        "声音说明仅为工具辅助识别与制作依赖判断；未独立连续听验，不把转写当原作者脚本或提示词。",
+        "与当前链接中的完整版本对应；时间码为约 1 秒精度的定位区间。"
       ],
       "evidence_urls": [
         "https://www.ispot.tv/ad/7xYj/doritos-super-bowl-2015-middle-seat",
         "https://www.youtube.com/watch?v=2JqRXLQYF9o"
-      ]
+      ],
+      "reviewed_at": "2026-11-06",
+      "visual_review": {
+        "sampling_fps": 1,
+        "sampled_frames": 30,
+        "coverage_seconds": [
+          0,
+          30.047
+        ],
+        "file_sha256": "92f4d5344fe99be8d718bfad1ad3b909cb4868e5db860b6d1d97eec88326b556",
+        "width": 640,
+        "height": 360
+      },
+      "automated_analysis": {
+        "tool": "Higgsfield video_analysis",
+        "status": "completed",
+        "scene_count": 22,
+        "timestamps": "not_used_without_frame_review"
+      },
+      "audio_review": "tool_assisted_only"
     },
     "prompt": {
-      "status": "unknown",
-      "label": "提示词待补",
+      "status": "not_found_in_checked_sources",
+      "label": "原作者提示词 · 已查来源未发现",
       "text": null,
-      "url": null
+      "url": null,
+      "checked_at": "2026-11-06",
+      "checked_sources": [
+        "https://www.youtube.com/watch?v=2JqRXLQYF9o",
+        "https://www.ispot.tv/ad/7xYj/doritos-super-bowl-2015-middle-seat"
+      ],
+      "check_scope": "已读当前作品的公开简介和所列剧情/制作来源；未把广告对白、广告脚本或本库改编建议当成生成提示词。"
     },
     "metrics": {
       "status": "unknown",
@@ -19428,7 +21857,18 @@
         "url": "https://www.ispot.tv/ad/7xYj/doritos-super-bowl-2015-middle-seat"
       }
     ],
-    "review_priority": "first_20"
+    "review_priority": "first_20",
+    "review": {
+      "status": "analyzed",
+      "date": "2026-11-06",
+      "report": "references/2026-11-06-priority-20-analysis.md#web-20261105-099",
+      "version_note": "与当前链接中的完整版本对应；时间码为约 1 秒精度的定位区间。",
+      "sound_dependencies": [
+        "机舱广播建立故事条件，哭声放大反转；重写时可用画面/字幕交代。"
+      ],
+      "recommendation": "可分享零食优先参考；商品直接改变邀请行为，因果比单独加商品特写更强。",
+      "adaptation_basis": "editorial_hypothesis_not_generation_test"
+    }
   },
   {
     "schema_version": 1,

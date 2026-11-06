@@ -51,6 +51,36 @@ class CatalogTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "observation scope"):
             catalog.validate([self.record])
 
+    def test_analysis_requires_full_duration_evidence_and_valid_action_ranges(self):
+        r = self.record
+        r["review"] = {"status": "analyzed"}
+        with self.assertRaisesRegex(ValueError, "full-duration"):
+            catalog.validate([r])
+        r["media"]["duration_seconds"] = 10
+        r["observation"].update(
+            method="frames", automated_analysis={"status": "completed"},
+            visual_review={"coverage_seconds": [0, 10], "sampled_frames": 10, "file_sha256": "a" * 64})
+        r["transfer"].update(suitable_products=[{"examples": ["戒指"]}], replacement_steps=["按实际尺寸替换"])
+        r["actions"]["sequence"] = [{"start_seconds": 0, "end_seconds": 11}]
+        with self.assertRaisesRegex(ValueError, "exceeds video duration"):
+            catalog.validate([r])
+        r["actions"]["sequence"][0]["end_seconds"] = 10
+        catalog.validate([r])
+        self.assertEqual(catalog.search([r], "戒指"), [r])
+
+    def test_review_links_and_missing_author_prompts_stay_explicit(self):
+        r = next(r for r in catalog.load() if r.get("review"))
+        html = catalog.card(r)
+        self.assertIn(catalog.REVIEW_REPORT + "#" + r["id"], html)
+        self.assertIn("全片工具分析＋逐秒抽帧复核", html)
+        self.assertIn("已查来源未发现", html)
+        self.assertNotIn("公开提示词待补", html)
+        report = catalog.render_reviews([r])
+        self.assertIn(f'<a id="{r["id"]}"></a>', report)
+        self.assertIn("&t=", report)
+        self.assertIn("未独立连续听验", report)
+        self.assertIn("具体例子", report)
+
 
 if __name__ == "__main__":
     unittest.main()

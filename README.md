@@ -2,7 +2,7 @@
 
 为商品创意选片积累原片、观看依据、动作与跨品类联想。面向 TikTok 商品，也收录其他平台和品牌广告的创意参考。
 
-[全部作品预览](#全部作品预览) · [创意机制索引](references/INDEX.md) · [新增 100 条](references/2026-11-05-creative-commerce-100.md) · [收录与检索](docs/reference-library.md)
+[全部作品预览](#全部作品预览) · [20 条动作与换品详解](references/2026-11-06-priority-20-analysis.md) · [创意机制索引](references/INDEX.md) · [新增 100 条](references/2026-11-05-creative-commerce-100.md) · [收录与检索](docs/reference-library.md)
 
 ## 原创成片
 
@@ -180,12 +180,13 @@ for real bottle design and white pump structure.
 <tr>
   <td width="50%" valign="top">
     <h4>e.l.f. · 发型好到不戴宇航头盔</h4>
-    <p><strong>美妆与香氛 · 异常用途 · 品牌创意参考 · 约32 秒</strong></p>
+    <p><strong>美妆与香氛 · 异常用途 · 约32秒 · 16:9 · 已补动作拆解</strong></p>
     <p><a href="https://www.youtube.com/watch?v=YRZCRfnNzo8"><img src="https://i.ytimg.com/vi/YRZCRfnNzo8/hqdefault.jpg" width="220" alt="e.l.f. · 发型好到不戴宇航头盔的作品封面"></a></p>
-    <p><strong>创意线索 · 来源说明整理</strong></p>
-    <blockquote>宇航员整理完卷发后拒绝戴头盔，把爱美选择放进严肃的太空任务。</blockquote>
-    <p><a href="https://www.youtube.com/watch?v=YRZCRfnNzo8">观看作品 · e.l.f. Cosmetics</a> · <a href="https://dailycommercials.com/elf-hair-astronaut-ad-review/">剧情与制作来源</a></p>
-    <p><sub>web-20261105-007 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+    <p><strong>创意与动作 · 全片辅助分析</strong></p>
+    <blockquote>好发型与必须戴头盔的场合冲突：照镜面、犹豫、放下头盔、出舱，最终用月面飘发放大“舍不得遮住”的心理。</blockquote>
+    <p><strong>适合商品：</strong>发油、卷发定型乳、免洗护发素、发箍、发夹</p>
+    <p><a href="https://www.youtube.com/watch?v=YRZCRfnNzo8">观看作品 · e.l.f. Cosmetics</a> · <a href="https://dailycommercials.com/elf-hair-astronaut-ad-review/">剧情与制作来源</a> · <a href="references/2026-11-06-priority-20-analysis.md#web-20261105-007">动作拆解 / 适合商品 / 替换步骤</a></p>
+    <p><sub>web-20261105-007 · 全片工具分析＋逐秒抽帧复核 · 深度待评估 · 原作者提示词：已查来源未发现</sub></p>
   </td>
   <td width="50%" valign="top">
     <h4>e.l.f. · 化妆棒成了姐妹会的魔法</h4>
@@ -200,41 +201,45 @@ for real bottle design and white pump structure.
 <tr>
   <td width="50%" valign="top">
     <h4>Old Spice · 海盗因太香被赶下船</h4>
-    <p><strong>美妆与香氛 · 角色错位 · 品牌创意参考 · 约97 秒</strong></p>
+    <p><strong>美妆与香氛 · 角色错位 · 约97秒 · 16:9 · 已补动作拆解</strong></p>
     <p><a href="https://www.youtube.com/watch?v=9lYHGsXLVD0"><img src="https://i.ytimg.com/vi/9lYHGsXLVD0/hqdefault.jpg" width="220" alt="Old Spice · 海盗因太香被赶下船的作品封面"></a></p>
-    <p><strong>创意线索 · 来源说明整理</strong></p>
-    <blockquote>海盗船员因主人公气味太好怀疑其身份，把他赶下船后又迎来骑海马的反转。</blockquote>
-    <p><a href="https://www.youtube.com/watch?v=9lYHGsXLVD0">观看作品 · Old Spice Europe</a> · <a href="https://dailycommercials.com/old-spices-unbelievably-long-lasting-campaign-sets-sail-with-pirate-themed-humor/">剧情与制作来源</a></p>
-    <p><sub>web-20261105-060 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+    <p><strong>创意与动作 · 全片辅助分析</strong></p>
+    <blockquote>嗅到不合群的香味后，船员被怀疑是冒牌海盗；拿出宝箱里的除臭产品仍无法说服众人，跳海后用海马反转收场。</blockquote>
+    <p><strong>适合商品：</strong>体香膏、香水、香氛喷雾、衣物香氛袋、织物喷雾</p>
+    <p><a href="https://www.youtube.com/watch?v=9lYHGsXLVD0">观看作品 · Old Spice Europe</a> · <a href="https://dailycommercials.com/old-spices-unbelievably-long-lasting-campaign-sets-sail-with-pirate-themed-humor/">剧情与制作来源</a> · <a href="references/2026-11-06-priority-20-analysis.md#web-20261105-060">动作拆解 / 适合商品 / 替换步骤</a></p>
+    <p><sub>web-20261105-060 · 全片工具分析＋逐秒抽帧复核 · 深度待评估 · 原作者提示词：已查来源未发现</sub></p>
   </td>
   <td width="50%" valign="top">
     <h4>e.l.f. × Tinder · 镜中分身预演约会灾难</h4>
-    <p><strong>美妆与香氛 · 角色复制 · 品牌创意参考 · 约89 秒</strong></p>
+    <p><strong>美妆与香氛 · 角色复制 · 约89秒 · 16:9 · 已补动作拆解</strong></p>
     <p><a href="https://www.youtube.com/watch?v=2MWAexV3MUU"><img src="https://i.ytimg.com/vi/2MWAexV3MUU/hqdefault.jpg" width="220" alt="e.l.f. × Tinder · 镜中分身预演约会灾难的作品封面"></a></p>
-    <p><strong>创意线索 · 来源说明整理</strong></p>
-    <blockquote>镜中分身不断设想糟糕约会，主角用上妆准备重新找回出门的信心。</blockquote>
-    <p><a href="https://www.youtube.com/watch?v=2MWAexV3MUU">观看作品 · e.l.f. Cosmetics</a> · <a href="https://dailycommercials.com/tinder-x-e-l-f-cosmetics-ad-dating-disasters-and-lip-oil/">剧情与制作来源</a></p>
-    <p><sub>web-20261105-069 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+    <p><strong>创意与动作 · 全片辅助分析</strong></p>
+    <blockquote>镜子里的自己不再同步，而是不断提出糟糕约会假设；餐厅小剧场逐个兑现想象，最后回到梳妆台，由本人接管决定。</blockquote>
+    <p><strong>适合商品：</strong>定妆喷雾、唇釉、底妆产品、耳饰、发夹、小手袋</p>
+    <p><a href="https://www.youtube.com/watch?v=2MWAexV3MUU">观看作品 · e.l.f. Cosmetics</a> · <a href="https://dailycommercials.com/tinder-x-e-l-f-cosmetics-ad-dating-disasters-and-lip-oil/">剧情与制作来源</a> · <a href="references/2026-11-06-priority-20-analysis.md#web-20261105-069">动作拆解 / 适合商品 / 替换步骤</a></p>
+    <p><sub>web-20261105-069 · 全片工具分析＋逐秒抽帧复核 · 深度待评估 · 原作者提示词：已查来源未发现</sub></p>
   </td>
 </tr>
 <tr>
   <td width="50%" valign="top">
     <h4>Hellmann’s · 蛋黄酱拍成高级香水</h4>
-    <p><strong>美妆与香氛 · 类型错位 · 品牌创意参考 · 约41 秒</strong></p>
+    <p><strong>美妆与香氛 · 类型错位 · 约40秒 · 16:9 · 已补动作拆解</strong></p>
     <p><a href="https://www.youtube.com/watch?v=TPRTAcFIFQ8"><img src="https://i.ytimg.com/vi/TPRTAcFIFQ8/hqdefault.jpg" width="220" alt="Hellmann’s · 蛋黄酱拍成高级香水的作品封面"></a></p>
-    <p><strong>创意线索 · 来源说明整理</strong></p>
-    <blockquote>调味酱与香水联名被用高端香氛大片的严肃语气介绍，制造品类错位。</blockquote>
-    <p><a href="https://www.youtube.com/watch?v=TPRTAcFIFQ8">观看作品 · Hellmann&#x27;s</a> · <a href="https://dailycommercials.com/would-you-wear-mayo-hellmanns-thinks-you-should/">剧情与制作来源</a></p>
-    <p><sub>web-20261105-071 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+    <p><strong>创意与动作 · 全片辅助分析</strong></p>
+    <blockquote>用跑雾、敞衫、凝视等香水片语法包装食物，吃面包与舔手指打破高冷，再用真实香氛瓶完成跨品类笑点。</blockquote>
+    <p><strong>适合商品：</strong>花生酱、果酱、巧克力酱、香水、沐浴露</p>
+    <p><a href="https://www.youtube.com/watch?v=TPRTAcFIFQ8">观看作品 · Hellmann&#x27;s</a> · <a href="https://dailycommercials.com/would-you-wear-mayo-hellmanns-thinks-you-should/">剧情与制作来源</a> · <a href="references/2026-11-06-priority-20-analysis.md#web-20261105-071">动作拆解 / 适合商品 / 替换步骤</a></p>
+    <p><sub>web-20261105-071 · 全片工具分析＋逐秒抽帧复核 · 深度待评估 · 原作者提示词：已查来源未发现</sub></p>
   </td>
   <td width="50%" valign="top">
     <h4>e.l.f. × H&amp;M · 喷香动作连成舞步</h4>
-    <p><strong>美妆与香氛 · 节奏同步 · 品牌创意参考 · 约60 秒</strong></p>
+    <p><strong>美妆与香氛 · 节奏同步 · 约60秒 · 320:213 · 已补动作拆解</strong></p>
     <p><a href="https://www.youtube.com/watch?v=wd1XfPtRVGc"><img src="https://i.ytimg.com/vi/wd1XfPtRVGc/hqdefault.jpg" width="220" alt="e.l.f. × H&amp;M · 喷香动作连成舞步的作品封面"></a></p>
-    <p><strong>创意线索 · 来源说明整理</strong></p>
-    <blockquote>喷洒、走动、散香和摆姿势被编成音乐录像式动作序列，香水款式随之展示。</blockquote>
-    <p><a href="https://www.youtube.com/watch?v=wd1XfPtRVGc">观看作品 · H&amp;M</a> · <a href="https://dailycommercials.com/e-l-f-x-hm-make-it-make-scents-campaign-high-energy-fragrance-collab/">剧情与制作来源</a></p>
-    <p><sub>web-20261105-080 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+    <p><strong>创意与动作 · 全片辅助分析</strong></p>
+    <blockquote>把喷、走、挥臂散香与摆姿势编成可重复动作；青绿、粉色和棕色三组人物/材质分别承接不同产品风格。</blockquote>
+    <p><strong>适合商品：</strong>三款香水、身体喷雾、运动套装、手提包、首饰套组</p>
+    <p><a href="https://www.youtube.com/watch?v=wd1XfPtRVGc">观看作品 · H&amp;M</a> · <a href="https://dailycommercials.com/e-l-f-x-hm-make-it-make-scents-campaign-high-energy-fragrance-collab/">剧情与制作来源</a> · <a href="references/2026-11-06-priority-20-analysis.md#web-20261105-080">动作拆解 / 适合商品 / 替换步骤</a></p>
+    <p><sub>web-20261105-080 · 全片工具分析＋逐秒抽帧复核 · 深度待评估 · 原作者提示词：已查来源未发现</sub></p>
   </td>
 </tr>
 <tr>
@@ -249,23 +254,25 @@ for real bottle design and white pump structure.
   </td>
   <td width="50%" valign="top">
     <h4>Armani · 把香味拆成可见的柑橘与露珠</h4>
-    <p><strong>美妆与香氛 · 感官隐喻 · 品牌创意参考 · 约20 秒</strong></p>
+    <p><strong>美妆与香氛 · 感官隐喻 · 约20秒 · 16:9 · 已补动作拆解</strong></p>
     <p><a href="https://www.youtube.com/watch?v=GuFMb9EAvEM"><img src="https://i.ytimg.com/vi/GuFMb9EAvEM/hqdefault.jpg" width="220" alt="Armani · 把香味拆成可见的柑橘与露珠的作品封面"></a></p>
-    <p><strong>创意线索 · 来源说明整理</strong></p>
-    <blockquote>香水瓶与花果、露珠近景交替，柑橘切面被拉开以表现气味层次。</blockquote>
-    <p><a href="https://www.youtube.com/watch?v=GuFMb9EAvEM">观看作品 · Armani beauty</a> · <a href="https://dailycommercials.com/can-you-smell-this-ad/">剧情与制作来源</a></p>
-    <p><sub>web-20261105-090 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+    <p><strong>创意与动作 · 全片辅助分析</strong></p>
+    <blockquote>用花瓣、果肉、琥珀色液滴、皮肤与瓶身的微距交替，让看不见的香味变成可见材质；眼睛与植物形状的相似性构成视觉转场。</blockquote>
+    <p><strong>适合商品：</strong>香水、身体乳、香氛洗护、果酱、蜂蜜、果汁</p>
+    <p><a href="https://www.youtube.com/watch?v=GuFMb9EAvEM">观看作品 · Armani beauty</a> · <a href="https://dailycommercials.com/can-you-smell-this-ad/">剧情与制作来源</a> · <a href="references/2026-11-06-priority-20-analysis.md#web-20261105-090">动作拆解 / 适合商品 / 替换步骤</a></p>
+    <p><sub>web-20261105-090 · 全片工具分析＋逐秒抽帧复核 · 深度待评估 · 原作者提示词：已查来源未发现</sub></p>
   </td>
 </tr>
 <tr>
   <td width="50%" valign="top">
     <h4>Old Spice · 浴室讲着讲着就骑上马</h4>
-    <p><strong>美妆与香氛 · 场景变换 · 品牌创意参考 · 约31 秒</strong></p>
+    <p><strong>美妆与香氛 · 场景变换 · 约30秒 · 16:9 · 已补动作拆解</strong></p>
     <p><a href="https://www.youtube.com/watch?v=CaT_oieImqw"><img src="https://i.ytimg.com/vi/CaT_oieImqw/hqdefault.jpg" width="220" alt="Old Spice · 浴室讲着讲着就骑上马的作品封面"></a></p>
-    <p><strong>创意线索 · 来源说明整理</strong></p>
-    <blockquote>人物对镜头持续讲话，场景与手中物件接连变化，最后落在骑马的意外画面。</blockquote>
-    <p><a href="https://www.youtube.com/watch?v=CaT_oieImqw">观看作品 · Old Spice</a> · <a href="https://www.commarts.com/project/15087/old-spice">剧情与制作来源</a></p>
-    <p><sub>web-20261105-095 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+    <p><strong>创意与动作 · 全片辅助分析</strong></p>
+    <blockquote>用持续的正面直视、口头指令和遮挡掩护，让场景与手中物件接连升级；人物看似镇定，世界却不断变化。</blockquote>
+    <p><strong>适合商品：</strong>沐浴露、洗发水、香水、小型礼盒、首饰盒</p>
+    <p><a href="https://www.youtube.com/watch?v=CaT_oieImqw">观看作品 · Old Spice</a> · <a href="https://www.commarts.com/project/15087/old-spice">剧情与制作来源</a> · <a href="references/2026-11-06-priority-20-analysis.md#web-20261105-095">动作拆解 / 适合商品 / 替换步骤</a></p>
+    <p><sub>web-20261105-095 · 全片工具分析＋逐秒抽帧复核 · 深度待评估 · 原作者提示词：已查来源未发现</sub></p>
   </td>
   <td width="50%" valign="top">
     <h4>Dollar Shave Club · 仓库导览一路发生怪事</h4>
@@ -744,13 +751,14 @@ for real bottle design and white pump structure.
 </tr>
 <tr>
   <td width="50%" valign="top">
-    <h4>Schweppes · 火星外交用汽水换宝物</h4>
-    <p><strong>食品与饮料 · 角色错位 · 品牌创意参考 · 约48 秒</strong></p>
-    <p><a href="https://www.youtube.com/watch?v=QYAs3vnWqh8"><img src="https://i.ytimg.com/vi/QYAs3vnWqh8/hqdefault.jpg" width="220" alt="Schweppes · 火星外交用汽水换宝物的作品封面"></a></p>
-    <p><strong>创意线索 · 来源说明整理</strong></p>
-    <blockquote>太空使者与火星代表交换礼物，普通柑橘汽水被放到珍贵星际货物的位置。</blockquote>
-    <p><a href="https://www.youtube.com/watch?v=QYAs3vnWqh8">观看作品 · TBWA PARIS</a> · <a href="https://dailycommercials.com/schweppes-when-citrus-diplomacy-meets-sci-fi-spectacle/">剧情与制作来源</a></p>
-    <p><sub>web-20261105-056 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+    <h4>Schweppes · 火星交换与姜味约会（双片拼接）</h4>
+    <p><strong>食品与饮料 · 角色错位 · 约47秒 · 16:9 · 已补动作拆解</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=QYAs3vnWqh8"><img src="https://i.ytimg.com/vi/QYAs3vnWqh8/hqdefault.jpg" width="220" alt="Schweppes · 火星交换与姜味约会（双片拼接）的作品封面"></a></p>
+    <p><strong>创意与动作 · 全片辅助分析</strong></p>
+    <blockquote>第一条把日常汽水抬到星际礼物的价值级别；第二条延续同一人物与宫殿，以手部火焰和表情反打构成另一个短笑点。</blockquote>
+    <p><strong>适合商品：</strong>汽水、果汁、瓶装茶、香水、护手霜礼盒</p>
+    <p><a href="https://www.youtube.com/watch?v=QYAs3vnWqh8">观看作品 · TBWA PARIS</a> · <a href="https://dailycommercials.com/schweppes-when-citrus-diplomacy-meets-sci-fi-spectacle/">剧情与制作来源</a> · <a href="references/2026-11-06-priority-20-analysis.md#web-20261105-056">动作拆解 / 适合商品 / 替换步骤</a></p>
+    <p><sub>web-20261105-056 · 全片工具分析＋逐秒抽帧复核 · 深度待评估 · 原作者提示词：已查来源未发现</sub></p>
   </td>
   <td width="50%" valign="top">
     <h4>HARIBO · 成年人突然发出童声</h4>
@@ -805,12 +813,13 @@ for real bottle design and white pump structure.
 <tr>
   <td width="50%" valign="top">
     <h4>Aldi · 胡萝卜特工营救圣诞</h4>
-    <p><strong>食品与饮料 · 物件拟人 · 品牌创意参考 · 约91 秒</strong></p>
+    <p><strong>食品与饮料 · 物件拟人 · 约90秒 · 16:9 · 已补动作拆解</strong></p>
     <p><a href="https://www.youtube.com/watch?v=LYt04t_6XMs"><img src="https://i.ytimg.com/vi/LYt04t_6XMs/hqdefault.jpg" width="220" alt="Aldi · 胡萝卜特工营救圣诞的作品封面"></a></p>
-    <p><strong>创意线索 · 来源说明整理</strong></p>
-    <blockquote>胡萝卜角色进入坏人的总部，闯过机关找回被偷走的节日精神。</blockquote>
-    <p><a href="https://www.youtube.com/watch?v=LYt04t_6XMs">观看作品 · Retro Ad Rewind</a> · <a href="https://dailycommercials.com/aldi-christmas-ad-2024-watch-kevin-the-carrot-saving-christmas/">剧情与制作来源</a></p>
-    <p><sub>web-20261105-065 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+    <p><strong>创意与动作 · 全片辅助分析</strong></p>
+    <blockquote>用胡萝卜扮特工闯入反派基地，穿过烤炉、布丁和点心机关，救出发光精灵；节日食品不是摆盘背景，而是闯关空间。</blockquote>
+    <p><strong>适合商品：</strong>圣诞饼干、巧克力礼盒、节日甜点、串灯、圣诞摆件</p>
+    <p><a href="https://www.youtube.com/watch?v=LYt04t_6XMs">观看作品 · Retro Ad Rewind</a> · <a href="https://dailycommercials.com/aldi-christmas-ad-2024-watch-kevin-the-carrot-saving-christmas/">剧情与制作来源</a> · <a href="references/2026-11-06-priority-20-analysis.md#web-20261105-065">动作拆解 / 适合商品 / 替换步骤</a></p>
+    <p><sub>web-20261105-065 · 全片工具分析＋逐秒抽帧复核 · 深度待评估 · 原作者提示词：已查来源未发现</sub></p>
   </td>
   <td width="50%" valign="top">
     <h4>M&amp;S · 主人与自己的仙女分身合作</h4>
@@ -854,12 +863,13 @@ for real bottle design and white pump structure.
   </td>
   <td width="50%" valign="top">
     <h4>Red Bull · 狗狗绕树牵住主人好约会</h4>
-    <p><strong>食品与饮料 · 动物角色 · 品牌创意参考 · 约31 秒</strong></p>
+    <p><strong>食品与饮料 · 动物角色 · 约30秒 · 16:9 · 已补动作拆解</strong></p>
     <p><a href="https://www.youtube.com/watch?v=8J4eb_lzjHs"><img src="https://i.ytimg.com/vi/8J4eb_lzjHs/hqdefault.jpg" width="220" alt="Red Bull · 狗狗绕树牵住主人好约会的作品封面"></a></p>
-    <p><strong>创意线索 · 来源说明整理</strong></p>
-    <blockquote>两只狗相遇后不愿分开，喝饮料的动画狗用牵引绳与树延长约会时间。</blockquote>
-    <p><a href="https://www.youtube.com/watch?v=8J4eb_lzjHs">观看作品 · QuirkyFilms</a> · <a href="https://dailycommercials.com/red-bull-dog-date-super-bowl-2026-ad-review-energetic-animated-and-playfully-canine/">剧情与制作来源</a></p>
-    <p><sub>web-20261105-074 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+    <p><strong>创意与动作 · 全片辅助分析</strong></p>
+    <blockquote>先给狗一个想留下的目标，随后饮用动作、套上牵引绳、快速绕圈，利用绳子与树形成因果明确的反客为主。</blockquote>
+    <p><strong>适合商品：</strong>牵引绳、项圈、胸背带、罐装饮料</p>
+    <p><a href="https://www.youtube.com/watch?v=8J4eb_lzjHs">观看作品 · QuirkyFilms</a> · <a href="https://dailycommercials.com/red-bull-dog-date-super-bowl-2026-ad-review-energetic-animated-and-playfully-canine/">剧情与制作来源</a> · <a href="references/2026-11-06-priority-20-analysis.md#web-20261105-074">动作拆解 / 适合商品 / 替换步骤</a></p>
+    <p><sub>web-20261105-074 · 全片工具分析＋逐秒抽帧复核 · 深度待评估 · 原作者提示词：已查来源未发现</sub></p>
   </td>
 </tr>
 <tr>
@@ -874,12 +884,13 @@ for real bottle design and white pump structure.
   </td>
   <td width="50%" valign="top">
     <h4>Kinder Bueno · 黑洞危机被巧克力打断</h4>
-    <p><strong>食品与饮料 · 冷面反应 · 品牌创意参考 · 约31 秒</strong></p>
+    <p><strong>食品与饮料 · 冷面反应 · 约30秒 · 16:9 · 已补动作拆解</strong></p>
     <p><a href="https://www.youtube.com/watch?v=T1z-xbTkJNM"><img src="https://i.ytimg.com/vi/T1z-xbTkJNM/hqdefault.jpg" width="220" alt="Kinder Bueno · 黑洞危机被巧克力打断的作品封面"></a></p>
-    <p><strong>创意线索 · 来源说明整理</strong></p>
-    <blockquote>宇航员面临黑洞危险，一块巧克力和淡定应答把科幻危机转成零食笑点。</blockquote>
-    <p><a href="https://www.youtube.com/watch?v=T1z-xbTkJNM">观看作品 · Kinder Bueno USA</a> · <a href="https://dailycommercials.com/kinder-bueno-yes-bueno-super-bowl-2026-ad-review-a-sci-fi-chocolate-odyssey/">剧情与制作来源</a></p>
-    <p><sub>web-20261105-076 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+    <p><strong>创意与动作 · 全片辅助分析</strong></p>
+    <blockquote>用灾难电影的巨大危机反衬一根零食；船舱、控制室、外星人三处重复“担忧—递出零食—态度转变”，再以滑稽变装和幼儿形象加码。</blockquote>
+    <p><strong>适合商品：</strong>巧克力棒、威化饼、能量棒、捏捏玩具、指尖玩具</p>
+    <p><a href="https://www.youtube.com/watch?v=T1z-xbTkJNM">观看作品 · Kinder Bueno USA</a> · <a href="https://dailycommercials.com/kinder-bueno-yes-bueno-super-bowl-2026-ad-review-a-sci-fi-chocolate-odyssey/">剧情与制作来源</a> · <a href="references/2026-11-06-priority-20-analysis.md#web-20261105-076">动作拆解 / 适合商品 / 替换步骤</a></p>
+    <p><sub>web-20261105-076 · 全片工具分析＋逐秒抽帧复核 · 深度待评估 · 原作者提示词：已查来源未发现</sub></p>
   </td>
 </tr>
 <tr>
@@ -965,12 +976,13 @@ for real bottle design and white pump structure.
 <tr>
   <td width="50%" valign="top">
     <h4>Lurpak · 切蔬菜拍成重金属演出</h4>
-    <p><strong>食品与饮料 · 节奏同步 · 品牌创意参考 · 约30 秒</strong></p>
+    <p><strong>食品与饮料 · 节奏同步 · 约30秒 · 16:9 · 已补动作拆解</strong></p>
     <p><a href="https://www.youtube.com/watch?v=KUPXAGPqoZk"><img src="https://i.ytimg.com/vi/KUPXAGPqoZk/hqdefault.jpg" width="220" alt="Lurpak · 切蔬菜拍成重金属演出的作品封面"></a></p>
-    <p><strong>创意线索 · 来源说明整理</strong></p>
-    <blockquote>蔬菜被切碎、击破和慢动作展示，烹饪动作跟随重金属音乐形成强烈反差。</blockquote>
-    <p><a href="https://www.youtube.com/watch?v=KUPXAGPqoZk">观看作品 · CHRISTIAN LOBO</a> · <a href="https://dailycommercials.com/lurpak-ad-goes-heavy-metal/">剧情与制作来源</a></p>
-    <p><sub>web-20261105-091 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+    <p><strong>创意与动作 · 全片辅助分析</strong></p>
+    <blockquote>磨、切、抛、烤、冲洗、撒与压按都按强节奏组织，让植物烹饪摆脱柔和田园语气；真实商品在融化、放置与落版中出现。</blockquote>
+    <p><strong>适合商品：</strong>黄油、植物基涂抹脂、食用油、调味料、厨刀、切菜器、平底锅</p>
+    <p><a href="https://www.youtube.com/watch?v=KUPXAGPqoZk">观看作品 · CHRISTIAN LOBO</a> · <a href="https://dailycommercials.com/lurpak-ad-goes-heavy-metal/">剧情与制作来源</a> · <a href="references/2026-11-06-priority-20-analysis.md#web-20261105-091">动作拆解 / 适合商品 / 替换步骤</a></p>
+    <p><sub>web-20261105-091 · 全片工具分析＋逐秒抽帧复核 · 深度待评估 · 原作者提示词：已查来源未发现</sub></p>
   </td>
   <td width="50%" valign="top">
     <h4>McDonald’s · 小孩舞步点燃复古生日派对</h4>
@@ -1005,12 +1017,13 @@ for real bottle design and white pump structure.
 <tr>
   <td width="50%" valign="top">
     <h4>Doritos · 用零食挑选飞机邻座</h4>
-    <p><strong>食品与饮料 · 情节反转 · 品牌创意参考 · 约31 秒</strong></p>
+    <p><strong>食品与饮料 · 情节反转 · 约30秒 · 16:9 · 已补动作拆解</strong></p>
     <p><a href="https://www.youtube.com/watch?v=2JqRXLQYF9o"><img src="https://i.ytimg.com/vi/2JqRXLQYF9o/hqdefault.jpg" width="220" alt="Doritos · 用零食挑选飞机邻座的作品封面"></a></p>
-    <p><strong>创意线索 · 来源说明整理</strong></p>
-    <blockquote>乘客不断阻止别人坐身边，又用零食吸引心仪乘客，最后发现对方带着婴儿。</blockquote>
-    <p><a href="https://www.youtube.com/watch?v=2JqRXLQYF9o">观看作品 · Scott Zabielski</a> · <a href="https://www.ispot.tv/ad/7xYj/doritos-super-bowl-2015-middle-seat">剧情与制作来源</a></p>
-    <p><sub>web-20261105-099 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+    <p><strong>创意与动作 · 全片辅助分析</strong></p>
+    <blockquote>用咳嗽、吹小乐器、剪趾甲和读书等假装不受欢迎的行为劝退旁人，再以举出零食反向吸引想要的邻座，婴儿揭晓反噬选择。</blockquote>
+    <p><strong>适合商品：</strong>薯片、饼干、独立包装糖果、便携游戏机、卡牌套装</p>
+    <p><a href="https://www.youtube.com/watch?v=2JqRXLQYF9o">观看作品 · Scott Zabielski</a> · <a href="https://www.ispot.tv/ad/7xYj/doritos-super-bowl-2015-middle-seat">剧情与制作来源</a> · <a href="references/2026-11-06-priority-20-analysis.md#web-20261105-099">动作拆解 / 适合商品 / 替换步骤</a></p>
+    <p><sub>web-20261105-099 · 全片工具分析＋逐秒抽帧复核 · 深度待评估 · 原作者提示词：已查来源未发现</sub></p>
   </td>
   <td width="50%" valign="top">
     <h4>Snickers · 球场上状态不对，吃完换个人</h4>
@@ -1339,12 +1352,13 @@ for real bottle design and white pump structure.
   </td>
   <td width="50%" valign="top">
     <h4>Dolce &amp; Gabbana · 宠物也参加高级时装片</h4>
-    <p><strong>服装与鞋履 · 动物角色 · 品牌创意参考 · 约33 秒</strong></p>
+    <p><strong>服装与鞋履 · 动物角色 · 约33秒 · 16:9 · 已补动作拆解</strong></p>
     <p><a href="https://www.youtube.com/watch?v=p18xGXWatrI"><img src="https://i.ytimg.com/vi/p18xGXWatrI/hqdefault.jpg" width="220" alt="Dolce &amp; Gabbana · 宠物也参加高级时装片的作品封面"></a></p>
-    <p><strong>创意线索 · 来源说明整理</strong></p>
-    <blockquote>狗狗穿戴精致项圈、背带和针织衣物，以时装广告语气呈现普通宠物活动。</blockquote>
-    <p><a href="https://www.youtube.com/watch?v=p18xGXWatrI">观看作品 · Dolce&amp;Gabbana</a> · <a href="https://dailycommercials.com/dolce-gabbanas-posh-pet-collection-is-cute/">剧情与制作来源</a></p>
-    <p><sub>web-20261105-089 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+    <p><strong>创意与动作 · 全片辅助分析</strong></p>
+    <blockquote>把宠物出门、抱起、牵行和对视拍成时装街拍，交叉展示针织衣物、项圈与宠物包；主要是造型与亲密互动，剧情反转较弱。</blockquote>
+    <p><strong>适合商品：</strong>宠物针织衫、宠物外套、胸背带、项圈、宠物便携包</p>
+    <p><a href="https://www.youtube.com/watch?v=p18xGXWatrI">观看作品 · Dolce&amp;Gabbana</a> · <a href="https://dailycommercials.com/dolce-gabbanas-posh-pet-collection-is-cute/">剧情与制作来源</a> · <a href="references/2026-11-06-priority-20-analysis.md#web-20261105-089">动作拆解 / 适合商品 / 替换步骤</a></p>
+    <p><sub>web-20261105-089 · 全片工具分析＋逐秒抽帧复核 · 深度待评估 · 原作者提示词：已查来源未发现</sub></p>
   </td>
 </tr>
 </table>
@@ -1484,12 +1498,13 @@ for real bottle design and white pump structure.
   </td>
   <td width="50%" valign="top">
     <h4>Oura · 手指走进微缩城市</h4>
-    <p><strong>珠宝与配饰 · 微缩世界 · 品牌创意参考</strong></p>
+    <p><strong>珠宝与配饰 · 微缩世界 · 约61秒 · 16:9 · 已补动作拆解</strong></p>
     <p><a href="https://www.youtube.com/watch?v=szmzlH_AaFU"><img src="https://i.ytimg.com/vi/szmzlH_AaFU/hqdefault.jpg" width="220" alt="Oura · 手指走进微缩城市的作品封面"></a></p>
-    <p><strong>创意线索 · 来源说明整理</strong></p>
-    <blockquote>戴戒指的手把两根手指当腿，在微缩街道、地铁和居家布景中活动。</blockquote>
-    <p><a href="https://www.youtube.com/watch?v=szmzlH_AaFU">观看作品 · ŌURA</a> · <a href="https://dailycommercials.com/oura-wear-your-best-life-commercial-review/">剧情与制作来源</a></p>
-    <p><sub>web-20261105-017 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+    <p><strong>创意与动作 · 全片辅助分析</strong></p>
+    <blockquote>把戴戒指的手当成城市居民，用两指步行和运动串起生活切片；戒指直接位于动作主体上，无需额外插入硬广。</blockquote>
+    <p><strong>适合商品：</strong>戒指、可调节指环、穿戴甲、指甲贴</p>
+    <p><a href="https://www.youtube.com/watch?v=szmzlH_AaFU">观看作品 · ŌURA</a> · <a href="https://dailycommercials.com/oura-wear-your-best-life-commercial-review/">剧情与制作来源</a> · <a href="references/2026-11-06-priority-20-analysis.md#web-20261105-017">动作拆解 / 适合商品 / 替换步骤</a></p>
+    <p><sub>web-20261105-017 · 全片工具分析＋逐秒抽帧复核 · 深度待评估 · 原作者提示词：已查来源未发现</sub></p>
   </td>
 </tr>
 <tr>
@@ -1632,21 +1647,23 @@ for real bottle design and white pump structure.
 <tr>
   <td width="50%" valign="top">
     <h4>Beats · 一间咖啡馆全是不同版本的她</h4>
-    <p><strong>数码与小家电 · 角色复制 · 品牌创意参考</strong></p>
+    <p><strong>数码与小家电 · 角色复制 · 约76秒 · 16:9 · 已补动作拆解</strong></p>
     <p><a href="https://www.youtube.com/watch?v=WiDpX3w-KJE"><img src="https://i.ytimg.com/vi/WiDpX3w-KJE/hqdefault.jpg" width="220" alt="Beats · 一间咖啡馆全是不同版本的她的作品封面"></a></p>
-    <p><strong>创意线索 · 来源说明整理</strong></p>
-    <blockquote>咖啡馆中的人物逐渐被揭晓为同一人的不同造型，耳机配色和耳垫随着身份变化。</blockquote>
-    <p><a href="https://www.youtube.com/watch?v=WiDpX3w-KJE">观看作品 · Beats by Dre</a> · <a href="https://dailycommercials.com/beats-360-kendall-jenner-ad-review/">剧情与制作来源</a></p>
-    <p><sub>web-20261105-028 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+    <p><strong>创意与动作 · 全片辅助分析</strong></p>
+    <blockquote>先展示可拆换耳垫，再把同一人物变成运动者、通话者、读者和店员；多色商品与多身份一一对应，最终群像揭晓。</blockquote>
+    <p><strong>适合商品：</strong>耳机、太阳镜、帽子、手机壳、包挂、手提包</p>
+    <p><a href="https://www.youtube.com/watch?v=WiDpX3w-KJE">观看作品 · Beats by Dre</a> · <a href="https://dailycommercials.com/beats-360-kendall-jenner-ad-review/">剧情与制作来源</a> · <a href="references/2026-11-06-priority-20-analysis.md#web-20261105-028">动作拆解 / 适合商品 / 替换步骤</a></p>
+    <p><sub>web-20261105-028 · 全片工具分析＋逐秒抽帧复核 · 深度待评估 · 原作者提示词：已查来源未发现</sub></p>
   </td>
   <td width="50%" valign="top">
     <h4>De’Longhi · 一群狗管着人的早晨咖啡</h4>
-    <p><strong>数码与小家电 · 动物角色 · 品牌创意参考</strong></p>
+    <p><strong>数码与小家电 · 动物角色 · 约107秒 · 16:9 · 已补动作拆解</strong></p>
     <p><a href="https://www.youtube.com/watch?v=7K13bjG_kJ4"><img src="https://i.ytimg.com/vi/7K13bjG_kJ4/hqdefault.jpg" width="220" alt="De’Longhi · 一群狗管着人的早晨咖啡的作品封面"></a></p>
-    <p><strong>创意线索 · 来源说明整理</strong></p>
-    <blockquote>狗狗像室友和管理委员会一样对人提要求，喝咖啡前还要先完成家庭谈判。</blockquote>
-    <p><a href="https://www.youtube.com/watch?v=7K13bjG_kJ4">观看作品 · De&#x27;Longhi Global</a> · <a href="https://dailycommercials.com/delonghi-hot-or-cold-always-perfetto-brad-pitt-ad-review/">剧情与制作来源</a></p>
-    <p><sub>web-20261105-030 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+    <p><strong>创意与动作 · 全片辅助分析</strong></p>
+    <blockquote>狗占据室友与家长位置，人每次接近咖啡机都被挑剔；跨几个早晨累积重复笑点，最终真实出杯完成商品接入。</blockquote>
+    <p><strong>适合商品：</strong>咖啡机、奶泡机、马克杯、宠物服饰、宠物沙发垫</p>
+    <p><a href="https://www.youtube.com/watch?v=7K13bjG_kJ4">观看作品 · De&#x27;Longhi Global</a> · <a href="https://dailycommercials.com/delonghi-hot-or-cold-always-perfetto-brad-pitt-ad-review/">剧情与制作来源</a> · <a href="references/2026-11-06-priority-20-analysis.md#web-20261105-030">动作拆解 / 适合商品 / 替换步骤</a></p>
+    <p><sub>web-20261105-030 · 全片工具分析＋逐秒抽帧复核 · 深度待评估 · 原作者提示词：已查来源未发现</sub></p>
   </td>
 </tr>
 <tr>
@@ -1681,12 +1698,13 @@ for real bottle design and white pump structure.
   </td>
   <td width="50%" valign="top">
     <h4>Duracell · 球星失灵原来装错电池</h4>
-    <p><strong>数码与小家电 · 物件拟人 · 品牌创意参考 · 约31 秒</strong></p>
+    <p><strong>数码与小家电 · 物件拟人 · 约30秒 · 16:9 · 已补动作拆解</strong></p>
     <p><a href="https://www.youtube.com/watch?v=huRFGYDWvXA"><img src="https://i.ytimg.com/vi/huRFGYDWvXA/hqdefault.jpg" width="220" alt="Duracell · 球星失灵原来装错电池的作品封面"></a></p>
-    <p><strong>创意线索 · 来源说明整理</strong></p>
-    <blockquote>球星突然表现失常，科学家把原因解释为装错电池，再以重启结构回扣电池。</blockquote>
-    <p><a href="https://www.youtube.com/watch?v=huRFGYDWvXA">观看作品 · Duracell</a> · <a href="https://dailycommercials.com/duracell-and-messi-reboot-the-battery-ad/">剧情与制作来源</a></p>
-    <p><sub>web-20261105-073 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+    <p><strong>创意与动作 · 全片辅助分析</strong></p>
+    <blockquote>把运动员暂时拟成电器，利用故障、检查、替换电源、恢复表现的演示链，把一个小电池变成故事转折点。</blockquote>
+    <p><strong>适合商品：</strong>AA电池、AAA电池、遥控玩具、迷你风扇、手电筒</p>
+    <p><a href="https://www.youtube.com/watch?v=huRFGYDWvXA">观看作品 · Duracell</a> · <a href="https://dailycommercials.com/duracell-and-messi-reboot-the-battery-ad/">剧情与制作来源</a> · <a href="references/2026-11-06-priority-20-analysis.md#web-20261105-073">动作拆解 / 适合商品 / 替换步骤</a></p>
+    <p><sub>web-20261105-073 · 全片工具分析＋逐秒抽帧复核 · 深度待评估 · 原作者提示词：已查来源未发现</sub></p>
   </td>
 </tr>
 <tr>
@@ -1809,12 +1827,13 @@ for real bottle design and white pump structure.
 <tr>
   <td width="50%" valign="top">
     <h4>Ruggable · 角色切换，脚下地毯也换</h4>
-    <p><strong>家居与空间 · 多款切换 · 品牌创意参考</strong></p>
+    <p><strong>家居与空间 · 多款切换 · 约60秒 · 16:9 · 已补动作拆解</strong></p>
     <p><a href="https://www.youtube.com/watch?v=FunDBGvsQE4"><img src="https://i.ytimg.com/vi/FunDBGvsQE4/hqdefault.jpg" width="220" alt="Ruggable · 角色切换，脚下地毯也换的作品封面"></a></p>
-    <p><strong>创意线索 · 来源说明整理</strong></p>
-    <blockquote>同一人物经历工作、带娃和聚会，场景角色变化时地毯花色随之切换，洒落物成为考验。</blockquote>
-    <p><a href="https://www.youtube.com/watch?v=FunDBGvsQE4">观看作品 · Ruggable Washable Rugs</a> · <a href="https://dailycommercials.com/ruggable-rugs-with-range-ad-review/">剧情与制作来源</a></p>
-    <p><sub>web-20261105-024 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+    <p><strong>创意与动作 · 全片辅助分析</strong></p>
+    <blockquote>用进门、育儿、化妆、庆生和休息串起多款地毯；污渍和鞋步成为换款与节奏切点，结尾保留轻松情绪。</blockquote>
+    <p><strong>适合商品：</strong>可机洗地毯、玄关垫、浴室垫、沙发盖毯、桌布</p>
+    <p><a href="https://www.youtube.com/watch?v=FunDBGvsQE4">观看作品 · Ruggable Washable Rugs</a> · <a href="https://dailycommercials.com/ruggable-rugs-with-range-ad-review/">剧情与制作来源</a> · <a href="references/2026-11-06-priority-20-analysis.md#web-20261105-024">动作拆解 / 适合商品 / 替换步骤</a></p>
+    <p><sub>web-20261105-024 · 全片工具分析＋逐秒抽帧复核 · 深度待评估 · 原作者提示词：已查来源未发现</sub></p>
   </td>
   <td width="50%" valign="top">
     <h4>Argos · 礼物目录里的角色来闹鬼</h4>
@@ -1858,12 +1877,13 @@ for real bottle design and white pump structure.
   </td>
   <td width="50%" valign="top">
     <h4>HORNBACH · 成年人追着巨型玩具卡车跑</h4>
-    <p><strong>家居与空间 · 巨物反差 · 品牌创意参考 · 约120 秒</strong></p>
+    <p><strong>家居与空间 · 巨物反差 · 约120秒 · 16:9 · 已补动作拆解</strong></p>
     <p><a href="https://www.youtube.com/watch?v=c1KxkRyPU4E"><img src="https://i.ytimg.com/vi/c1KxkRyPU4E/hqdefault.jpg" width="220" alt="HORNBACH · 成年人追着巨型玩具卡车跑的作品封面"></a></p>
-    <p><strong>创意线索 · 来源说明整理</strong></p>
-    <blockquote>沉闷的成年人听到卡车旋律后像孩子追冰淇淋车一样冲出去，领取自己的工具。</blockquote>
-    <p><a href="https://www.youtube.com/watch?v=c1KxkRyPU4E">观看作品 · HORNBACH Österreich</a> · <a href="https://dailycommercials.com/hornbachs-spring-2025-commericial-is-crazy/">剧情与制作来源</a></p>
-    <p><sub>web-20261105-061 · 来源说明 · 深度待评估 · 公开提示词待补</sub></p>
+    <p><strong>创意与动作 · 全片辅助分析</strong></p>
+    <blockquote>先压住情绪，再用熟悉的召唤声唤醒成人；误导观众以为是冰淇淋车，最后揭示追逐目标是装满DIY物件的巨型玩具车。</blockquote>
+    <p><strong>适合商品：</strong>手铲、园艺手套、画刷、小型工具套装、画材套装、手工材料包</p>
+    <p><a href="https://www.youtube.com/watch?v=c1KxkRyPU4E">观看作品 · HORNBACH Österreich</a> · <a href="https://dailycommercials.com/hornbachs-spring-2025-commericial-is-crazy/">剧情与制作来源</a> · <a href="references/2026-11-06-priority-20-analysis.md#web-20261105-061">动作拆解 / 适合商品 / 替换步骤</a></p>
+    <p><sub>web-20261105-061 · 全片工具分析＋逐秒抽帧复核 · 深度待评估 · 原作者提示词：已查来源未发现</sub></p>
   </td>
 </tr>
 <tr>
