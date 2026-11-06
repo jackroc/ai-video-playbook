@@ -31,7 +31,8 @@ PUBLIC_URL = "https://github.com/jackroc/ai-video-playbook/blob/main/"
 CATALOG_PATHS = ("references/community", "data/references.json", "README.md", "references/INDEX.md",
                  "references/2026-11-05-creative-commerce-100.md",
                  "references/2026-11-06-priority-20-analysis.md",
-                 "references/2026-11-06-creative-commerce-100.md")
+                 "references/2026-11-06-creative-commerce-100.md",
+                 "references/2026-11-06-curated-100.md", "references/curated-100")
 HOSTS = {"x.com", "www.x.com", "twitter.com", "www.twitter.com", "mobile.twitter.com",
          "tiktok.com", "www.tiktok.com", "m.tiktok.com", "vm.tiktok.com", "vt.tiktok.com", "v.tiktok.com"}
 FETCH_HOSTS = HOSTS | {"publish.twitter.com", "publish.x.com"}
@@ -271,7 +272,7 @@ def prepare_repo(repo):
         # A previous interrupted publish can leave only generated paths dirty.
         dirty = git(repo, "status", "--porcelain").splitlines()
         paths = [row[3:].strip('"') for row in dirty]
-        if any(path not in CATALOG_PATHS and not path.startswith("references/community/") for path in paths):
+        if any(path not in CATALOG_PATHS and not path.startswith(("references/community/", "references/curated-100/")) for path in paths):
             raise RuntimeError("Unexpected local changes in collection checkout")
         if (repo / reference_catalog.DATA).exists():
             reference_catalog.render(reference_catalog.load(repo), repo)

@@ -69,9 +69,9 @@ class CatalogTests(unittest.TestCase):
         self.assertEqual(catalog.search([r], "戒指"), [r])
 
     def test_review_links_and_missing_author_prompts_stay_explicit(self):
-        r = next(r for r in catalog.load() if r.get("review"))
+        r = next(r for r in catalog.load() if r.get("review", {}).get("report", "").startswith(catalog.REVIEW_REPORT + "#"))
         html = catalog.card(r)
-        self.assertIn(catalog.REVIEW_REPORT + "#" + r["id"], html)
+        self.assertIn(catalog.review_link(r), html)
         self.assertIn("全片工具分析＋逐秒抽帧复核", html)
         self.assertIn("已查来源未发现", html)
         self.assertNotIn("公开提示词待补", html)
@@ -94,18 +94,58 @@ class CatalogTests(unittest.TestCase):
         self.assertIn("分镜图先排工序", html)
         self.assertNotIn("A clean storyboard", html)
 
-    def test_new_batch_details_keep_spotcheck_scope_and_original_prompt_link(self):
-        r = next(r for r in catalog.load() if r["collection"] == "2026-11-06" and r["prompt"].get("stage") == "storyboard_image")
-        self.assertEqual(r["observation"]["frame_spotcheck"]["sampled_frames"], 3)
-        self.assertNotEqual(r.get("review", {}).get("status"), "analyzed")
+    def test_upgraded_batch_keeps_prompt_stage_and_current_observation_scope(self):
+        r = next(r for r in catalog.load() if r.get("curation") and r["prompt"].get("stage") == "storyboard_image")
+        self.assertNotIn("frame_spotcheck", r["observation"])
+        self.assertEqual(r["review"]["status"], "analyzed")
         html = catalog.card(r)
-        self.assertIn(catalog.NEW_BATCH_REPORT + "#" + r["id"], html)
+        self.assertIn(r["curation"]["report"], html)
         report = catalog.render_new_batch([r])
         self.assertIn("分镜图提示词 1 条", report)
-        self.assertIn("没有连续观看或听验", report)
+        self.assertIn("其中1条已升级", report)
+        self.assertIn("声音未独立连续听验", report)
         self.assertIn(r["prompt"]["url"], report)
         self.assertIn(r["prompt"]["text"], report)
         self.assertIn("适合商品", report)
+
+    def test_curated_selection_is_complete_and_does_not_expand_historical_report(self):
+        records = catalog.load()
+        selected = catalog.search(records, curated=True)
+        self.assertEqual(len(selected), 100)
+        self.assertEqual([r["curation"]["position"] for r in selected], list(range(1, 101)))
+        self.assertEqual(sum(r["curation"]["reused_analysis"] for r in selected), 20)
+        self.assertTrue(all(r["review"]["status"] == "analyzed" for r in selected))
+        self.assertTrue(all(r["depth"]["status"] == "not_reviewed" for r in selected))
+        historical = catalog.render_reviews(records)
+        self.assertEqual(historical.count('<a id="'), 20)
+        self.assertNotIn('id="legacy-008"', historical)
+
+    def test_curated_validation_rejects_unreviewed_entries_and_duplicate_positions(self):
+        a, b = copy.deepcopy(catalog.search(catalog.load(), curated=True)[:2])
+        b["curation"]["position"] = a["curation"]["position"]
+        with self.assertRaisesRegex(ValueError, "unique position"):
+            catalog.validate([a, b])
+        a["review"]["status"] = "not_reviewed"
+        with self.assertRaisesRegex(ValueError, "complete analysis"):
+            catalog.validate([a])
+
+    def test_curated_pages_link_to_each_case_and_keep_editorial_prompt_separate(self):
+        records = catalog.load()
+        selected = catalog.search(records, curated=True)
+        outputs = catalog.render_curated(records, catalog.ROOT)
+        index = outputs[catalog.ROOT / catalog.CURATED_INDEX]
+        for r in selected:
+            path, anchor = r["curation"]["report"].split("#")
+            self.assertIn(r["curation"]["report"].removeprefix("references/"), index)
+            detail = outputs[catalog.ROOT / path]
+            self.assertIn(f'<a id="{anchor}"></a>', detail)
+            self.assertIn("怎么替换商品", detail)
+        original = next(r for r in selected if r["prompt"]["status"] == "original_excerpt")
+        path = original["curation"]["report"].split("#")[0]
+        detail = outputs[catalog.ROOT / path]
+        self.assertIn(original["prompt"]["url"], detail)
+        self.assertIn(original["prompt"]["summary"], detail)
+        self.assertNotIn("> " + original["prompt"]["text"], detail)
 
 
 if __name__ == "__main__":

@@ -8,6 +8,8 @@
 
 [优先20条动作与换品分析](../references/2026-11-06-priority-20-analysis.md)也从该数据生成。首页对应卡片和机制索引均可直达单条分析。
 
+[精选100动作与换品手册](../references/2026-11-06-curated-100.md)提供总览与按商品分类的详解，全部由同一数据生成。`curation`保存阅读顺序、入选理由、参考类型、详情位置及是否复用既有分析。
+
 ```bash
 python3 scripts/reference_catalog.py validate
 python3 scripts/reference_catalog.py render
@@ -22,6 +24,8 @@ python3 scripts/reference_catalog.py render --check
 python3 scripts/reference_catalog.py search --query '咖啡'
 python3 scripts/reference_catalog.py search --mechanism '角色错位' --limit 20
 python3 scripts/reference_catalog.py search --category '美妆与香氛' --collection 2026-11-05 --json
+python3 scripts/reference_catalog.py search --curated --query '连衣裙' --json
+python3 scripts/reference_catalog.py search --curated --limit 100 --json
 ```
 
 关键词按空格分词，全部词都需命中。搜索范围包含标题、机制、动作、来源说明和商品接入假设。商品分类、机制和批次过滤可组合使用。JSON 输出供其他工具读取，目前尚未接入视频插件。
@@ -42,17 +46,18 @@ python3 scripts/reference_catalog.py search --category '美妆与香氛' --colle
 | `metrics` | 流量与成交分别记录。缺指标保持未知，作者热度不当作本次改编效果 |
 | `experiment` | 实际使用结果或实验记录。未制作保持 `not_tested` |
 | `review` | 分析日期、具体版本、声音依赖、使用判断及详情入口；`analyzed` 不表示已试生成 |
+| `curation` | 精选100的阅读位置、入选原因、剧情/展示技法/条件参考标签、分类详解链接及复用标记。阅读顺序不是跨平台热度排名 |
 | `links` | 观看、作者提示词、制作说明和实验入口 |
 
 播放元数据接口返回成功，只能支持入口、封面、作者等字段；它不证明视频已完整观看，也不证明可以转载或成功复刻。来源可能失效，使用前重新核实当前访问情况。
 
 ### 2026-11-06新增100条的观察与提示词
 
-[本批清单](../references/2026-11-06-creative-commerce-100.md)包含40条AI创作者作品和60条品牌广告与历史经典。40条AI作品均回查原帖公开正文与原帖媒体，各查看开头、中间、结尾三张画面，共120张；`frame_spotcheck`记录实际采样时刻，不使用全片分析的`review.status = analyzed`。未连续观看、未听验声音。发现风格偏离、实际片长与提示词不同、分镜板残留、品牌占位文字等情况，逐条写入观察范围。
+[本批清单](../references/2026-11-06-creative-commerce-100.md)包含40条AI创作者作品和60条品牌广告与历史经典。初收录时40条AI作品均回查原帖公开正文与媒体，并各查看三张画面。当前本批共50条已进入精选100，升级为全片工具分析与逐秒画面复核；其余保留三点抽帧或来源说明级。未标为人工连续视听。风格偏离、片长不同、分镜板残留等情况按当前观察逐条更新。
 
 作者正文中取得31条视频提示词、3条分镜图提示词、1条场景生图提示词。`prompt.stage`区分`video / storyboard_image / image`；`status = original_excerpt`仅表示保存了短摘录，完整公开原文链接回作者。`summary`与`summary_label`为本库中文整理。评论区只出现“提示词在下方”但未取得具体内容时，保留查询缺口，不按教程聚合页补成原作者原文。模型名称保存在`source.model_as_reported`，属于作者自述。
 
-60条品牌广告核对YouTube公开嵌入元数据与封面，动作及创意依据公开剧情/制作说明整理，不冒称看完原片。`creator_role = video_uploader`不代表该上传账号拥有原创署名。片长若来自搜索卡片，标记`duration_basis = youtube_search_card_rounded`；未取得上传日期时保持空，`campaign_year`与来源文章日期另列。所有商品适配与换品思路仍是未试验的编辑判断。
+60条品牌广告初收录核对YouTube公开嵌入元数据与封面，动作依据剧情说明；进入精选的现按实际原片修正。`creator_role = video_uploader`不代表原创署名。片长若来自搜索卡片，标记`duration_basis = youtube_search_card_rounded`，取到原片后改为`retrieved_media_ffprobe`；上传日期未知时保持空，历史活动年份与文章日期另列。商品适配仍是未试验的编辑判断。
 
 X互动快照保存浏览、点赞、收藏、回复等可见字段及查询日期，口径为帖子累计指标；不和其他平台混排，不推导增长率或成交。实际原片文件与抽帧只临时用于核对，公开仓库保留来源链接和观察信息。
 
@@ -87,3 +92,5 @@ X互动快照保存浏览、点赞、收藏、回复等可见字段及查询日�
 2026-11-03 的 114 条旧案例已迁入结构化记录，沿用原先的观察和实验限制。2026-11-05 新增 100 条创意参考，逐条保存原片入口、机制、接入假设及待核实事项。2026-11-06完成其中优先20条的全片辅助分析与逐秒画面复核，其余80条保持来源说明级。全部仍未进行深度转换或生成测试，不能把数量等同于可直接制作的候选数量。`source.published_at` 对应当前视频上传日期，历史活动年份与转载版本区别见单条版本说明。
 
 2026-11-06另新增100条，总计314个案例。新增内容按9类商品及创意机制归档，首页双列预览、机制索引和批次详情同步生成。插件尚未改动。
+
+随后从314条中精选100条，含57条AI作品和43条品牌参考。本轮新增80条全片辅助分析，复用此前20条同一原片的分析与指纹；合计约59.5分钟、3,563张逐秒画面。精选中39条取得作者视频提示词、2条分镜图提示词、1条场景生图提示词。其余说明查询范围，不用本库拆解补成原作者原文。普通报价口播、商品关联弱的候选和重复套路在实看后替换；多个旧标题和动作误读已修正。

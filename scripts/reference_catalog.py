@@ -15,6 +15,10 @@ ROOT = Path(__file__).resolve().parents[1]
 DATA = Path("data/references.json")
 REVIEW_REPORT = "references/2026-11-06-priority-20-analysis.md"
 NEW_BATCH_REPORT = "references/2026-11-06-creative-commerce-100.md"
+CURATED_INDEX = "references/2026-11-06-curated-100.md"
+CATEGORY_SLUGS = {"美妆与香氛": "beauty", "食品与饮料": "food", "服装与鞋履": "apparel",
+                  "珠宝与配饰": "accessories", "数码与小家电": "electronics", "家居与空间": "home",
+                  "汽车与出行": "automotive", "运动与健康": "sports", "通用商品与品牌": "general"}
 CATEGORIES = ["美妆与香氛", "食品与饮料", "服装与鞋履", "珠宝与配饰", "数码与小家电",
               "家居与空间", "汽车与出行", "运动与健康", "通用商品与品牌"]
 OBSERVATIONS = {"source_description", "metadata_only", "frames", "partial_video", "full_video"}
@@ -92,7 +96,7 @@ def load(root=ROOT):
 
 
 def validate(records, root=ROOT):
-    ids, sources = set(), set()
+    ids, sources, positions = set(), set(), set()
     for record in records:
         key = record["id"]
         if not re.fullmatch(r"[a-z0-9-]+", key) or key in ids:
@@ -141,6 +145,15 @@ def validate(records, root=ROOT):
             for step in record["actions"]["sequence"]:
                 if not 0 <= step["start_seconds"] < step["end_seconds"] <= duration + .001:
                     raise ValueError(f"Action interval exceeds video duration: {key}")
+        if record.get("curation"):
+            selected = record["curation"]
+            position = selected.get("position")
+            expected = f'references/curated-100/{CATEGORY_SLUGS[record["category"]]}.md#{key}'
+            if (record.get("review", {}).get("status") != "analyzed" or not selected.get("reason")
+                    or not isinstance(position, int) or not 1 <= position <= 100 or position in positions
+                    or selected.get("report") != expected):
+                raise ValueError(f"Curated reference needs complete analysis and a unique position: {key}")
+            positions.add(position)
         for path in (record["media"]["poster"], *(link["url"] for link in record["links"])):
             if not path:
                 continue
@@ -153,10 +166,12 @@ def validate(records, root=ROOT):
                     raise ValueError(f"Missing or unsafe local asset: {key}: {path}")
 
 
-def search(records, query="", category=None, mechanism=None, collection=None):
+def search(records, query="", category=None, mechanism=None, collection=None, curated=False):
     terms = query.casefold().split()
     found = []
     for record in records:
+        if curated and not record.get("curation"):
+            continue
         if category and record["category"] != category:
             continue
         if mechanism and mechanism not in record["creative"]["mechanisms"]:
@@ -167,6 +182,8 @@ def search(records, query="", category=None, mechanism=None, collection=None):
         body = json.dumps(record, ensure_ascii=False).casefold()
         if all(term in body for term in terms):
             found.append(record)
+    if curated:
+        found.sort(key=lambda record: record["curation"]["position"])
     return found
 
 
@@ -175,7 +192,8 @@ def html_link(label, url):
 
 
 def review_link(record, prefix=""):
-    return f'{prefix}{REVIEW_REPORT}#{record["id"]}'
+    target = record.get("curation", {}).get("report") or record.get("review", {}).get("report")
+    return prefix + (target or f'{REVIEW_REPORT}#{record["id"]}')
 
 
 def timestamp(seconds):
@@ -214,8 +232,10 @@ def card(record):
         links.append({"label": "播放入口", "url": direct})
     evidence = observation_label(record)
     footer = f'{record["id"]} · {evidence} · 深度{record["depth"]["status"].replace("not_reviewed", "待评估")}'
+    if record.get("curation"):
+        footer = f'精选 {record["curation"]["position"]:03d} · {record["curation"]["lens"]} · ' + footer
     if not prompt["text"]:
-        if prompt.get("stage") == "unknown" and record["observation"].get("frame_spotcheck"):
+        if prompt.get("stage") == "unknown" and "评论" in prompt.get("scope", ""):
             footer += " · 正文未取得完整提示词，评论待查"
         else:
             footer += " · 原作者提示词：已查来源未发现" if prompt["status"] == "not_found_in_checked_sources" else " · 公开提示词待补"
@@ -236,12 +256,15 @@ def card(record):
 def render_new_batch(records):
     batch = [r for r in records if r["collection"] == "2026-11-06"]
     stages = Counter(r["prompt"].get("stage", "unknown") for r in batch)
-    frames = sum(r["observation"]["method"] == "frames" for r in batch)
+    ai = sum(r["source"]["platform"] == "x.com" for r in batch)
+    analyzed = sum(r.get("review", {}).get("status") == "analyzed" for r in batch)
+    spotchecked = sum(bool(r["observation"].get("frame_spotcheck")) for r in batch)
+    descriptions = sum(r["observation"]["method"] == "source_description" for r in batch)
     lines = ["# 新增 100 条创意带货视频参考 · 2026-11-06", "",
-             f"本批 {len(batch)} 条：{frames} 条 AI 创作者作品、{len(batch) - frames} 条品牌广告与历史经典。原链接和媒体标识均与既有案例去重；跨账号重传仍可能漏识别。", "",
+             f"本批 {len(batch)} 条：{ai} 条 AI 创作者作品、{len(batch) - ai} 条品牌广告与历史经典。原链接和媒体标识均与既有案例去重；跨账号重传仍可能漏识别。", "",
              f"已取得作者正文中的视频提示词 {stages['video']} 条、分镜图提示词 {stages['storyboard_image']} 条、场景生图提示词 {stages['image']} 条。保留短摘录与原帖入口，另写中文要点；未取得的评论区指令不凭空补写。", "",
-             f"**观察范围：** AI 作品各抽查开头、中间、结尾三张画面，共{frames * 3}张；没有连续观看或听验。品牌广告按剧情/制作说明整理，核对 YouTube oEmbed 和封面入口，尚未完整观看该上传版本。商品适配与换品思路均为本库判断，深度与生成效果未测试。", "",
-             "片长：AI 作品以实际文件为准；品牌广告为搜索卡片约数。历史活动年份与上传日期分开保存。X 互动仅为2026-11-06的帖子累计快照，不能当销量或实时增速。", "",
+             f"**观察范围：** 其中{analyzed}条已升级为全片工具分析＋逐秒画面复核，详见[精选100详解](2026-11-06-curated-100.md)。其余{spotchecked}条仅三处抽帧、{descriptions}条仍为来源说明级。声音未独立连续听验，商品适配与换品均未试生成。", "",
+             "片长：取得实际文件的以文件为准，其余品牌广告为搜索卡片约数。历史活动年份与上传日期分开保存。X互动仅为2026-11-06的帖子累计快照，不能当销量或实时增速。", "",
              "[全部双列预览](../README.md#全部作品预览) · [机制索引](INDEX.md) · [上一批100条](2026-11-05-creative-commerce-100.md) · [已补20条全片分析](2026-11-06-priority-20-analysis.md)", "",
              "## 按商品选参考", "", "| 案例 | 适合商品 | 提示词类型 | 观察依据 |", "| --- | --- | --- | --- |"]
     for r in batch:
@@ -259,6 +282,8 @@ def render_new_batch(records):
                       "**换品思路** " + "".join(r["transfer"]["hypotheses"]), "",
                       "**限制与待核实** " + "；".join(r["transfer"]["constraints"]), "",
                       "### 提示词", ""])
+        if r.get("curation"):
+            lines.extend([f'[完整动作拆解、商品适配与换品步骤]({r["curation"]["report"].removeprefix("references/")})', ""])
         if prompt["text"]:
             lines.extend([f'**{prompt["summary_label"]}** {prompt["summary"]}', "",
                           f'**{prompt["label"]}**', "", "> " + prompt["text"], "",
@@ -288,8 +313,116 @@ def render_new_batch(records):
     return "\n".join(lines) + "\n"
 
 
+def prompt_kind(record):
+    prompt = record["prompt"]
+    if prompt["status"] == "original_excerpt":
+        return {"video": "作者视频提示词", "storyboard_image": "作者分镜图提示词",
+                "image": "作者场景生图提示词"}[prompt["stage"]]
+    return "未取得生成提示词原文"
+
+
+def markdown_cell(value):
+    return str(value).replace("|", "\\|").replace("\n", "<br>")
+
+
+def from_repository_root(url, prefix="../../"):
+    return url if urlsplit(url).scheme or url.startswith("#") else prefix + url
+
+
+def render_curated(records, root):
+    selected = sorted((r for r in records if r.get("curation")), key=lambda r: r["curation"]["position"])
+    stages = Counter(r["prompt"].get("stage", "unknown") for r in selected if r["prompt"]["status"] == "original_excerpt")
+    reused = sum(r["curation"].get("reused_analysis", False) for r in selected)
+    minutes = sum(r["media"]["duration_seconds"] for r in selected) / 60
+    frames = sum(r["observation"]["visual_review"]["sampled_frames"] for r in selected)
+    groups = {category: [r for r in selected if r["category"] == category] for category in CATEGORIES}
+    index = ["# 精选100 · 创意带货视频动作与换品手册", "",
+             f"从仓库现有案例中精选{len(selected)}条，按创意看点、商品接入、原片可核验性和作者提示词可得性选择。按提示词可得性优先安排阅读顺序，不是跨平台互动或成交排行榜。", "",
+             f"已取得作者视频提示词{stages['video']}条、分镜图提示词{stages['storyboard_image']}条、场景生图提示词{stages['image']}条。其余保留查询范围和缺口，不把本库拆解或广告对白冒充生成提示词。", "",
+             f"覆盖当前完整版本合计约{minutes:.1f}分钟、逐秒画面{frames:,}张。本轮新增{len(selected)-reused}条全片工具分析与画面复核，另{reused}条复用此前同一原片的详解及文件指纹。", "",
+             "**核看方式：** 视频工具分析完整原片，再以1fps顺序复核开场至片尾，动作和时间码按实际文件修正。没有标成人工连续视听；声音仅工具辅助识别，未独立连续听验。时间区间约1秒精度，选中后需再确认切点与接触时刻。", "",
+             "每条有实际动作、适合商品及原因、换品步骤、一个改编例子、提示词来源和制作缺口。标签区分剧情创意、商品展示技法、条件参考；商品适配是本库判断，尚未转深度或试生成。", "",
+             "[全部作品双列预览](../README.md#全部作品预览) · [创意机制索引](INDEX.md) · [检索方法](../docs/reference-library.md) · [结构化数据](../data/references.json)", "",
+             "## 按商品找参考", "", "| 商品方向 | 数量 | 动作与换品详解 |", "| --- | --- | --- |"]
+    for category, group in groups.items():
+        if group:
+            slug = CATEGORY_SLUGS[category]
+            index.append(f'| {category} | {len(group)} | [{category}详解](curated-100/{slug}.md) |')
+    index.extend(["", "## 全部精选 · 封面点击看原片", "", "| 预览 | 案例与入选理由 | 适合商品 | 提示词 |", "| --- | --- | --- | --- |"])
+    for r in selected:
+        c = r["curation"]
+        detail = c["report"].removeprefix("references/")
+        poster = r["media"]["poster"]
+        preview = f'<a href="{escape(r["media"]["watch_url"], quote=True)}"><img src="{escape(from_repository_root(poster, "../"), quote=True)}" width="120" alt="作品封面"></a>' if poster else "封面待补"
+        products = "、".join(x for group in r["transfer"]["suitable_products"] for x in group["examples"])
+        prompt = f'[{prompt_kind(r)}]({r["prompt"]["url"]})' if r["prompt"]["status"] == "original_excerpt" else prompt_kind(r)
+        index.append(f'| {preview} | **{c["position"]:03d} · [{markdown_cell(r["title"])}]({detail})**<br>{markdown_cell(c["lens"])}<br>{markdown_cell(c["reason"])} | {markdown_cell(products)} | {prompt} |')
+    outputs = {root / CURATED_INDEX: "\n".join(index) + "\n"}
+    landing = ["# 精选100 · 按商品阅读详解", "", "[选择入口与核看方法](../2026-11-06-curated-100.md)", ""]
+    for category, group in groups.items():
+        if not group:
+            continue
+        slug = CATEGORY_SLUGS[category]
+        landing.append(f'- [{category}（{len(group)}）]({slug}.md)')
+        lines = [f"# {category} · 精选动作与商品替换", "",
+                 "[精选100总览](../2026-11-06-curated-100.md) · [全部作品预览](../../README.md#全部作品预览)", "",
+                 "全片工具分析＋1fps顺序画面复核，约1秒定位精度；声音未独立连续听验。商品适配与例子为本库判断，未转深度或试生成。", ""]
+        lines.extend(f'- [{r["curation"]["position"]:03d} · {r["title"]}](#{r["id"]}) · {prompt_kind(r)}' for r in group)
+        for r in group:
+            c, media, transfer, review = r["curation"], r["media"], r["transfer"], r["review"]
+            lines.extend(["", f'<a id="{r["id"]}"></a>', "", f'## {c["position"]:03d} · {r["title"]}', "",
+                          f'**{c["lens"]} · {media["duration_seconds"]:.3f}秒 · {media["aspect_ratio"]}**', ""])
+            if r["source"].get("model_as_reported"):
+                lines.extend(["模型/工具自述：" + r["source"]["model_as_reported"] + "；未独立验证底层模型。", ""])
+            if media["poster"]:
+                lines.extend([f'[![作品封面]({from_repository_root(media["poster"])})]({media["watch_url"]})', ""])
+            lines.extend([" · ".join(f'[{link["label"]}]({from_repository_root(link["url"])})' for link in r["links"]), "",
+                          "**为什么选** " + c["reason"], "", "**实际内容** " + r["creative"]["summary"], "",
+                          "**开场钩子** " + r["creative"]["hook"], "", "**结尾回报** " + r["creative"]["payoff"], "",
+                          "### 动作拆解", "", "原道具：" + r["actions"]["original_prop"], "",
+                          "| 约略区间 | 画面与动作 |", "| --- | --- |"])
+            for step in r["actions"]["sequence"]:
+                seconds = int(step["start_seconds"])
+                if canonical_url(media["watch_url"]).startswith("youtube:"):
+                    target = media["watch_url"] + ("&" if "?" in media["watch_url"] else "?") + f"t={seconds}s"
+                else:
+                    target = (media["direct_video_url"] or media["watch_url"]).split("#")[0] + f"#t={seconds}"
+                interval = f'{timestamp(seconds)}–{timestamp(step["end_seconds"])}'
+                lines.append(f'| [{interval}]({target}) | {markdown_cell(step["description"])} |')
+            lines.extend(["", "### 适合什么商品", ""])
+            for fit in transfer["suitable_products"]:
+                lines.append(f'- **{"、".join(fit["examples"])}**：{fit["fit_reason"]}')
+            lines.extend(["", "### 怎么替换商品", ""])
+            lines.extend(f'{i}. {step}' for i, step in enumerate(transfer["replacement_steps"], 1))
+            example = transfer["example"]
+            lines.extend(["", f'**改编例子 · {example["product"]}** {example["preserve"]}{example["replace"]}', "",
+                          "### 提示词与制作判断", "", "**" + prompt_kind(r) + "**", ""])
+            prompt = r["prompt"]
+            if prompt["status"] == "original_excerpt":
+                lines.extend([f'[作者公开原文]({prompt["url"]})。数据只保留短摘录；以下中文写法为本库整理。', "",
+                              prompt.get("summary", "公开正文见原帖；不把本库改编例子当原作者指令。"), ""])
+            else:
+                lines.extend([prompt.get("scope") or prompt.get("check_scope") or "已查所列来源，未取得作者生成提示词；不推测广告是否AI制作。", ""])
+            lines.extend(["**换品与深度参考缺口**", ""])
+            lines.extend('- ' + text for text in dict.fromkeys([*transfer["constraints"], *r["depth"]["gaps"]]))
+            lines.extend(["",
+                          "**声音依赖（工具辅助）** " + "".join(review["sound_dependencies"]), "",
+                          "<details>", "<summary>版本与核看记录</summary>", "",
+                          review["version_note"], ""])
+            visual = r["observation"]["visual_review"]
+            lines.extend([f'- 观察：全片工具分析，1fps顺序复核{visual["sampled_frames"]}张；全时长覆盖0–{media["duration_seconds"]:.3f}秒。',
+                          f'- 当前文件：{visual["width"]}×{visual["height"]}；SHA-256 `{visual["file_sha256"]}`。',
+                          f'- {"复用此前同一原片分析及指纹" if c["reused_analysis"] else "本轮新增全片分析与画面复核"}；记录日期：{review["date"]}。',
+                          '- 原帖账号/上传者：' + str(r["source"]["creator"]) + '；不把上传者自动认作原创署名。',
+                          '- 深度与生成：未测试；互动不当成交。', "", "</details>", ""])
+        outputs[root / f"references/curated-100/{slug}.md"] = "\n".join(lines)
+    outputs[root / "references/curated-100/README.md"] = "\n".join(landing) + "\n"
+    return outputs
+
+
 def render_reviews(records):
-    reviewed = [r for r in records if r.get("review", {}).get("status") == "analyzed"]
+    reviewed = [r for r in records if r.get("review", {}).get("status") == "analyzed"
+                and r["review"].get("report", "").startswith(REVIEW_REPORT + "#")]
     lines = ["# 优先 20 条创意参考 · 动作拆解与商品替换", "", "更新于 2026-11-06。由 data/references.json 生成。", "",
              "本轮逐条调用视频分镜工具分析完整链接，再读取同一原片文件，以 1fps 从开场到片尾顺序复核画面。工具部分时间码有误，以下按实际片长和逐秒画面重排，约 1 秒精度，不能直接当剪辑切点。", "",
              "观察方式保留为 `frames`，并记录全时长覆盖、采样数量与文件指纹。声音仅为工具辅助识别，未独立连续听验；没有把它标成人工连续视听验收。适用商品与替换步骤是本库的创意判断，尚未转换深度或试生成。", "",
@@ -344,7 +477,7 @@ def render(records, root=ROOT, check=False):
 
 为商品创意选片积累原片、观看依据、动作与跨品类联想。面向 TikTok 商品，也收录其他平台和品牌广告的创意参考。
 
-[全部作品预览](#全部作品预览) · [20 条动作与换品详解](references/2026-11-06-priority-20-analysis.md) · [创意机制索引](references/INDEX.md) · [最新 100 条](references/2026-11-06-creative-commerce-100.md) · [收录与检索](docs/reference-library.md)
+[精选100 · 动作与换品详解](references/2026-11-06-curated-100.md) · [全部作品预览](#全部作品预览) · [创意机制索引](references/INDEX.md) · [最新收录100条](references/2026-11-06-creative-commerce-100.md) · [收录与检索](docs/reference-library.md)
 
 """
     for record in records:
@@ -383,7 +516,9 @@ def render(records, root=ROOT, check=False):
         for record in group:
             title = record["title"].replace("|", " ")
             case = f'{record["id"]} · {title}'
-            if record.get("review", {}).get("status") == "analyzed":
+            if record.get("curation"):
+                case = f'[{case}]({record["curation"]["report"].removeprefix("references/")})'
+            elif record.get("review", {}).get("status") == "analyzed":
                 case = f'[{case}]({Path(REVIEW_REPORT).name}#{record["id"]})'
             elif record["collection"] == "2026-11-06":
                 case = f'[{case}]({Path(NEW_BATCH_REPORT).name}#{record["id"]})'
@@ -414,6 +549,7 @@ def render(records, root=ROOT, check=False):
     outputs[root / "references/2026-11-05-creative-commerce-100.md"] = "\n".join(report)
     outputs[root / REVIEW_REPORT] = render_reviews(records)
     outputs[root / NEW_BATCH_REPORT] = render_new_batch(records)
+    outputs.update(render_curated(records, root))
     for path, content in outputs.items():
         if check:
             if not path.exists() or path.read_text(encoding="utf-8") != content:
@@ -433,6 +569,7 @@ def main():
     parser.add_argument("--category", choices=CATEGORIES)
     parser.add_argument("--mechanism")
     parser.add_argument("--collection")
+    parser.add_argument("--curated", action="store_true", help="Search only the reviewed curated selection")
     parser.add_argument("--limit", type=int, default=10)
     parser.add_argument("--json", action="store_true")
     parser.add_argument("--check", action="store_true", help="Compare generated files without writing")
@@ -445,7 +582,7 @@ def main():
     else:
         if args.limit < 1:
             parser.error("--limit must be positive")
-        matches = search(records, args.query, args.category, args.mechanism, args.collection)[:args.limit]
+        matches = search(records, args.query, args.category, args.mechanism, args.collection, args.curated)[:args.limit]
         if args.json:
             print(json.dumps(matches, ensure_ascii=False, indent=2))
         else:
